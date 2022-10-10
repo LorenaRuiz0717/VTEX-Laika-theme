@@ -1,0 +1,17 @@
+{
+    "flex-layout.row#home_section--one":{
+        "children":[
+            "rich-text#home_section--one"
+        ],
+        "props":{
+            "blockClass":"home_section--one"
+        }
+    },
+    "rich-text#home_section--one":{
+        "title":"Texto seccion 1",
+        "props":{
+            "text":"LAIKA",
+            "blockClass":"section_one--title"
+        }
+    }
+}
