@@ -1,0 +1,1 @@
+# VTEX-Laika-theme
