@@ -1,17 +1,17 @@
 {
-    "flex-layout.row#home_section--one":{
+    "flex-layout.row#home__section--one":{
         "children":[
-            "rich-text#home_section--one"
+            "rich-text#home__section--one"
         ],
         "props":{
-            "blockClass":"home_section--one"
+            "blockClass":"home__section--one"
         }
     },
-    "rich-text#home_section--one":{
+    "rich-text#home__section--one":{
         "title":"Texto seccion 1",
         "props":{
             "text":"LAIKA",
-            "blockClass":"section_one--title"
+            "blockClass":"section__one--title"
         }
     }
 }
