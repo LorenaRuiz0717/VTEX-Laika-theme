@@ -1,0 +1,11 @@
+{
+    "store.custom#header":{
+        "path": "/header"
+    },
+    "store.custom#homeSlider":{
+        "path": "/homeSlider"
+    },
+    "store.custom#footer":{
+        "path": "/footer"
+    }    
+}

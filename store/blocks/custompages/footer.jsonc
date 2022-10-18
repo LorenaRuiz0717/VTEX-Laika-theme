@@ -1,5 +1,5 @@
 {
-  "footer": {
+  "store.custom#footer": {
     "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
   },
   "footer-layout.desktop": { 
@@ -9,13 +9,19 @@
   },
   "footer-layout.mobile": { 
     "children": [
-      "flex-layout.row#footer"
+      "flex-layout.row#footer",
+      "rich-text#footer"
     ]
   },
   "flex-layout.row#footer": { 
     "children": [
       "image"
     ]
+  },
+  "rich-text#footer":{
+    "props":{
+      "text":"lorena footer"
+    }
   },
   "image": {
     "props": {
