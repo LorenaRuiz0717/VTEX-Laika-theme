@@ -1,3 +1,12 @@
-.flexRowContent--home_section--one{
+/* .flexRowContent--home_section--one{
     background-color: rgb(99,59,139)
+} */
+
+ .flexRow--container__sticky--header{
+    background-color:var(--purple-strong)
+    /* color:var(--white) */
+}
+
+.flexRow--header__container--qualities{
+    background-color: black;
 }

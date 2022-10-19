@@ -1,7 +1,10 @@
 {
   "store.home": { 
-    "blocks": 
-      ["flex-layout.row#home"]
+    "blocks": [
+      "slider-layout#home_slider--children",
+      "list-context.image-list#home_slider--list",
+      "flex-layout.row#home"
+    ]
   },
   "flex-layout.row#home":{
     "children":[
@@ -15,5 +18,89 @@
       "textPosition": "CENTER",
       "font": "t-heading-1"
     }
+  },
+  "slider-layout#home_slider--children": {
+    "title":"Slider con hijos declarados",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home_slider",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "image#home_slider--one",
+      "image#home_slider--two",
+      "image#home_slider--three",
+      "image#home_slider--four"
+    ]
+  },
+  "image#home_slider--one": {
+    "props": {
+      "src": "assets/img/slider1-3.avif"
+    }
+  },
+  "image#home_slider--two": {
+    "props": {
+      "src": "assets/img/slider2.avif"
+    }
+  },
+  "image#home_slider--three": {
+    "props": {
+      "src": "assets/img/slider1-3.avif"
+    }
+  },
+  "image#home_slider--four": {
+    "props": {
+      "src": "assets/img/slider4.avif"
+    }
+  },
+
+  "list-context.image-list#home_slider--list":{
+    "title":"lista imagenes",
+  "children":["slider-layout#home_slider--list"],
+  "props":{
+    "preload":true,
+    "images":[
+      {
+        "image":"assets/img/slider1-3.avif",
+        "description":"Slide 1"
+      },
+      {
+        "image":"assets/img/slider2.avif",
+        "description":"Slide 2"
+      },
+      {
+        "image":"assets/img/slider1-3.avif",
+        "description":"Slide 3"
+      },
+      {
+        "image":"assets/img/slider4.avif",
+        "description":"Slide 4"
+      }
+    ]
   }
+},
+"slider-layout#home_slider--list":{
+  "title":"Slider con Lista",
+  "props":{
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "mobile": 1
+    },
+    "infinite": true,
+    "blockClass": "home_slider",
+    "autoplay": {
+      "timeout": 3000,
+      "stopOnHover": true
+    }
+  }
+}
 }

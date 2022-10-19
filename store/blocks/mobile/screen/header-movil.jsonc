@@ -1,0 +1,120 @@
+{
+  "header-layout.mobile": {
+    "title": "header mobile ",
+    "children": ["sticky-layout.stack-container#header__mobile"]
+  },
+  "sticky-layout.stack-container#header__mobile": {
+    "props": {
+      "position": "top"
+    },
+    "children": [
+      "sticky-layout#top__header--mobile",
+      "sticky-layout#2header__mobile"
+      // "flex-layout.row#3header.mobile"//megamenu
+    ]
+  },
+  //*************************** "header-row#1header.mobile" *******************************//
+  "sticky-layout#top__header--mobile": {
+    "children": [
+      "drawer#header__menu--mobile",
+      // "modal-trigger#header__section--address", //modal add ubicacion
+      "logo#header__section--logo",
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "drawer#header__menu--mobile": {
+    "children": ["vtex.menu@2.x:menu#header__menu--mobile"]
+  },
+  "vtex.menu@2.x:menu#header__menu--mobile": {
+    "children": [
+      "menu-item#category__dog",
+      "menu-item#category__cat",
+      "menu-item#category__promotions",
+      "menu-item#category__blog"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "type": "line"
+    }
+  },
+  "menu-item#category__dog": {
+    "props": {
+      "id": "category__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/categorydog",
+        "noFollow": false,
+        "tagTitle": "Perros",
+        "text": "Perros"
+      }
+    }
+  },
+  "menu-item#category__cat": {
+    "props": {
+      "id": "menu-item#cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/categorycat",
+        "noFollow": false,
+        "tagTitle": "Gatos",
+        "text": "Gatos"
+      }
+    }
+  },
+  "menu-item#category__promotions": {
+    "props": {
+      "id": "menu-item#promotions",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/categorypromotions",
+        "noFollow": false,
+        "tagTitle": "Promociones",
+        "text": "Promociones"
+      }
+    }
+  },
+  "menu-item#category__blog": {
+    "props": {
+      "id": "menu-item#blog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/categoryblog",
+        "noFollow": false,
+        "tagTitle": "Blog",
+        "text": "Blog"
+      }
+    }
+  },
+  // "drawer": {
+  //   "blocks": ["drawer-trigger"]
+  // },
+  // "drawer-trigger": {
+  //   "children": ["rich-text#drawer_menu"]
+  // },
+  // "rich-text#drawer_menu": {
+  //   "props": {
+  //     "text": "Menú"
+  //   }
+  // },
+
+  // *************************** "header-row#2header.mobile" *******************************//
+  "sticky-layout#2header__mobile": {
+    "children": ["header-row#2header__mobile"]
+  },
+  "header-row#2header__mobile": {
+    "children": ["search-bar#header__section--search-mobile"],
+    "props": {
+      "blockClass": "header__mobile--search"
+    }
+  },
+  "search-bar#header__section--search-mobile": {
+    // search
+  }
+  // *************************** "header-row#3header.mobile" *******************************//
+}
+// mega menu no es stiky en celular
