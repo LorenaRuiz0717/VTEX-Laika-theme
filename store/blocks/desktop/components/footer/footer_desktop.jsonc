@@ -1,0 +1,25 @@
+{
+    "footer-layout.desktop": { 
+    "children": [
+      "flex-layout.row#footer__desktop"
+    ]
+  },
+
+  "flex-layout.row#footer__desktop": { 
+    "children": [
+      "image#footer__desktop",
+      "rich-text#footer__desktop"
+    ]
+  },
+  "rich-text#footer__desktop":{
+    "props":{
+      "text":"footer escritorio"
+    }
+  },
+  "image#footer__desktop": {
+    "props": {
+      "width": 100,
+      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+    }
+  }
+}

@@ -28,8 +28,9 @@
   },
   "vtex.menu@2.x:menu#header__menu--mobile": {
     "children": [
-      "menu-item#category__dog",
-      "menu-item#category__cat",
+      "menu-item#department__dog",
+      "menu-item#department__cat",
+      "menu-item#category__services",
       "menu-item#category__promotions",
       "menu-item#category__blog"
     ],
@@ -38,9 +39,10 @@
       "type": "line"
     }
   },
-  "menu-item#category__dog": {
+//*************************** "deparment__dog" *******************************//
+"menu-item#department__dog": {
     "props": {
-      "id": "category__dog",
+      "id": "deparment__dog",
       "type": "custom",
       "itemProps": {
         "type": "internal",
@@ -49,9 +51,206 @@
         "tagTitle": "Perros",
         "text": "Perros"
       }
+    },
+    "blocks":["submenu.accordion#department__dog"]
+  },
+  "submenu.accordion#department__dog":{
+    "children":[
+      "menu#category__dog"
+    ]
+  },
+  //*************************** "menu-item#category__dog" *******************************//
+  "menu#category__dog":{
+  "children":[
+    "menu-item#category__dog--food",
+    "menu-item#category__dog--snacks",
+    "menu-item#category__dog--halloween",
+    "menu-item#category__dog--farmapet",
+    "menu-item#category__dog--careHygiene",
+    "menu-item#category__dog--toys",
+    "menu-item#category__dog--accessories",
+    "menu-item#category__dog--petLovers"
+  ],
+  "props": {
+    "orientation": "vertical"
+  }
+  },
+  //*************************** "menu-item#category__dog--food" *******************************//
+  "menu-item#category__dog--food":{
+    "props": {
+      "id": "menu-item#dog--food",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/dog-food",
+        "noFollow": false,
+        "tagTitle": "Alimento",
+        "text": "Alimento"
+      }
+    },
+    "blocks":["submenu.accordion#header__submenu--dog-food"]
+  },
+  "submenu.accordion#header__submenu--dog-food":{
+    "children": [
+      "menu-item#category__dog--food-concentrado"
+      // "menu-item#category__dog--food-humedo",
+      // "menu-item#category__dog--food-dietaNatural"
+  ]
+  },
+  "menu-item#category__dog--food-concentrado": {
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "orientation":"vertical",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/categorydog",
+        "noFollow": false,
+        "tagTitle": "Perros",
+        "text": "Concentrados"
+      }
     }
   },
-  "menu-item#category__cat": {
+  // "menu-item#category__dog--food-humedo": {
+    // "props": {
+    //   "id": "deparment__dog",
+    //   "type": "custom",
+    //   "itemProps": {
+    //     "type": "internal",
+    //     "href": "#/categorydog",
+    //     "noFollow": false,
+    //     "tagTitle": "Humedo",
+    //     "text": "Humedo"
+    //   }
+    // }
+  // },
+  // "menu-item#category__dog--food-dietaNatural": {
+    // "props": {
+    //   "id": "deparment__dog",
+    //   "type": "custom",
+    //   "itemProps": {
+    //     "type": "internal",
+    //     "href": "#/categorydog",
+    //     "noFollow": false,
+    //     "tagTitle": "Perros",
+    //     "text": "Dieta Natural"
+    //   }
+    // }
+  // },
+ //*************************** "menu-item#category__dog--snacks" *******************************//
+  "menu-item#category__dog--snacks":{
+    "props": {
+      "id": "menu-item#dog--snacks",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/dog--snacks",
+        "noFollow": false,
+        "tagTitle": "Snacks",
+        "text": "Snacks"
+      }
+    },
+     "blocks":["submenu.accordion#header__submenu--dog--brownies"]
+  },
+  "submenu.accordion#header__submenu--dog--brownies":{
+    "children": [
+      "menu-item#category__dog--food-dog--brownies"
+  ]
+  },
+  "menu-item#category__dog--food-dog--brownies": {
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/categorydog",
+        "noFollow": false,
+        "tagTitle": "brownies",
+        "text": "Brownies y otros"
+      }
+    }
+  },
+  //*************************** "menu-item#category__dog--halloween" *******************************//
+  "menu-item#category__dog--halloween":{
+    "props": {
+      "id": "menu-item#dog--halloween",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/dog--halloween",
+        "noFollow": false,
+        "tagTitle": "Halloween",
+        "text": "Halloween"
+      }
+    }
+  },
+  "menu-item#category__dog--farmapet":{
+    "props": {
+      "id": "menu-item#dog--farmapet",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/dog--farmapet",
+        "noFollow": false,
+        "tagTitle": "Farmapet",
+        "text": "Farmapet"
+      }
+    }
+  },
+  "menu-item#category__dog--careHygiene":{
+    "props": {
+      "id": "menu-item#dog--careHygiene",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/dog--careHygiene",
+        "noFollow": false,
+        "tagTitle": "Cuidado e higiene",
+        "text": "Cuidado e higiene"
+      }
+    }
+  },
+  "menu-item#category__dog--toys":{
+    "props": {
+      "id": "menu-item#dog--toys",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/dog--toys",
+        "noFollow": false,
+        "tagTitle": "Juguetes",
+        "text": "Juguetes"
+      }
+    }
+  },
+  "menu-item#category__dog--accessories":{
+    "props": {
+      "id": "menu-item#dog--accessories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/dog--accessories",
+        "noFollow": false,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      }
+    }
+  },
+  "menu-item#category__dog--petLovers":{
+    "props": {
+      "id": "menu-item#dog--petLovers",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/dog--petLovers",
+        "noFollow": false,
+        "tagTitle": "PetLovers",
+        "text": "Para pet Lovers"
+      }
+    }
+  },
+  //*************************** "department__cat" *******************************//
+  "menu-item#department__cat": {
     "props": {
       "id": "menu-item#cat",
       "type": "custom",
@@ -62,8 +261,162 @@
         "tagTitle": "Gatos",
         "text": "Gatos"
       }
+    }, "blocks":["submenu.accordion#department__cat"]
+  },
+  "submenu.accordion#department__cat":{
+    "children":[
+      "menu#category__cat"
+    ]
+  },
+  "menu#category__cat":{
+  "children":[
+    "menu-item#category__cat--food",
+    "menu-item#category__cat--sands",
+    "menu-item#category__cat--snacks",
+    "menu-item#category__cat--halloween",
+    "menu-item#category__cat--farmapet",
+    "menu-item#category__cat--careHygiene",
+    "menu-item#category__cat--toys",
+    "menu-item#category__cat--accessories",
+    "menu-item#category__cat--petLovers"
+  ],
+  "props": {
+    "orientation": "vertical"
+  }
+  },
+  "menu-item#category__cat--food":{
+    "props": {
+      "id": "menu-item#food--cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/food--cat",
+        "noFollow": false,
+        "tagTitle": "Alimento",
+        "text": "Alimento"
+      }
     }
   },
+  "menu-item#category__cat--sands":{
+    "props": {
+      "id": "menu-item#cat--sands",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/cat--sands",
+        "noFollow": false,
+        "tagTitle": "Areneros",
+        "text": "Areneros"
+      }
+    }
+  },
+  "menu-item#category__cat--snacks":{
+    "props": {
+      "id": "menu-item#cat--snacks",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/cat--snacks",
+        "noFollow": false,
+        "tagTitle": "Snacks",
+        "text": "Snacks"
+      }
+    }
+  },
+  "menu-item#category__cat--halloween":{
+    "props": {
+      "id": "menu-item#cat--halloween",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/cat--halloween",
+        "noFollow": false,
+        "tagTitle": "Halloween",
+        "text": "Halloween"
+      }
+    }
+  },
+  "menu-item#category__cat--farmapet":{
+    "props": {
+      "id": "menu-item#cat--farmapet",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/cat--farmapet",
+        "noFollow": false,
+        "tagTitle": "Farmapet",
+        "text": "Farmapet"
+      }
+    }
+  },
+  "menu-item#category__cat--careHygiene":{
+    "props": {
+      "id": "menu-item#cat--careHygiene",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/cat--careHygiene",
+        "noFollow": false,
+        "tagTitle": "Cuidado e higiene",
+        "text": "Cuidado e higiene"
+      }
+    }
+  },
+  "menu-item#category__cat--toys":{
+    "props": {
+      "id": "menu-item#cat--toys",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/cat--toys",
+        "noFollow": false,
+        "tagTitle": "Toys",
+        "text": "Toys"
+      }
+    }
+  },
+  "menu-item#category__cat--accessories":{
+    "props": {
+      "id": "menu-item#cat--accessories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/cat--accessories",
+        "noFollow": false,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      }
+    }
+  },
+  "menu-item#category__cat--petLovers":{
+    "props": {
+      "id": "menu-item#cat--petLovers",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/cat--petLovers",
+        "noFollow": false,
+        "tagTitle": "PetLovers",
+        "text": "Para pet Lovers"
+      }
+    }
+  },  
+  //*************************** "category__services" *******************************//
+  "menu-item#category__services": {
+    "props": {
+      "id": "menu-item#services",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/categoryservices",
+        "noFollow": false,
+        "tagTitle": "Services",
+        "text": "Servicios"
+      }
+    }
+  },
+  //*************************** "category__promotions" *******************************//
+  
   "menu-item#category__promotions": {
     "props": {
       "id": "menu-item#promotions",
@@ -77,6 +430,8 @@
       }
     }
   },
+
+  //*************************** "category__blog" *******************************//
   "menu-item#category__blog": {
     "props": {
       "id": "menu-item#blog",
@@ -90,18 +445,6 @@
       }
     }
   },
-  // "drawer": {
-  //   "blocks": ["drawer-trigger"]
-  // },
-  // "drawer-trigger": {
-  //   "children": ["rich-text#drawer_menu"]
-  // },
-  // "rich-text#drawer_menu": {
-  //   "props": {
-  //     "text": "Menú"
-  //   }
-  // },
-
   // *************************** "header-row#2header.mobile" *******************************//
   "sticky-layout#2header__mobile": {
     "children": ["header-row#2header__mobile"]
@@ -117,4 +460,18 @@
   }
   // *************************** "header-row#3header.mobile" *******************************//
 }
+
+
+
 // mega menu no es stiky en celular
+  // "drawer": {
+  //   "blocks": ["drawer-trigger"]
+  // },
+  // "drawer-trigger": {
+  //   "children": ["rich-text#drawer_menu"]
+  // },
+  // "rich-text#drawer_menu": {
+  //   "props": {
+  //     "text": "Menú"
+  //   }
+  // },

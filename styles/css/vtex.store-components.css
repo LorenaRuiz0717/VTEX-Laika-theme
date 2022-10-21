@@ -2,3 +2,13 @@
     background-color: red;
 } */
 
+
+.imageElement--categories--image{
+    border-radius: 50%;
+}
+
+.flexRow--container__sticky1--header{
+    width: 100%;   
+    background-color: red;
+
+} 

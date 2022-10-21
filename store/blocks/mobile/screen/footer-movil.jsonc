@@ -1,0 +1,25 @@
+{
+
+  "footer-layout.mobile": { 
+    "children": [
+      "flex-layout.row#footer__mobile",
+      "rich-text#footer__mobile"
+    ]
+  },
+  "flex-layout.row#footer__mobile": { 
+    "children": [
+      "image"
+    ]
+  },
+  "rich-text#footer__mobile":{
+    "props":{
+      "text":"footer mobile"
+    }
+  },
+  "image#__mobile": {
+    "props": {
+      "width": 100,
+      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+    }
+  }
+}

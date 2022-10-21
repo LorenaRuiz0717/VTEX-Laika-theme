@@ -1,0 +1,73 @@
+{
+    //***************************"flex-layout.row#home__section--qualities" *******************************//
+// "flex-layout.row#home__section--qualities":{
+//   "children":[
+//     "rich-text#home__qualities--title"
+//   ]
+// },
+"rich-text#home__qualities--title":{
+    "props": {
+      "text": "Compras seguras online"
+      // "font": "t-heading-1"
+    }
+  },
+  "flex-layout.row#home__qualities--contaniner":{
+   "children":[
+    "flex-layout.col#qualitie--one",
+    "flex-layout.col#qualitie--two",
+    "flex-layout.col#qualitie--three"
+    ]
+  },
+  "flex-layout.col#qualitie--one":{
+    "children":[
+      "image#home_qualities--one",
+      "rich-text#home_qualities--one"
+    ]
+  },
+  "image#home_qualities--one":{
+      "props": {
+        "src": "assets/img/qualitie_delivery.avif"
+      }
+    },
+    "rich-text#home_qualities--one":{
+      "props": {
+        "text": "Entregas el mismo dia"
+        // "font": "t-heading-1"
+      }
+    },
+    "flex-layout.col#qualitie--two":{
+      "children":[
+        "image#home_qualities--two",
+        "rich-text#home_qualities--one"
+      ]
+    },
+  "image#home_qualities--two":{
+      "props": {
+        "src": "assets/img/qualitie_secure_payment.avif"
+      }
+    },
+    "rich-text#home_qualities--two":{
+      "props": {
+        "text": "Pago online o contra entrega"
+        // "font": "t-heading-1"
+      }
+    },
+    "flex-layout.col#qualitie--three":{
+      "children":[
+        "image#home_qualities--three",
+        "rich-text#home_qualities--three"
+      ]
+    },
+  "image#home_qualities--three":{
+      "props": {
+        "src": "assets/img/qualitie_all_for_pets.avif"
+      }
+    },
+    "rich-text#home_qualities--three":{
+      "props": {
+        "text": "Todo lo que necesitas"
+        // "font": "t-heading-1"
+      }
+    }
+  
+}

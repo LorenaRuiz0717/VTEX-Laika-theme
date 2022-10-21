@@ -2,10 +2,17 @@
 .paragraph--header__section--qualitie2,
 .paragraph--header__section--qualitie3,
 .paragraph--header__section--phone,
-.paragraph--header__section--email
+.paragraph--header__section--email,
+.paragraph--header__section--text-address,
+.paragraph--header__section--text-login
 /* .paragraph--header__section--socialmedia */
 {
     color:var(--white) ;
     font-size: 14px;
     /* background-color: white; */
 }
+
+.container--home__categories{
+    color:var(--white)
+}
+

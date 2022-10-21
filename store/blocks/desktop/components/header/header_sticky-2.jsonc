@@ -1,0 +1,83 @@
+{
+    "sticky-layout#2header__desktop": {
+        "children": ["flex-layout.row#middle__header--desktop"],
+        "props": {
+          "fullWidth": true
+        }
+      },
+ 
+  //*************************** "header-row#middle__header--desktop" *******************************//
+    
+      "flex-layout.row#middle__header--desktop": {
+        "title": "header desktop row2",
+        "children": [
+          "logo#header__section--logo",
+          "search-bar#header__section--search",
+          "modal-trigger#header__section--address",
+          // "login#header__section--login"
+          "modal-trigger#header__section--login", //desplegable
+          "minicart.v2"
+        ],
+        "props":{
+          "blockClass": "container__sticky2--header"
+        }
+      },
+      "logo#header__section--logo": {
+        "title": "logo",
+        "props": {
+          "url": "assets/img/logo.png",
+          "width": 50
+        }
+      },
+      "search-bar#header__section--search": {
+        //search-bar
+      },
+      "modal-trigger#header__section--address": {
+        "children":[
+          "rich-text#header__add--address",
+          "modal-layout#header__section--add-address"
+        ]
+      },
+      "rich-text#header__add--address":{
+        "props": {
+          "text": "Agregar direccion",
+          "blockClass":"header__section--text-address"
+        }
+      },
+      "modal-layout#header__section--add-address": {
+        "children": [
+          "rich-text#modal-content"
+        ]
+      },
+      "rich-text#modal-content": {
+        "props": {
+          "text": "Agrega una direccion "
+        }
+      },  
+      "modal-trigger#header__section--login": {
+        "children": [
+          "rich-text#header__section--login",
+          "modal-layout#header__section--login"
+        ]
+      },
+      "rich-text#header__section--login": {
+        "props": {
+          "text": "Login",
+          "blockClass":"header__section--text-login"
+        }
+      },
+      "modal-layout#header__section--login": {
+        "children": ["login-content"]
+      },
+      "login-content#header__section--login": {
+        "props": {
+          "emailAndPasswordTitle": "LOG-IN",
+          "accessCodeTitle": "Acess Code LOG-IN",
+          "emailPlaceholder": "e-mail",
+          "passwordPlaceholder": "password",
+          "showPasswordVerificationIntoTooltip": true,
+          "showIconProfile": true
+        }
+      }
+    
+}
