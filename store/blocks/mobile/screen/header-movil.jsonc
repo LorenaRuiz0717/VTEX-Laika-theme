@@ -11,7 +11,7 @@
       "sticky-layout#top__header--mobile",
       "sticky-layout#2header__mobile"
       // "flex-layout.row#3header.mobile"//megamenu
-    ]
+    ]       
   },
   //*************************** "header-row#1header.mobile" *******************************//
   "sticky-layout#top__header--mobile": {
@@ -21,8 +21,12 @@
       "logo#header__section--logo",
       "login",
       "minicart.v2"
-    ]
+    ],
+    "props":{
+      "blockClass":"header__layout"
+      }
   },
+
   "drawer#header__menu--mobile": {
     "children": ["vtex.menu@2.x:menu#header__menu--mobile"]
   },

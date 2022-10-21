@@ -31,7 +31,6 @@
     ],
     "props": {
       "blockClass":"header__menu--sticky3"
-
     }
   },
   "flex-layout.row#header__container--buttons": {

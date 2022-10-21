@@ -1,0 +1,13 @@
+.flexRow--container__sticky1--header,
+.flexRow--container__sticky2--header {
+  background-color: var(--purple-strong);
+}
+
+.flexRow--container__sticky3--header {
+  background-color: var(--white);
+}
+
+.flexRowContent--container__sticky1--header {
+  width: 100%;
+}
+

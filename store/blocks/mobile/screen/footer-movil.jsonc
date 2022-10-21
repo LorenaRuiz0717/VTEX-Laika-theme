@@ -1,25 +1,25 @@
 {
-
-  "footer-layout.mobile": { 
-    "children": [
-      "flex-layout.row#footer__mobile",
-      "rich-text#footer__mobile"
-    ]
+  "footer-layout.mobile": {
+    "children": ["flex-layout.row#footer__mobile"]
   },
-  "flex-layout.row#footer__mobile": { 
+  "flex-layout.row#footer__mobile": {
     "children": [
-      "image"
-    ]
-  },
-  "rich-text#footer__mobile":{
-    "props":{
-      "text":"footer mobile"
+      "logo#footer__section--logo",
+      "rich-text#footer__desktop"
+    ],   "props": {
+      "blockClass": "container__footer"
     }
   },
-  "image#__mobile": {
+  "logo#footer__section--logo": {
+    "title": "logo",
     "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+      "url": "assets/img/logo_laikaMascotas.svg",
+      "width": 60
+    }
+  },
+  "rich-text#footer__mobile": {
+    "props": {
+      "text": "footer mobile"
     }
   }
 }

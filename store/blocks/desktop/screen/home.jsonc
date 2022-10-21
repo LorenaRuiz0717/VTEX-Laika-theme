@@ -1,12 +1,12 @@
 {
   "store.home": { 
     "blocks": [
-      // "slider-layout#home_slider--children",
       "list-context.image-list#home_slider--list",
-      "rich-text#home__categories",
-      "flex-layout.row#home__section--categories",
-      "rich-text#home__qualities--title",
-      "flex-layout.row#home__qualities--contaniner"
+      // "rich-text#home__categories",
+      "flex-layout.row#home__section--container--categories",
+      // "rich-text#home__qualities--title",
+      "flex-layout.row#home__section--contaniner-qualities"
+      // "slider-layout#home"
     ]
   }
 }

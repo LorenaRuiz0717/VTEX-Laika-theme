@@ -5,14 +5,12 @@
 .paragraph--header__section--email,
 .paragraph--header__section--text-address,
 .paragraph--header__section--text-login
-/* .paragraph--header__section--socialmedia */
-{
-    color:var(--white) ;
-    font-size: 14px;
-    /* background-color: white; */
+/* .paragraph--header__section--socialmedia */ {
+  color: var(--white);
+  font-size: 14px;
+  /* background-color: white; */
 }
 
-.container--home__categories{
-    color:var(--white)
+.container--home__categories {
+  color: var(--white);
 }
-

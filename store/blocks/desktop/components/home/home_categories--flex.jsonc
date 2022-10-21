@@ -1,18 +1,18 @@
 {
-    "flex-layout.row#home__section--categories":{
+  "flex-layout.row#home__section--container--categories":{
+    "children":[
+      "flex-layout.col#home__section--categories"
+  ],
+  "props":{
+    "blockClass": "home__categories"}
+},
+  "flex-layout.col#home__section--categories":{
         "children":[
-          // "rich-text#home__categories",
-          // "flex-layout.row#home__categories--title",
-          "flex-layout.row#home__categories--container"
-      ],
-      "props":{
-        "blockClass": "home__categories"}
+          "rich-text#home__categories",
+           "slider-layout#text-test"
+      ]
     },
-    // "flex-layout.row#home__categories--title":{
-    //   "children":[
-    //     "rich-text#home__categories"
-    //   ]
-    // },
+
       "rich-text#home__categories": { 
         "props": { 
           "text": "Categorias"
@@ -21,20 +21,28 @@
           // "font": "t-heading-1"
         }
       },
-      "flex-layout.row#home__categories--container":{
-        "children":[
+      "slider-layout#text-test": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 6,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": false,
+          "showNavigationArrows": "desktopOnly",
+          "blockClass": "carousel"
+        },
+        "children": [
           "flex-layout.col#categories--one",
           "flex-layout.col#categories--two",
           "flex-layout.col#categories--three",
           "flex-layout.col#categories--four",
           "flex-layout.col#categories--five",
           "flex-layout.col#categories--six",
-          "flex-layout.col#categories--seven"
-        ],
-        "props":{
-          "blockClass":"home__categories--contaniner"
-        }
+          "flex-layout.col#categories--seven"]
       },
+    
+      
       "flex-layout.col#categories--one":{
        "children":[
         "image#home_categories--one",
@@ -191,46 +199,5 @@
         }
       }    
 }
-//*************************** "Slider" *******************************//
-  // "slider-layout#home_slider--children": {
-  //   "title":"Slider con hijos declarados",
-  //   "props": {
-  //     "itemsPerPage": {
-  //       "desktop": 1,
-  //       "tablet": 1,
-  //       "mobile": 1
-  //     },
-  //     "infinite": true,
-  //     "blockClass": "home_slider",
-  //     "autoplay": {
-  //       "timeout": 3000,
-  //       "stopOnHover": true
-  //     }
-  //   },
-  //   "children": [
-  //     "image#home_slider--one",
-  //     "image#home_slider--two",
-  //     "image#home_slider--three",
-  //     "image#home_slider--four"
-  //   ]
-  // },
-  // "image#home_slider--one": {
-  //   "props": {
-  //     "src": "assets/img/slider1-3.avif"
-  //   }
-  // },
-  // "image#home_slider--two": {
-  //   "props": {
-  //     "src": "assets/img/slider2.avif"
-  //   }
-  // },
-  // "image#home_slider--three": {
-  //   "props": {
-  //     "src": "assets/img/slider1-3.avif"
-  //   }
-  // },
-  // "image#home_slider--four": {
-  //   "props": {
-  //     "src": "assets/img/slider4.avif"
-  //   }
-  // },
+
+ 

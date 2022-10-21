@@ -25,7 +25,7 @@
       "logo#header__section--logo": {
         "title": "logo",
         "props": {
-          "url": "assets/img/logo.png",
+          "url": "assets/img/logo_laikaMascotas.svg",
           "width": 50
         }
       },
