@@ -15,7 +15,7 @@
           "search-bar#header__section--search",
           "modal-trigger#header__section--address",
           // "login#header__section--login"
-          "modal-trigger#header__section--login", //desplegable
+          "modal-trigger#header__section--login",//desplegable
           "minicart.v2"
         ],
         "props":{
@@ -30,8 +30,14 @@
         }
       },
       "search-bar#header__section--search": {
-        //search-bar
+        "blocks": ["autocomplete-result-list.v2"],
+        "props": {
+          "openAutocompleteOnFocus": true
+        }
       },
+      "autocomplete-result-list.v2":{
+        "blocks":["product-summary"]
+      },  
       "modal-trigger#header__section--address": {
         "children":[
           "rich-text#header__add--address",

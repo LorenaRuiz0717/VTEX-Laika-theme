@@ -12,6 +12,7 @@
     "title": "header__desktop--row1",
     "children": [
       "flex-layout.row#header__section--qualities",
+      // "header-spacer",
       "flex-layout.row#header__section--contact"
     ],
     "props":{
@@ -21,58 +22,165 @@
   "flex-layout.row#header__section--qualities": {
     "title": "header__desktop--section-qualities",
     "children": [
-      // icon
-      "rich-text#header__section--qualitie1",
-      //hr
-      // icon
-      "rich-text#header__section--qualitie2",
-      // hr
-      // icon
-      "rich-text#header__section--qualitie3"
+      "flex-layout.row#container__section--qualitie1",
+      // "icon#header__section--qualitie1",
+      // "rich-text#header__section--qualitie1",
+      "flex-layout.row#container__section--qualitie2",
+      // "icon#header__section--qualitie2",
+      // "rich-text#header__section--qualitie2",
+      "flex-layout.row#container__section--qualitie3"
+      // "icon#header__section--qualitie3",
+      // "rich-text#header__section--qualitie3"
     ],
     "props":{
-      "blockClass": "header__container--qualities"
+      "blockClass": "header__container--qualities",
+      "width":"65%"
     }
+  },
+  "flex-layout.row#container__section--qualitie1":{
+    "children":[
+      "icon#header__section--qualitie1",
+      "rich-text#header__section--qualitie1"
+    ],
+    "props":{
+      "blockClass": "header__container--qualitie",
+      "width":"33%"
+    }
+  },
+  "icon#header__section--qualitie1":{
+  "props":{
+    "id":"hpa-save",
+    // "id":"qualitie1",
+    "size":20,
+    "blockClass": "icon-qualities",
+    "width":"15%"
+  }
   },
   "rich-text#header__section--qualitie1": {
     "props": {
       "text": "Compras seguras online",
-      "blockClass": "header__section--qualitie1"
+      "blockClass": "header__section--qualitie",
+      "width":"80%"
     }
   },
+  "flex-layout.row#container__section--qualitie2":{
+    "children":[
+      "icon#header__section--qualitie2",
+      "rich-text#header__section--qualitie2"
+    ],
+    "props":{
+      "blockClass": "header__container--qualitie",
+      "width":"33%"
+    }
+  },
+  "icon#header__section--qualitie2":{
+    "props":{
+      "id":"mpa-globe",
+      // "id":"qualitie2",
+      "size":20,
+      "blockClass": "icon-qualities",
+      "width":"15%"
+    }
+    },
+
   "rich-text#header__section--qualitie2": {
     "props": {
       "text": "Pago contra entrega",
-      "blockClass": "header__section--qualitie2"
+      "blockClass": "header__section--qualitie",
+      "width":"80%"
     }
   },
+  "flex-layout.row#container__section--qualitie3":{
+    "children":[
+      "icon#header__section--qualitie3",
+      "rich-text#header__section--qualitie3"
+    ],
+    "props":{
+      "blockClass": "header__container--qualitie",
+      "width":"33%"
+    }
+  },
+  "icon#header__section--qualitie3":{
+    "props":{
+      "id":"bnd-logo",
+         // "id":"qualitie3",
+      "size":20,
+      "blockClass": "icon-qualities",
+      "width":"15%"
+    }
+    },
   "rich-text#header__section--qualitie3": {
     "props": {
       "text": "Entregas el mismo dia",
-      "blockClass": "header__section--qualitie3"
+      "blockClass": "header__section--qualitie",
+      "width":"80%"
     }
   },
 
   "flex-layout.row#header__section--contact": {
     "children": [
       "rich-text#header__section--phone",
-      "rich-text#header__section--email"
-      // "flex-layout.col#header__section--socialmedia"
-    ]
+      "rich-text#header__section--email",
+      // "icon#header__section--socialmedia-youtube",
+      // "icon#header__section--socialmedia-facebook",
+      // "icon#header__section--socialmedia-instagram",
+      "flex-layout.row#header__section--socialmedia"
+    ],  
+    "props":{
+      "blockClass": "header__container--contact",
+      "width":"50%",
+      "horizontalAlign":"center"
+    }
   },
   "rich-text#header__section--phone": {
     "props": {
       "text": "Llamanos 3009108496",
       "blockClass": "header__section--phone",
-      "textColor":"white"
+      "width":"40%"
     }
   },
   "rich-text#header__section--email": {
     "props": {
       "text": "Escribenos", //link a correo, lenguaje tipo markdown?
-      "blockClass": "header__section--email"
+      "blockClass": "header__section--email",
+      "width":"20%"
     }
+  },
+
+  "flex-layout.row#header__section--socialmedia":{
+    "children": [
+     "icon#header__section--socialmedia-youtube",
+     "icon#header__section--socialmedia-facebook",
+     "icon#header__section--socialmedia-instagram"
+  ] ,"props": {
+    "blockClass": "header__section--socialmedia",
+    "width":"30%"
   }
+ },
+  "icon#header__section--socialmedia-youtube":{
+    "props":{
+      "id":"bnd-logo",
+         // "id":"youtube-icon",
+      "size":20,
+      "blockClass": "header__socialmedia-icon"
+    }
+  },
+  "icon#header__section--socialmedia-facebook":{
+    "props":{
+      "id":"bnd-logo",
+         // "id":"facebook-icon",
+      "size":20,
+      "blockClass": "header__socialmedia-icon"
+    }
+    },
+  "icon#header__section--socialmedia-instagram":{
+    "props":{
+      "id":"bnd-logo",
+         // "id":"instagram-icon",
+      "size":20,
+      "blockClass": "header__socialmedia-icon"
+    }
+    }
   // "flex-layout.col#header__section--socialmedia": {
   //   //iconos y links
   // }
