@@ -4,11 +4,9 @@
 .paragraph--header__section--phone,
 .paragraph--header__section--email,
 .paragraph--header__section--text-address,
-.paragraph--header__section--text-login
-/* .paragraph--header__section--socialmedia */ {
+.paragraph--header__section--text-login {
   color: var(--white);
   font-size: 14px;
-  /* background-color: white; */
 }
 
 .container--home__categories {

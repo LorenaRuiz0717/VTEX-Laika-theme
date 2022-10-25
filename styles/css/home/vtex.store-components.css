@@ -1,8 +1,4 @@
 .imageElement--categories--image{
-    border-radius: 50%;
+    border-radius: 30%;
+    margin-top: 8px;
 }
-
-.flexRow--home__qualities--contaniner{
-    margin: 100px;
-    padding: 10px 140px;
-  }

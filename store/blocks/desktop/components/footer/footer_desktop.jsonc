@@ -5,14 +5,14 @@
 
   "flex-layout.row#footer__desktop": {
     "children": [
-      "logo#footer__section--logo",
+      "logo#footer__section--logo-desktop",
       "rich-text#footer__desktop"
     ],
     "props": {
       "blockClass": "container__footer"
     }
   },
-  "logo#footer__section--logo": {
+  "logo#footer__section--logo-desktop": {
     "title": "logo",
     "props": {
       "url": "assets/img/logo_laikaMascotas.svg",
