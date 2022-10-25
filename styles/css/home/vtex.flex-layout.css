@@ -9,9 +9,15 @@
 
 
 .flexRow--home__qualities--contaniner{
-  padding: 10px 140px;
+  margin:50px 100px;
 }
+
 
 .flexCol--home__qualities--items{
   align-items: center;
 }
+
+.flexRow--home__section--contaniner-gridbrands{
+  margin:50px 116px;
+  padding: 16px;
+  }

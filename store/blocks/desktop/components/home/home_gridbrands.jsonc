@@ -1,0 +1,134 @@
+{
+    "flex-layout.row#home__section--contaniner-gridbrands":{
+        "children":[
+            "flex-layout.col#contaniner-gridbrands-firtsColumn",
+            "flex-layout.col#contaniner-gridbrands-secondColumn",
+            "flex-layout.col#contaniner-gridbrands-thirdColumn",
+            "flex-layout.col#contaniner-gridbrands-fourthColumn"
+        ], "props": {
+            "title":"container__grid--brands",
+            "blockClass":"home__section--contaniner-gridbrands" ,
+            "marginLeft":10,
+            "marginRight":10
+          }
+    },
+    "flex-layout.col#contaniner-gridbrands-firtsColumn":{
+        "children":[
+            "image#gridbrands-firtsColumn--top",
+            "image#gridbrands-firtsColumn--botton"
+        ],"props": {
+            "title":"gridbrands-Column",
+            "blockClass":"gridbrands-Column",
+            "marginLeft":10,
+            "marginRight":10
+            // "width":"85%"   
+          }
+    },
+    "image#gridbrands-firtsColumn--top": {
+        "props": {
+          "src": "assets/img/brands-products/proplan.avif",
+          "maxWidth": 112,
+          "maxHeight":112,
+          "blockClass":"grid-brand-img" 
+        }
+      },
+      "image#gridbrands-firtsColumn--botton": {
+        "props": {
+          "src": "assets/img/brands-products/guamor.avif",
+          "maxWidth": 112,
+          "maxHeight":112,
+          "blockClass":"grid-brand-img"
+            
+        }
+      },
+    "flex-layout.col#contaniner-gridbrands-secondColumn":{
+        "children":[
+            "image#gridbrands-secondColumn--top",
+            "image#gridbrands-secondColumn--botton"
+        ] ,"props": {
+          "title":"gridbrands-Column",
+          "blockClass":"gridbrands-Column" ,
+          "marginLeft":10,
+          "marginRight":10
+          // "width":"85%"   
+        }
+  },
+    "image#gridbrands-secondColumn--top": {
+        "props": {
+          "src": "assets/img/brands-products/besties.avif",
+          "maxWidth": 112,
+          "maxHeight":112,
+          "blockClass":"grid-brand-img"
+            
+        }
+      },
+      "image#gridbrands-secondColumn--botton": {
+        "props": {
+          "src": "assets/img/brands-products/salvaje.avif",
+          "maxWidth": 112,
+          "maxHeight":112,
+          "blockClass":"grid-brand-img"
+            
+        }
+      },
+      "flex-layout.col#contaniner-gridbrands-thirdColumn":{
+        "children":[
+            "image#gridbrands-thirdColumn--top",
+            "image#gridbrands-thirdColumn--botton"
+        ],"props": {
+          "title":"gridbrands-Column",
+          "blockClass":"gridbrands-Column" ,
+          "marginLeft":10,
+          "marginRight":10
+          // "width":"85%"   
+        }
+    },  "image#gridbrands-thirdColumn--top": {
+        "props": {
+          "src": "assets/img/brands-products/hills.avif",
+          "maxWidth": 112,
+          "maxHeight":112,
+          "blockClass":"grid-brand-img"
+            
+        }
+      },
+      "image#gridbrands-thirdColumn--botton": {
+        "props": {
+          "src": "assets/img/brands-products/equilibrio.avif",
+          "maxWidth": 112,
+          "maxHeight":112,
+          "blockClass":"grid-brand-img"
+            
+        }
+      },
+      "flex-layout.col#contaniner-gridbrands-fourthColumn":{
+        "children":[
+            "image#gridbrands-fourthColumn--top",
+            "image#gridbrands-fourthColumn--botton"
+        ]
+        ,"props": {
+          "title":"gridbrands-Column",
+          "blockClass":"gridbrands-Column" ,
+          "marginLeft":10,
+          "marginRight":10
+          // "width":"85%"   
+        }
+    },
+    "image#gridbrands-fourthColumn--top": {
+        "props": {
+          "src": "assets/img/brands-products/max.avif",
+          "maxWidth": 112,
+          "maxHeight":112,
+          "blockClass":"grid-brand-img"
+          // "width":"85%"         
+        }
+      },
+      "image#gridbrands-fourthColumn--botton": {
+        "props": {
+          "src": "assets/img/brands-products/vitality.avif",
+          "maxWidth": 112,
+          "maxHeight":112,
+          "blockClass":"grid-brand-img"
+            
+        }
+      }
+}

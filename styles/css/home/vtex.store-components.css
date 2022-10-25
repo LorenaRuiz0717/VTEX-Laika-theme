@@ -1,4 +1,9 @@
-.imageElement--categories--image{
-    border-radius: 30%;
-    margin-top: 8px;
+.imageElement--categories--image {
+  border-radius: 30%;
+  margin-top: 8px;
 }
+
+.imageElement--grid-brand-img {
+  padding: 20px 15px
+}
+

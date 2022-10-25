@@ -6,6 +6,7 @@
       "flex-layout.row#home__section--container--categories",
       // "rich-text#home__qualities--title",
       "flex-layout.row#home__section--contaniner-qualities",
+      "flex-layout.row#home__section--contaniner-gridbrands",
       "tab-layout#home"
       // "slider-layout#home"
     ]
