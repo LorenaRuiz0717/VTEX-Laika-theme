@@ -1,0 +1,154 @@
+{
+    
+  //*************************** "department__cat" *******************************//
+  "menu-item#department__cat-mobile": {
+    "props": {
+      "id": "menu-item#cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/categorycat",
+        "noFollow": false,
+        "tagTitle": "Gatos",
+        "text": "Gatos"
+      }
+    },
+    "blocks": ["submenu.accordion#department__cat-mobile"]
+  },
+  "submenu.accordion#department__cat-mobile": {
+    "children": ["menu#category__cat"]
+  },
+  "menu#category__cat": {
+    "children": [
+      "menu-item#category__cat--food",
+      "menu-item#category__cat--sands",
+      "menu-item#category__cat--snacks",
+      "menu-item#category__cat--halloween",
+      "menu-item#category__cat--farmapet",
+      "menu-item#category__cat--careHygiene",
+      "menu-item#category__cat--toys",
+      "menu-item#category__cat--accessories",
+      "menu-item#category__cat--petLovers"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category__cat--food": {
+    "props": {
+      "id": "menu-item#food--cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/food--cat",
+        "noFollow": false,
+        "tagTitle": "Alimento",
+        "text": "Alimento"
+      }
+    }
+  },
+  "menu-item#category__cat--sands": {
+    "props": {
+      "id": "menu-item#cat--sands",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/cat--sands",
+        "noFollow": false,
+        "tagTitle": "Areneros",
+        "text": "Areneros"
+      }
+    }
+  },
+  "menu-item#category__cat--snacks": {
+    "props": {
+      "id": "menu-item#cat--snacks",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/cat--snacks",
+        "noFollow": false,
+        "tagTitle": "Snacks",
+        "text": "Snacks"
+      }
+    }
+  },
+  "menu-item#category__cat--halloween": {
+    "props": {
+      "id": "menu-item#cat--halloween",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/cat--halloween",
+        "noFollow": false,
+        "tagTitle": "Halloween",
+        "text": "Halloween"
+      }
+    }
+  },
+  "menu-item#category__cat--farmapet": {
+    "props": {
+      "id": "menu-item#cat--farmapet",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/cat--farmapet",
+        "noFollow": false,
+        "tagTitle": "Farmapet",
+        "text": "Farmapet"
+      }
+    }
+  },
+  "menu-item#category__cat--careHygiene": {
+    "props": {
+      "id": "menu-item#cat--careHygiene",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/cat--careHygiene",
+        "noFollow": false,
+        "tagTitle": "Cuidado e higiene",
+        "text": "Cuidado e higiene"
+      }
+    }
+  },
+  "menu-item#category__cat--toys": {
+    "props": {
+      "id": "menu-item#cat--toys",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/cat--toys",
+        "noFollow": false,
+        "tagTitle": "Toys",
+        "text": "Toys"
+      }
+    }
+  },
+  "menu-item#category__cat--accessories": {
+    "props": {
+      "id": "menu-item#cat--accessories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/cat--accessories",
+        "noFollow": false,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      }
+    }
+  },
+  "menu-item#category__cat--petLovers": {
+    "props": {
+      "id": "menu-item#cat--petLovers",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/cat--petLovers",
+        "noFollow": false,
+        "tagTitle": "PetLovers",
+        "text": "Para pet Lovers"
+      }
+    }
+  }
+}

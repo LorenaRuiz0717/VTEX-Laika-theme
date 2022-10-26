@@ -1,0 +1,24 @@
+{
+  "drawer#header__menu--mobile": {
+    "title": "Drawer header menu mobile",
+    "children": ["menu#header__menu--mobile"]
+  },
+  "menu#header__menu--mobile": {
+    "title": "header menu items mobile",
+    "children": [
+      "menu-item#department__dog-mobile",
+      "menu-item#department__cat-mobile",
+      "menu-item#category__services-mobile",
+      "menu-item#category__promotions-mobile",
+      "menu-item#category__blog-mobile"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "type": "line"
+    }
+  }
+}
+
+ 
+
+

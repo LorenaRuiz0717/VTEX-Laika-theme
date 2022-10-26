@@ -1,0 +1,18 @@
+{
+  // *************************** "header-row#2header.mobile" *******************************//
+  "sticky-layout#2header__mobile": {
+    "children": ["header-row#2header__mobile"]
+  },
+  "header-row#2header__mobile": {
+    "children": ["search-bar#header__section--search-mobile"],
+    "props": {
+      "blockClass": "header__mobile--search"
+    }
+  },
+  "search-bar#header__section--search-mobile": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
+  }
+}

@@ -1,38 +1,49 @@
 {
     "sticky-layout#3header__desktop": {
+      "title": "Header sticky 3",
         "children": ["flex-layout.row#bottom__header--desktop"] ,
         "props": {
-          "fullWidth": true
+          "fullWidth": true,
+          "blockClass": "header__sticky3--header"
         }
       },
 //*************************** "header-row#bottom__header--desktop" *******************************//
 
 "flex-layout.row#bottom__header--desktop": {
-    "title": "header_desktop--row3",
+    "title": "Header container menu sticky 3",
     "children": [
-     "vtex.menu@2.x:menu#header__menu--desktop"
+     "menu#header__menu--desktop"
     ], 
     "props":{
       "blockClass": "container__sticky3--header"
     }
   },
-  "vtex.menu@2.x:menu#header__menu--desktop": {
+  "menu#header__menu--desktop": {
+    "title": "Header menu sticky 3",
     "children": [
+      // "flex-layout.row#header__menuitem--dog-desktop",
       "header-spacer",
       "image#header__menuitem--dog",
       "menu-item#department__dog",
-      "image#header__menuitem--cat",
-      "menu-item#department__cat-mobile",
-      "menu-item#category__services-mobile",
-      "menu-item#category__promotions-mobile",
-      "menu-item#category__blog-mobile"
-      // "header-spacer-mobile",
-      // "flex-layout.row#header__container--buttons-mobile"
+      "image#header__menuitem--cat"
+      
+      // "menu-item#department__cat-mobile",
+      // "menu-item#category__services-mobile",
+      // "menu-item#category__promotions-mobile",
+      // "menu-item#category__blog-mobile",
+      // "header-spacer",
+      // "flex-layout.row#header__container--buttons"
     ],
     "props": {
       "blockClass":"header__menu--sticky3"
     }
   },
+//   "flex-layout.row#header__menuitem--dog-desktop":{
+// "children":[
+//   "image#header__menuitem--dog",
+//   "menu-item#department__dog",
+// ]
+//   },
   "flex-layout.row#header__container--buttons": {
     "children": [
       "image#header__button--item-vetcare",
@@ -56,6 +67,8 @@
     "props": {
       "id": "deparment__dog",
       "type": "custom",
+      "blockClass":"menu__item",
+      // "onMountBehavior":"open",
       "itemProps": {
         "type": "internal",
         "href": "#/categorydog",
@@ -69,7 +82,10 @@
   "submenu.accordion#department__dog":{
     "children":[
       "menu#category__dog"
-    ]
+    ],
+    "props":{
+            "onMountBehavior": "open"
+    }
   },
   //*************************** "menu-item#category__dog" *******************************//
   "menu#category__dog":{
@@ -92,6 +108,7 @@
     "props": {
       "id": "menu-item#dog--food",
       "type": "custom",
+      "blockClass":"menu__item",
       "itemProps": {
         "type": "internal",
         "href": "#/dog-food",
@@ -113,6 +130,7 @@
     "props": {
       "id": "deparment__dog",
       "type": "custom",
+      "blockClass":"menu__item",
       "orientation":"vertical",
       "itemProps": {
         "type": "internal",
@@ -145,6 +163,19 @@
       "maxWidth": 160,
       "maxHeight":35,
       "blockClass":"header__button--item"
+    }
+  },  "menu-item#category__blog": {
+    "props": {
+      "id": "menu-item#blog",
+      "type": "custom",
+      "blockClass":"menu__item",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/categoryblog",
+        "noFollow": false,
+        "tagTitle": "Blog",
+        "text": "Blog"
+      }
     }
   }
 }

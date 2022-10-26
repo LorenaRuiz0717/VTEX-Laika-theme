@@ -1,0 +1,16 @@
+  //*************************** "category__promotions" *******************************//
+{
+  "menu-item#category__promotions-mobile": {
+    "props": {
+      "id": "menu-item#promotions",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/categorypromotions",
+        "noFollow": false,
+        "tagTitle": "Promociones",
+        "text": "Promociones"
+      }
+    }
+  }
+}

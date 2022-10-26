@@ -1,0 +1,577 @@
+{
+     //*************************** "deparment__dog" *******************************//
+  "menu-item#department__dog-mobile": {
+    "title": "header menu item mobile dog",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "blockClass": "department__dog-mobile",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog",
+        "noFollow": false,
+        "tagTitle": "Category dog",
+        "text": "Perro"
+      }
+    },
+    "blocks": ["submenu.accordion#department__dog-mobile"]
+  },
+  "submenu.accordion#department__dog-mobile": {
+    "title": "header sub menu mobile dog",
+    "children": ["menu#category__dog-mobile"],
+    "props":{
+      "blockClass": "submenu__department--dog-mobile"
+      // "orientation": "vertical"
+    }
+  },
+  //*************************** "menu-item#category__dog" *******************************//
+   "menu#category__dog-mobile": {
+    "title": "header menu items mobile dog",
+    "children": [
+      "menu-item#category__dog--food-mobile",
+      "menu-item#category__dog--snacks-mobile",
+      "menu-item#category__dog--halloween-mobile",
+      "menu-item#category__dog--farmapet-mobile",
+      "menu-item#category__dog--careHygiene-mobile",
+      "menu-item#category__dog--toys-mobile",
+      "menu-item#category__dog--accessories-mobile"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  //*************************** "menu-item#category__dog--food-mobile" *******************************//
+  "menu-item#category__dog--food-mobile": {
+    "title": "header menu item mobile dog-food",
+    "props": {
+      "id": "menu-item#dog--food",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogfood",
+        "noFollow": false,
+        "tagTitle": "Food",
+        "text": "Alimento"
+      }
+    },
+    "blocks": ["submenu.accordion#header__submenu--dog-food-mobile"]
+  },
+  "submenu.accordion#header__submenu--dog-food-mobile": {
+    "children": ["menu#category__itemsdog"]
+  },  
+  "menu#category__itemsdog":{
+    "title": "header submenu item mobile dog-food",
+    "children": [
+      "menu-item#category__dog--food-mobile-purinedogs",
+      "menu-item#category__dog--food-mobile-wetfood",
+      "menu-item#category__dog--food-mobile-barfdiet",
+      "menu-item#category__dog--food-mobile-link-seemore"
+    ],
+    "props": {
+      "blockClass": "header__submenu--dog-food-mobile",
+        "orientation": "vertical"
+      }
+  },
+  "menu-item#category__dog--food-mobile-purinedogs": {
+    "title": "header menu item mobile dog-purinedogs",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogfood/purinedogs",
+        "noFollow": false,
+        "tagTitle": "Perros",
+        "text": "Concentrados"
+      }
+    }
+  },
+  "menu-item#category__dog--food-mobile-wetfood": {
+    "title": "header menu item mobile dog-wetfood",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogfood/wetfood",
+        "noFollow": false,
+        "tagTitle": "Humedo",
+        "text": "Humedo"
+      }
+    }
+  },
+  "menu-item#category__dog--food-mobile-barfdiet": {
+    "title": "header menu item mobile dog-barfdiet",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogfood/barfdiet",
+        "noFollow": false,
+        "tagTitle": "Perros",
+        "text": "Dieta Natural"
+      }
+    }
+  },
+  "menu-item#category__dog--food-mobile-link-seemore": {
+    "title": "header container link mobile dog-seemore",
+    "children": ["link#category__dog--food-mobile-seemore"],
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom"
+    }
+  },
+  "link#category__dog--food-mobile-seemore": {
+    "title": "header item link mobile dog-seemore",
+    "props": {
+      "href": "/categorydog/dogfood",
+      "label": "Ver mas"
+    }
+  },
+  //*************************** "menu-item#category__dog--snacks-mobile" *******************************//
+  "menu-item#category__dog--snacks-mobile": {
+    "title": "header menu item mobile dog-snacks",
+    "props": {
+      "id": "menu-item#dog--snacks",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogsnacks",
+        "noFollow": false,
+        "tagTitle": "Snacks",
+        "text": "Snacks"
+      }
+    },
+    "blocks": ["submenu.accordion#header__submenu--dog--snacks-mobile"]
+  },
+  "submenu.accordion#header__submenu--dog--snacks-mobile": {
+    "title": "header submenu item mobile dog-snacks",
+    "children": [
+      "menu-item#category__dog--food-mobile-dog--brownies",
+      "menu-item#category__dog--food-mobile-dog--bonesmeat",
+      "menu-item#category__dog--food-mobile-dog--cookies"
+    ],
+    "props": {
+      "blockClass":"header__submenu--dog--snacks-mobile"
+    }
+  },
+  "menu-item#category__dog--food-mobile-dog--brownies": {
+    "title": "header menu item mobile dog-brownies",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogsnacks/brownies",
+        "noFollow": false,
+        "tagTitle": "brownies",
+        "text": "Brownies y otros"
+      }
+    }
+  },
+  "menu-item#category__dog--food-mobile-dog--bonesmeat": {
+    "title": "header menu item mobile dog-bonesmeat",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogsnacks/bonesmeat",
+        "noFollow": false,
+        "tagTitle": "bones-meat",
+        "text": "Huesos y carnaza"
+      }
+    }
+  },
+  "menu-item#category__dog--food-mobile-dog--cookies": {
+    "title": "header menu item mobile dog-cookies",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogsnacks/cookies",
+        "noFollow": false,
+        "tagTitle": "cookies",
+        "text": "Galletas y Snacks"
+      }
+    }
+  },
+  //*************************** "menu-item#category__dog--halloween-mobile" *******************************//
+  "menu-item#category__dog--halloween-mobile": {
+    "title": "header menu item mobile dog-halloween",
+    "props": {
+      "id": "menu-item#dog--halloween",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/halloween",
+        "noFollow": false,
+        "tagTitle": "Halloween",
+        "text": "Halloween"
+      }
+    },
+    "blocks": ["submenu.accordion#header__submenu--dog--halloween-mobile"]
+  },
+  "submenu.accordion#header__submenu--dog--halloween-mobile": {
+    "title": "header submenu item mobile dog-halloween",
+    "children": [
+      "menu-item#category__dog--halloween-mobile-dog-halloween",
+      "menu-item#category__dog--halloween-mobile-link-seemore"
+    ],
+    "props": {
+      "blockClass": "header__submenu--dog--halloween-mobile"
+    }
+  },
+  "menu-item#category__dog--halloween-mobile-dog-halloween": {
+    "title": "header menu item mobile dog-halloween",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/doghalloween/halloween",
+        "noFollow": false,
+        "tagTitle": "halloween",
+        "text": "Halloween"
+      }
+    }
+  },
+  "menu-item#category__dog--halloween-mobile-link-seemore": {
+    "title": "header container link halloween mobile dog-seemore",
+    "children": ["link#category__dog--halloween-mobile-seemore"],
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom"
+    }
+  },
+  "link#category__dog--halloween-mobile-seemore": {
+    "title": "header item link mobile dog-seemore",
+    "props": {
+      "href": "/categorydog/doghalloween/halloween",
+      "label": "Ver mas"
+    }
+  },
+  //*************************** "menu-item#category__dog--farmapet-mobile" *******************************//
+  "menu-item#category__dog--farmapet-mobile": {
+    "title": "header menu item mobile dog-farmapet",
+    "props": {
+      "id": "menu-item#dog--farmapet",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogfarmapet",
+        "noFollow": false,
+        "tagTitle": "Farmapet",
+        "text": "Farmapet"
+      }
+    },
+    "blocks": ["submenu.accordion#header__submenu--dog--farmapet-mobile"]
+  },
+  "submenu.accordion#header__submenu--dog--farmapet-mobile": {
+    "title": "header submenu item mobile dog-farmapet",
+    "children": [
+      "menu-item#category__dog--farmapet-mobile-dog-antiparasitic",
+      "menu-item#category__dog--farmapet-mobile-dog-supplements",
+      "menu-item#category__dog--farmapet-mobile-dog-analgesics",
+      "menu-item#category__dog--farmapet-mobile-dog-antibacterial",
+      "menu-item#category__dog--farmapet-mobile-dog-antibiotics",
+      "menu-item#category__dog--farmapet-mobile-dog-anti-inflammatories",
+      "menu-item#category__dog--farmapet-mobile-dog-joints",
+      "menu-item#category__dog--farmapet-mobile-dog-elizabethannecklace",
+      "menu-item#category__dog--farmapet-mobile-dog-dermatological",
+      "menu-item#category__dog--farmapet-mobile-dog-digestive",
+      "menu-item#category__dog--farmapet-mobile-dog-liver",
+      "menu-item#category__dog--farmapet-mobile-dog-hypothyroidism",
+      "menu-item#category__dog--farmapet-mobile-dog-homeopathicmedicine",
+      "menu-item#category__dog--farmapet-mobile-dog-ophthalmic",
+      "menu-item#category__dog--farmapet-mobile-dog-optics",
+      "menu-item#category__dog--farmapet-mobile-link-seemore"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category__dog--farmapet-mobile-dog-antiparasitic":{
+    "title": "header menu item mobile dog-farmapet-antiparasitic",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogfarmapet/antiparasitic",
+        "noFollow": false,
+        "tagTitle": "antiparasitic",
+        "text": "Antiparasitarios"
+      }
+    }
+  },
+  "menu-item#category__dog--farmapet-mobile-dog-supplements":{
+    "title": "header menu item mobile dog-farmapet-supplements",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogfarmapet/supplements",
+        "noFollow": false,
+        "tagTitle": "supplements",
+        "text": "Suplementos"
+      }
+    }    
+  },
+  "menu-item#category__dog--farmapet-mobile-dog-analgesics":{
+    "title": "header menu item mobile dog-farmapet-analgesics",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogfarmapet/analgesics",
+        "noFollow": false,
+        "tagTitle": "analgesics",
+        "text": "Analgesicos"
+      }
+    }     
+  },
+  "menu-item#category__dog--farmapet-mobile-dog-antibacterial":{
+    "title": "header menu item mobile dog-farmapet-antibacterial",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogfarmapet/antibacterial",
+        "noFollow": false,
+        "tagTitle": "antibacterial",
+        "text": "Antibacterianos"
+      }
+    } 
+  },
+  "menu-item#category__dog--farmapet-mobile-dog-antibiotics":{
+    "title": "header menu item mobile dog-farmapet-antibiotics",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogfarmapet/antibiotics",
+        "noFollow": false,
+        "tagTitle": "antibiotics",
+        "text": "Antibioticos"
+      }
+    } 
+  },
+  "menu-item#category__dog--farmapet-mobile-dog-anti-inflammatories":{
+    "title": "header menu item mobile dog-farmapet-anti-inflammatories",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogfarmapet/anti-inflammatories",
+        "noFollow": false,
+        "tagTitle": "anti-inflammatories",
+        "text": "Anti Inflamatorios"
+      }
+    } 
+  },
+  "menu-item#category__dog--farmapet-mobile-dog-joints":{
+    "title": "header menu item mobile dog-farmapet-joints",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogfarmapet/joints",
+        "noFollow": false,
+        "tagTitle": "joints",
+        "text": "Articulaciones"
+      }
+    } 
+  },
+  "menu-item#category__dog--farmapet-mobile-dog-elizabethannecklace":{
+    "title": "header menu item mobile dog-farmapet-elizabethannecklace",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogfarmapet/elizabethannecklace",
+        "noFollow": false,
+        "tagTitle": "elizabethannecklace",
+        "text": "Collares isabelinos"
+      }
+    } 
+  },
+  "menu-item#category__dog--farmapet-mobile-dog-dermatological":{
+    "title": "header menu item mobile dog-farmapet-dermatological",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogfarmapet/dermatological",
+        "noFollow": false,
+        "tagTitle": "dermatological",
+        "text": "Dermatologicos"
+      }
+    } 
+  },
+  "menu-item#category__dog--farmapet-mobile-dog-digestive":{
+    "title": "header menu item mobile dog-farmapet-digestive",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogfarmapet/digestive",
+        "noFollow": false,
+        "tagTitle": "digestive",
+        "text": "Digestivos"
+      }
+    } 
+  },
+  "menu-item#category__dog--farmapet-mobile-dog-liver":{
+    "title": "header menu item mobile dog-farmapet-liver",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogfarmapet/liver",
+        "noFollow": false,
+        "tagTitle": "liver",
+        "text": "Hepaticos"
+      }
+    } 
+  },
+  "menu-item#category__dog--farmapet-mobile-dog-hypothyroidism":{
+    "title": "header menu item mobile dog-farmapet-hypothyroidism",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogfarmapet/hypothyroidism",
+        "noFollow": false,
+        "tagTitle": "hypothyroidism",
+        "text": "Hipotiroidismo"
+      }
+    } 
+  },
+  "menu-item#category__dog--farmapet-mobile-dog-homeopathicmedicine":{
+    "title": "header menu item mobile dog-farmapet-homeopathicmedicine",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogfarmapet/homeopathicmedicine",
+        "noFollow": false,
+        "tagTitle": "homeopathicmedicine",
+        "text": "Mediciona Homeopatica"
+      }
+    } 
+  },
+  "menu-item#category__dog--farmapet-mobile-dog-ophthalmic":{
+    "title": "header menu item mobile dog-farmapet-ophthalmic",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogfarmapet/ophthalmic",
+        "noFollow": false,
+        "tagTitle": "ophthalmic",
+        "text": "Oftalmicos"
+      }
+    }  
+  },
+  "menu-item#category__dog--farmapet-mobile-dog-optics":{
+    "title": "header menu item mobile dog-farmapet-optics",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogfarmapet/optics",
+        "noFollow": false,
+        "tagTitle": "optics",
+        "text": "Opticos"
+      }
+    } 
+  },
+  "menu-item#category__dog--farmapet-mobile-link-seemore":{
+    "title": "header container link farmapet mobile dog-seemore",
+    "children": ["link#category__dog--farmapet-mobile-seemore"],
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom"
+    }
+  },
+  "link#category__dog--farmapet-mobile-seemore": {
+    "title": "header item link mobile dog-seemore",
+    "props": {
+      "href": "/categorydog/dogfarmapet/farmapet",
+      "label": "Ver mas"
+    }
+  },
+  //*************************** "menu-item#category__dog--careHygiene-mobile" *******************************//
+  "menu-item#category__dog--careHygiene-mobile": {
+    "props": {
+      "id": "menu-item#dog--careHygiene",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/dog--careHygiene",
+        "noFollow": false,
+        "tagTitle": "Cuidado e higiene",
+        "text": "Cuidado e higiene"
+      }
+    }
+  },
+  //*************************** "menu-item#category__dog--toys-mobile" *******************************//
+  "menu-item#category__dog--toys-mobile": {
+    "props": {
+      "id": "menu-item#dog--toys",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/dog--toys",
+        "noFollow": false,
+        "tagTitle": "Juguetes",
+        "text": "Juguetes"
+      }
+    }
+  },
+  //*************************** "menu-item#category__dog--accessories-mobile" *******************************//
+  "menu-item#category__dog--accessories-mobile": {
+    "props": {
+      "id": "menu-item#dog--accessories",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/dog--accessories",
+        "noFollow": false,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      }
+    }
+  },
+  //*************************** "menu-item#category__dog--petLovers-mobile" *******************************//
+  "menu-item#category__dog--petLovers": {
+    "props": {
+      "id": "menu-item#dog--petLovers",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/dog--petLovers",
+        "noFollow": false,
+        "tagTitle": "PetLovers",
+        "text": "Para pet Lovers"
+      }
+    }
+  }
+}

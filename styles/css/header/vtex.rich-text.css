@@ -3,3 +3,12 @@
   font-size: 14px;
   color:white
 }
+
+.paragraph--header__section--text-address{
+  margin: 20px 0px 0px 50px;
+}
+
+.paragraph--header__section--text-login{
+  margin: 20px 0px 0px 0px;
+}
+

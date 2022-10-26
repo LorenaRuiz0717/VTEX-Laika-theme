@@ -1,16 +1,18 @@
 .flexRow--container__sticky1--header,
 .flexRow--container__sticky2--header {
   background-color: var(--purple-strong);
+  width: 100%;
+  padding: 0 85px;
 }
 
 .flexRow--container__sticky3--header {
   background-color: var(--white);
 }
-
+/* 
 .flexRowContent--container__sticky1--header {
   width: 100%;
   padding: 0 85px;
-}
+} */
 
 .flexRow--container__section--qualitie{
   align-items: center;

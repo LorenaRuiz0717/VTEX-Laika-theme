@@ -3,6 +3,7 @@
     "title":"lista imagenes",
   "children":["slider-layout#home_slider--list"],
   "props":{
+    "blockClass":"home_slider--main",
     "preload":true,
     "images":[
       {

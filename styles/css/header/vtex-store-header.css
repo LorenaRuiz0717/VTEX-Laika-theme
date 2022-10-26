@@ -1,0 +1,20 @@
+.headerRowContentContainer--header__mobile--search{
+    background-color: red;
+  }
+
+  .headerRowBackground--header__mobile--search{
+    background-color: black;
+  }
+  
+  .headerRowContentContainer--header__mobile--search{
+    background-color: var(--purple-strong);
+  }
+  
+
+  .headerRow--2headermobile__mobile{
+    background-color: var(--purple-strong);
+  }
+  
+  .headerStickyRow--header__mobile--search{
+    background-color: red;
+  }

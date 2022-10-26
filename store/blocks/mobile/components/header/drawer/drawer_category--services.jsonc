@@ -1,0 +1,16 @@
+{
+      //*************************** "category__services" *******************************//
+  "menu-item#category__services-mobile": {
+    "props": {
+      "id": "menu-item#services",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/categoryservices",
+        "noFollow": false,
+        "tagTitle": "Services",
+        "text": "Servicios"
+      }
+    }
+  }
+}
