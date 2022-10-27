@@ -1,53 +1,136 @@
 {
-    
   //*************************** "department__cat" *******************************//
   "menu-item#department__cat-mobile": {
+    "title": "header menu item mobile cat",
     "props": {
       "id": "menu-item#cat",
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "#/categorycat",
+        "href": "/categorycat",
         "noFollow": false,
-        "tagTitle": "Gatos",
-        "text": "Gatos"
+        "tagTitle": "Category cat",
+        "text": "Gato"
       }
     },
     "blocks": ["submenu.accordion#department__cat-mobile"]
   },
   "submenu.accordion#department__cat-mobile": {
-    "children": ["menu#category__cat"]
+    "title": "header sub menu mobile cat",
+    "children": ["menu#category__cat-mobile"],
+    "props":{
+      "blockClass": "submenu__department--cat-mobile"
+    }
   },
-  "menu#category__cat": {
+  //*************************** "menu-item#category__cat" *******************************//
+  "menu#category__cat-mobile": {
+    "title": "header menu items mobile cat",
     "children": [
-      "menu-item#category__cat--food",
-      "menu-item#category__cat--sands",
-      "menu-item#category__cat--snacks",
-      "menu-item#category__cat--halloween",
-      "menu-item#category__cat--farmapet",
-      "menu-item#category__cat--careHygiene",
-      "menu-item#category__cat--toys",
-      "menu-item#category__cat--accessories",
-      "menu-item#category__cat--petLovers"
+      "menu-item#category__cat--food-mobile",
+      "menu-item#category__cat--sands-mobile",
+      "menu-item#category__cat--snacks-mobile",
+      "menu-item#category__cat--halloween-mobile",
+      "menu-item#category__cat--farmapet-mobile",
+      "menu-item#category__cat--careHygiene-mobile",
+      "menu-item#category__cat--toys-mobile",
+      "menu-item#category__cat--accessories-mobile",
+      "menu-item#category__cat--petLovers-mobile"
     ],
     "props": {
       "orientation": "vertical"
     }
   },
-  "menu-item#category__cat--food": {
+   //*************************** "menu-item#category__cat--food-mobile" *******************************//
+  "menu-item#category__cat--food-mobile": {
+    "title": "header menu item mobile cat-food",
     "props": {
       "id": "menu-item#food--cat",
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "#/food--cat",
+        "href": "/categorycat/catfood",
         "noFollow": false,
-        "tagTitle": "Alimento",
+        "tagTitle": "Food",
         "text": "Alimento"
+      }
+    },"blocks": ["submenu.accordion#header__submenu--cat-food-mobile"]
+  },
+  "submenu.accordion#header__submenu--cat-food-mobile": {
+    "children": ["menu#category__itemscat"]
+  },  
+  "menu#category__itemscat":{
+    "title": "header submenu item mobile cat-food",
+    "children": [
+      "menu-item#category__cat--food-mobile-purinecats",
+      "menu-item#category__cat--food-mobile-wetfood",
+      "menu-item#category__cat--food-mobile-barfdiet",
+      "menu-item#category__cat--food-mobile-link-seemore"
+    ],
+    "props": {
+      "blockClass": "header__submenu--cat-food-mobile",
+        "orientation": "vertical"
+      }
+  },
+  "menu-item#category__cat--food-mobile-purinecats": {
+    "title": "header menu item mobile cat-purinecats",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catfood/purinecats",
+        "noFollow": false,
+        "tagTitle": "purine cats",
+        "text": "Concentrado"
       }
     }
   },
-  "menu-item#category__cat--sands": {
+  "menu-item#category__cat--food-mobile-wetfood": {
+    "title": "header menu item mobile cat-wetfood",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catfood/wetfood",
+        "noFollow": false,
+        "tagTitle": "Wet food",
+        "text": "Humedo"
+      }
+    }
+  },
+  "menu-item#category__cat--food-mobile-barfdiet": {
+    "title": "header menu item mobile cat-barfdiet",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catfood/barfdiet",
+        "noFollow": false,
+        "tagTitle": "barf diet",
+        "text": "Dieta Natural"
+      }
+    }
+  },
+  "menu-item#category__cat--food-mobile-link-seemore": {
+    "title": "header container link mobile cat-seemore",
+    "children": ["link#category__cat--food-mobile-seemore"],
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom"
+    }
+  },
+  "link#category__cat--food-mobile-seemore": {
+    "title": "header item link mobile cat-seemore",
+    "props": {
+      "href": "/categorycat/catfood",
+      "label": "Ver mas"
+    }
+  },
+  //*************************** "menu-item#category__cat--snacks-mobile" *******************************//
+
+  "menu-item#category__cat--sands-mobile": {
     "props": {
       "id": "menu-item#cat--sands",
       "type": "custom",
@@ -60,7 +143,7 @@
       }
     }
   },
-  "menu-item#category__cat--snacks": {
+  "menu-item#category__cat--snacks-mobile": {
     "props": {
       "id": "menu-item#cat--snacks",
       "type": "custom",
@@ -73,7 +156,7 @@
       }
     }
   },
-  "menu-item#category__cat--halloween": {
+  "menu-item#category__cat--halloween-mobile": {
     "props": {
       "id": "menu-item#cat--halloween",
       "type": "custom",
@@ -86,7 +169,7 @@
       }
     }
   },
-  "menu-item#category__cat--farmapet": {
+  "menu-item#category__cat--farmapet-mobile": {
     "props": {
       "id": "menu-item#cat--farmapet",
       "type": "custom",
@@ -99,7 +182,7 @@
       }
     }
   },
-  "menu-item#category__cat--careHygiene": {
+  "menu-item#category__cat--careHygiene-mobile": {
     "props": {
       "id": "menu-item#cat--careHygiene",
       "type": "custom",
@@ -112,7 +195,7 @@
       }
     }
   },
-  "menu-item#category__cat--toys": {
+  "menu-item#category__cat--toys-mobile": {
     "props": {
       "id": "menu-item#cat--toys",
       "type": "custom",
@@ -125,7 +208,7 @@
       }
     }
   },
-  "menu-item#category__cat--accessories": {
+  "menu-item#category__cat--accessories-mobile": {
     "props": {
       "id": "menu-item#cat--accessories",
       "type": "custom",
@@ -138,7 +221,7 @@
       }
     }
   },
-  "menu-item#category__cat--petLovers": {
+  "menu-item#category__cat--petLovers-mobile": {
     "props": {
       "id": "menu-item#cat--petLovers",
       "type": "custom",

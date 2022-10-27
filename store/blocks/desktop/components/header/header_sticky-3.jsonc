@@ -22,17 +22,17 @@
     "title": "Header menu sticky 3",
     "children": [
       // "flex-layout.row#header__menuitem--dog-desktop",
-      "header-spacer",
+      // "header-spacer",
       "image#header__menuitem--dog",
       "menu-item#department__dog",
-      "image#header__menuitem--cat"
+      "image#header__menuitem--cat",
       
-      // "menu-item#department__cat-mobile",
-      // "menu-item#category__services-mobile",
-      // "menu-item#category__promotions-mobile",
-      // "menu-item#category__blog-mobile",
-      // "header-spacer",
-      // "flex-layout.row#header__container--buttons"
+      "menu-item#department__cat-mobile",
+      "menu-item#category__services-mobile",
+      "menu-item#category__promotions-mobile",
+      "menu-item#category__blog-mobile",
+      "header-spacer",
+      "flex-layout.row#header__container--buttons"
     ],
     "props": {
       "blockClass":"header__menu--sticky3"
