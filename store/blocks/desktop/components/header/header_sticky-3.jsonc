@@ -56,7 +56,7 @@
 //*************************** "deparment__dog" *******************************//
 "image#header__menuitem--dog": {
   "props": {
-    "src": "assets/img/icon-dog.avif",
+    "src": "assets/img/icons-menu/icon-dog.avif",
     "maxWidth": 85,
     "maxHeight":85,
     "blockClass":"categories--image"
@@ -143,7 +143,7 @@
   },
   "image#header__menuitem--cat": {
     "props": {
-      "src": "assets/img/icon-cat.avif",
+      "src": "assets/img/icons-menu/icon-cat.avif",
       "maxWidth": 85,
       "maxHeight":85,
       "blockClass":"categories--image"

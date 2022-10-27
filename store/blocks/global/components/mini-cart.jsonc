@@ -1,7 +1,7 @@
 {
   "icon#minicart-icon":{
     "props":{
-      "id":"icon-shop",
+      "id":"hpa-cart",
       // "id":"hpa-search-test1",
       // "id":"icon-Shop",
       "size":30

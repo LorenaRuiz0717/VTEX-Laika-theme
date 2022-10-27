@@ -18,28 +18,55 @@
   },
   "submenu.accordion#department__dog-mobile": {
     "title": "header sub menu mobile dog",
-    "children": ["menu#category__dog-mobile"],
+    "children": [
+      "menu#category__dog-mobile"],
     "props":{
       "blockClass": "submenu__department--dog-mobile"
     }
   },
   //*************************** "menu-item#category__dog" *******************************//
-   "menu#category__dog-mobile": {
+ 
+  "menu#category__dog-mobile": {
     "title": "header menu items mobile dog",
     "children": [
-      "menu-item#category__dog--food-mobile",
-      "menu-item#category__dog--snacks-mobile",
-      "menu-item#category__dog--halloween-mobile",
-      "menu-item#category__dog--farmapet-mobile",
-      "menu-item#category__dog--careHygiene-mobile",
-      "menu-item#category__dog--toys-mobile",
-      "menu-item#category__dog--accessories-mobile"
+      "flex-layout.row#header__container--menuitem--dogfood-mobile", 
+      // "menu-item#category__dog--food-mobile",
+      "flex-layout.row#header__container--menuitem--dogsnacks-mobile", 
+      // "menu-item#category__dog--snacks-mobile",
+      "flex-layout.row#header__container--menuitem--doghalloween-mobile", 
+      // "menu-item#category__dog--halloween-mobile",
+      "flex-layout.row#header__container--menuitem--dogfarmapet-mobile", 
+      // "menu-item#category__dog--farmapet-mobile",
+      "flex-layout.row#header__container--menuitem--dogcareHygiene-mobile", 
+      // "menu-item#category__dog--careHygiene-mobile",
+      "flex-layout.row#header__container--menuitem--dogtoys-mobile", 
+      // "menu-item#category__dog--toys-mobile",
+      "flex-layout.row#header__container--menuitem--dogaccessories-mobile"
+      // "menu-item#category__dog--accessories-mobile"
     ],
     "props": {
       "orientation": "vertical"
     }
   },
   //*************************** "menu-item#category__dog--food-mobile" *******************************//
+  "flex-layout.row#header__container--menuitem--dogfood-mobile":{
+    "children":[
+      "image#header__menuitem--dog--food-mobile",
+      "menu-item#category__dog--food-mobile"
+    ],"props":{
+      "paddingTop":3,
+      "paddingBottom":3,
+      "fullWidth":true
+    }
+  },
+  "image#header__menuitem--dog--food-mobile":{
+    "props": {
+      "src": "assets/img/icons-menu/icon-food.png",
+      "maxWidth": 30,
+      "maxHeight":30,
+      "blockClass":"categories--image-mobile"
+    }
+  },
   "menu-item#category__dog--food-mobile": {
     "title": "header menu item mobile dog-food",
     "props": {
@@ -125,10 +152,27 @@
     "title": "header item link mobile dog-seemore",
     "props": {
       "href": "/categorydog/dogfood",
-      "label": "Ver mas"
+      "label": "Ver todo"
     }
   },
   //*************************** "menu-item#category__dog--snacks-mobile" *******************************//
+  "flex-layout.row#header__container--menuitem--dogsnacks-mobile":{
+    "children":[
+      "image#header__menuitem--dog--snacks-mobile",
+      "menu-item#category__dog--snacks-mobile"
+    ],"props":{
+      "paddingTop":3,
+      "paddingBottom":3,
+      "fullWidth":true
+    }
+  },"image#header__menuitem--dog--snacks-mobile":{
+    "props": {
+      "src": "assets/img/icons-menu/icon-snacks.png",
+      "maxWidth": 30,
+      "maxHeight":30,
+      "blockClass":"categories--image-mobile"
+    }
+  },
   "menu-item#category__dog--snacks-mobile": {
     "title": "header menu item mobile dog-snacks",
     "props": {
@@ -203,6 +247,24 @@
     }
   },
   //*************************** "menu-item#category__dog--halloween-mobile" *******************************//
+  "flex-layout.row#header__container--menuitem--doghalloween-mobile":{
+    "children":[
+      "image#header__menuitem--dog--halloween-mobile",
+      "menu-item#category__dog--halloween-mobile"
+    ],"props":{
+      "paddingTop":3,
+      "paddingBottom":3,
+      "fullWidth":true
+    }
+  },"image#header__menuitem--dog--halloween-mobile":{
+    "props": {
+      "src": "assets/img/icons-menu/icon-hallowen.png",
+      "maxWidth": 30,
+      "maxHeight":30,
+      "blockClass":"categories--image-mobile"
+    }
+  },
+ 
   "menu-item#category__dog--halloween-mobile": {
     "title": "header menu item mobile dog-halloween",
     "props": {
@@ -259,10 +321,28 @@
     "title": "header item link mobile dog-seemore",
     "props": {
       "href": "/categorydog/doghalloween/halloween",
-      "label": "Ver mas"
+      "label": "Ver todo"
     }
   },
   //*************************** "menu-item#category__dog--farmapet-mobile" *******************************//
+  "flex-layout.row#header__container--menuitem--dogfarmapet-mobile":{
+    "children":[
+      "image#header__menuitem--dog--farmapet-mobile",
+      "menu-item#category__dog--farmapet-mobile"
+    ],"props":{
+      "paddingTop":3,
+      "paddingBottom":3,
+      "fullWidth":true
+    }
+  },
+  "image#header__menuitem--dog--farmapet-mobile":{
+    "props": {
+      "src": "assets/img/icons-menu/icon-farmapet.png",
+      "maxWidth": 30,
+      "maxHeight":30,
+      "blockClass":"categories--image-mobile"
+    }
+  },
   "menu-item#category__dog--farmapet-mobile": {
     "title": "header menu item mobile dog-farmapet",
     "props": {
@@ -528,10 +608,28 @@
     "title": "header item link mobile dog-seemore",
     "props": {
       "href": "/categorydog/dogfarmapet/farmapet",
-      "label": "Ver mas"
+      "label": "Ver todo"
     }
   },
   //*************************** "menu-item#category__dog--careHygiene-mobile" *******************************//
+  "flex-layout.row#header__container--menuitem--dogcareHygiene-mobile":{
+    "children":[
+      "image#header__menuitem--dog--careHygiene-mobile",
+      "menu-item#category__dog--careHygiene-mobile"
+    ],"props":{
+      "paddingTop":3,
+      "paddingBottom":3,
+      "fullWidth":true
+    }
+  }, "image#header__menuitem--dog--careHygiene-mobile":{
+    "props": {
+      "src": "assets/img/icons-menu/icon-higiene.png",
+      "maxWidth": 30,
+      "maxHeight":30,
+      "blockClass":"categories--image-mobile"
+    }
+  },
+  
   "menu-item#category__dog--careHygiene-mobile": {
     "title": "header menu item mobile dog-careHygiene",
     "props": {
@@ -554,7 +652,15 @@
   "menu#category__itemsdog--careHygiene": {
     "title": "header submenu item mobile dog-careHygiene",
     "children": [
-      "menu-item#category__dog--careHygiene-mobile-dog-careHygiene",
+      "menu-item#category__dog--careHygiene-mobile-dog-hygiene",
+      "menu-item#category__dog--careHygiene-mobile-dog-diapersMaps",
+      "menu-item#category__dog--careHygiene-mobile-dog-brushes",
+      "menu-item#category__dog--careHygiene-mobile-dog-nailClipper",
+      "menu-item#category__dog--careHygiene-mobile-dog-homeCare",
+      "menu-item#category__dog--careHygiene-mobile-dog-oralCare",
+      "menu-item#category__dog--careHygiene-mobile-dog-protectors",
+      "menu-item#category__dog--careHygiene-mobile-dog-petWaste",
+      "menu-item#category__dog--careHygiene-mobile-dog-odorNeutralizers",
       "menu-item#category__dog--careHygiene-mobile-link-seemore"
     ],
     "props": {
@@ -562,20 +668,133 @@
       "orientation": "vertical"
     }
   },
-  "menu-item#category__dog--careHygiene-mobile-dog-careHygiene": {
-    "title": "header menu item mobile dog-careHygiene",
+  "menu-item#category__dog--careHygiene-mobile-dog-hygiene": {
+    "title": "header menu item mobile dog-hygiene",
     "props": {
       "id": "deparment__dog",
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/categorydog/dogcareHygiene/careHygiene",
+        "href": "/categorydog/dogcareHygiene/hygiene",
         "noFollow": false,
-        "tagTitle": "careHygiene",
+        "tagTitle": "hygiene",
         "text": "Higiene"
       }
     }
   },
+  "menu-item#category__dog--careHygiene-mobile-dog-diapersMaps": {
+    "title": "header menu item mobile dog-diapersMaps",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogcareHygiene/diapersMaps",
+        "noFollow": false,
+        "tagTitle": "diapersMaps",
+        "text": "Pañales y tapetes"
+      }
+    }
+  },
+  "menu-item#category__dog--careHygiene-mobile-dog-brushes": {
+    "title": "header menu item mobile dog-brushes",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogcareHygiene/brushes",
+        "noFollow": false,
+        "tagTitle": "brushes",
+        "text": "Cepillos"
+      }
+    }
+  },
+  "menu-item#category__dog--careHygiene-mobile-dog-nailClipper": {
+    "title": "header menu item mobile dog-nailClipper",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogcareHygiene/nailClipper",
+        "noFollow": false,
+        "tagTitle": "nailClipper",
+        "text": "Corta uñas"
+      }
+    }
+  },
+  "menu-item#category__dog--careHygiene-mobile-dog-homeCare": {
+    "title": "header menu item mobile dog-homeCare",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogcareHygiene/homeCare",
+        "noFollow": false,
+        "tagTitle": "homeCare",
+        "text": "Cuidado hogar"
+      }
+    }
+  },
+  "menu-item#category__dog--careHygiene-mobile-dog-oralCare": {
+    "title": "header menu item mobile dog-oralCare",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogcareHygiene/oralCare",
+        "noFollow": false,
+        "tagTitle": "oralCare",
+        "text": "Cuidado oral"
+      }
+    }
+  },
+  "menu-item#category__dog--careHygiene-mobile-dog-protectors": {
+    "title": "header menu item mobile dog-protectors",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogcareHygiene/protectors",
+        "noFollow": false,
+        "tagTitle": "protectors",
+        "text": "Protectores"
+      }
+    }
+  },
+  "menu-item#category__dog--careHygiene-mobile-dog-petWaste": {
+    "title": "header menu item mobile dog-petWaste",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogcareHygiene/petWaste",
+        "noFollow": false,
+        "tagTitle": "petWaste",
+        "text": "Residuos de mascotas"
+      }
+    }
+  },
+  "menu-item#category__dog--careHygiene-mobile-dog-odorNeutralizers": {
+    "title": "header menu item mobile dog-odorNeutralizers",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogcareHygiene/odorNeutralizers",
+        "noFollow": false,
+        "tagTitle": "odorNeutralizers",
+        "text": "Neutralizadores de olor"
+      }
+    }
+  },
+
   "menu-item#category__dog--careHygiene-mobile-link-seemore": {
     "title": "header container link careHygiene mobile dog-seemore",
     "children": ["link#category__dog--careHygiene-mobile-seemore"],
@@ -588,10 +807,28 @@
     "title": "header item link mobile dog-seemore",
     "props": {
       "href": "/categorydog/dogcareHygiene/careHygiene",
-      "label": "Ver mas"
+      "label": "Ver todo"
     }
   },
   //*************************** "menu-item#category__dog--toys-mobile" *******************************//
+  "flex-layout.row#header__container--menuitem--dogtoys-mobile":{
+    "children":[
+      "image#header__menuitem--dog--toys-mobile",
+      "menu-item#category__dog--toys-mobile"
+    ],"props":{
+      "paddingTop":3,
+      "paddingBottom":3,
+      "fullWidth":true
+    }
+  },
+  "image#header__menuitem--dog--toys-mobile":{
+    "props": {
+      "src": "assets/img/icons-menu/icon-juguetes.png",
+      "maxWidth": 30,
+      "maxHeight":30,
+      "blockClass":"categories--image-mobile"
+    }
+  },
   "menu-item#category__dog--toys-mobile": {
     "props": {
       "id": "menu-item#dog--toys",
@@ -603,7 +840,8 @@
         "tagTitle": "Juguetes",
         "text": "Juguetes"
       }
-    }
+    },
+    "blocks": ["submenu.accordion#header__submenu--dog--toys-mobile"]
   },
   "submenu.accordion#header__submenu--dog--toys-mobile": {
     "title": "header submenu item mobile dog-toys",
@@ -613,6 +851,8 @@
     "title": "header submenu item mobile dog-toys",
     "children": [
       "menu-item#category__dog--toys-mobile-dog-toys",
+      "menu-item#category__dog--toys-mobile-dog-teddies",
+      "menu-item#category__dog--toys-mobile-dog-interactive",
       "menu-item#category__dog--toys-mobile-link-seemore"
     ],
     "props": {
@@ -630,7 +870,35 @@
         "href": "/categorydog/dogtoys/toys",
         "noFollow": false,
         "tagTitle": "toys",
-        "text": "Halloween"
+        "text": "Juguetes"
+      }
+    }
+  },
+  "menu-item#category__dog--toys-mobile-dog-teddies":{
+    "title": "header menu item mobile dog-teddies",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogcareHygiene/teddies",
+        "noFollow": false,
+        "tagTitle": "teddies",
+        "text": "Peluches"
+      }
+    }
+  },
+  "menu-item#category__dog--toys-mobile-dog-interactive":{
+    "title": "header menu item mobile dog-interactive",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogcareHygiene/interactive",
+        "noFollow": false,
+        "tagTitle": "interactive",
+        "text": "Interactivos"
       }
     }
   },
@@ -646,10 +914,28 @@
     "title": "header item link mobile dog-seemore",
     "props": {
       "href": "/categorydog/dogtoys/toys",
-      "label": "Ver mas"
+      "label": "Ver todo"
     }
   },
   //*************************** "menu-item#category__dog--accessories-mobile" *******************************//
+  "flex-layout.row#header__container--menuitem--dogaccessories-mobile":{
+    "children":[
+      "image#header__menuitem--dog--accessories-mobile",
+      "menu-item#category__dog--accessories-mobile"
+    ],"props":{
+      "paddingTop":3,
+      "paddingBottom":3,
+      "fullWidth":true
+    }
+  },
+  "image#header__menuitem--dog--accessories-mobile":{
+    "props": {
+      "src": "assets/img/icons-menu/icon-accesorios.png",
+      "maxWidth": 30,
+      "maxHeight":30,
+      "blockClass":"categories--image-mobile"
+    }
+  },
   "menu-item#category__dog--accessories-mobile": {
     "props": {
       "id": "menu-item#dog--accessories",
@@ -661,9 +947,161 @@
         "tagTitle": "Accesorios",
         "text": "Accesorios"
       }
+    }, "blocks": ["submenu.accordion#header__submenu--dog--accessories-mobile"]
+  },
+  "submenu.accordion#header__submenu--dog--accessories-mobile": {
+    "title": "header submenu item mobile dog-accessories",
+    "children":  ["menu#category__itemsdog--accessories"]
+  },
+  "menu#category__itemsdog--accessories": {
+    "title": "header submenu item mobile dog-accessories",
+    "children": [
+      "menu-item#category__dog--accessories-mobile-dog-strapsLeashes",
+      "menu-item#category__dog--accessories-mobile-dog-breastplatesHarness",
+      "menu-item#category__dog--accessories-mobile-dog-muzzles",
+      "menu-item#category__dog--accessories-mobile-dog-necklaces",
+      "menu-item#category__dog--accessories-mobile-dog-clothes",
+      "menu-item#category__dog--accessories-mobile-dog-feedersDrinkers",
+      "menu-item#category__dog--accessories-mobile-dog-bedsBlankets",
+      "menu-item#category__dog--accessories-mobile-dog-cratesBriefcases",
+      "menu-item#category__dog--accessories-mobile-link-seemore"
+    ],
+    "props": {
+      "blockClass": "header__submenu--dog--accessories-mobile",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category__dog--accessories-mobile-dog-strapsLeashes": {
+    "title": "header menu item mobile dog-strapsLeashes",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogaccessories/strapsLeashes",
+        "noFollow": false,
+        "tagTitle": "accessories",
+        "text": "Correas y traillas"
+      }
+    }
+  },
+  "menu-item#category__dog--accessories-mobile-dog-breastplatesHarness": {
+    "title": "header menu item mobile dog-breastplatesHarness",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogaccessories/breastplatesHarness",
+        "noFollow": false,
+        "tagTitle": "breastplatesHarness",
+        "text": "Pecheras y arnes"
+      }
+    }
+  },
+  "menu-item#category__dog--accessories-mobile-dog-muzzles": {
+    "title": "header menu item mobile dog-muzzles",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogaccessories/muzzles",
+        "noFollow": false,
+        "tagTitle": "muzzles",
+        "text": "Bozales"
+      }
+    }
+  },
+  "menu-item#category__dog--accessories-mobile-dog-necklaces": {
+    "title": "header menu item mobile dog-necklaces",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogaccessories/necklaces",
+        "noFollow": false,
+        "tagTitle": "necklaces",
+        "text": "Collares"
+      }
+    }
+  },
+  "menu-item#category__dog--accessories-mobile-dog-clothes": {
+    "title": "header menu item mobile dog-clothes",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogaccessories/clothes",
+        "noFollow": false,
+        "tagTitle": "clothes",
+        "text": "Ropa"
+      }
+    }
+  },
+  "menu-item#category__dog--accessories-mobile-dog-feedersDrinkers": {
+    "title": "header menu item mobile dog-feedersDrinkers",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogaccessories/feedersDrinkers",
+        "noFollow": false,
+        "tagTitle": "feedersDrinkers",
+        "text": "Comederos y bebederos"
+      }
+    }
+  },
+  "menu-item#category__dog--accessories-mobile-dog-bedsBlankets": {
+    "title": "header menu item mobile dog-bedsBlankets",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogaccessories/bedsBlankets",
+        "noFollow": false,
+        "tagTitle": "bedsBlankets",
+        "text": "Camas y cobijas"
+      }
+    }
+  },
+  "menu-item#category__dog--accessories-mobile-dog-cratesBriefcases": {
+    "title": "header menu item mobile dog-cratesBriefcases",
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorydog/dogaccessories/cratesBriefcases",
+        "noFollow": false,
+        "tagTitle": "cratesBriefcases",
+        "text": "Guacales/Maletines"
+      }
+    }
+  },
+
+  "menu-item#category__dog--accessories-mobile-link-seemore": {
+    "title": "header container link accessories mobile dog-seemore",
+    "children": ["link#category__dog--accessories-mobile-seemore"],
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom"
+    }
+  },
+  "link#category__dog--accessories-mobile-seemore": {
+    "title": "header item link mobile dog-seemore",
+    "props": {
+      "href": "/categorydog/dogaccessories/accessories",
+      "label": "Ver todo"
     }
   },
   //*************************** "menu-item#category__dog--petLovers-mobile" *******************************//
+  
+  
   "menu-item#category__dog--petLovers": {
     "props": {
       "id": "menu-item#dog--petLovers",

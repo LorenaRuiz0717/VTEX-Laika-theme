@@ -6,4 +6,7 @@
   .headerRow--2headermobile__mobile{
     background-color: var(--purple-strong);
   }
-  
+
+ .imageElement--categories--image-mobile{
+width: 20%;
+}
