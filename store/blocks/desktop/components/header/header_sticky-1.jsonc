@@ -50,9 +50,9 @@
   "icon#header__section--qualitie1":{
   "props":{
     "id":"bnd-iconsecurity",
-    "size":16,
-    "blockClass": "icon-qualities"
-    // "width":"100%"
+    "size":25,
+    "blockClass": "icon-qualities",
+    "viewBox": "0 0 25 25"
   }
   },
   "rich-text#header__section--qualitie1": {
@@ -76,9 +76,10 @@
   "icon#header__section--qualitie2":{
     "props":{
       "id":"bnd-iconpay",
-      "size":16,
+      "size":25,
       "blockClass": "icon-qualities",
-      "width":"15%"
+      "width":"15%",
+      "viewBox": "0 0 25 25"
     }
     },
 
@@ -103,8 +104,9 @@
   "icon#header__section--qualitie3":{
     "props":{
       "id":"icontruck",
-      "size":16,
-      "blockClass": "icon-qualities"
+      "size":25,
+      "blockClass": "icon-qualities",
+      "viewBox": "0 0 25 25"
     }
     },
   "rich-text#header__section--qualitie3": {
@@ -140,7 +142,7 @@
     "props": {
       "text": "Escribenos", //link a correo, lenguaje tipo markdown?
       "blockClass": "header__section--email",
-      "width":"16%",
+      "width":"25%",
       "font": "t-heading-3"
     }
   },
@@ -158,22 +160,25 @@
   "icon#header__section--socialmedia-youtube":{
     "props":{
       "id":"iconyoutube",
-      "size":16,
-      "blockClass": "header__socialmedia-icon"
+      "size":25,
+      "blockClass": "header__socialmedia-icon",
+      "viewBox": "0 0 25 25"
     }
   },
   "icon#header__section--socialmedia-facebook":{
     "props":{
       "id":"iconfacebook",
-      "size":16,
-      "blockClass": "header__socialmedia-icon"
+      "size":25,
+      "blockClass": "header__socialmedia-icon",
+      "viewBox": "0 0 25 25"
     }
     },
   "icon#header__section--socialmedia-instagram":{
     "props":{
       "id":"iconinstagram",
-      "size":16,
-      "blockClass": "header__socialmedia-icon"
+      "size":25,
+      "blockClass": "header__socialmedia-icon",
+      "viewBox": "0 0 25 25"
     }
     }
 }

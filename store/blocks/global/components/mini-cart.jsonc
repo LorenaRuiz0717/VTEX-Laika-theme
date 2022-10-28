@@ -6,7 +6,8 @@
       // "id":"icon-shop",
       "size":20,
       // "isActive":true
-      "blockclass":"iconcart"
+      "blockclass":"iconcart",
+      "viewBox": "0 0 25 25"
     }
   },
 
