@@ -1,18 +1,19 @@
 {
-  "icon#minicart-icon":{
+  "icon#cart-icon":{
     "props":{
-      "id":"hpa-cart",
+      "id":"bnd-iconshop",
       // "id":"hpa-search-test1",
-      // "id":"icon-Shop",
-      "size":30
+      // "id":"icon-shop",
+      "size":20,
       // "isActive":true
+      "blockclass":"iconcart"
     }
   },
 
   "minicart.v2":{
     "props":{
       // "variation": "popup",
-      "MinicartIcon": "icon#minicart-icon",
+      "MinicartIcon": "icon#cart-icon",
       // "MinicartIcon": "",
       "itemCountMode":"total",
       "quantityDisplay": "always",

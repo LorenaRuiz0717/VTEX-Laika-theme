@@ -34,7 +34,7 @@
     ],
     "props":{
       "blockClass": "header__container--qualities",
-      "width":"65%"
+      "width":"70%"
     }
   },
   "flex-layout.row#container__section--qualitie1":{
@@ -49,18 +49,18 @@
   },
   "icon#header__section--qualitie1":{
   "props":{
-    "id":"hpa-save",
-    // "id":"qualitie1",
-    "size":20,
-    "blockClass": "icon-qualities",
-    "width":"15%"
+    "id":"bnd-iconsecurity",
+    "size":16,
+    "blockClass": "icon-qualities"
+    // "width":"100%"
   }
   },
   "rich-text#header__section--qualitie1": {
     "props": {
       "text": "Compras seguras online",
       "blockClass": "header__section--qualitie",
-      "width":"80%"
+      "width":"80%",
+      "font": "t-heading-3"
     }
   },
   "flex-layout.row#container__section--qualitie2":{
@@ -75,9 +75,8 @@
   },
   "icon#header__section--qualitie2":{
     "props":{
-      "id":"mpa-globe",
-      // "id":"qualitie2",
-      "size":20,
+      "id":"bnd-iconpay",
+      "size":16,
       "blockClass": "icon-qualities",
       "width":"15%"
     }
@@ -87,7 +86,8 @@
     "props": {
       "text": "Pago contra entrega",
       "blockClass": "header__section--qualitie",
-      "width":"80%"
+      "width":"80%",
+      "font": "t-heading-3"
     }
   },
   "flex-layout.row#container__section--qualitie3":{
@@ -102,18 +102,17 @@
   },
   "icon#header__section--qualitie3":{
     "props":{
-      "id":"bnd-logo",
-         // "id":"qualitie3",
-      "size":20,
-      "blockClass": "icon-qualities",
-      "width":"15%"
+      "id":"icontruck",
+      "size":16,
+      "blockClass": "icon-qualities"
     }
     },
   "rich-text#header__section--qualitie3": {
     "props": {
       "text": "Entregas el mismo dia",
       "blockClass": "header__section--qualitie",
-      "width":"80%"
+      "width":"80%",
+      "font": "t-heading-3"
     }
   },
 
@@ -121,9 +120,6 @@
     "children": [
       "rich-text#header__section--phone",
       "rich-text#header__section--email",
-      // "icon#header__section--socialmedia-youtube",
-      // "icon#header__section--socialmedia-facebook",
-      // "icon#header__section--socialmedia-instagram",
       "flex-layout.row#header__section--socialmedia"
     ],  
     "props":{
@@ -136,14 +132,16 @@
     "props": {
       "text": "Llamanos 3009108496",
       "blockClass": "header__section--phone",
-      "width":"40%"
+      "width":"40%",
+      "font": "t-heading-3"
     }
   },
   "rich-text#header__section--email": {
     "props": {
       "text": "Escribenos", //link a correo, lenguaje tipo markdown?
       "blockClass": "header__section--email",
-      "width":"20%"
+      "width":"16%",
+      "font": "t-heading-3"
     }
   },
 
@@ -159,29 +157,23 @@
  },
   "icon#header__section--socialmedia-youtube":{
     "props":{
-      "id":"bnd-logo",
-         // "id":"youtube-icon",
-      "size":20,
+      "id":"iconyoutube",
+      "size":16,
       "blockClass": "header__socialmedia-icon"
     }
   },
   "icon#header__section--socialmedia-facebook":{
     "props":{
-      "id":"bnd-logo",
-         // "id":"facebook-icon",
-      "size":20,
+      "id":"iconfacebook",
+      "size":16,
       "blockClass": "header__socialmedia-icon"
     }
     },
   "icon#header__section--socialmedia-instagram":{
     "props":{
-      "id":"bnd-logo",
-         // "id":"instagram-icon",
-      "size":20,
+      "id":"iconinstagram",
+      "size":16,
       "blockClass": "header__socialmedia-icon"
     }
     }
-  // "flex-layout.col#header__section--socialmedia": {
-  //   //iconos y links
-  // }
 }

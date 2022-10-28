@@ -1,7 +1,16 @@
 
+.paragraph--header__section--phone,
+.paragraph--header__section--email,
+.paragraph--header__section--text-address,
+.paragraph--header__section--text-login {
+  color: var(--white);
+  font-size: 14px;
+}
+
 .paragraph--header__section--qualitie{
   font-size: 14px;
-  color:white
+  color:white;
+  margin-left: 5px;
 }
 
 .paragraph--header__section--text-address{
@@ -11,4 +20,5 @@
 .paragraph--header__section--text-login{
   margin: 20px 0px 0px 0px;
 }
+
 

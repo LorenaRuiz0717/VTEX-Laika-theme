@@ -40,3 +40,7 @@
 .flexRowContent--header__container--buttons{
   margin-top: 10px;
 }
+
+.flexRowContent--container__sticky3--header{
+  padding: 0px 85px 0px 85px;
+}

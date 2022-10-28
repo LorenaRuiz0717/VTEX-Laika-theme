@@ -1,13 +1,3 @@
-.paragraph--header__section--qualitie1,
-.paragraph--header__section--qualitie2,
-.paragraph--header__section--qualitie3,
-.paragraph--header__section--phone,
-.paragraph--header__section--email,
-.paragraph--header__section--text-address,
-.paragraph--header__section--text-login {
-  color: var(--white);
-  font-size: 14px;
-}
 
 .container--home__categories {
   color: var(--white);

@@ -15,18 +15,18 @@
 
       "rich-text#home__categories": { 
         "props": { 
-          "text": "Categorias"
+          "text": "Categorias",
           // "textAlignment": "CENTER",
           // "textPosition": "CENTER",
-          // "font": "t-heading-1"
+          "font": "t-heading-5"
         }
       },
       "slider-layout#text-test": {
         "props": {
           "itemsPerPage": {
             "desktop": 6,
-            "tablet": 1,
-            "phone": 1
+            "tablet": 3,
+            "phone": 3
           },
           "infinite": false,
           "showNavigationArrows": "desktopOnly",
@@ -60,10 +60,10 @@
     
       "rich-text#categories--one-text": { 
         "props": { 
-          "text": "Alimentos"
+          "text": "Alimentos",
           // "textAlignment": "CENTER",
           // "textPosition": "CENTER",
-          // "font": "t-heading-1"
+          "font": "t-heading-6"
         }
       },
       "flex-layout.col#categories--two":{
@@ -82,10 +82,10 @@
       },
       "rich-text#categories--two-text": { 
         "props": { 
-          "text": "Snacks"
+          "text": "Snacks",
           // "textAlignment": "CENTER",
           // "textPosition": "CENTER",
-          // "font": "t-heading-1"
+          "font": "t-heading-6"
         }
       },
       "flex-layout.col#categories--three":{
@@ -104,10 +104,10 @@
        },
        "rich-text#categories--three-text": { 
          "props": { 
-           "text": "Halloween"
+           "text": "Halloween",
            // "textAlignment": "CENTER",
            // "textPosition": "CENTER",
-           // "font": "t-heading-1"
+           "font": "t-heading-6"
          }
        },
       "flex-layout.col#categories--four":{
@@ -126,10 +126,10 @@
        },
        "rich-text#categories--four-text": { 
          "props": { 
-           "text": "Farmapet"
+           "text": "Farmapet",
            // "textAlignment": "CENTER",
            // "textPosition": "CENTER",
-           // "font": "t-heading-1"
+           "font": "t-heading-6"
          }
        },
       "flex-layout.col#categories--five":{
@@ -148,10 +148,10 @@
       },
       "rich-text#categories--five-text": { 
         "props": { 
-          "text": "Cuidado e Higiene"
+          "text": "Cuidado e Higiene",
           // "textAlignment": "CENTER",
           // "textPosition": "CENTER",
-          // "font": "t-heading-1"
+          "font": "t-heading-6"
         }
       },
       "flex-layout.col#categories--six":{
@@ -170,10 +170,10 @@
       },
       "rich-text#categories--six-text": { 
         "props": { 
-          "text": "Juguetes"
+          "text": "Juguetes",
           // "textAlignment": "CENTER",
           // "textPosition": "CENTER",
-          // "font": "t-heading-1"
+          "font": "t-heading-6"
         }
       },
       "flex-layout.col#categories--seven":{
@@ -192,10 +192,10 @@
       },
       "rich-text#categories--seven-text": { 
         "props": { 
-          "text": "Accesorios"
+          "text": "Accesorios",
           // "textAlignment": "CENTER",
           // "textPosition": "CENTER",
-          // "font": "t-heading-1"
+          "font": "t-heading-6"
         }
       }    
 }

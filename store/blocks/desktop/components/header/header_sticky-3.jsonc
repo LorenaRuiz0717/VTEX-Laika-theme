@@ -26,9 +26,8 @@
       "image#header__menuitem--dog",
       "menu-item#department__dog",
       "image#header__menuitem--cat",
-      
-      "menu-item#department__cat-mobile",
-      "menu-item#category__services-mobile",
+      "menu-item#department__cat",
+      "menu-item#category__services",
       "menu-item#category__promotions-mobile",
       "menu-item#category__blog-mobile",
       "header-spacer",
@@ -67,7 +66,8 @@
     "props": {
       "id": "deparment__dog",
       "type": "custom",
-      "blockClass":"menu__item",
+      "blockClass":"menu__department",
+      "maxWidth":"20",
       // "onMountBehavior":"open",
       "itemProps": {
         "type": "internal",
@@ -149,6 +149,24 @@
       "blockClass":"categories--image"
     }
   },
+  "menu-item#department__cat": {
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "blockClass":"menu__department",
+      // "onMountBehavior":"open",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/categorydog",
+        "noFollow": false,
+        "tagTitle": "Cat",
+        "text": "Gato"
+      }
+    },
+    "blocks":["submenu.accordion#department__dog"]
+  },
+
+  
   "image#header__button--item-vetcare": {
     "props": {
       "src": "assets/img/vetcare_logo.webp",
@@ -177,9 +195,28 @@
         "text": "Blog"
       }
     }
+  },
+
+  "menu-item#category__services":{
+    // "children":[
+
+    // ]
+  "props": {
+    "id": "deparment__dog",
+    "type": "custom",
+    "blockClass":"menu__department",
+    "maxWidth":"20",
+    // "onMountBehavior":"open",
+    "itemProps": {
+      "type": "internal",
+      "href": "#/categorydog",
+      "noFollow": false,
+      "tagTitle": "Perros",
+      "text": "Servicios"
+    }
   }
 }
-
+}
   // "vtex.menu@2.x:menu#header__menu": {
   //   "props": {
   //     "items": [
