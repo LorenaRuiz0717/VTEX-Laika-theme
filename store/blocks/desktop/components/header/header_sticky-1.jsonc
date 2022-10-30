@@ -1,21 +1,21 @@
 {
-    "sticky-layout#1header__desktop": {
+  "sticky-layout#1header__desktop": {
     "children": ["flex-layout.row#top__header--desktop"],
     "props": {
       "fullWidth": true,
       "blockClass": "container__sticky1"
     }
   },
-//   *************************** "header-row#top__header--desktop" *******************************//
- 
-"flex-layout.row#top__header--desktop": {
+  //   *************************** "header-row#top__header--desktop" *******************************//
+
+  "flex-layout.row#top__header--desktop": {
     "title": "header__desktop--row1",
     "children": [
       "flex-layout.row#header__section--qualities",
       // "header-spacer",
-      "flex-layout.row#header__section--contact"
+      "flex-layout.row#header__section--contacts"
     ],
-    "props":{
+    "props": {
       "blockClass": "container__sticky1--header"
     }
   },
@@ -23,162 +23,202 @@
     "title": "header__desktop--section-qualities",
     "children": [
       "flex-layout.row#container__section--qualitie1",
+      "rich-text#header__section--qualitie1-hr",
       // "icon#header__section--qualitie1",
       // "rich-text#header__section--qualitie1",
       "flex-layout.row#container__section--qualitie2",
+      "rich-text#header__section--qualitie2-hr",
       // "icon#header__section--qualitie2",
       // "rich-text#header__section--qualitie2",
       "flex-layout.row#container__section--qualitie3"
       // "icon#header__section--qualitie3",
       // "rich-text#header__section--qualitie3"
     ],
-    "props":{
+    "props": {
       "blockClass": "header__container--qualities",
-      "width":"70%"
+      "width": "70%"
     }
   },
-  "flex-layout.row#container__section--qualitie1":{
-    "children":[
+  "flex-layout.row#container__section--qualitie1": {
+    "children": [
       "icon#header__section--qualitie1",
       "rich-text#header__section--qualitie1"
     ],
-    "props":{
+    "props": {
       "blockClass": "header__container--qualitie",
-      "width":"33%"
+      "width": "30%"
     }
   },
-  "icon#header__section--qualitie1":{
-  "props":{
-    "id":"bnd-iconsecurity",
-    "size":25,
-    "blockClass": "icon-qualities",
-    "viewBox": "0 0 25 25"
-  }
+  "icon#header__section--qualitie1": {
+    "props": {
+      "id": "bnd-iconsecurity",
+      "size": 25,
+      "blockClass": "icon-qualities",
+      "width": "15%",
+      "viewBox": "0 0 25 25"
+    }
   },
   "rich-text#header__section--qualitie1": {
     "props": {
       "text": "Compras seguras online",
       "blockClass": "header__section--qualitie",
-      "width":"80%",
+      "width": "85%",
       "font": "t-heading-3"
     }
   },
-  "flex-layout.row#container__section--qualitie2":{
-    "children":[
+  "rich-text#header__section--qualitie1-hr":{
+    "props": {
+      "text": "***",
+      "blockClass": "header_hr",
+      "width": "1%"
+    }
+  },
+  "flex-layout.row#container__section--qualitie2": {
+    "children": [
       "icon#header__section--qualitie2",
       "rich-text#header__section--qualitie2"
     ],
-    "props":{
+    "props": {
       "blockClass": "header__container--qualitie",
-      "width":"33%"
+      "width": "25%"
     }
   },
-  "icon#header__section--qualitie2":{
-    "props":{
-      "id":"bnd-iconpay",
-      "size":25,
+  "icon#header__section--qualitie2": {
+    "props": {
+      "id": "bnd-iconpay",
+      "size": 25,
       "blockClass": "icon-qualities",
-      "width":"15%",
+      "width": "15%",
       "viewBox": "0 0 25 25"
     }
-    },
+  },
 
   "rich-text#header__section--qualitie2": {
     "props": {
       "text": "Pago contra entrega",
       "blockClass": "header__section--qualitie",
-      "width":"80%",
+      "width": "85%",
       "font": "t-heading-3"
     }
   },
-  "flex-layout.row#container__section--qualitie3":{
-    "children":[
+  "rich-text#header__section--qualitie2-hr": {
+    "props": {
+      "text": "***",
+      "blockClass": "header_hr",
+      "width":"1%"
+    }
+  },
+  "flex-layout.row#container__section--qualitie3": {
+    "children": [
       "icon#header__section--qualitie3",
       "rich-text#header__section--qualitie3"
     ],
-    "props":{
+    "props": {
       "blockClass": "header__container--qualitie",
-      "width":"33%"
+      "width": "30%"
     }
   },
-  "icon#header__section--qualitie3":{
-    "props":{
-      "id":"icontruck",
-      "size":25,
+  "icon#header__section--qualitie3": {
+    "props": {
+      "id": "icon-truck",
+      "size": 25,
       "blockClass": "icon-qualities",
+      "width":"15%",
       "viewBox": "0 0 25 25"
     }
-    },
+  },
   "rich-text#header__section--qualitie3": {
     "props": {
       "text": "Entregas el mismo dia",
       "blockClass": "header__section--qualitie",
-      "width":"80%",
+      "width": "80%",
       "font": "t-heading-3"
     }
   },
 
-  "flex-layout.row#header__section--contact": {
+  "flex-layout.row#header__section--contacts": {
     "children": [
-      "rich-text#header__section--phone",
-      "rich-text#header__section--email",
+      "flex-layout.row#header__section--contact",
       "flex-layout.row#header__section--socialmedia"
-    ],  
-    "props":{
+    ],
+    "props": {
       "blockClass": "header__container--contact",
-      "width":"50%",
-      "horizontalAlign":"center"
+      "horizontalAlign": "center",
+      "width":"50%"
+      
+    }
+  },
+  "flex-layout.row#header__section--contact":{
+    "children":[
+      "rich-text#header__section--phone",
+        "rich-text#header__section--qualitie3-hr",
+      "rich-text#header__section--email"
+    ],
+    "props": {
+      "blockClass": "header__section--contact",
+      "width": "80%"
     }
   },
   "rich-text#header__section--phone": {
     "props": {
       "text": "Llamanos 3009108496",
       "blockClass": "header__section--phone",
-      "width":"40%",
+      "width": "40%",
       "font": "t-heading-3"
+    }
+  },
+  "rich-text#header__section--qualitie3-hr":{
+    "props": {
+      "text": "***",
+      "blockClass": "header_hr",
+       "width":"1%"
     }
   },
   "rich-text#header__section--email": {
     "props": {
       "text": "Escribenos", //link a correo, lenguaje tipo markdown?
       "blockClass": "header__section--email",
-      "width":"25%",
+      "width": "48%",
       "font": "t-heading-3"
     }
   },
 
-  "flex-layout.row#header__section--socialmedia":{
+  "flex-layout.row#header__section--socialmedia": {
     "children": [
-     "icon#header__section--socialmedia-youtube",
-     "icon#header__section--socialmedia-facebook",
-     "icon#header__section--socialmedia-instagram"
-  ] ,"props": {
-    "blockClass": "header__section--socialmedia",
-    "width":"30%"
-  }
- },
-  "icon#header__section--socialmedia-youtube":{
-    "props":{
-      "id":"iconyoutube",
-      "size":25,
-      "blockClass": "header__socialmedia-icon",
-      "viewBox": "0 0 25 25"
+      "icon#header__section--socialmedia-youtube",
+      "icon#header__section--socialmedia-facebook",
+      "icon#header__section--socialmedia-instagram"
+    ],
+    "props": {
+      "blockClass": "header__section--socialmedia",
+      "width": "30%"
     }
   },
-  "icon#header__section--socialmedia-facebook":{
-    "props":{
-      "id":"iconfacebook",
-      "size":25,
+  "icon#header__section--socialmedia-youtube": {
+    "props": {
+      "id": "icon-youtube",
+      "size": 30,
       "blockClass": "header__socialmedia-icon",
-      "viewBox": "0 0 25 25"
+      "viewBox": "0 0 25 25",
+      "width":"30%"
     }
-    },
-  "icon#header__section--socialmedia-instagram":{
-    "props":{
-      "id":"iconinstagram",
-      "size":25,
+  },
+  "icon#header__section--socialmedia-facebook": {
+    "props": {
+      "id": "icon-facebook",
+      "size": 30,
       "blockClass": "header__socialmedia-icon",
-      "viewBox": "0 0 25 25"
+      "viewBox": "0 0 25 25",
+      "width":"30%"
     }
+  },
+  "icon#header__section--socialmedia-instagram": {
+    "props": {
+      "id": "icon-instagram",
+      "size": 30,
+      "blockClass": "header__socialmedia-icon",
+      "viewBox": "0 0 25 25",
+      "width":"30%"
     }
+  }
 }

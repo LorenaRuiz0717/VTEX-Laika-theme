@@ -17,7 +17,7 @@
       "MinicartIcon": "icon#cart-icon",
       // "MinicartIcon": "",
       "itemCountMode":"total",
-      "quantityDisplay": "always",
+      // "quantityDisplay": "always",
       "customPixelEventName": "pageViem"
     }
   }

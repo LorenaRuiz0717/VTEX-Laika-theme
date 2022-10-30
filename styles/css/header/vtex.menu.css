@@ -21,9 +21,7 @@
 
 .styledLinkContent--menu__department{
     justify-content: flex-start;
-    /* background-color: red; */
     margin-left:10px;
-    /* margin-right: 0px; */
     color: var(--purple-strong);
     font-weight: 600;
 }
@@ -34,14 +32,37 @@
     margin-right: 0px;
 }
 
+
+.-menuItem--department__dog-desktop{
+    background-color: black;
+    width: 180px;
+}
+
+/* .menuItem--department__dog-desktop--isClosed{ */
+    /* width: 80px; */
+    /* background-color: royalblue; */
+/* } */
+
+/* .menuItem--department__dog-desktop--isOpen{ */
+    /* width: 200px; */
+    /* background-color: gold; */
+    /* position:absolute; */
+/* } */
 /* .menuItemInnerDiv--menu__department{
     background-color: green;
 } */
 
-
+/* vtex-menu-32-x-menuItem--department__dog-desktop vtex-menu-2-x-menuItem--isClosed vtex-menu-2-x-menuItem--department__dog-desktop--isClosed" */
 .menuItem--menu__department{
     width: 100px;
 }
 
 
 /* list vtex-menu-2-x-menuItem vtex-menu-2-x-menuItem--menu__department vtex-menu-2-x-menuItem--isClosed vtex-menu-2-x-menuItem--menu__department--isClosed */
+/* vtex-menu-12-x-menuItem--department__dog-desktop--isOpen */
+/* 
+.menuItem--department__dog-desktop{
+    position: absolute;
+    width: 200px;
+    background-color: red;
+} */

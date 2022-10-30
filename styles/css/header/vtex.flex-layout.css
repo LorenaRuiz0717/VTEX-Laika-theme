@@ -9,11 +9,13 @@
   background-color: var(--white);
   box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
 }
-/* 
+
 .flexRowContent--container__sticky1--header {
   width: 100%;
-  padding: 0 85px;
-} */
+  /* padding: 0 85px; */
+  /* background-color: red; */
+  /* justify-content:space-around  */
+}
 
 .flexRow--container__section--qualitie{
   align-items: center;
@@ -44,4 +46,9 @@
 
 .flexRowContent--container__sticky3--header{
   padding: 0px 85px 0px 85px;
+}
+
+.flexRowContent--header__section--contact{
+  justify-content: center;
+  margin-left: 80px;
 }
