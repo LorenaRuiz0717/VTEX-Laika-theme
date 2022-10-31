@@ -85,9 +85,9 @@
     "blocks": ["submenu.accordion#header__submenu--dog-food"]
   },
   "submenu.accordion#header__submenu--dog-food": {
-    "children": ["menu#category__itemsdog--food"]
+    "children": ["menu#category__itemsdog--food-desktop"]
   },  
-  "menu#category__itemsdog--food":{
+  "menu#category__itemsdog--food-desktop":{
     "title": "header submenu item dog-food",
     "children": [
       "menu-item#category__dog--food-purinedogs",
@@ -193,9 +193,9 @@
   },
   "submenu.accordion#header__submenu--dog--snacks": {
     "title": "header submenu item dog-snacks",
-    "children":  ["menu#category__itemsdog--snacks"]
+    "children":  ["menu#category__itemsdog--snacks-desktop"]
   },
-  "menu#category__itemsdog--snacks":{
+  "menu#category__itemsdog--snacks-desktop":{
     "title": "header submenu item dog-snacks",
     "children": [
       "menu-item#category__dog--food-dog--brownies",
@@ -285,9 +285,9 @@
   },
   "submenu.accordion#header__submenu--dog--halloween": {
     "title": "header submenu item dog-halloween",
-    "children":  ["menu#category__itemsdog--halloween"]
+    "children":  ["menu#category__itemsdog--halloween-desktop"]
   },
-  "menu#category__itemsdog--halloween": {
+  "menu#category__itemsdog--halloween-desktop": {
     "title": "header submenu item dog-halloween",
     "children": [
       "menu-item#category__dog--halloween-dog-halloween",
@@ -363,9 +363,9 @@
   },
   "submenu.accordion#header__submenu--dog--farmapet": {
     "title": "header submenu item dog-farmapet",
-    "children":  ["menu#category__itemsdog--farmapet"]
+    "children":  ["menu#category__itemsdog--farmapet-desktop"]
   },
-  "menu#category__itemsdog--farmapet": {
+  "menu#category__itemsdog--farmapet-desktop": {
     "title": "header submenu item dog-farmapet",
     "children": [
       "menu-item#category__dog--farmapet-dog-antiparasitic",
@@ -640,9 +640,9 @@
   },
   "submenu.accordion#header__submenu--dog--careHygiene": {
     "title": "header submenu item dog-careHygiene",
-    "children":  ["menu#category__itemsdog--careHygiene"]
+    "children":  ["menu#category__itemsdog--careHygiene-desktop"]
   },
-  "menu#category__itemsdog--careHygiene": {
+  "menu#category__itemsdog--careHygiene-desktop": {
     "title": "header submenu item dog-careHygiene",
     "children": [
       "menu-item#category__dog--careHygiene-dog-hygiene",
@@ -1121,7 +1121,7 @@
   //*************************** "menu-item#category__dog--petLovers" *******************************//
   
   
-  "menu-item#category__dog--petLovers": {
+  "menu-item#category__dog--petLovers-desktop": {
     "props": {
       "id": "menu-item#dog--petLovers",
       "type": "custom",
