@@ -52,3 +52,14 @@
   justify-content: center;
   margin-left: 80px;
 }
+
+.flexCol--submenu__container--dog-menu-item-desktop{
+  width: 200px;
+}
+
+.flexColChild--submenu__container--dog-menu-item-desktop{
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
