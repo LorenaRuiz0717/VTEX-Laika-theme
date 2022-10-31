@@ -10,3 +10,7 @@
  .imageElement--categories--image-mobile{
 width: 20%;
 }
+
+.container--header__section--email{
+  margin-left: 20px;
+}

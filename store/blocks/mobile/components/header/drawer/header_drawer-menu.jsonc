@@ -4,7 +4,7 @@
     "children": ["menu#header__menu--mobile"],
     "props":{
       "blockClass":"header__menudrawer--mobile",
-      "maxWidth":500
+      "maxWidth":600
     }
   },
   "menu#header__menu--mobile": {
@@ -40,8 +40,8 @@
       "border":"bottom",
       "paddingTop":3,
       "paddingBottom":3,
-      "borderColor":"gray",
-      "fullWidth":true
+      "borderColor":"gray"
+      // "fullWidth":true
     }
   },
   "image#header__menuitem--dog-mobile": {

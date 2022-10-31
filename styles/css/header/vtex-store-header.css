@@ -1,10 +1,10 @@
-.headerRowContentContainer--header__mobile--search{
+/* .headerRowContentContainer--header__mobile--search{
     background-color: red;
-  }
+  } */
 
-  .headerRowBackground--header__mobile--search{
+  /* .headerRowBackground--header__mobile--search{
     background-color: black;
-  }
+  } */
   
   .headerRowContentContainer--header__mobile--search{
     background-color: var(--purple-strong);
@@ -15,6 +15,6 @@
     background-color: var(--purple-strong);
   }
   
-  .headerStickyRow--header__mobile--search{
-    background-color: red;
-  }
+
+
+  

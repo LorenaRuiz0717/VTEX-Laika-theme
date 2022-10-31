@@ -25,14 +25,13 @@
       "blockClass": "container__sticky2--header"
     }
   },
-  "flex-layout.col#header__section--logo":{
-    "children": [
-      "logo#header__section--logo"
-    ] ,"props": {
+  "flex-layout.col#header__section--logo": {
+    "children": ["logo#header__section--logo"],
+    "props": {
       "blockClass": "header__container--logo",
-      "width":"10%"
+      "width": "10%"
     }
-    },
+  },
   "logo#header__section--logo": {
     "title": "logo",
     "props": {
@@ -45,9 +44,9 @@
   "flex-layout.col#header__section--search":{
     "children": [
       "search-bar#header__section--search"
-    ] ,"props": {
+    ],"props": {
       // "blockClass": "header__container--logo",
-      "width":"50%"
+      "width": "50%"
     }
   },
   "search-bar#header__section--search": {
@@ -62,19 +61,15 @@
     "blocks": ["product-summary"]
   },
   "flex-layout.col#header__section--address": {
-    "children": [
-      "modal-trigger#header__section--address"
-    ],"props": {
-      // "blockClass": "header__container--logo",
-      "width":"20%",
-      "paddingLeft":20,
-      "paddingRight":20
+    "children": ["modal-trigger#header__section--address"],
+    "props": {      // "blockClass": "header__container--logo",
+      "width": "20%",
+      "paddingLeft": 20,
+      "paddingRight": 20
     }
   },
   "modal-trigger#header__section--address": {
-    "children": [
-      "rich-text#header__add--address"
-    ]
+    "children": ["rich-text#header__add--address"]
   },
   "rich-text#header__add--address": {
     "props": {
@@ -94,15 +89,32 @@
   },
   "modal-trigger#header__section--login": {
     "children": [
+      // "flex-layout.col#header__section--login",
       "rich-text#header__section--login",
+      // "icon#header__login--arrow",
       "modal-layout#header__section--login"
     ]
   },
+  // "flex-layout.col#header__section--login": {
+  //   "children": [
+  //     "rich-text#header__section--login",
+  //     "icon#header__login--arrow"
+  //   ]
+  // },
   "rich-text#header__section--login": {
     "props": {
       "text": "Crear cuenta",
       "blockClass": "header__section--text-login",
       "font": "t-heading-3"
+    }
+  },
+  "icon#header__login--arrow": {
+    "props": {
+      "id": "icon-arrow",
+      "size": 30,
+      // "blockClass": "header__socialmedia-icon",
+      "viewBox": "0 0 25 25"
+      // "width": "30%"
     }
   },
   "modal-layout#header__section--login": {
