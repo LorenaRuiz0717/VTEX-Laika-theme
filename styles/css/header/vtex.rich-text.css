@@ -1,4 +1,3 @@
-
 .paragraph--header__section--phone,
 .paragraph--header__section--email,
 .paragraph--header__section--text-address,
@@ -7,13 +6,13 @@
   font-size: 12px;
 }
 
-.paragraph--header__section--qualitie{
+.paragraph--header__section--qualitie {
   font-size: 12px;
-  color:white;
+  color: white;
   margin-left: 5px;
 }
 
-.container--header_hr{
+.container--header_hr {
   background-color: white;
   height: 16px;
   align-items: center;
@@ -21,21 +20,22 @@
   margin-top: 15px;
 }
 
-.paragraph--header__section--text-address{
+.container--header__menu-items_hr {
+  background-color: black;
+  height: 2px;
+  margin: 5px 0px;
+}
+
+.paragraph--header__section--text-address {
   margin: 20px 0px 0px 50px;
 }
 
-/* .paragraph--header__section--text-login{
-  margin: 20px 0px 0px 0px;
-} */
-
-.paragraph--header__section--email{
+.paragraph--header__section--email {
   margin-left: 20px;
 }
 
-.paragraph--header__section--text-login{
-  background-color:var(--purple-bold-strong);
+.paragraph--header__section--text-login {
+  background-color: var(--purple-bold-strong);
   border-radius: 5px;
   padding: 10px;
 }
-

@@ -41,10 +41,9 @@
     }
   },
 
-  "flex-layout.col#header__section--search":{
-    "children": [
-      "search-bar#header__section--search"
-    ],"props": {
+  "flex-layout.col#header__section--search": {
+    "children": ["search-bar#header__section--search"],
+    "props": {
       // "blockClass": "header__container--logo",
       "width": "50%"
     }
@@ -62,7 +61,8 @@
   },
   "flex-layout.col#header__section--address": {
     "children": ["modal-trigger#header__section--address"],
-    "props": {      // "blockClass": "header__container--logo",
+    "props": {
+      // "blockClass": "header__container--logo",
       "width": "20%",
       "paddingLeft": 20,
       "paddingRight": 20
@@ -95,12 +95,6 @@
       "modal-layout#header__section--login"
     ]
   },
-  // "flex-layout.col#header__section--login": {
-  //   "children": [
-  //     "rich-text#header__section--login",
-  //     "icon#header__login--arrow"
-  //   ]
-  // },
   "rich-text#header__section--login": {
     "props": {
       "text": "Crear cuenta",

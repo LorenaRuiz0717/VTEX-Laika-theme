@@ -1,19 +1,19 @@
 //*************************** "header-layout.desktop" *******************************//
 {
-    "header-layout.desktop": {
+  "header-layout.desktop": {
     "title": "header desktop",
     "children": ["sticky-layout.stack-container#header__desktop"]
   },
   "sticky-layout.stack-container#header__desktop": {
-    "title":"header desktop",
+    "title": "header desktop",
     "props": {
       "position": "top",
-      "blockClass":"header__desktop"
+      "blockClass": "header__desktop"
     },
     "children": [
       "sticky-layout#1header__desktop",
       "sticky-layout#2header__desktop",
       "sticky-layout#3header__desktop"
     ]
-  } 
+  }
 }

@@ -1,20 +1,18 @@
 {
-    "sticky-layout#3header__desktop": {
-      "title": "Header sticky 3",
-        "children": ["flex-layout.row#bottom__header--desktop"] ,
-        "props": {
-          "fullWidth": true,
-          "blockClass": "header__sticky3--header"
-        }
-      },
-//*************************** "header-row#bottom__header--desktop" *******************************//
+  "sticky-layout#3header__desktop": {
+    "title": "Header sticky 3",
+    "children": ["flex-layout.row#bottom__header--desktop"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "header__sticky3--header"
+    }
+  },
+  //*************************** "header-row#bottom__header--desktop" *******************************//
 
-"flex-layout.row#bottom__header--desktop": {
+  "flex-layout.row#bottom__header--desktop": {
     "title": "Header container menu sticky 3",
-    "children": [
-     "menu#header__menu--desktop"
-    ], 
-    "props":{
+    "children": ["menu#header__menu--desktop"],
+    "props": {
       "blockClass": "container__sticky3--header"
     }
   },
@@ -34,127 +32,40 @@
       "flex-layout.row#header__container--buttons"
     ],
     "props": {
-      "blockClass":"header__menu--sticky3"
+      "blockClass": "header__menu--sticky3"
     }
   },
-//   "flex-layout.row#header__menuitem--dog-desktop":{
-// "children":[
-//   "image#header__menuitem--dog",
-//   "menu-item#department__dog",
-// ]
-//   },
   "flex-layout.row#header__container--buttons": {
     "children": [
       "image#header__button--item-vetcare",
       "image#header__button--item-member"
-    ], 
-    "props":{
+    ],
+    "props": {
       "blockClass": "header__container--buttons"
     }
   },
-//*************************** "deparment__dog" *******************************//
-"image#header__menuitem--dog": {
-  "props": {
-    "src": "assets/img/icons-menu/icon-dog.avif",
-    "maxWidth": 85,
-    "maxHeight":85,
-    "blockClass":"categories--image"
-      
-  }
-},
-// "menu-item#department__dog": {
-//     "props": {
-//       "id": "deparment__dog",
-//       "type": "custom",
-//       "blockClass":"menu__department",
-//       "maxWidth":"20",
-//       // "onMountBehavior":"open",
-//       "itemProps": {
-//         "type": "internal",
-//         "href": "#/categorydog",
-//         "noFollow": false,
-//         "tagTitle": "Perros",
-//         "text": "Perros"
-//       }
-//     },
-//     "blocks":["submenu.accordion#department__dog"]
-//   },
-//   "submenu.accordion#department__dog":{
-//     "children":[
-//       "menu#category__dog"
-//     ],
-//     "props":{
-//             "onMountBehavior": "open"
-//     }
-//   },
-//   //*************************** "menu-item#category__dog" *******************************//
-//   "menu#category__dog":{
-//   "children":[
-//     "menu-item#category__dog--food"
-//     // "menu-item#category__dog--snacks",
-//     // "menu-item#category__dog--halloween",
-//     // "menu-item#category__dog--farmapet",
-//     // "menu-item#category__dog--careHygiene",
-//     // "menu-item#category__dog--toys",
-//     // "menu-item#category__dog--accessories",
-//     // "menu-item#category__dog--petLovers"
-//   ],
-//   "props": {
-//     "orientation": "vertical"
-//   }
-//   },
-//   //*************************** "menu-item#category__dog--food" *******************************//
-//   "menu-item#category__dog--food":{
-//     "props": {
-//       "id": "menu-item#dog--food",
-//       "type": "custom",
-//       "blockClass":"menu__item",
-//       "itemProps": {
-//         "type": "internal",
-//         "href": "#/dog-food",
-//         "noFollow": false,
-//         "tagTitle": "Alimento",
-//         "text": "Alimento"
-//       }
-//     },
-//     "blocks":["submenu.accordion#header__submenu--dog-food"]
-//   },
-//   "submenu.accordion#header__submenu--dog-food":{
-//     "children": [
-//       "menu-item#category__dog--food-concentrado"
-//       // "menu-item#category__dog--food-humedo",
-//       // "menu-item#category__dog--food-dietaNatural"
-//   ]
-//   },
-//   "menu-item#category__dog--food-concentrado": {
-//     "props": {
-//       "id": "deparment__dog",
-//       "type": "custom",
-//       "blockClass":"menu__item",
-//       "orientation":"vertical",
-//       "itemProps": {
-//         "type": "internal",
-//         "href": "#/categorydog",
-//         "noFollow": false,
-//         "tagTitle": "Perros",
-//         "text": "Concentrados"
-//       }
-//     }
-//   },
+  //*************************** "deparment__dog" *******************************//
+  "image#header__menuitem--dog": {
+    "props": {
+      "src": "assets/img/icons-menu/icon-dog.avif",
+      "maxWidth": 85,
+      "maxHeight": 85,
+      "blockClass": "categories--image"
+    }
+  },
   "image#header__menuitem--cat": {
     "props": {
       "src": "assets/img/icons-menu/icon-cat.avif",
       "maxWidth": 85,
-      "maxHeight":85,
-      "blockClass":"categories--image"
+      "maxHeight": 85,
+      "blockClass": "categories--image"
     }
   },
   "menu-item#department__cat": {
     "props": {
       "id": "deparment__cat",
       "type": "custom",
-      "blockClass":"menu__department",
-      // "onMountBehavior":"open",
+      "blockClass": "menu__department",
       "itemProps": {
         "type": "internal",
         "href": "#/categorydog",
@@ -163,30 +74,29 @@
         "text": "Gato"
       }
     }
-    // "blocks":["submenu.accordion#department__cat"]
   },
 
-  
   "image#header__button--item-vetcare": {
     "props": {
       "src": "assets/img/vetcare_logo.webp",
       "maxWidth": 160,
-      "maxHeight":35,
-      "blockClass":"header__button--item"
+      "maxHeight": 35,
+      "blockClass": "header__button--item"
     }
   },
   "image#header__button--item-member": {
     "props": {
       "src": "assets/img/membership_logo.webp",
       "maxWidth": 160,
-      "maxHeight":35,
-      "blockClass":"header__button--item"
+      "maxHeight": 35,
+      "blockClass": "header__button--item"
     }
-  },  "menu-item#category__blog": {
+  },
+  "menu-item#category__blog": {
     "props": {
       "id": "menu-item#blog",
       "type": "custom",
-      "blockClass":"menu__item",
+      "blockClass": "menu__item",
       "itemProps": {
         "type": "internal",
         "href": "#/categoryblog",
@@ -197,76 +107,19 @@
     }
   },
 
-  "menu-item#category__services":{
-    // "children":[
-
-    // ]
-  "props": {
-    "id": "deparment__dog",
-    "type": "custom",
-    "blockClass":"menu__department",
-    "maxWidth":"20",
-    // "onMountBehavior":"open",
-    "itemProps": {
-      "type": "internal",
-      "href": "#/categorydog",
-      "noFollow": false,
-      "tagTitle": "Perros",
-      "text": "Servicios"
+  "menu-item#category__services": {
+    "props": {
+      "id": "deparment__dog",
+      "type": "custom",
+      "blockClass": "menu__department",
+      "maxWidth": "20",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/categorydog",
+        "noFollow": false,
+        "tagTitle": "Perros",
+        "text": "Servicios"
+      }
     }
   }
 }
-}
-  // "vtex.menu@2.x:menu#header__menu": {
-  //   "props": {
-  //     "items": [
-  //       {
-  //         "id": "menu-item#dog",
-  //         "type": "custom",
-  //         "itemProps": {
-  //           "type": "internal",
-  //           "href": "#/categorydog",
-  //           "noFollow": false,
-  //           "tagTitle": "Perros",
-  //           "text": "Perros"
-  //         }
-  //       },
-  //       {
-  //         "id": "menu-item#cat",
-  //         "type": "custom",
-  //         "itemProps": {
-  //           "type": "internal",
-  //           "href": "#/categorycat",
-  //           "noFollow": false,
-  //           "tagTitle": "Gatos",
-  //           "text": "Gatos"
-  //         }
-  //       },
-  //       {
-  //         "id": "menu-item#promotions",
-  //         "type": "custom",
-  //         "itemProps": {
-  //           "type": "internal",
-  //           "href": "#/categorypromotions",
-  //           "noFollow": false,
-  //           "tagTitle": "Promociones",
-  //           "text": "Promociones"
-  //         }
-  //       },
-  //       {
-  //         "id": "menu-item#blog",
-  //         "type": "custom",
-  //         "itemProps": {
-  //           "type": "internal",
-  //           "href": "#/categoryblog",
-  //           "noFollow": false,
-  //           "tagTitle": "Blog",
-  //           "text": "Blog"
-  //         }
-  //       }
-  //     ]
-  //   }
-  // }
-
-    
-// }

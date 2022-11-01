@@ -1,15 +1,16 @@
 {
   "flex-layout.row#home__section--contaniner-gridbrands": {
+    "title": "home__section--contaniner-gridbrands",
     "children": [
       "flex-layout.row#contaniner-gridbrands-row-top",
       "flex-layout.row#contaniner-gridbrands-row-bottom"
     ],
     "props": {
-      "title": "container__grid--brands",
       "blockClass": "home__section--contaniner-gridbrands"
     }
   },
   "flex-layout.row#contaniner-gridbrands-row-top": {
+    "title": "contaniner-gridbrands-row-top",
     "children": [
       "flex-layout.col#contaniner-gridbrands-top-firtsColumn",
       "flex-layout.col#contaniner-gridbrands-top-secondColumn",
@@ -21,6 +22,7 @@
     }
   },
   "flex-layout.row#contaniner-gridbrands-row-bottom": {
+    "title": "contaniner-gridbrands-row-top",
     "children": [
       "flex-layout.col#contaniner-gridbrands-bottom-firtsColumn",
       "flex-layout.col#contaniner-gridbrands-bottom-secondColumn",
@@ -32,15 +34,16 @@
     }
   },
   "flex-layout.col#contaniner-gridbrands-top-firtsColumn": {
+    "title": "container__gridbrands-top-firtsColumn",
     "children": ["image#gridbrands-firtsColumn--top"],
     "props": {
-      "title": "gridbrands-Column",
       "blockClass": "gridbrands-Column",
       "border": "all",
       "horizontalAlign": "center"
     }
   },
   "image#gridbrands-firtsColumn--top": {
+    "title": "image gridbrand-top-firtsColumn",
     "props": {
       "src": "assets/img/brands-products/proplan.avif",
       "maxWidth": 112,
@@ -49,15 +52,16 @@
     }
   },
   "flex-layout.col#contaniner-gridbrands-top-secondColumn": {
+    "title": "container__gridbrands-secondColumn",
     "children": ["image#gridbrands-secondColumn--top"],
     "props": {
-      "title": "gridbrands-Column",
       "blockClass": "gridbrands-Column",
       "border": "all",
       "horizontalAlign": "center"
     }
   },
   "image#gridbrands-secondColumn--top": {
+    "title": "image gridbrand-secondColumn",
     "props": {
       "src": "assets/img/brands-products/besties.avif",
       "maxWidth": 112,
@@ -66,15 +70,16 @@
     }
   },
   "flex-layout.col#contaniner-gridbrands-top-thirdColumn": {
+    "title": "container__gridbrands-thirdColumn",
     "children": ["image#gridbrands-thirdColumn--top"],
     "props": {
-      "title": "gridbrands-Column",
       "blockClass": "gridbrands-Column",
       "border": "all",
       "horizontalAlign": "center"
     }
   },
   "image#gridbrands-thirdColumn--top": {
+    "title": "image gridbrand-thirdColumn",
     "props": {
       "src": "assets/img/brands-products/hills.avif",
       "maxWidth": 112,
@@ -83,15 +88,16 @@
     }
   },
   "flex-layout.col#contaniner-gridbrands-top-fourthColumn": {
+    "title": "container__gridbrands-fourthColumn",
     "children": ["image#gridbrands-fourthColumn--top"],
     "props": {
-      "title": "gridbrands-Column",
       "blockClass": "gridbrands-Column",
       "border": "all",
       "horizontalAlign": "center"
     }
   },
   "image#gridbrands-fourthColumn--top": {
+    "title": "image gridbrand-fourthColumn",
     "props": {
       "src": "assets/img/brands-products/max.avif",
       "maxWidth": 112,
@@ -100,15 +106,16 @@
     }
   },
   "flex-layout.col#contaniner-gridbrands-bottom-firtsColumn": {
+    "title": "container__gridbrands-firtsColumn",
     "children": ["image#gridbrands-firtsColumn--bottom"],
     "props": {
-      "title": "gridbrands-Column",
       "blockClass": "gridbrands-Column",
       "border": "all",
       "horizontalAlign": "center"
     }
   },
   "image#gridbrands-firtsColumn--bottom": {
+    "title": "image gridbrand-firtsColumn",
     "props": {
       "src": "assets/img/brands-products/proplan.avif",
       "maxWidth": 112,
@@ -117,15 +124,16 @@
     }
   },
   "flex-layout.col#contaniner-gridbrands-bottom-secondColumn": {
+    "title": "container__gridbrands-secondColumn",
     "children": ["image#gridbrands-secondColumn--botton"],
     "props": {
-      "title": "gridbrands-Column",
       "blockClass": "gridbrands-Column",
       "border": "all",
       "horizontalAlign": "center"
     }
   },
   "image#gridbrands-secondColumn--botton": {
+    "title": "image gridbrand-secondColumn",
     "props": {
       "src": "assets/img/brands-products/salvaje.avif",
       "maxWidth": 112,
@@ -134,15 +142,16 @@
     }
   },
   "flex-layout.col#contaniner-gridbrands-bottom-thirdColumn": {
+    "title": "container__gridbrands-thirdColumn",
     "children": ["image#gridbrands-thirdColumn--botton"],
     "props": {
-      "title": "gridbrands-Column",
       "blockClass": "gridbrands-Column",
       "border": "all",
       "horizontalAlign": "center"
     }
   },
   "image#gridbrands-thirdColumn--botton": {
+    "title": "image gridbrand-thirdColumn",
     "props": {
       "src": "assets/img/brands-products/equilibrio.avif",
       "maxWidth": 112,
@@ -151,15 +160,16 @@
     }
   },
   "flex-layout.col#contaniner-gridbrands-bottom-fourthColumn": {
+    "title": "container__gridbrands-fourthColumn",
     "children": ["image#gridbrands-fourthColumn--botton"],
     "props": {
-      "title": "gridbrands-Column",
       "blockClass": "gridbrands-Column",
       "border": "all",
       "horizontalAlign": "center"
     }
   },
   "image#gridbrands-fourthColumn--botton": {
+    "title": "image gridbrand-fourthColumn",
     "props": {
       "src": "assets/img/brands-products/vitality.avif",
       "maxWidth": 112,
