@@ -20,4 +20,12 @@
 .flexRow--home__section--contaniner-gridbrands{
   margin:50px 116px;
   padding: 16px;
-  }
+}
+
+.flexRowContent--home__section--contaniner-gridbrands{
+  flex-direction: column;
+}
+
+.flexCol--gridbrands-Column{
+  border: 1px solid rgba(204, 204, 204, 0.445)
+}
