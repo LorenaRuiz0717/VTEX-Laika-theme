@@ -48,18 +48,18 @@
 }
 
 .flexCol--header__container-menuitem-desktop {
-  width: 164px;
+  width: 162px;
 }
 
 .flexColChild--header__container-menuitem-desktop {
   padding: 0px 16px;
 }
-.flexCol--header__container-menuitem-desktop-dog-xl {
-  width: 222px;
+.flexCol--header__container-menuitem-desktop-xl {
+  width: 210px;
   /* padding: 6px 0; */
 }
 
-.flexColChild--header__container-menuitem-desktop-dog-xl {
+.flexColChild--header__container-menuitem-desktop-xl {
   margin: -1px 16px;
 }
 

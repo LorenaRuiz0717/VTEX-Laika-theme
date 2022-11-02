@@ -61,21 +61,6 @@
       "blockClass": "categories--image"
     }
   },
-  "menu-item#department__cat": {
-    "props": {
-      "id": "deparment__cat",
-      "type": "custom",
-      "blockClass": "menu__department",
-      "itemProps": {
-        "type": "internal",
-        "href": "#/categorydog",
-        "noFollow": false,
-        "tagTitle": "Cat",
-        "text": "Gato"
-      }
-    }
-  },
-
   "image#header__button--item-vetcare": {
     "props": {
       "src": "assets/img/vetcare_logo.webp",

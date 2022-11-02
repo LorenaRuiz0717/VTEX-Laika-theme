@@ -15,7 +15,7 @@
 
 .styledLinkContent--menu__department {
   justify-content: flex-start;
-  margin-left: 10px;
+  margin: 0px 20px 0px 20px;
   color: var(--purple-strong);
   font-weight: 600;
 }
@@ -25,11 +25,11 @@
   margin-right: 0px;
 }
 
-.styledLinkContent--department__dog-desktop {
+/* .styledLinkContent--department__dog-desktop {
   color: var(--purple-strong);
-}
+} */
 
-.submenuWrapper--submenu__department--dog-desktop {
+.submenuWrapper--submenu__department--desktop {
   padding: 5px 10px;
   margin-left: -30px;
 }

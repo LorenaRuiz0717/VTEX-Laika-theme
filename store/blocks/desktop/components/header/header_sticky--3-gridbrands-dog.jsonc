@@ -42,7 +42,7 @@
   "image#header__gridbrands-firtsColumn": {
     "title": "image header gridbrand-firtsColumn",
     "props": {
-      "src": "assets/img/brands-products/proplan.avif",
+      "src": "assets/img/brands-products/furry.avif",
       "maxHeight": 60,
       "blockClass": "grid-brand-img"
     }
@@ -59,7 +59,7 @@
   "image#header__gridbrands-secondColumn": {
     "title": "image header gridbrand-secondColumn",
     "props": {
-      "src": "assets/img/brands-products/besties.avif",
+      "src": "assets/img/brands-products/proplan.avif",
       "maxWidth": 60,
       "maxHeight": 60,
       "blockClass": "grid-brand-img"
@@ -95,7 +95,7 @@
   "image#header__gridbrands-fourthColumn": {
     "title": "image header gridbrand-fourthColumn",
     "props": {
-      "src": "assets/img/brands-products/max.avif",
+      "src": "assets/img/brands-products/besties.avif",
       "maxWidth": 60,
       "maxHeight": 60,
       "blockClass": "grid-brand-img"
@@ -113,7 +113,7 @@
   "image#header__gridbrands-fiveColumn": {
     "title": "image header gridbrand-fiveColumn",
     "props": {
-      "src": "assets/img/brands-products/guamor.avif",
+      "src": "assets/img/brands-products/max.avif",
       "maxWidth": 60,
       "maxHeight": 60,
       "blockClass": "grid-brand-img"
@@ -131,7 +131,7 @@
   "image#header__gridbrands-sixColumn": {
     "title": "image header gridbrand-sixColumn",
     "props": {
-      "src": "assets/img/brands-products/vitality.avif",
+      "src": "assets/img/brands-products/salvaje.avif",
       "maxWidth": 60,
       "maxHeight": 60,
       "blockClass": "grid-brand-img"

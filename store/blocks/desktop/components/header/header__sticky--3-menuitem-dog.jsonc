@@ -5,7 +5,7 @@
     "props": {
       "id": "deparment__dog",
       "type": "custom",
-      "blockClass": "department__dog-desktop",
+      "blockClass": "menu__department",
       "itemProps": {
         "type": "internal",
         "noFollow": false,
@@ -19,7 +19,7 @@
     "title": "header sub menu dog",
     "children": ["flex-layout.col#home__section--contaniner-deparmentdog"],
     "props": {
-      "blockClass": "submenu__department--dog-desktop"
+      "blockClass": "submenu__department--desktop"
     }
   },
   //*************************** "menu-item#category__dog" *******************************//
@@ -30,7 +30,7 @@
       "flex-layout.col#header__contaniner-gridbrands"
     ],
     "props": {
-      "blockClass": "home__section--contaniner-deparmentdog"
+      "blockClass": "home__section--contaniner-deparment"
     }
   },
   "menu#category__dog": {
@@ -46,7 +46,7 @@
     ],
     "props": {
       "orientation": "horizontal",
-      "blockClass": "header__container--department-dog-menuitems-desktop"
+      "blockClass": "header__container--department-menuitems-desktop"
     }
   },
   //*************************** "menu-item#category__dog--food" *******************************//
@@ -313,7 +313,7 @@
     ],
     "props": {
       "width": "100%",
-      "blockClass": "header__container-menuitem-desktop-dog-xl"
+      "blockClass": "header__container-menuitem-desktop-xl"
     }
   },
   "flex-layout.row#header__container--title-dogfarmapet": {
@@ -429,12 +429,12 @@
     "children": [
       "flex-layout.row#header__container--title-dogcareHygiene",
       "rich-text#header__menuitem--hr-dog",
-      "flex-layout.col#header__container--items-careHygiene"
+      "flex-layout.col#header__container--items-dogcareHygiene"
     ],
     "props": {
       "paddingTop": 2,
       "paddingBottom": 2,
-      "blockClass": "header__container-menuitem-desktop-dog-xl",
+      "blockClass": "header__container-menuitem-desktop-xl",
       "width": "100%"
     }
   },
@@ -465,7 +465,7 @@
       "width": "80%"
     }
   },
-  "flex-layout.col#header__container--items-careHygiene": {
+  "flex-layout.col#header__container--items-dogcareHygiene": {
     "title": "header container items dog category care hygiene",
     "children": [
       "link#category__dog--itemdogcareHygiene-one",
@@ -557,7 +557,7 @@
     "props": {
       // "paddingTop": 2,
       // "paddingBottom": 2,
-      "blockClass": "header__container-menuitem-desktop-dog-xl",
+      "blockClass": "header__container-menuitem-desktop-xl",
       "width": "100%"
     }
   },

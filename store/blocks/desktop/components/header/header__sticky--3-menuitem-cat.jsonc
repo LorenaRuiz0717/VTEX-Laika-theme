@@ -1,0 +1,629 @@
+{
+    //*************************** "deparment__cat" *******************************//
+    "menu-item#department__cat": {
+      "title": "header menu item cat",
+      "props": {
+        "id": "deparment__cat",
+        "type": "custom",
+        "blockClass": "menu__department",
+        "itemProps": {
+          "type": "internal",
+          "noFollow": false,
+          "tagTitle": "Category cat",
+          "text": "Gato"
+        }
+      },
+      "blocks": ["submenu#department__cat"]
+    },
+    "submenu#department__cat": {
+      "title": "header sub menu cat",
+      "children": ["flex-layout.col#home__section--contaniner-deparmentcat"],
+      "props": {
+        "blockClass": "submenu__department--desktop"
+      }
+    },
+    //*************************** "menu-item#category__cat" *******************************//
+    "flex-layout.col#home__section--contaniner-deparmentcat": {
+      "title": "header contaniner-deparmentcat",
+      "children": [
+        "menu#category__cat",
+        "flex-layout.col#header__contaniner-gridbrands"
+      ],
+      "props": {
+        "blockClass": "home__section--contaniner-deparment"
+      }
+    },
+    "menu#category__cat": {
+      "title": "header menu items cat",
+      "children": [
+        "flex-layout.col#header__container--menuitem--catfood",
+        "flex-layout.col#header__container--menuitem--catsandbox",
+        "flex-layout.col#header__container--menuitem--catsnacks",
+       
+        "flex-layout.col#header__container--menuitem--catfarmapet",
+        // "flex-layout.col#header__container--menuitem--catfood",
+        "flex-layout.col#header__container--menuitem--catcareHygiene",
+        "flex-layout.col#header__container--menuitem--catmore-department"
+      ],
+      "props": {
+        "orientation": "horizontal",
+        "blockClass": "header__container--department-menuitems-desktop"
+      }
+    },
+    //*************************** "menu-item#category__cat--food" *******************************//
+  
+    "flex-layout.col#header__container--menuitem--catfood": {
+      "title": "header container menu item cat-food",
+      "children": [
+        "flex-layout.row#header__container--title-catfood",
+        "rich-text#header__menuitem--hr-cat",
+        "flex-layout.col#header__container--items-catfood"
+      ],
+      "props": {
+        "paddingTop": 2,
+        "paddingBottom": 2,
+        "blockClass": "header__container-menuitem-desktop",
+        "width": "100%"
+      }
+    },
+    "flex-layout.row#header__container--title-catfood": {
+      "title": "header container menu title cat-food",
+      "children": [
+        "image#header__menuitem--cat--food",
+        "link#category__cat--food"
+      ],
+      "props": {
+        "blockClass": "header__container-menuitem-title-desktop"
+      }
+    },
+    "image#header__menuitem--cat--food": {
+      "title": "header img menu item cat food",
+      "props": {
+        "src": "assets/img/icons-menu/icon-food.png",
+        "maxHeight": 30,
+        "blockClass": "header__menuitem--categories-image"
+      }
+    },
+    "link#category__cat--food": {
+      "title": "header item ccategory cat food",
+      "props": {
+        "href": "/categorycat/catfood/",
+        "label": "Alimento",
+        "blockClass": "header__categories--links-menu-title-desktop",
+        "width": "80%"
+      }
+    },
+    "rich-text#header__menuitem--hr-cat": {
+      "props": {
+        "text": "***",
+        "blockClass": "header__menu-items_hr"
+      }
+    },
+    "flex-layout.col#header__container--items-catfood": {
+      "title": "header container items cat category food",
+      "children": [
+        "link#category__cat--itemfood-one",
+        "link#category__cat--itemfood-two",
+        "link#category__cat--itemfood-three",
+        "link#category__cat--itemfood-four"
+      ],
+      "props": {
+        "blockClass": "container__categories_links--menu-desktop"
+      }
+    },
+    "link#category__cat--itemfood-one": {
+      "title": "header item link cat-purinecats",
+      "props": {
+        "href": "/categorycat/catfood/purinecats",
+        "label": "Concentrado",
+        "blockClass": "categories__links--menu-desktop"
+      }
+    },
+    "link#category__cat--itemfood-two": {
+      "title": "header item link cat-wetfood",
+      "props": {
+        "href": "/categorycat/catfood/wetfood",
+        "label": "Humedo",
+        "blockClass": "categories__links--menu-desktop"
+      }
+    },
+    "link#category__cat--itemfood-three": {
+      "title": "header item link cat-barfdiet",
+      "props": {
+        "href": "/categorycat/catfood/barfdiet",
+        "label": "Dieta Natural",
+        "blockClass": "categories__links--menu-desktop"
+      }
+    },
+    "link#category__cat--itemfood-four": {
+      "title": "header item link cat-seemore",
+      "props": {
+        "href": "/categorycat/catfood",
+        "label": "Ver todo",
+        "blockClass": "categories__links--menu-desktop-seemore"
+      }
+    },
+    //*************************** "menu-item#category__cat--snacks" *******************************//
+    "flex-layout.col#header__container--menuitem--catsnacks": {
+      "title": "header container menu item cat-snacks",
+      "children": [
+        "flex-layout.row#header__container--title-catsnacks",
+        "rich-text#header__menuitem--hr-cat",
+        "flex-layout.col#header__container--items-catsnacks"
+      ],
+      "props": {
+        "paddingTop": 2,
+        "paddingBottom": 2,
+        "blockClass": "header__container-menuitem-desktop",
+        "width": "100%"
+      }
+    },
+    "flex-layout.row#header__container--title-catsnacks": {
+      "title": "header container menu title catsnacks",
+      "children": [
+        "image#header__menuitem--cat--snacks",
+        "link#category__cat--catsnacks"
+      ],
+      "props": {
+        "blockClass": "header__container-menuitem-title-desktop"
+      }
+    },
+    "image#header__menuitem--cat--snacks": {
+      "title": "header img menu item cat snacks",
+      "props": {
+        "src": "assets/img/icons-menu/icon-snacks.png",
+        "maxHeight": 30,
+        "blockClass": "header__menuitem--categories-image"
+      }
+    },
+    "link#category__cat--catsnacks": {
+      "title": "header item category cat snacks",
+      "props": {
+        "href": "/categorycat/catsnacks",
+        "label": "Snacks",
+        "blockClass": "header__categories--links-menu-title-desktop",
+        "width": "80%"
+      }
+    },
+    "rich-text#header__menuitem--hr-cat--snacks": {
+      "props": {
+        "text": "***",
+        "blockClass": "header__menu-items_hr"
+      }
+    },
+    "flex-layout.col#header__container--items-catsnacks": {
+      "title": "header container items cat category snacks",
+      "children": [
+        "link#category__cat--itemcatsnacks-one",
+        // "link#category__cat--itemcatsnacks-two",
+        "link#category__cat--itemcatsnacks-three",
+        "link#category__cat--itemcatsnacks-four"
+      ],
+      "props": {
+        "blockClass": "container__categories_links--menu-desktop"
+      }
+    },
+    "link#category__cat--itemcatsnacks-one": {
+      "title": "header menu item cat-brownies",
+      "props": {
+        "href": "/categorycat/catsnacks/brownies",
+        "label": "Brownies y otros",
+        "blockClass": "categories__links--menu-desktop"
+      }
+    },
+    // "link#category__cat--itemcatsnacks-two": {
+    //   "title": "header menu item cat-bonesmeat",
+    //   "props": {
+    //     "href": "/categorycat/catsnacks/bonesmeat",
+    //     "label": "Huesos y carnaza",
+    //     "blockClass": "categories__links--menu-desktop"
+    //   }
+    // },
+    "link#category__cat--itemcatsnacks-three": {
+      "title": "header menu item cat-cookies",
+      "props": {
+        "href": "/categorycat/catsnacks/cookies",
+        "label": "Galletas y Snacks",
+        "blockClass": "categories__links--menu-desktop"
+      }
+    },
+    "link#category__cat--itemcatsnacks-four": {
+      "title": "header item link cat-snacks-seemore",
+      "props": {
+        "href": "/categorycat/catsnacks",
+        "label": "Ver todo",
+        "blockClass": "categories__links--menu-desktop-seemore"
+      }
+    },
+    //*************************** "menu-item#category__cat--sandbox" *******************************//
+    "flex-layout.col#header__container--menuitem--catsandbox": {
+      "title": "header container menu item cat-sandbox",
+      "children": [
+        "flex-layout.row#header__container--title-catsandbox",
+        "rich-text#header__menuitem--hr-cat",
+        "flex-layout.col#header__container--items-catsandbox"
+      ],
+      "props": {
+        "paddingTop": 2,
+        "paddingBottom": 2,
+        "blockClass": "header__container-menuitem-desktop",
+        "width": "100%"
+      }
+    },
+    "flex-layout.row#header__container--title-catsandbox": {
+      "title": "header container menu title cat-food",
+      "children": [
+        "image#header__menuitem--cat--sandbox",
+        "link#category__cat--catsandbox"
+      ],
+      "props": {
+        "blockClass": "header__container-menuitem-title-desktop"
+      }
+    },
+    "image#header__menuitem--cat--sandbox": {
+      "title": "header img menu item cat sandbox",
+      "props": {
+        "src": "assets/img/icons-menu/icon-areneras.png",
+        "maxHeight": 30,
+        "blockClass": "header__menuitem--categories-image"
+      }
+    },
+    "link#category__cat--catsandbox": {
+      "title": "header item category cat sandbox",
+      "props": {
+        "href": "/categorycat/catsandbox",
+        "label": "Arenas",
+        "blockClass": "header__categories--links-menu-title-desktop",
+        "width": "80%"
+      }
+    },
+  
+    "flex-layout.col#header__container--items-catsandbox": {
+      "title": "header container items cat category sandbox",
+      "children": [
+        "link#category__cat--itemcatsandbox-one",
+        "link#category__cat--itemcatsandbox-two"
+      ],
+      "props": {
+        "blockClass": "container__categories_links--menu-desktop"
+      }
+    },
+    "link#category__cat--itemcatsandbox-one": {
+      "title": "header menu item cat-sandbox",
+      "props": {
+        "href": "/categorycat/catsandbox",
+        "label": "Arenas",
+        "blockClass": "categories__links--menu-desktop"
+      }
+    },
+    "link#category__cat--itemcatsandbox-two": {
+      "title": "header item link cat-sandbox-seemore",
+      "props": {
+        "href": "/categorycat/catsandbox",
+        "label": "Ver todo",
+        "blockClass": "categories__links--menu-desktop-seemore"
+      }
+    },
+    //*************************** "menu-item#category__cat--farmapet" *******************************//
+    "flex-layout.col#header__container--menuitem--catfarmapet": {
+      "title": "header container menu item cat-farmapet",
+      "children": [
+        "flex-layout.row#header__container--title-catfarmapet",
+        "rich-text#header__menuitem--hr-cat",
+        "flex-layout.col#header__container--items-catfarmapet"
+      ],
+      "props": {
+        "width": "100%",
+        "blockClass": "header__container-menuitem-desktop-xl"
+      }
+    },
+    "flex-layout.row#header__container--title-catfarmapet": {
+      "title": "header container menu title cat-food",
+      "children": [
+        "image#header__menuitem--cat--farmapet",
+        "link#category__cat--farmapet"
+      ],
+      "props": {
+        "blockClass": "header__container-menuitem-title-desktop"
+      }
+    },
+    "image#header__menuitem--cat--farmapet": {
+      "title": "header img menu item cat farmapet",
+      "props": {
+        "src": "assets/img/icons-menu/icon-farmapet.png",
+        "maxHeight": 30,
+        "blockClass": "header__menuitem--categories-image"
+      }
+    },
+    "link#category__cat--farmapet": {
+      "title": "header item category cat farmapet",
+      "props": {
+        "href": "/categorycat/catfarmapet",
+        "label": "Farmapet",
+        "blockClass": "header__categories--links-menu-title-desktop",
+        "width": "80%"
+      }
+    },
+    "flex-layout.col#header__container--items-catfarmapet": {
+      "title": "header container items cat category farmapet",
+      "children": [
+        "link#category__cat--itemcatfarmapet-one",
+        "link#category__cat--itemcatfarmapet-two",
+        "link#category__cat--itemcatfarmapet-three",
+        "link#category__cat--itemcatfarmapet-four",
+        "link#category__cat--itemcatfarmapet-five",
+        "link#category__cat--itemcatfarmapet-six",
+        "link#category__cat--itemcatfarmapet-seven",
+        "link#category__cat--itemcatfarmapet-eight"
+      ],
+      "props": {
+        "blockClass": "container__categories_links--menu-desktop"
+      }
+    },
+    "link#category__cat--itemcatfarmapet-one": {
+      "title": "header menu item cat-antiparasitic",
+      "props": {
+        "href": "/categorycat/catfarmapet/antiparasitic",
+        "label": "Antiparasitarios",
+        "blockClass": "categories__links--menu-desktop"
+      }
+    },
+    "link#category__cat--itemcatfarmapet-two": {
+      "title": "header menu item cat-supplements",
+      "props": {
+        "href": "/categorycat/catfarmapet/supplements",
+        "label": "Suplementos",
+        "blockClass": "categories__links--menu-desktop"
+      }
+    },
+    "link#category__cat--itemcatfarmapet-three": {
+      "title": "header menu item cat-analgesics",
+      "props": {
+        "href": "/categorycat/catfarmapet/analgesics",
+        "label": "Analgesicos",
+        "blockClass": "categories__links--menu-desktop"
+      }
+    },
+    "link#category__cat--itemcatfarmapet-four": {
+      "title": "header item link cat-snacks-antibacterial",
+      "props": {
+        "href": "/categorycat/catfarmapet/antibacterial",
+        "label": "Antibacterianos",
+        "blockClass": "categories__links--menu-desktop"
+      }
+    },
+    "link#category__cat--itemcatfarmapet-five": {
+      "title": "header menu item cat-antibiotics",
+      "props": {
+        "href": "/categorycat/catfarmapet/antibiotics",
+        "label": "Antibioticos",
+        "blockClass": "categories__links--menu-desktop"
+      }
+    },
+    "link#category__cat--itemcatfarmapet-six": {
+      "title": "header menu item cat-anti-inflammatories",
+      "props": {
+        "href": "/categorycat/catfarmapet/anti-inflammatories",
+        "label": "Anti Inflamatorios",
+        "blockClass": "categories__links--menu-desktop"
+      }
+    },
+    "link#category__cat--itemcatfarmapet-seven": {
+      "title": "header menu item cat-antifleas",
+      "props": {
+        "href": "/categorycat/catfarmapet/antifleas",
+        "label": "Anti pulgas y Garrapatas",
+        "blockClass": "categories__links--menu-desktop"
+      }
+    },
+    "link#category__cat--itemcatfarmapet-eight": {
+      "title": "header item link cat-seemore",
+      "props": {
+        "href": "/categorycat/catfarmapet",
+        "label": "Ver todo",
+        "blockClass": "categories__links--menu-desktop-seemore"
+      }
+    },
+    //*************************** "menu-item#category__cat--careHygiene" *******************************//
+    "flex-layout.col#header__container--menuitem--catcareHygiene": {
+      "title": "header container menu item cat-careHygiene",
+      "children": [
+        "flex-layout.row#header__container--title-catcareHygiene",
+        "rich-text#header__menuitem--hr-cat",
+        "flex-layout.col#header__container--items-catcareHygiene"
+      ],
+      "props": {
+        "paddingTop": 2,
+        "paddingBottom": 2,
+        "blockClass": "header__container-menuitem-desktop-xl",
+        "width": "100%"
+      }
+    },
+    "flex-layout.row#header__container--title-catcareHygiene": {
+      "title": "header container menu title catcareHygiene",
+      "children": [
+        "image#header__menuitem--cat--careHygiene",
+        "link#category__cat--careHygiene"
+      ],
+      "props": {
+        "blockClass": "header__container-menuitem-title-desktop"
+      }
+    },
+    "image#header__menuitem--cat--careHygiene": {
+      "title": "header img menu item cat careHygiene",
+      "props": {
+        "src": "assets/img/icons-menu/icon-higiene.png",
+        "maxHeight": 30,
+        "blockClass": "header__menuitem--categories-image"
+      }
+    },
+    "link#category__cat--careHygiene": {
+      "title": "header item category cat care hygiene",
+      "props": {
+        "href": "/categorycat/careHygiene",
+        "label": "Cuidado e higiene",
+        "blockClass": "header__categories--links-menu-title-desktop",
+        "width": "80%"
+      }
+    },
+    "flex-layout.col#header__container--items-catcareHygiene": {
+      "title": "header container items cat category care hygiene",
+      "children": [
+        "link#category__cat--itemcatcareHygiene-one",
+        "link#category__cat--itemcatcareHygiene-two",
+        "link#category__cat--itemcatcareHygiene-three",
+        "link#category__cat--itemcatcareHygiene-four",
+        "link#category__cat--itemcatcareHygiene-five",
+        "link#category__cat--itemcatcareHygiene-six",
+        "link#category__cat--itemcatcareHygiene-seven",
+        "link#category__cat--itemcatcareHygiene-eight"
+      ],
+      "props": {
+        "blockClass": "container__categories_links--menu-desktop"
+      }
+    },
+    "link#category__cat--itemcatcareHygiene-one": {
+      "title": "header menu item cat-hygiene",
+      "props": {
+        "href": "/categorycat/careHygiene/hygiene",
+        "label": "Higiene",
+        "blockClass": "categories__links--menu-desktop"
+      }
+    },
+    "link#category__cat--itemcatcareHygiene-two": {
+      "title": "header menu item cat-diapersMaps",
+      "props": {
+        "href": "/categorycat/careHygiene/diapersMaps",
+        "label": "Pañales y tapetes",
+        "blockClass": "categories__links--menu-desktop"
+      }
+    },
+    "link#category__cat--itemcatcareHygiene-three": {
+      "title": "header menu item cat-brushes",
+      "props": {
+        "href": "/categorycat/careHygiene/brushes",
+        "label": "Cepillos",
+        "blockClass": "categories__links--menu-desktop"
+      }
+    },
+    "link#category__cat--itemcatcareHygiene-four": {
+      "title": "header item link cat-nail clipper",
+      "props": {
+        "href": "/categorycat/careHygiene/nailClipper",
+        "label": "Corta uñas",
+        "blockClass": "categories__links--menu-desktop"
+      }
+    },
+    "link#category__cat--itemcatcareHygiene-five": {
+      "title": "header menu item cat-homeCare",
+      "props": {
+        "href": "/categorycat/careHygiene/homeCare",
+        "label": "Cuidado hogar",
+        "blockClass": "categories__links--menu-desktop"
+      }
+    },
+    "link#category__cat--itemcatcareHygiene-six": {
+      "title": "header menu item cat-oralCare",
+      "props": {
+        "href": "/categorycat/careHygiene/oralCare",
+        "label": "Cuidado oral",
+        "blockClass": "categories__links--menu-desktop"
+      }
+    },
+    "link#category__cat--itemcatcareHygiene-seven": {
+      "title": "header menu item cat-protectors",
+      "props": {
+        "href": "/categorycat/careHygiene/protectors",
+        "label": "Protectores",
+        "blockClass": "categories__links--menu-desktop"
+      }
+    },
+    "link#category__cat--itemcatcareHygiene-eight": {
+      "title": "header item link cat-seemore",
+      "props": {
+        "href": "/categorycat/catcareHygiene/careHygiene",
+        "label": "Ver todo",
+        "blockClass": "categories__links--menu-desktop-seemore"
+      }
+    },
+    //*************************** "menu-item#category__cat--more-deparment" *******************************//
+    "flex-layout.col#header__container--menuitem--catmore-department": {
+      "title": "header container menu item cat more department",
+      "children": [
+        "rich-text#category__cat--food-seemore-title",
+        "rich-text#header__menuitem--hr-cat",
+        "flex-layout.row#header__container--menuitem--cattoys",
+        "flex-layout.row#header__container--menuitem--cataccessories"
+      ],
+      "props": {
+        // "paddingTop": 2,
+        // "paddingBottom": 2,
+        "blockClass": "header__container-menuitem-desktop-xl",
+        "width": "100%"
+      }
+    },
+  
+    "rich-text#category__cat--food-seemore-title": {
+      "props": {
+        "text": "Mas categorias",
+        "blockClass": "header__categories--links-menu-title-desktop"
+      }
+    },
+    //*************************** "menu-item#category__cat--toys" *******************************//
+    "flex-layout.row#header__container--menuitem--cattoys": {
+      "children": [
+        "image#header__menuitem--cat--toys",
+        "link#category__cat--toys"
+      ],
+      "props": {
+        "paddingTop": 2,
+        "paddingBottom": 2,
+        "blockClass": "header__container--cat-menu-title-desktop"
+      }
+    },
+    "image#header__menuitem--cat--toys": {
+      "props": {
+        "src": "assets/img/icons-menu/icon-juguetes.png",
+        "maxHeight": 30,
+        "blockClass": "header__menuitem--categories-image"
+      }
+    },
+    "link#category__cat--toys": {
+      "title": "header item category cat toys",
+      "props": {
+        "href": "/categorycat/cattoys",
+        "label": "Juguetes",
+        "blockClass": "categories__title--links-menu-desktop",
+        "width": "80%"
+      }
+    },
+    //*************************** "menu-item#category__cat--accessories" *******************************//
+    "flex-layout.row#header__container--menuitem--cataccessories": {
+      "children": [
+        "image#header__menuitem--cat--accessories",
+        "link#category__cat--accessories"
+      ],
+      "props": {
+        "paddingTop": 2,
+        "paddingBottom": 2,
+        "blockClass": "header__container-menuitem-desktop",
+        "width": "100%"
+      }
+    },
+    "image#header__menuitem--cat--accessories": {
+      "props": {
+        "src": "assets/img/icons-menu/icon-accesorios.png",
+        "maxHeight": 30,
+        "blockClass": "header__menuitem--categories-image"
+      }
+    },
+    "link#category__cat--accessories": {
+      "title": "header item category cat accessories",
+      "props": {
+        "href": "/categorycat/cat accessories",
+        "label": "Accesorios",
+        "blockClass": "categories__title--links-menu-desktop",
+        "width": "80%"
+      }
+    }
+  }
