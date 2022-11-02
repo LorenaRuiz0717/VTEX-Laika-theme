@@ -21,8 +21,8 @@
 }
 
 .container--header__menu-items_hr {
-  background-color: black;
-  height: 2px;
+  background-color: var(--light-grey);
+  height: 1px;
   margin: 5px 0px;
 }
 
@@ -38,4 +38,10 @@
   background-color: var(--purple-bold-strong);
   border-radius: 5px;
   padding: 10px;
+}
+
+.paragraph--header__categories--links-menu-title-desktop{
+  margin: 5px;
+  color: blue;
+  font-weight: 600;
 }

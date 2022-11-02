@@ -48,12 +48,19 @@
 }
 
 .flexCol--header__container-menuitem-desktop {
-  width: 200px;
-  padding: 12px;
+  width: 164px;
 }
 
 .flexColChild--header__container-menuitem-desktop {
-  padding: 0px 20px;
+  padding: 0px 16px;
+}
+.flexCol--header__container-menuitem-desktop-dog-xl {
+  width: 222px;
+  /* padding: 6px 0; */
+}
+
+.flexColChild--header__container-menuitem-desktop-dog-xl {
+  margin: -1px 16px;
 }
 
 .flexCol--header__gridbrands-Column {
@@ -71,7 +78,6 @@
 }
 
 .flexCol--contaniner__department--dog-menu-items-desktop {
-  background-color: red;
   padding: 25px 15px 0px 15px;
 }
 
@@ -81,5 +87,7 @@
 }
 
 .flexColChild--container__categories_links--menu-desktop {
-  margin: 5px;
+  /* margin: 5px; */
+  padding: 4px 15px;
 }
+

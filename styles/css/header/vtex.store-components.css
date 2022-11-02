@@ -1,16 +1,15 @@
-.headerRowContentContainer--header__mobile--search{
-    background-color: var(--purple-strong);
-  }
-  
-
-  .headerRow--2headermobile__mobile{
-    background-color: var(--purple-strong);
-  }
-
- .imageElement--categories--image-mobile{
-width: 20%;
+.headerRowContentContainer--header__mobile--search {
+  background-color: var(--purple-strong);
 }
 
-.container--header__section--email{
+.headerRow--2headermobile__mobile {
+  background-color: var(--purple-strong);
+}
+
+.imageElement--categories--image-mobile {
+  width: 20%;
+}
+
+.container--header__section--email {
   margin-left: 20px;
 }

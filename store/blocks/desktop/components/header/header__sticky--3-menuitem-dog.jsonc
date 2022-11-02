@@ -27,7 +27,7 @@
     "title": "header contaniner-deparmentdog",
     "children": [
       "menu#category__dog",
-      "flex-layout.row#header__contaniner-gridbrands"
+      "flex-layout.col#header__contaniner-gridbrands"
     ],
     "props": {
       "blockClass": "home__section--contaniner-deparmentdog"
@@ -40,6 +40,7 @@
       "flex-layout.col#header__container--menuitem--dogsnacks",
       "flex-layout.col#header__container--menuitem--doghalloween",
       "flex-layout.col#header__container--menuitem--dogfarmapet",
+      // "flex-layout.col#header__container--menuitem--dogfood",
       "flex-layout.col#header__container--menuitem--dogcareHygiene",
       "flex-layout.col#header__container--menuitem--dogmore-department"
     ],
@@ -88,7 +89,7 @@
       "href": "/categorydog/dogfood/",
       "label": "Alimento",
       "blockClass": "header__categories--links-menu-title-desktop",
-      "height": "80%"
+      "width": "80%"
     }
   },
   "rich-text#header__menuitem--hr-dog": {
@@ -138,7 +139,7 @@
     "props": {
       "href": "/categorydog/dogfood",
       "label": "Ver todo",
-      "blockClass": "categories__links--menu-desktop"
+      "blockClass": "categories__links--menu-desktop-seemore"
     }
   },
   //*************************** "menu-item#category__dog--snacks" *******************************//
@@ -146,7 +147,7 @@
     "title": "header container menu item dog-snacks",
     "children": [
       "flex-layout.row#header__container--title-dogsnacks",
-      "rich-text#header__menuitem--hr-dog--snacks",
+      "rich-text#header__menuitem--hr-dog",
       "flex-layout.col#header__container--items-dogsnacks"
     ],
     "props": {
@@ -230,7 +231,7 @@
     "props": {
       "href": "/categorydog/dogsnacks",
       "label": "Ver todo",
-      "blockClass": "categories__links--menu-desktop"
+      "blockClass": "categories__links--menu-desktop-seemore"
     }
   },
   //*************************** "menu-item#category__dog--halloween" *******************************//
@@ -238,13 +239,14 @@
     "title": "header container menu item dog-halloween",
     "children": [
       "flex-layout.row#header__container--title-doghalloween",
+      "rich-text#header__menuitem--hr-dog",
       "flex-layout.col#header__container--items-doghalloween"
     ],
     "props": {
       "paddingTop": 2,
       "paddingBottom": 2,
-      "fullWidth": true,
-      "blockClass": "submenu__container--dog-menu-item-desktop"
+      "blockClass": "header__container-menuitem-desktop",
+      "width": "100%"
     }
   },
   "flex-layout.row#header__container--title-doghalloween": {
@@ -254,17 +256,15 @@
       "link#category__dog--doghalloween"
     ],
     "props": {
-      "width": 60,
-      "blockClass": "header__container--dog-menu-title-desktop"
+      "blockClass": "header__container-menuitem-title-desktop"
     }
   },
   "image#header__menuitem--dog--halloween": {
     "title": "header img menu item dog halloween",
     "props": {
       "src": "assets/img/icons-menu/icon-hallowen.png",
-      // "maxWidth": 30,
       "maxHeight": 30,
-      "blockClass": "categories--image"
+      "blockClass": "header__menuitem--categories-image"
     }
   },
   "link#category__dog--doghalloween": {
@@ -272,9 +272,11 @@
     "props": {
       "href": "/categorydog/doghalloween",
       "label": "Halloween",
-      "blockClass": "categories__links--menu-desktop"
+      "blockClass": "header__categories--links-menu-title-desktop",
+      "width": "80%"
     }
   },
+
   "flex-layout.col#header__container--items-doghalloween": {
     "title": "header container items dog category halloween",
     "children": [
@@ -298,7 +300,7 @@
     "props": {
       "href": "/categorydog/doghalloween",
       "label": "Ver todo",
-      "blockClass": "categories__links--menu-desktop"
+      "blockClass": "categories__links--menu-desktop-seemore"
     }
   },
   //*************************** "menu-item#category__dog--farmapet" *******************************//
@@ -306,13 +308,12 @@
     "title": "header container menu item dog-farmapet",
     "children": [
       "flex-layout.row#header__container--title-dogfarmapet",
+      "rich-text#header__menuitem--hr-dog",
       "flex-layout.col#header__container--items-dogfarmapet"
     ],
     "props": {
-      "paddingTop": 2,
-      "paddingBottom": 2,
-      "fullWidth": true,
-      "blockClass": "submenu__container--dog-menu-item-desktop"
+      "width": "100%",
+      "blockClass": "header__container-menuitem-desktop-dog-xl"
     }
   },
   "flex-layout.row#header__container--title-dogfarmapet": {
@@ -322,26 +323,24 @@
       "link#category__dog--farmapet"
     ],
     "props": {
-      "width": 60,
-      "blockClass": "header__container--dog-menu-title-desktop"
+      "blockClass": "header__container-menuitem-title-desktop"
     }
   },
   "image#header__menuitem--dog--farmapet": {
     "title": "header img menu item dog farmapet",
     "props": {
       "src": "assets/img/icons-menu/icon-farmapet.png",
-      // "maxWidth": 30,
       "maxHeight": 30,
-      "blockClass": "categories--image"
+      "blockClass": "header__menuitem--categories-image"
     }
   },
-
   "link#category__dog--farmapet": {
     "title": "header item category dog farmapet",
     "props": {
       "href": "/categorydog/dogfarmapet",
       "label": "Farmapet",
-      "blockClass": "categories__links--menu-desktop"
+      "blockClass": "header__categories--links-menu-title-desktop",
+      "width": "80%"
     }
   },
   "flex-layout.col#header__container--items-dogfarmapet": {
@@ -353,7 +352,8 @@
       "link#category__dog--itemdogfarmapet-four",
       "link#category__dog--itemdogfarmapet-five",
       "link#category__dog--itemdogfarmapet-six",
-      "link#category__dog--itemdogfarmapet-seven"
+      "link#category__dog--itemdogfarmapet-seven",
+      "link#category__dog--itemdogfarmapet-eight"
     ],
     "props": {
       "blockClass": "container__categories_links--menu-desktop"
@@ -415,18 +415,27 @@
       "blockClass": "categories__links--menu-desktop"
     }
   },
+  "link#category__dog--itemdogfarmapet-eight": {
+    "title": "header item link dog-seemore",
+    "props": {
+      "href": "/categorydog/dogfarmapet",
+      "label": "Ver todo",
+      "blockClass": "categories__links--menu-desktop-seemore"
+    }
+  },
   //*************************** "menu-item#category__dog--careHygiene" *******************************//
   "flex-layout.col#header__container--menuitem--dogcareHygiene": {
     "title": "header container menu item dog-careHygiene",
     "children": [
       "flex-layout.row#header__container--title-dogcareHygiene",
+      "rich-text#header__menuitem--hr-dog",
       "flex-layout.col#header__container--items-careHygiene"
     ],
     "props": {
       "paddingTop": 2,
       "paddingBottom": 2,
-      "fullWidth": true,
-      "blockClass": "submenu__container--dog-menu-item-desktop"
+      "blockClass": "header__container-menuitem-desktop-dog-xl",
+      "width": "100%"
     }
   },
   "flex-layout.row#header__container--title-dogcareHygiene": {
@@ -436,17 +445,15 @@
       "link#category__dog--careHygiene"
     ],
     "props": {
-      "width": 60,
-      "blockClass": "header__container--dog-menu-title-desktop"
+      "blockClass": "header__container-menuitem-title-desktop"
     }
   },
   "image#header__menuitem--dog--careHygiene": {
     "title": "header img menu item dog careHygiene",
     "props": {
       "src": "assets/img/icons-menu/icon-higiene.png",
-      // "maxWidth": 30,
       "maxHeight": 30,
-      "blockClass": "categories--image"
+      "blockClass": "header__menuitem--categories-image"
     }
   },
   "link#category__dog--careHygiene": {
@@ -454,7 +461,8 @@
     "props": {
       "href": "/categorydog/careHygiene",
       "label": "Cuidado e higiene",
-      "blockClass": "categories__links--menu-desktop"
+      "blockClass": "header__categories--links-menu-title-desktop",
+      "width": "80%"
     }
   },
   "flex-layout.col#header__container--items-careHygiene": {
@@ -534,27 +542,30 @@
     "props": {
       "href": "/categorydog/dogcareHygiene/careHygiene",
       "label": "Ver todo",
-      "blockClass": "categories__links--menu-desktop"
+      "blockClass": "categories__links--menu-desktop-seemore"
     }
   },
-
+  //*************************** "menu-item#category__dog--more-deparment" *******************************//
   "flex-layout.col#header__container--menuitem--dogmore-department": {
     "title": "header container menu item dog more department",
     "children": [
       "rich-text#category__dog--food-seemore-title",
+      "rich-text#header__menuitem--hr-dog",
       "flex-layout.row#header__container--menuitem--dogtoys",
       "flex-layout.row#header__container--menuitem--dogaccessories"
     ],
     "props": {
-      "paddingTop": 2,
-      "paddingBottom": 2,
-      "blockClass": "submenu__container--dog-menu-item-desktop"
+      // "paddingTop": 2,
+      // "paddingBottom": 2,
+      "blockClass": "header__container-menuitem-desktop-dog-xl",
+      "width": "100%"
     }
   },
 
   "rich-text#category__dog--food-seemore-title": {
     "props": {
-      "text": "Mas categorias"
+      "text": "Mas categorias",
+      "blockClass": "header__categories--links-menu-title-desktop"
     }
   },
   //*************************** "menu-item#category__dog--toys" *******************************//
@@ -566,15 +577,14 @@
     "props": {
       "paddingTop": 2,
       "paddingBottom": 2,
-      "fullWidth": true
+      "blockClass": "header__container--dog-menu-title-desktop"
     }
   },
   "image#header__menuitem--dog--toys": {
     "props": {
       "src": "assets/img/icons-menu/icon-juguetes.png",
-      // "maxWidth": 30,
       "maxHeight": 30,
-      "blockClass": "categories--image"
+      "blockClass": "header__menuitem--categories-image"
     }
   },
   "link#category__dog--toys": {
@@ -582,7 +592,8 @@
     "props": {
       "href": "/categorydog/dogtoys",
       "label": "Juguetes",
-      "blockClass": "categories__links--menu-desktop"
+      "blockClass": "categories__title--links-menu-desktop",
+      "width": "80%"
     }
   },
   //*************************** "menu-item#category__dog--accessories" *******************************//
@@ -594,15 +605,15 @@
     "props": {
       "paddingTop": 2,
       "paddingBottom": 2,
-      "fullWidth": true
+      "blockClass": "header__container-menuitem-desktop",
+      "width": "100%"
     }
   },
   "image#header__menuitem--dog--accessories": {
     "props": {
       "src": "assets/img/icons-menu/icon-accesorios.png",
-      // "maxWidth": 30,
       "maxHeight": 30,
-      "blockClass": "categories--image"
+      "blockClass": "header__menuitem--categories-image"
     }
   },
   "link#category__dog--accessories": {
@@ -610,7 +621,8 @@
     "props": {
       "href": "/categorydog/dog accessories",
       "label": "Accesorios",
-      "blockClass": "categories__links--menu-desktop"
+      "blockClass": "categories__title--links-menu-desktop",
+      "width": "80%"
     }
   }
 }
