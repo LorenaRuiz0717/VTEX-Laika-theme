@@ -18,44 +18,45 @@
       // "login",
       "flex-layout.col#header__section--cart"
       // "minicart.v2"
-    ]
+    ],
+    "props": {
+      "blockClass": "header__container--sticky1-mobile"
+      }
   },
-  "flex-layout.col#header__section--drawer":{
+  "flex-layout.col#header__section--drawer": {
     "children": ["drawer#header__menu--mobile"],
-    "props":{
+    "props": {
       "blockClass": "header__section--drawer",
-      "width":"10%"
+      "width": "10%"
     }
   },
-      "flex-layout.col#header__section--address-mobile":{
-         "children": ["modal-trigger#header__section--address"],
-          "props":{
-          "blockClass": "header__section--address",
-          "width":"30%"
-        }
-      },
-    
-      "flex-layout.col#header__section--logo-mobile":{
-        "children": ["logo#header__section--logo"],
-        "props":{
-        "blockClass": "header__section--address",
-        "width":"20%"
-      }
+  "flex-layout.col#header__section--address-mobile": {
+    "children": ["modal-trigger#header__section--address"],
+    "props": {
+      "blockClass": "header__section--address",
+      "width": "30%"
+    }
+  },
 
-      },
-      "flex-layout.col#header__section--login":{
-        "children": ["login"],
-        "props":{
-        "blockClass": "header__section--address",
-        "width":"30%"
-      }
-      },
-      "flex-layout.col#header__section--cart":{
-        "children": ["minicart.v2"],
-        "props":{
-        "blockClass": "header__section--address",
-        "width":"10%"
-      }
-      }
-
+  "flex-layout.col#header__section--logo-mobile": {
+    "children": ["logo#header__section--logo"],
+    "props": {
+      "blockClass": "header__section--address",
+      "width": "20%"
+    }
+  },
+  "flex-layout.col#header__section--login": {
+    "children": ["login"],
+    "props": {
+      "blockClass": "header__section--address",
+      "width": "30%"
+    }
+  },
+  "flex-layout.col#header__section--cart": {
+    "children": ["minicart.v2"],
+    "props": {
+      "blockClass": "header__section--address",
+      "width": "10%"    
+    }
+  }
 }

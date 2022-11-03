@@ -91,3 +91,27 @@
   padding: 4px 15px;
 }
 
+.flexRowContent--header__container--sticky1-mobile{
+  display: flex;
+}
+
+.flexRowContent--header__menuitem--drawer{
+  display: flex
+}
+
+.flexRowContent--header__button--item-mobile{
+display: flex;
+width: 80px;
+justify-content: center;
+align-items: center;
+/* margin:12 px auto; */
+}
+
+.flexColChild--header__container--buttons{
+  background-color: red;
+  margin: 8px auto;
+}
+
+/* .flexRow--header__button--item-mobile{
+  width: 50%;
+} */

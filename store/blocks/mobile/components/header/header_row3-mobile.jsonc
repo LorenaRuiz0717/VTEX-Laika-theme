@@ -1,0 +1,100 @@
+{
+  "flex-layout.row#header__container--buttons-mobile": {
+    "children": ["flex-layout.col#header__buttons"],
+    "props": {
+      "blockClass": "header__container--buttons"
+    }
+  },
+  "flex-layout.col#header__buttons": {
+    "children": [
+      "flex-layout.row#header__button--item-deparment",
+      "flex-layout.row#header__button--item-memberslaika"
+    ],
+    "props": {
+      "blockClass": "header__container--buttons"
+    }
+  },
+  "flex-layout.row#header__button--item-deparment": {
+    "children": [
+      "flex-layout.row#header__button--item-dog-mobile",
+      "flex-layout.row#header__button--item-cat-mobile"
+    ]
+    // ,"props":{
+    //   // "width":"100%"
+    //   "horizontalAlign":"center"
+    // }
+  },
+  "flex-layout.row#header__button--item-dog-mobile": {
+    "children": ["link#header__menuitem--dog", "image#header__menuitem--dog"],
+    "props": {
+      // "width": "30%",
+      "blockClass": "header__button--item-mobile",
+      "horizontalAlign": "center"
+    }
+  },
+  "link#header__menuitem--dog": {
+    "title": "header item ccategory cat food",
+    "props": {
+      "href": "/categorycat/catfood/",
+      "label": "Perro",
+      "blockClass": "header__categories--links-menu-title-desktop"
+      // "displayMode":"button",
+      // "buttonProps": {
+      //   "variant": "primary",
+      //   "size": "regular"
+      // }
+    }
+    // "width": "80%"
+  },
+  "rich-text#header__menuitem--dog": {
+    "props": {
+      "text": "Perro"
+    }
+  },
+  "image#header__menuitem--dog": {
+    "props": {
+      "src": "assets/img/icons-menu/icon-dog.avif",
+      "maxWidth": 85,
+      "maxHeight": 85,
+      "blockClass": "categories--image"
+    }
+  },
+  "flex-layout.row#header__button--item-cat-mobile": {
+    "children": ["link#header__menuitem--cat", "image#header__menuitem--cat"],
+    "props": {
+      // "width":"20%"
+      "blockClass": "header__button--item-mobile"
+    }
+  },
+  "link#header__menuitem--cat": {
+    "title": "header item ccategory cat food",
+    "props": {
+      "href": "/categorycat/catfood/",
+      "label": "Gato",
+      "blockClass": "header__categories--links-menu-title-desktop"
+      // "width": "80%"
+    }
+  },
+  "rich-text#header__menuitem--cat": {
+    "props": {
+      "text": "Gato"
+    }
+  },
+  "image#header__menuitem--cat": {
+    "props": {
+      "src": "assets/img/icons-menu/icon-cat.avif",
+      "maxWidth": 85,
+      "maxHeight": 85,
+      "blockClass": "categories--image"
+    }
+  },
+  "flex-layout.row#header__button--item-memberslaika": {
+    "children": [
+      "image#header__button--item-vetcare",
+      "image#header__button--item-member"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  }
+}

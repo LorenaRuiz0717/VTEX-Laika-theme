@@ -40,8 +40,8 @@
       "border":"bottom",
       "paddingTop":3,
       "paddingBottom":3,
-      "borderColor":"gray"
-      // "fullWidth":true
+      "borderColor":"gray",
+      "blockClass":"header__menuitem--drawer"
     }
   },
   "image#header__menuitem--dog-mobile": {
@@ -49,7 +49,8 @@
       "src": "assets/img/icons-menu/icon-dog.avif",
       "maxWidth": 30,
       "maxHeight":30,
-      "blockClass":"categories--image-mobile"
+      "blockClass":"categories--image-mobile",
+      "width":"25%"
     }
   },  
   "flex-layout.row#header__container--menuitem--cat-mobile":{
@@ -61,7 +62,7 @@
       "paddingTop":3,
       "paddingBottom":3,
       "borderColor":"gray",
-      "fullWidth":true
+      "blockClass":"header__menuitem--drawer"
     }
   },
   "image#header__menuitem--cat-mobile": {
@@ -69,7 +70,8 @@
       "src": "assets/img/icons-menu/icon-cat.avif",
       "maxWidth": 30,
       "maxHeight":30,
-      "blockClass":"categories--image-mobile"
+      "blockClass":"categories--image-mobile",
+      "width":"25%"
     }
   },
   "flex-layout.row#header__container--menuitem--services-mobile":{
@@ -81,7 +83,7 @@
       "paddingTop":3,
       "paddingBottom":3,
       "borderColor":"gray",
-      "fullWidth":true
+      "blockClass":"header__menuitem--drawer"
     }
   },
   "image#header__menuitem--services-mobile": {
@@ -89,7 +91,8 @@
       "src": "assets/img/icons-menu/icon-servicios.jpg",
       "maxWidth": 30,
       "maxHeight":30,
-      "blockClass":"categories--image-mobile"
+      "blockClass":"categories--image-mobile",
+      "width":"25%"
     }
   }, 
   "flex-layout.row#header__container--menuitem--promotions-mobile":{
@@ -101,7 +104,7 @@
       "paddingTop":3,
       "paddingBottom":3,
       "borderColor":"gray",
-      "fullWidth":true
+      "blockClass":"header__menuitem--drawer"
     }
   },
   "image#header__menuitem--promotions-mobile": {
@@ -109,7 +112,8 @@
       "src": "assets/img/icons-menu/icon-promociones.jpg",
       "maxWidth": 30,
       "maxHeight":30,
-      "blockClass":"categories--image-mobile"
+      "blockClass":"categories--image-mobile",
+      "width":"25%"
     }
   },
   "flex-layout.row#header__container--menuitem--blog-mobile":{
@@ -121,7 +125,7 @@
       "paddingTop":3,
       "paddingBottom":3,
       "borderColor":"gray",
-      "fullWidth":true
+      "blockClass":"header__menuitem--drawer" 
     }
   },
    "image#header__menuitem--blog-mobile": {
@@ -129,7 +133,8 @@
       "src": "assets/img/icons-menu/icon-blog.jpg",
       "maxWidth": 30,
       "maxHeight":30,
-      "blockClass":"categories--image-mobile"
+      "blockClass":"categories--image-mobile",
+      "width":"25%"
     }
   }
 }
