@@ -66,7 +66,7 @@
       "font": "t-heading-3"
     }
   },
-  "rich-text#header__section--qualitie1-hr":{
+  "rich-text#header__section--qualitie1-hr": {
     "props": {
       "text": "***",
       "blockClass": "header_hr",
@@ -105,7 +105,7 @@
     "props": {
       "text": "***",
       "blockClass": "header_hr",
-      "width":"1%"
+      "width": "1%"
     }
   },
   "flex-layout.row#container__section--qualitie3": {
@@ -123,7 +123,7 @@
       "id": "icon-truck",
       "size": 25,
       "blockClass": "icon-qualities",
-      "width":"15%",
+      "width": "15%",
       "viewBox": "0 0 25 25"
     }
   },
@@ -144,14 +144,13 @@
     "props": {
       "blockClass": "header__container--contact",
       "horizontalAlign": "center",
-      "width":"50%"
-      
+      "width": "50%"
     }
   },
-  "flex-layout.row#header__section--contact":{
-    "children":[
+  "flex-layout.row#header__section--contact": {
+    "children": [
       "rich-text#header__section--phone",
-        "rich-text#header__section--qualitie3-hr",
+      "rich-text#header__section--qualitie3-hr",
       "rich-text#header__section--email"
     ],
     "props": {
@@ -163,15 +162,15 @@
     "props": {
       "text": "Llamanos 3009108496",
       "blockClass": "header__section--phone",
-      "width": "40%",
+      "width": "50%",
       "font": "t-heading-3"
     }
   },
-  "rich-text#header__section--qualitie3-hr":{
+  "rich-text#header__section--qualitie3-hr": {
     "props": {
       "text": "***",
       "blockClass": "header_hr",
-       "width":"1%"
+      "width": "1%"
     }
   },
   "rich-text#header__section--email": {
@@ -200,7 +199,7 @@
       "size": 30,
       "blockClass": "header__socialmedia-icon",
       "viewBox": "0 0 25 25",
-      "width":"30%"
+      "width": "30%"
     }
   },
   "icon#header__section--socialmedia-facebook": {
@@ -209,7 +208,7 @@
       "size": 30,
       "blockClass": "header__socialmedia-icon",
       "viewBox": "0 0 25 25",
-      "width":"30%"
+      "width": "30%"
     }
   },
   "icon#header__section--socialmedia-instagram": {
@@ -218,7 +217,7 @@
       "size": 30,
       "blockClass": "header__socialmedia-icon",
       "viewBox": "0 0 25 25",
-      "width":"30%"
+      "width": "30%"
     }
   }
 }

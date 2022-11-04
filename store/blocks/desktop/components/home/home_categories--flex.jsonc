@@ -1,203 +1,188 @@
 {
-  "flex-layout.row#home__section--container--categories":{
-    "children":[
-      "flex-layout.col#home__section--categories"
-  ],
-  "props":{
-    "blockClass": "home__categories"}
-},
-  "flex-layout.col#home__section--categories":{
-        "children":[
-          "rich-text#home__categories",
-           "slider-layout#text-test"
-      ]
+  "flex-layout.row#home__section--container--categories": {
+    "children": ["flex-layout.col#home__section--categories"],
+    "props": {
+      "blockClass": "home__categories"
+    }
+  },
+  "flex-layout.col#home__section--categories": {
+    "children": ["rich-text#home__categories", "slider-layout#text-test"]
+  },
+
+  "rich-text#home__categories": {
+    "props": {
+      "text": "Categorias",
+      // "textAlignment": "CENTER",
+      // "textPosition": "CENTER",
+      "font": "t-heading-5"
+    }
+  },
+  "slider-layout#text-test": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 3
+      },
+      "infinite": false,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
     },
+    "children": [
+      "flex-layout.col#categories--one",
+      "flex-layout.col#categories--two",
+      "flex-layout.col#categories--three",
+      "flex-layout.col#categories--four",
+      "flex-layout.col#categories--five",
+      "flex-layout.col#categories--six",
+      "flex-layout.col#categories--seven"
+    ]
+  },
 
-      "rich-text#home__categories": { 
-        "props": { 
-          "text": "Categorias",
-          // "textAlignment": "CENTER",
-          // "textPosition": "CENTER",
-          "font": "t-heading-5"
-        }
-      },
-      "slider-layout#text-test": {
-        "props": {
-          "itemsPerPage": {
-            "desktop": 6,
-            "tablet": 3,
-            "phone": 3
-          },
-          "infinite": false,
-          "showNavigationArrows": "desktopOnly",
-          "blockClass": "carousel"
-        },
-        "children": [
-          "flex-layout.col#categories--one",
-          "flex-layout.col#categories--two",
-          "flex-layout.col#categories--three",
-          "flex-layout.col#categories--four",
-          "flex-layout.col#categories--five",
-          "flex-layout.col#categories--six",
-          "flex-layout.col#categories--seven"]
-      },
-    
-      
-      "flex-layout.col#categories--one":{
-       "children":[
-        "image#home_categories--one",
-        "rich-text#categories--one-text"
-       ]
-      },
-      "image#home_categories--one": {
-        "props": {
-          "src": "assets/img/categoria_alimento-min.avif",
-          "maxWidth": 85,
-          "maxHeight":85,
-          "blockClass":"categories--image"
-        }
-      },
-    
-      "rich-text#categories--one-text": { 
-        "props": { 
-          "text": "Alimentos",
-          // "textAlignment": "CENTER",
-          // "textPosition": "CENTER",
-          "font": "t-heading-6"
-        }
-      },
-      "flex-layout.col#categories--two":{
-        "children":[
-         "image#home_categories--two",
-         "rich-text#categories--two-text"
-        ]
-       },
-      "image#home_categories--two": {
-        "props": {
-          "src": "assets/img/categoria_snacks-min.avif",
-          "maxWidth": 85,
-          "maxHeight":85,
-          "blockClass":"categories--image"
-        }
-      },
-      "rich-text#categories--two-text": { 
-        "props": { 
-          "text": "Snacks",
-          // "textAlignment": "CENTER",
-          // "textPosition": "CENTER",
-          "font": "t-heading-6"
-        }
-      },
-      "flex-layout.col#categories--three":{
-        "children":[
-         "image#home_categories--three",
-         "rich-text#categories--three-text"
-        ]
-       },
-       "image#home_categories--three": {
-         "props": {
-           "src": "assets/img/categoria_hallowen.avif",
-           "maxWidth": 85,
-           "maxHeight":85,
-           "blockClass":"categories--image"
-         }
-       },
-       "rich-text#categories--three-text": { 
-         "props": { 
-           "text": "Halloween",
-           // "textAlignment": "CENTER",
-           // "textPosition": "CENTER",
-           "font": "t-heading-6"
-         }
-       },
-      "flex-layout.col#categories--four":{
-        "children":[
-         "image#home_categories--four",
-         "rich-text#categories--four-text"
-        ]
-       },
-       "image#home_categories--four": {
-         "props": {
-           "src": "assets/img/categoria_farmacia.avif",
-           "maxWidth": 85,
-           "maxHeight":85,
-           "blockClass":"categories--image"
-         }
-       },
-       "rich-text#categories--four-text": { 
-         "props": { 
-           "text": "Farmapet",
-           // "textAlignment": "CENTER",
-           // "textPosition": "CENTER",
-           "font": "t-heading-6"
-         }
-       },
-      "flex-layout.col#categories--five":{
-       "children":[
-        "image#home_categories--five",
-        "rich-text#categories--five-text"
-       ]
-      },
-        "image#home_categories--five": {
-        "props": {
-          "src": "assets/img/categoria_higiene.webp",
-          "maxWidth": 85,
-          "maxHeight":85,
-          "blockClass":"categories--image"
-        }
-      },
-      "rich-text#categories--five-text": { 
-        "props": { 
-          "text": "Cuidado e Higiene",
-          // "textAlignment": "CENTER",
-          // "textPosition": "CENTER",
-          "font": "t-heading-6"
-        }
-      },
-      "flex-layout.col#categories--six":{
-        "children":[
-         "image#home_categories--six",
-         "rich-text#categories--six-text"
-        ]
-       },
-       "image#home_categories--six": {
-        "props": {
-          "src": "assets/img/categoria_juguetes.avif",
-          "maxWidth": 85,
-          "maxHeight":85,
-          "blockClass":"categories--image"
-        }
-      },
-      "rich-text#categories--six-text": { 
-        "props": { 
-          "text": "Juguetes",
-          // "textAlignment": "CENTER",
-          // "textPosition": "CENTER",
-          "font": "t-heading-6"
-        }
-      },
-      "flex-layout.col#categories--seven":{
-       "children":[
-        "image#home_categories--seven",
-        "rich-text#categories--seven-text"
-       ]
-      },
-      "image#home_categories--seven": {
-        "props": {
-          "src": "assets/img/categoria_accesorios.avif",
-          "maxWidth": 85,
-          "maxHeight":85,
-          "blockClass":"categories--image"
-        }
-      },
-      "rich-text#categories--seven-text": { 
-        "props": { 
-          "text": "Accesorios",
-          // "textAlignment": "CENTER",
-          // "textPosition": "CENTER",
-          "font": "t-heading-6"
-        }
-      }    
+  "flex-layout.col#categories--one": {
+    "children": ["image#home_categories--one", "rich-text#categories--one-text"]
+  },
+  "image#home_categories--one": {
+    "props": {
+      "src": "assets/img/categoria_alimento-min.avif",
+      "maxWidth": 85,
+      "maxHeight": 85,
+      "blockClass": "categories--image"
+    }
+  },
+
+  "rich-text#categories--one-text": {
+    "props": {
+      "text": "Alimentos",
+      // "textAlignment": "CENTER",
+      // "textPosition": "CENTER",
+      "font": "t-heading-6"
+    }
+  },
+  "flex-layout.col#categories--two": {
+    "children": ["image#home_categories--two", "rich-text#categories--two-text"]
+  },
+  "image#home_categories--two": {
+    "props": {
+      "src": "assets/img/categoria_snacks-min.avif",
+      "maxWidth": 85,
+      "maxHeight": 85,
+      "blockClass": "categories--image"
+    }
+  },
+  "rich-text#categories--two-text": {
+    "props": {
+      "text": "Snacks",
+      // "textAlignment": "CENTER",
+      // "textPosition": "CENTER",
+      "font": "t-heading-6"
+    }
+  },
+  "flex-layout.col#categories--three": {
+    "children": [
+      "image#home_categories--three",
+      "rich-text#categories--three-text"
+    ]
+  },
+  "image#home_categories--three": {
+    "props": {
+      "src": "assets/img/categoria_hallowen.avif",
+      "maxWidth": 85,
+      "maxHeight": 85,
+      "blockClass": "categories--image"
+    }
+  },
+  "rich-text#categories--three-text": {
+    "props": {
+      "text": "Halloween",
+      // "textAlignment": "CENTER",
+      // "textPosition": "CENTER",
+      "font": "t-heading-6"
+    }
+  },
+  "flex-layout.col#categories--four": {
+    "children": [
+      "image#home_categories--four",
+      "rich-text#categories--four-text"
+    ]
+  },
+  "image#home_categories--four": {
+    "props": {
+      "src": "assets/img/categoria_farmacia.avif",
+      "maxWidth": 85,
+      "maxHeight": 85,
+      "blockClass": "categories--image"
+    }
+  },
+  "rich-text#categories--four-text": {
+    "props": {
+      "text": "Farmapet",
+      // "textAlignment": "CENTER",
+      // "textPosition": "CENTER",
+      "font": "t-heading-6"
+    }
+  },
+  "flex-layout.col#categories--five": {
+    "children": [
+      "image#home_categories--five",
+      "rich-text#categories--five-text"
+    ]
+  },
+  "image#home_categories--five": {
+    "props": {
+      "src": "assets/img/categoria_higiene.webp",
+      "maxWidth": 85,
+      "maxHeight": 85,
+      "blockClass": "categories--image"
+    }
+  },
+  "rich-text#categories--five-text": {
+    "props": {
+      "text": "Cuidado e Higiene",
+      // "textAlignment": "CENTER",
+      // "textPosition": "CENTER",
+      "font": "t-heading-6"
+    }
+  },
+  "flex-layout.col#categories--six": {
+    "children": ["image#home_categories--six", "rich-text#categories--six-text"]
+  },
+  "image#home_categories--six": {
+    "props": {
+      "src": "assets/img/categoria_juguetes.avif",
+      "maxWidth": 85,
+      "maxHeight": 85,
+      "blockClass": "categories--image"
+    }
+  },
+  "rich-text#categories--six-text": {
+    "props": {
+      "text": "Juguetes",
+      // "textAlignment": "CENTER",
+      // "textPosition": "CENTER",
+      "font": "t-heading-6"
+    }
+  },
+  "flex-layout.col#categories--seven": {
+    "children": [
+      "image#home_categories--seven",
+      "rich-text#categories--seven-text"
+    ]
+  },
+  "image#home_categories--seven": {
+    "props": {
+      "src": "assets/img/categoria_accesorios.avif",
+      "maxWidth": 85,
+      "maxHeight": 85,
+      "blockClass": "categories--image"
+    }
+  },
+  "rich-text#categories--seven-text": {
+    "props": {
+      "text": "Accesorios",
+      // "textAlignment": "CENTER",
+      // "textPosition": "CENTER",
+      "font": "t-heading-6"
+    }
+  }
 }
-
- 
