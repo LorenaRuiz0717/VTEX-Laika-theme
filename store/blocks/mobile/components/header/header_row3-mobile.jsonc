@@ -30,7 +30,7 @@
   },
   "flex-layout.row#header__button--item-dog-mobile": {
     "title": "header button deparment dog mobile",
-    "children": ["link#header__menuitem--dog", "image#header__menuitem--dog"],
+    "children": ["link#header__menuitem--dog", "image#header__section--dog-mobile"],
     "props": {
       // "width": "30%",
       "blockClass": "header__button--item-mobile",
@@ -58,7 +58,7 @@
       "blockClass": "header__text--menu-category-mobile"
     }
   },
-  "image#header__menuitem--dog": {
+  "image#header__section--dog-mobile": {
     "title": "header image menu category dog mobile",
     "props": {
       "src": "assets/img/icons-menu/icon-dog.avif",
@@ -69,7 +69,7 @@
   },
   "flex-layout.row#header__button--item-cat-mobile": {
     "title": "header button deparment cat mobile",
-    "children": ["link#header__menuitem--cat", "image#header__menuitem--cat"],
+    "children": ["link#header__menuitem--cat", "image#header__section--cat-mobile"],
     "props": {
       // "width":"20%"
       "blockClass": "header__button--item-mobile"
@@ -91,7 +91,7 @@
       "blockClass": "header__text--menu-category-mobile"
     }
   },
-  "image#header__menuitem--cat": {
+  "image#header__section--cat-mobile": {
     "title": "header image menu category cat mobile",
     "props": {
       "src": "assets/img/icons-menu/icon-cat.avif",

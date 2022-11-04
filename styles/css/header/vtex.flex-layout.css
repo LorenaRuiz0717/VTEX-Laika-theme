@@ -55,7 +55,7 @@
   padding: 0px 16px;
 }
 .flexCol--header__container-menuitem-desktop-xl {
-  width: 210px;
+  width: 222px;
   /* padding: 6px 0; */
 }
 
@@ -99,6 +99,7 @@
 
 .flexRowContent--header__menuitem--drawer {
   display: flex;
+  width: 100%;
 }
 
 .flexRowContent--header__button--item-mobile {
@@ -145,3 +146,12 @@
 .flexColChild--header__categories--container-link-services-desktop{
   margin-top: 0px;
 }
+
+.flexRowContent--menuitem--mobile{
+  display: flex;
+  width: 350px;
+}
+/* 
+.flexRowContent--header__menuitem--drawer{
+  width: 90%;
+} */

@@ -37,7 +37,8 @@
       "menu-item#category__cat--petLovers-mobile"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass":"container__menuitem--mobile"
     }
   },
    //*************************** "menu-item#category__cat--food-mobile" *******************************//

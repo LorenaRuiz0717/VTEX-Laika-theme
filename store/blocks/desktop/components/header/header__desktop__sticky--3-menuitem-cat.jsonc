@@ -94,6 +94,7 @@
       }
     },
     "rich-text#header__menuitem--hr-cat": {
+      "title": "header__menuitem--hr-cat",
       "props": {
         "text": "***",
         "blockClass": "header__menu-items_hr"
@@ -186,6 +187,7 @@
       }
     },
     "rich-text#header__menuitem--hr-cat--snacks": {
+      "title": "header__menuitem--hr-cat--snacks",
       "props": {
         "text": "***",
         "blockClass": "header__menu-items_hr"
@@ -195,9 +197,8 @@
       "title": "header container items cat category snacks",
       "children": [
         "link#category__cat--itemcatsnacks-one",
-        // "link#category__cat--itemcatsnacks-two",
-        "link#category__cat--itemcatsnacks-three",
-        "link#category__cat--itemcatsnacks-four"
+        "link#category__cat--itemcatsnacks-two",
+        "link#category__cat--itemcatsnacks-three"
       ],
       "props": {
         "blockClass": "container__categories_links--menu-desktop"
@@ -211,15 +212,7 @@
         "blockClass": "categories__links--menu-desktop"
       }
     },
-    // "link#category__cat--itemcatsnacks-two": {
-    //   "title": "header menu item cat-bonesmeat",
-    //   "props": {
-    //     "href": "/categorycat/catsnacks/bonesmeat",
-    //     "label": "Huesos y carnaza",
-    //     "blockClass": "categories__links--menu-desktop"
-    //   }
-    // },
-    "link#category__cat--itemcatsnacks-three": {
+    "link#category__cat--itemcatsnacks-two": {
       "title": "header menu item cat-cookies",
       "props": {
         "href": "/categorycat/catsnacks/cookies",
@@ -227,7 +220,7 @@
         "blockClass": "categories__links--menu-desktop"
       }
     },
-    "link#category__cat--itemcatsnacks-four": {
+    "link#category__cat--itemcatsnacks-three": {
       "title": "header item link cat-snacks-seemore",
       "props": {
         "href": "/categorycat/catsnacks",
@@ -558,12 +551,13 @@
       "props": {
         // "paddingTop": 2,
         // "paddingBottom": 2,
-        "blockClass": "header__container-menuitem-desktop-xl",
+        "blockClass": "header__container-menuitem-desktop",
         "width": "100%"
       }
     },
   
     "rich-text#category__cat--food-seemore-title": {
+      "title": "category__cat--food-seemore-title",
       "props": {
         "text": "Mas categorias",
         "blockClass": "header__categories--links-menu-title-desktop"
@@ -571,6 +565,7 @@
     },
     //*************************** "menu-item#category__cat--toys" *******************************//
     "flex-layout.row#header__container--menuitem--cattoys": {
+      "title": "header__container--menuitem--cattoys",
       "children": [
         "image#header__menuitem--cat--toys",
         "link#category__cat--toys"
@@ -582,6 +577,7 @@
       }
     },
     "image#header__menuitem--cat--toys": {
+      "title": "header__menuitem--cat--toys-image",
       "props": {
         "src": "assets/img/icons-menu/icon-juguetes.png",
         "maxHeight": 30,
@@ -599,6 +595,7 @@
     },
     //*************************** "menu-item#category__cat--accessories" *******************************//
     "flex-layout.row#header__container--menuitem--cataccessories": {
+      "title": "header__container--menuitem--cataccessories",
       "children": [
         "image#header__menuitem--cat--accessories",
         "link#category__cat--accessories"
@@ -611,6 +608,7 @@
       }
     },
     "image#header__menuitem--cat--accessories": {
+      "title": "header__menuitem--cat--accessories-image",
       "props": {
         "src": "assets/img/icons-menu/icon-accesorios.png",
         "maxHeight": 30,

@@ -5,3 +5,7 @@
 .container--header__mobile--sticky1{
     background-color: var(--purple-strong) 
 }
+
+.container--header__sticky3--header{
+    z-index: 1;
+}

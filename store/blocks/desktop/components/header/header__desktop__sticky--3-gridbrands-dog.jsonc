@@ -10,9 +10,11 @@
     }
   },
   "rich-text#header__container--title- gridbrands": {
+    "title": "header__container--title- gridbrands",
     "props": {
       "text": "Marcas destacadas",
-      "font": "t-heading-6"
+      "font": "t-heading-6",
+      "blockClass": "header__container--title- gridbrands"
     }
   },
   "flex-layout.row#header__contaniner-gridbrands-row": {

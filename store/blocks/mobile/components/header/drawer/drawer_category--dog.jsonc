@@ -45,7 +45,8 @@
       // "menu-item#category__dog--accessories-mobile"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass":"container__menuitem--mobile"
     }
   },
   //*************************** "menu-item#category__dog--food-mobile" *******************************//
@@ -56,7 +57,8 @@
     ],"props":{
       "paddingTop":3,
       "paddingBottom":3,
-      "fullWidth":true
+      // "fullWidth":true,
+      "blockClass":"menuitem--mobile"
     }
   },
   "image#header__menuitem--dog--food-mobile":{
@@ -72,6 +74,7 @@
     "props": {
       "id": "menu-item#dog--food",
       "type": "custom",
+      "blockClass":"category__dog--food-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorydog/dogfood",
@@ -163,7 +166,8 @@
     ],"props":{
       "paddingTop":3,
       "paddingBottom":3,
-      "fullWidth":true
+      // "fullWidth":true,
+      "blockClass":"menuitem--mobile"
     }
   },"image#header__menuitem--dog--snacks-mobile":{
     "props": {
@@ -254,7 +258,8 @@
     ],"props":{
       "paddingTop":3,
       "paddingBottom":3,
-      "fullWidth":true
+      // "fullWidth":true
+      "blockClass":"menuitem--mobile"
     }
   },"image#header__menuitem--dog--halloween-mobile":{
     "props": {
@@ -332,7 +337,8 @@
     ],"props":{
       "paddingTop":3,
       "paddingBottom":3,
-      "fullWidth":true
+      // "fullWidth":true
+      "blockClass":"menuitem--mobile"
     }
   },
   "image#header__menuitem--dog--farmapet-mobile":{
@@ -383,7 +389,8 @@
       "menu-item#category__dog--farmapet-mobile-link-seemore"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "header__submenu--dog-food-mobile"
     }
   },
   "menu-item#category__dog--farmapet-mobile-dog-antiparasitic":{
@@ -619,7 +626,8 @@
     ],"props":{
       "paddingTop":3,
       "paddingBottom":3,
-      "fullWidth":true
+      // "fullWidth":true
+      "blockClass":"menuitem--mobile"
     }
   }, "image#header__menuitem--dog--careHygiene-mobile":{
     "props": {
@@ -818,7 +826,8 @@
     ],"props":{
       "paddingTop":3,
       "paddingBottom":3,
-      "fullWidth":true
+      // "fullWidth":true
+      "blockClass":"menuitem--mobile"
     }
   },
   "image#header__menuitem--dog--toys-mobile":{
@@ -925,7 +934,8 @@
     ],"props":{
       "paddingTop":3,
       "paddingBottom":3,
-      "fullWidth":true
+      "blockClass":"menuitem--mobile"
+      // "fullWidth":true
     }
   },
   "image#header__menuitem--dog--accessories-mobile":{
