@@ -13,3 +13,11 @@
 .container--header__section--email {
   margin-left: 20px;
 }
+
+.autoCompleteOuterContainer--header__search-bar{
+  width: 546px;
+}
+
+.searchBarContainer{
+  flex-direction: row-reverse;
+}

@@ -1,3 +1,7 @@
-.container--header__layout{
+/* .container--header__layout{
     background-color: var(--purple-strong);
+} */
+
+.container--header__mobile--sticky1{
+    background-color: var(--purple-strong) 
 }

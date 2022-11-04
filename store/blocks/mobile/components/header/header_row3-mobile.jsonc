@@ -1,11 +1,13 @@
-{
+{//ok
   "flex-layout.row#header__container--buttons-mobile": {
+    "title": "header container section buttons mobile",
     "children": ["flex-layout.col#header__buttons"],
     "props": {
       "blockClass": "header__container--buttons"
     }
   },
   "flex-layout.col#header__buttons": {
+    "title": "header section buttons mobile",
     "children": [
       "flex-layout.row#header__button--item-deparment",
       "flex-layout.row#header__button--item-memberslaika"
@@ -15,16 +17,19 @@
     }
   },
   "flex-layout.row#header__button--item-deparment": {
+    "title": "header button deparment mobile",
     "children": [
       "flex-layout.row#header__button--item-dog-mobile",
       "flex-layout.row#header__button--item-cat-mobile"
-    ]
-    // ,"props":{
-    //   // "width":"100%"
-    //   "horizontalAlign":"center"
-    // }
+    ],
+    "props": {
+      // "width":"100%"
+      "blockClass": "header__button--deparment",
+      "horizontalAlign": "center"
+    }
   },
   "flex-layout.row#header__button--item-dog-mobile": {
+    "title": "header button deparment dog mobile",
     "children": ["link#header__menuitem--dog", "image#header__menuitem--dog"],
     "props": {
       // "width": "30%",
@@ -33,9 +38,9 @@
     }
   },
   "link#header__menuitem--dog": {
-    "title": "header item ccategory cat food",
+    "title": "header item category dog mobile",
     "props": {
-      "href": "/categorycat/catfood/",
+      "href": "/categorydog/dogfood/",
       "label": "Perro",
       "blockClass": "header__categories--links-menu-title-desktop"
       // "displayMode":"button",
@@ -47,11 +52,14 @@
     // "width": "80%"
   },
   "rich-text#header__menuitem--dog": {
+    "title": "header text menu category dog mobile",
     "props": {
-      "text": "Perro"
+      "text": "Perro",
+      "blockClass": "header__text--menu-category-mobile"
     }
   },
   "image#header__menuitem--dog": {
+    "title": "header image menu category dog mobile",
     "props": {
       "src": "assets/img/icons-menu/icon-dog.avif",
       "maxWidth": 85,
@@ -60,6 +68,7 @@
     }
   },
   "flex-layout.row#header__button--item-cat-mobile": {
+    "title": "header button deparment cat mobile",
     "children": ["link#header__menuitem--cat", "image#header__menuitem--cat"],
     "props": {
       // "width":"20%"
@@ -67,7 +76,7 @@
     }
   },
   "link#header__menuitem--cat": {
-    "title": "header item ccategory cat food",
+    "title": "header item category cat mobile",
     "props": {
       "href": "/categorycat/catfood/",
       "label": "Gato",
@@ -76,11 +85,14 @@
     }
   },
   "rich-text#header__menuitem--cat": {
+    "title": "header text menu category cat mobile",
     "props": {
-      "text": "Gato"
+      "text": "Gato",
+      "blockClass": "header__text--menu-category-mobile"
     }
   },
   "image#header__menuitem--cat": {
+    "title": "header image menu category cat mobile",
     "props": {
       "src": "assets/img/icons-menu/icon-cat.avif",
       "maxWidth": 85,
@@ -89,12 +101,14 @@
     }
   },
   "flex-layout.row#header__button--item-memberslaika": {
+    "title": "header button deparment members",
     "children": [
       "image#header__button--item-vetcare",
       "image#header__button--item-member"
     ],
     "props": {
-      "width": "100%"
+      "width": "100%",
+      "blockClass": "header__button--deparment-members-mobile"
     }
   }
 }

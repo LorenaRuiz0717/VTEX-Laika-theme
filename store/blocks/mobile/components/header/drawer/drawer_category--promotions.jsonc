@@ -4,6 +4,7 @@
     "props": {
       "id": "menu-item#promotions",
       "type": "custom",
+      "blockClass":"menu__department",
       "itemProps": {
         "type": "internal",
         "href": "#/categorypromotions",

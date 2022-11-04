@@ -1,93 +1,23 @@
+//ok
 {
-    "header-layout.mobile": {
-        "title": "header mobile ",
-        "children": [
-            "sticky-layout.stack-container#header__mobile"]
-      },
-      "sticky-layout.stack-container#header__mobile": {
-        "props": {
-          "position": "top"
-        },
-        "children": [
-          "sticky-layout#1header--mobile",
-          "sticky-layout#2header__mobile",
-          "flex-layout.row#header__container--buttons-mobile"
-        ]
-      }, "sticky-layout#1header--mobile": {
-        "children": ["flex-layout.row#header__container--sticky1"]
-        // "props": {
-        //   "blockClass": "header__layout"
-        // }
-      },
-      "flex-layout.row#header__container--sticky1": {
-        "children": [
-          "flex-layout.col#header__section--drawer",
-        //   "drawer#header__menu--mobile",
-          "flex-layout.col#header__section--address-mobile",
-        //   "modal-trigger#header__section--address",
-          "flex-layout.col#header__section--logo-mobile",
-        //   "logo#header__section--logo",
-          "flex-layout.col#header__section--login",
-          "login",
-          "flex-layout.col#header__section--cart",
-          "minicart.v2"
-        ],
-        "props": {
-          "blockClass": "header__container--sticky1-mobile",
-          "fullWidth":true
-          }
-      },
-      "flex-layout.col#header__section--drawer": {
-        "children": ["drawer#header__menu--mobile"],
-        "props": {
-          "blockClass": "header__section--drawer",
-          "width": "10%"
-        }
-      },
-      "flex-layout.col#header__section--address-mobile": {
-        "children": ["modal-trigger#header__section--address"],
-        "props": {
-          "blockClass": "header__section--address",
-          "width": "30%"
-        }
-      },
-    
-      "flex-layout.col#header__section--logo-mobile": {
-        "children": ["logo#header__section--logo"],
-        "props": {
-          "blockClass": "header__section--address",
-          "width": "20%"
-        }
-      },
-      "flex-layout.col#header__section--login": {
-        "children": ["login"],
-        "props": {
-          "blockClass": "header__section--address",
-          "width": "30%"
-        }
-      },
-      "flex-layout.col#header__section--cart": {
-        "children": ["minicart.v2"],
-        "props": {
-          "blockClass": "header__section--address",
-          "width": "10%"    
-        }
-      }
+  "header-layout.mobile": {
+    "title": "header mobile ",
+    "children": ["sticky-layout.stack-container#header__mobile"],
+    "props": {
+      "blockClass": "header__mobile"
     }
+  },
+  "sticky-layout.stack-container#header__mobile": {
+    "title": "header mobile container",
+    "props": {
+      "position": "top",
+      "blockClass": "header__mobile--sticky-container"
+    },
+    "children": [
+      "sticky-layout#1header--mobile",
+      "sticky-layout#2header__mobile",
+      "flex-layout.row#header__container--buttons-mobile"
+    ]
+  }
+}
 
-
-
-   
-   
-
-
-
-
-
-
-
-
-
-
-
-//     

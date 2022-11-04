@@ -17,20 +17,20 @@
   },
   "submenu#department__dog": {
     "title": "header sub menu dog",
-    "children": ["flex-layout.col#home__section--contaniner-deparmentdog"],
+    "children": ["flex-layout.col#header__section--contaniner-deparmentdog"],
     "props": {
       "blockClass": "submenu__department--desktop"
     }
   },
   //*************************** "menu-item#category__dog" *******************************//
-  "flex-layout.col#home__section--contaniner-deparmentdog": {
+  "flex-layout.col#header__section--contaniner-deparmentdog": {
     "title": "header contaniner-deparmentdog",
     "children": [
       "menu#category__dog",
       "flex-layout.col#header__contaniner-gridbrands"
     ],
     "props": {
-      "blockClass": "home__section--contaniner-deparment"
+      "blockClass": "header__section--contaniner-deparment"
     }
   },
   "menu#category__dog": {

@@ -162,7 +162,7 @@
     "props": {
       "text": "Llamanos 3009108496",
       "blockClass": "header__section--phone",
-      "width": "40%",
+      "width": "50%",
       "font": "t-heading-3"
     }
   },

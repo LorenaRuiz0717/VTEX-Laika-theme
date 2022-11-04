@@ -31,5 +31,12 @@
 
 .submenuWrapper--submenu__department--desktop {
   padding: 5px 10px;
-  margin-left: -30px;
+  margin-left: -34px;
+  /* box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important; */
+  z-index: 1;
+  box-shadow: 7px 8px 18px 0px #d8d8d8; 
+}
+
+.menuContainer--header__deparment--services-desktop{
+ flex-direction: column;
 }

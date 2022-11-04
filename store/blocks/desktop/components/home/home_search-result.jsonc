@@ -7,14 +7,14 @@
       }
     },
     "blocks": [
-      "search-result-layout.desktop#search--desktop",
+      // "search-result-layout.desktop#search--desktop",
       "search-result-layout.mobile#search--mobile",
       "search-not-found-layout"
     ]
   },
-  "search-result-layout.desktop#search--desktop": {
-    "children": ["rich-text#testsearch"]
-  },
+  // "search-result-layout.desktop#search--desktop": {
+  //   "children": ["rich-text#testsearch"]
+  // },
   "search-result-layout.mobile#search--mobile": {
     "children": [
       // "rich-text#testsearch"
@@ -35,10 +35,10 @@
   },
   "gallery": {
     "blocks": ["product-summary.shelf"]
-  },
-  "rich-text#testsearch": {
-    "props": {
-      "text": "prueba en search"
-    }
   }
+  // "rich-text#testsearch": {
+  //   "props": {
+  //     "text": "prueba en search"
+  //   }
+  // }
 }

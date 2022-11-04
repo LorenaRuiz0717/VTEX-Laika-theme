@@ -3,8 +3,7 @@
     "title": "Drawer header menu mobile",
     "children": ["menu#header__menu--mobile"],
     "props":{
-      "blockClass":"header__menudrawer--mobile",
-      "maxWidth":600
+      "blockClass":"header__menudrawer--mobile"
     }
   },
   "menu#header__menu--mobile": {
