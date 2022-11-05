@@ -60,13 +60,17 @@
 }
 
 .wrapper--header__menuitem--services-text{
-  margin: 0px 20px 0px 20px;
-  color: var(--purple-strong);
-  font-weight: 600;
+  /* margin: 0px 20px 0px 20px; */
   margin: 0 auto;
 }
 
 .paragraph--header__menuitem--services-text{
   width: 100px;
   text-align: center;
+  color: var(--purple-strong);
+  font-weight: 600;
+}
+
+.paragraph--header__menuitem--services-text{
+  margin: 0px;
 }

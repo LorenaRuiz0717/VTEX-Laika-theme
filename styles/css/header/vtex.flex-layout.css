@@ -48,7 +48,7 @@
 }
 
 .flexCol--header__container-menuitem-desktop {
-  width: 164px;
+  width: 174px;
 }
 
 .flexColChild--header__container-menuitem-desktop {
@@ -156,3 +156,8 @@
 .flexRowContent--header__menuitem--drawer{
   width: 90%;
 } */
+
+.flexRow--header__container--services-schedule{
+  padding: 12px;
+  background-color: rgba(169, 193, 255, 0.2);
+}

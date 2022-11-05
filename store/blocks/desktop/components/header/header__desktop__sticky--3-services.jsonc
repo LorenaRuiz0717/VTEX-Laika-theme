@@ -57,7 +57,7 @@
     "children": [
       "image#header__menuitem--services",
       "rich-text#header__menuitem--services-text",
-      "link#header__menuitem--services-link-schedule"
+      "flex-layout.row#header__container--services-schedule"
     ],
     "props": {
       "blockClass": "header__container--services-img"
@@ -78,12 +78,31 @@
       "blockClass": "header__menuitem--services-text"
     }
   },
+  "flex-layout.row#header__container--services-schedule":{
+    "children":[
+      "link#header__menuitem--services-link-schedule",
+      "icon#header__container--services-schedule-arrow"
+  ],
+    "props": {
+      "blockClass": "header__container--services-schedule"
+    }
+  },
   "link#header__menuitem--services-link-schedule": {
     "title": "header link category services schedule",
     "props": {
       "href": "/categoryservices/schedule",
       "label": "Agendar",
-      "blockClass": "header__categories--links-menu-title-desktop"
+      "blockClass":"header__menuitem--services-text-schedule"
+    }
+  },
+  "icon#header__container--services-schedule-arrow":{
+    "title": "header desktop  icon services schedule arrow",
+    "props": {
+      "id": "nav-arrow--right",
+      "size": 25,
+      "blockClass": "icon__services--arrow",
+      "width": "10%",
+      "viewBox": "0 0 16 16"
     }
   },
   "flex-layout.col#header__menuitem--services-link": {

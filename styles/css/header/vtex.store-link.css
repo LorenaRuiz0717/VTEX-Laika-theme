@@ -16,8 +16,8 @@
   text-decoration: none;
   color: var(--gray);
   line-height: 1;
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 800;
 }
 
 .link--categories__links--menu-desktop:hover{
@@ -58,4 +58,10 @@
 
 .link--header__categories--links-menuitem-services-desktop{
 text-decoration: none;
+}
+
+.link--header__menuitem--services-text-schedule{
+  color: var(--purple-strong);
+  font-weight: 600;
+  text-decoration: none;
 }
