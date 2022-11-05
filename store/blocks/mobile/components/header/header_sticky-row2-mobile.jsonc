@@ -1,18 +1,26 @@
-{
+{//ok
   // *************************** "header-row#2header.mobile" *******************************//
   "sticky-layout#2header__mobile": {
-    "children": ["header-row#2header__mobile"]
+    "title":"header mobile sticky2",
+    "children": ["header-row#2header__mobile"],
+    "props": {
+      "blockClass": "header__mobile--sticky2"
+    }
   },
   "header-row#2header__mobile": {
+    "title": "header mobile sticky1",
     "children": ["search-bar#header__section--search-mobile"],
     "props": {
       "blockClass": "header__mobile--search"
     }
   },
   "search-bar#header__section--search-mobile": {
+    "title": "header section search mobile",
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
-      "openAutocompleteOnFocus": true
-    }
+        "openAutocompleteOnFocus": true,
+        "blockClass": "header__search--bar-mobile",
+        "placeholder":"¿Que necesitas para tu mascota?"
+      }
   }
 }

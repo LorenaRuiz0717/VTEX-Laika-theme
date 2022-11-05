@@ -1,0 +1,94 @@
+{
+  "sticky-layout#3header__desktop": {
+    "title": "Header sticky 3",
+    "children": ["flex-layout.row#bottom__header--desktop"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "header__sticky3--header"
+    }
+  },
+  //*************************** "header-row#bottom__header--desktop" *******************************//
+
+  "flex-layout.row#bottom__header--desktop": {
+    "title": "Header container menu sticky 3",
+    "children": ["menu#header__menu--desktop"],
+    "props": {
+      "blockClass": "container__sticky3--header"
+    }
+  },
+  "menu#header__menu--desktop": {
+    "title": "Header menu sticky 3",
+    "children": [
+      // "flex-layout.row#header__menuitem--dog-desktop",
+      // "header-spacer",
+      "image#header__menuitem--dog",
+      "menu-item#department__dog",
+      "image#header__menuitem--cat",
+      "menu-item#department__cat",
+      "menu-item#category__services",
+      "menu-item#category__promotions",
+      "menu-item#category__blog",
+      "header-spacer",
+      "flex-layout.row#header__container--buttons"
+    ],
+    "props": {
+      "blockClass": "header__menu--sticky3"
+    }
+  },
+  "flex-layout.row#header__container--buttons": {
+    "children": [
+      "image#header__button--item-vetcare",
+      "image#header__button--item-member"
+    ],
+    "props": {
+      "blockClass": "header__container--buttons"
+    }
+  },
+  //*************************** "deparment__dog" *******************************//
+  "image#header__menuitem--dog": {
+    "props": {
+      "src": "assets/img/icons-menu/icon-dog.avif",
+      "maxWidth": 85,
+      "maxHeight": 85,
+      "blockClass": "categories--image"
+    }
+  },
+  "image#header__menuitem--cat": {
+    "props": {
+      "src": "assets/img/icons-menu/icon-cat.avif",
+      "maxWidth": 85,
+      "maxHeight": 85,
+      "blockClass": "categories--image"
+    }
+  },
+  "image#header__button--item-vetcare": {
+    "props": {
+      "src": "assets/img/vetcare_logo.webp",
+      "maxWidth": 160,
+      "maxHeight": 35,
+      "blockClass": "header__button--item"
+    }
+  },
+  "image#header__button--item-member": {
+    "props": {
+      "src": "assets/img/membership_logo.webp",
+      "maxWidth": 160,
+      "maxHeight": 35,
+      "blockClass": "header__button--item"
+    }
+  },
+  "menu-item#category__blog": {
+    "props": {
+      "id": "menu-item#blog",
+      "type": "custom",
+      "blockClass": "menu__department",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/categoryblog",
+        "noFollow": false,
+        "tagTitle": "Blog",
+        "text": "Blog"
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+
+@font-face {
+    font-family: "livvicmedium";
+    src: url(assets/fonts/Livvic-Medium.ttf);
+}
+
+
+@font-face {
+    font-family: "livvic semi bold";
+    src: url(assets/fonts/Livvic-SemiBold.ttf);
+}
+
+
+@font-face {
+    font-family: "causten";
+    src: url(assets/fonts/causten-extra-bold-oblique.ttf);
+}
+
+
+@font-face {
+    font-family: "caustenSemi";
+    src: url(assets/fonts/causten-bold-oblique.ttf);
+}
+
+@font-face {
+    font-family: "poorStory";
+    src: url(assets/fonts/PoorStory-Regular.ttf);
+}
+
+

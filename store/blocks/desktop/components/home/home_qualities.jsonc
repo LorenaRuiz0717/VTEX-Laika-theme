@@ -1,19 +1,18 @@
 {
   //***************************"flex-layout.row#home__section--qualities" *******************************//
-   "flex-layout.row#home__section--contaniner-qualities":{
-    "children":[
-       "flex-layout.col#home__section--qualities"
-    ], "props": {
+  "flex-layout.row#home__section--contaniner-qualities": {
+    "children": ["flex-layout.col#home__section--qualities"],
+    "props": {
       "blockClass": "home__qualities--contaniner"
     }
   },
   "flex-layout.col#home__section--qualities": {
-    "children":[
+    "children": [
       "rich-text#home__qualities--title",
       "flex-layout.row#home__qualities--contaniner"
     ]
   },
-  "rich-text#home__qualities--title":{
+  "rich-text#home__qualities--title": {
     "props": {
       "text": "Encuentra todo para tus peludos en un solo lugar"
       // "font": "t-heading-1"

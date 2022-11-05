@@ -1,5 +1,28 @@
 {
   //*************************** "department__cat" *******************************//
+  "flex-layout.row#header__container--menuitem--cat-mobile":{
+    "title": "header container menu item cat mobile",
+    "children":[
+      "image#header__menuitem--cat-mobile",
+      "menu-item#department__cat-mobile"
+    ],"props":{
+      "border":"bottom",
+      "paddingTop":3,
+      "paddingBottom":3,
+      "borderColor":"gray",
+      "blockClass":"header__menuitem--drawer",
+      "maxWidth":300
+    }
+  },
+  "image#header__menuitem--cat-mobile": {
+    "title": "header image menuitem cat mobile",
+    "props": {
+      "src": "assets/img/icons-menu/icon-cat.avif",
+      "maxWidth": 30,
+      "maxHeight":30,
+      "blockClass":"categories--image-mobile"
+    }
+  },
   "menu-item#department__cat-mobile": {
     "title": "header menu item mobile cat",
     "props": {
@@ -26,18 +49,37 @@
   "menu#category__cat-mobile": {
     "title": "header menu items mobile cat",
     "children": [
-      "menu-item#category__cat--food-mobile",
-      "menu-item#category__cat--sands-mobile",
-      "menu-item#category__cat--snacks-mobile",
-      "menu-item#category__cat--halloween-mobile",
-      "menu-item#category__cat--farmapet-mobile",
-      "menu-item#category__cat--careHygiene-mobile",
-      "menu-item#category__cat--toys-mobile",
-      "menu-item#category__cat--accessories-mobile",
-      "menu-item#category__cat--petLovers-mobile"
+      "flex-layout.row#header__container--menuitem--catfood-mobile", 
+      "flex-layout.row#header__container--menuitem--catsnacks-mobile", 
+      "flex-layout.row#header__container--menuitem--cathalloween-mobile", 
+      "flex-layout.row#header__container--menuitem--catfarmapet-mobile", 
+      "flex-layout.row#header__container--menuitem--catcareHygiene-mobile", 
+      "flex-layout.row#header__container--menuitem--cattoys-mobile", 
+      "flex-layout.row#header__container--menuitem--cataccessories-mobile"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass":"container__menuitem--mobile"
+    }
+  },
+   //*************************** "menu-item#category__cat--food-mobile" *******************************//
+   "flex-layout.row#header__container--menuitem--catfood-mobile":{
+    "children":[
+      "image#header__menuitem--cat--food-mobile",
+      "menu-item#category__cat--food-mobile"
+    ],"props":{
+      "paddingTop":3,
+      "paddingBottom":3,
+      // "fullWidth":true,
+      "blockClass":"menuitem--mobile"
+    }
+  },
+  "image#header__menuitem--cat--food-mobile":{
+    "props": {
+      "src": "assets/img/icons-menu/icon-food.png",
+      "maxWidth": 30,
+      "maxHeight":30,
+      "blockClass":"categories--image-mobile"
     }
   },
    //*************************** "menu-item#category__cat--food-mobile" *******************************//
@@ -128,7 +170,7 @@
       "label": "Ver mas"
     }
   },
-  //*************************** "menu-item#category__cat--snacks-mobile" *******************************//
+  //*************************** "menu-item#category__cat--sands-mobile" *******************************//
 
   "menu-item#category__cat--sands-mobile": {
     "props": {
@@ -143,56 +185,685 @@
       }
     }
   },
+  //*************************** "menu-item#category__cat--snacks-mobile" *******************************//
+  "flex-layout.row#header__container--menuitem--catsnacks-mobile":{
+    "children":[
+      "image#header__menuitem--cat--snacks-mobile",
+      "menu-item#category__cat--snacks-mobile"
+    ],"props":{
+      "paddingTop":3,
+      "paddingBottom":3,
+      // "fullWidth":true,
+      "blockClass":"menuitem--mobile"
+    }
+  },"image#header__menuitem--cat--snacks-mobile":{
+    "props": {
+      "src": "assets/img/icons-menu/icon-snacks.png",
+      "maxWidth": 30,
+      "maxHeight":30,
+      "blockClass":"categories--image-mobile"
+    }
+  },
   "menu-item#category__cat--snacks-mobile": {
+    "title": "header menu item mobile cat-snacks",
     "props": {
       "id": "menu-item#cat--snacks",
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "#/cat--snacks",
+        "href": "/categorycat/catsnacks",
         "noFollow": false,
         "tagTitle": "Snacks",
         "text": "Snacks"
       }
+    },
+    "blocks": ["submenu.accordion#header__submenu--cat--snacks-mobile"]
+  },
+  "submenu.accordion#header__submenu--cat--snacks-mobile": {
+    "title": "header submenu item mobile cat-snacks",
+    "children":  ["menu#category__itemscat--snacks"]
+  },
+  "menu#category__itemscat--snacks":{
+    "title": "header submenu item mobile cat-snacks",
+    "children": [
+      "menu-item#category__cat--food-mobile-cat--brownies",
+      "menu-item#category__cat--food-mobile-cat--bonesmeat",
+      "menu-item#category__cat--food-mobile-cat--cookies"
+    ],
+    "props": {
+      "blockClass":"header__submenu--cat--snacks-mobile",
+      "orientation": "vertical"
     }
   },
+  "menu-item#category__cat--food-mobile-cat--brownies": {
+    "title": "header menu item mobile cat-brownies",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catsnacks/brownies",
+        "noFollow": false,
+        "tagTitle": "brownies",
+        "text": "Brownies y otros"
+      }
+    }
+  },
+  "menu-item#category__cat--food-mobile-cat--bonesmeat": {
+    "title": "header menu item mobile cat-bonesmeat",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catsnacks/bonesmeat",
+        "noFollow": false,
+        "tagTitle": "bones-meat",
+        "text": "Huesos y carnaza"
+      }
+    }
+  },
+  "menu-item#category__cat--food-mobile-cat--cookies": {
+    "title": "header menu item mobile cat-cookies",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catsnacks/cookies",
+        "noFollow": false,
+        "tagTitle": "cookies",
+        "text": "Galletas y Snacks"
+      }
+    }
+  },
+  //*************************** "menu-item#category__cat--halloween-mobile" *******************************//
+  "flex-layout.row#header__container--menuitem--cathalloween-mobile":{
+    "children":[
+      "image#header__menuitem--cat--halloween-mobile",
+      "menu-item#category__cat--halloween-mobile"
+    ],"props":{
+      "paddingTop":3,
+      "paddingBottom":3,
+      // "fullWidth":true
+      "blockClass":"menuitem--mobile"
+    }
+  },"image#header__menuitem--cat--halloween-mobile":{
+    "props": {
+      "src": "assets/img/icons-menu/icon-hallowen.png",
+      "maxWidth": 30,
+      "maxHeight":30,
+      "blockClass":"categories--image-mobile"
+    }
+  },
+ 
   "menu-item#category__cat--halloween-mobile": {
+    "title": "header menu item mobile cat-halloween",
     "props": {
       "id": "menu-item#cat--halloween",
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "#/cat--halloween",
+        "href": "/categorycat/halloween",
         "noFollow": false,
         "tagTitle": "Halloween",
         "text": "Halloween"
       }
+    },
+    "blocks": ["submenu.accordion#header__submenu--cat--halloween-mobile"]
+  },
+  "submenu.accordion#header__submenu--cat--halloween-mobile": {
+    "title": "header submenu item mobile cat-halloween",
+    "children":  ["menu#category__itemscat--halloween"]
+  },
+  "menu#category__itemscat--halloween": {
+    "title": "header submenu item mobile cat-halloween",
+    "children": [
+      "menu-item#category__cat--halloween-mobile-cat-halloween",
+      "menu-item#category__cat--halloween-mobile-link-seemore"
+    ],
+    "props": {
+      "blockClass": "header__submenu--cat--halloween-mobile",
+      "orientation": "vertical"
     }
   },
-  "menu-item#category__cat--farmapet-mobile": {
+  "menu-item#category__cat--halloween-mobile-cat-halloween": {
+    "title": "header menu item mobile cat-halloween",
     "props": {
-      "id": "menu-item#cat--farmapet",
+      "id": "deparment__cat",
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "#/cat--farmapet",
+        "href": "/categorycat/cathalloween/halloween",
+        "noFollow": false,
+        "tagTitle": "halloween",
+        "text": "Halloween"
+      }
+    }
+  },
+  "menu-item#category__cat--halloween-mobile-link-seemore": {
+    "title": "header container link halloween mobile cat-seemore",
+    "children": ["link#category__cat--halloween-mobile-seemore"],
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom"
+    }
+  },
+  "link#category__cat--halloween-mobile-seemore": {
+    "title": "header item link mobile cat-seemore",
+    "props": {
+      "href": "/categorycat/cathalloween/halloween",
+      "label": "Ver todo"
+    }
+  },
+  //*************************** "menu-item#category__cat--farmapet-mobile" *******************************//
+  "flex-layout.row#header__container--menuitem--catfarmapet-mobile":{
+    "children":[
+      "image#header__menuitem--cat--farmapet-mobile",
+      "menu-item#category__cat--farmapet-mobile"
+    ],"props":{
+      "paddingTop":3,
+      "paddingBottom":3,
+      // "fullWidth":true
+      "blockClass":"menuitem--mobile"
+    }
+  },
+  "image#header__menuitem--cat--farmapet-mobile":{
+    "props": {
+      "src": "assets/img/icons-menu/icon-farmapet.png",
+      "maxWidth": 30,
+      "maxHeight":30,
+      "blockClass":"categories--image-mobile"
+    }
+  },
+  "menu-item#category__cat--farmapet-mobile": {
+    "title": "header menu item mobile cat-farmapet",
+    "props": {
+      "id": "menu-item#cat--farmapet",
+      "type": "custom",
+      "blockClass":"category_mobile",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catfarmapet",
         "noFollow": false,
         "tagTitle": "Farmapet",
         "text": "Farmapet"
       }
+    },
+    "blocks": ["submenu.accordion#header__submenu--cat--farmapet-mobile"]
+  },
+  "submenu.accordion#header__submenu--cat--farmapet-mobile": {
+    "title": "header submenu item mobile cat-farmapet",
+    "children":  ["menu#category__itemscat--farmapet"]
+  },
+  "menu#category__itemscat--farmapet": {
+    "title": "header submenu item mobile cat-farmapet",
+    "children": [
+      "menu-item#category__cat--farmapet-mobile-cat-antiparasitic",
+      "menu-item#category__cat--farmapet-mobile-cat-supplements",
+      "menu-item#category__cat--farmapet-mobile-cat-analgesics",
+      "menu-item#category__cat--farmapet-mobile-cat-antibacterial",
+      "menu-item#category__cat--farmapet-mobile-cat-antibiotics",
+      "menu-item#category__cat--farmapet-mobile-cat-anti-inflammatories",
+      "menu-item#category__cat--farmapet-mobile-cat-joints",
+      "menu-item#category__cat--farmapet-mobile-cat-elizabethannecklace",
+      "menu-item#category__cat--farmapet-mobile-cat-dermatological",
+      "menu-item#category__cat--farmapet-mobile-cat-digestive",
+      "menu-item#category__cat--farmapet-mobile-cat-liver",
+      "menu-item#category__cat--farmapet-mobile-cat-hypothyroidism",
+      "menu-item#category__cat--farmapet-mobile-cat-homeopathicmedicine",
+      "menu-item#category__cat--farmapet-mobile-cat-ophthalmic",
+      "menu-item#category__cat--farmapet-mobile-cat-optics",
+      "menu-item#category__cat--farmapet-mobile-link-seemore"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "header__submenu--cat-food-mobile"
     }
   },
+  "menu-item#category__cat--farmapet-mobile-cat-antiparasitic":{
+    "title": "header menu item mobile cat-farmapet-antiparasitic",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catfarmapet/antiparasitic",
+        "noFollow": false,
+        "tagTitle": "antiparasitic",
+        "text": "Antiparasitarios"
+      }
+    }
+  },
+  "menu-item#category__cat--farmapet-mobile-cat-supplements":{
+    "title": "header menu item mobile cat-farmapet-supplements",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catfarmapet/supplements",
+        "noFollow": false,
+        "tagTitle": "supplements",
+        "text": "Suplementos"
+      }
+    }    
+  },
+  "menu-item#category__cat--farmapet-mobile-cat-analgesics":{
+    "title": "header menu item mobile cat-farmapet-analgesics",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catfarmapet/analgesics",
+        "noFollow": false,
+        "tagTitle": "analgesics",
+        "text": "Analgesicos"
+      }
+    }     
+  },
+  "menu-item#category__cat--farmapet-mobile-cat-antibacterial":{
+    "title": "header menu item mobile cat-farmapet-antibacterial",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catfarmapet/antibacterial",
+        "noFollow": false,
+        "tagTitle": "antibacterial",
+        "text": "Antibacterianos"
+      }
+    } 
+  },
+  "menu-item#category__cat--farmapet-mobile-cat-antibiotics":{
+    "title": "header menu item mobile cat-farmapet-antibiotics",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catfarmapet/antibiotics",
+        "noFollow": false,
+        "tagTitle": "antibiotics",
+        "text": "Antibioticos"
+      }
+    } 
+  },
+  "menu-item#category__cat--farmapet-mobile-cat-anti-inflammatories":{
+    "title": "header menu item mobile cat-farmapet-anti-inflammatories",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catfarmapet/anti-inflammatories",
+        "noFollow": false,
+        "tagTitle": "anti-inflammatories",
+        "text": "Anti Inflamatorios"
+      }
+    } 
+  },
+  "menu-item#category__cat--farmapet-mobile-cat-joints":{
+    "title": "header menu item mobile cat-farmapet-joints",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catfarmapet/joints",
+        "noFollow": false,
+        "tagTitle": "joints",
+        "text": "Articulaciones"
+      }
+    } 
+  },
+  "menu-item#category__cat--farmapet-mobile-cat-elizabethannecklace":{
+    "title": "header menu item mobile cat-farmapet-elizabethannecklace",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catfarmapet/elizabethannecklace",
+        "noFollow": false,
+        "tagTitle": "elizabethannecklace",
+        "text": "Collares isabelinos"
+      }
+    } 
+  },
+  "menu-item#category__cat--farmapet-mobile-cat-dermatological":{
+    "title": "header menu item mobile cat-farmapet-dermatological",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catfarmapet/dermatological",
+        "noFollow": false,
+        "tagTitle": "dermatological",
+        "text": "Dermatologicos"
+      }
+    } 
+  },
+  "menu-item#category__cat--farmapet-mobile-cat-digestive":{
+    "title": "header menu item mobile cat-farmapet-digestive",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catfarmapet/digestive",
+        "noFollow": false,
+        "tagTitle": "digestive",
+        "text": "Digestivos"
+      }
+    } 
+  },
+  "menu-item#category__cat--farmapet-mobile-cat-liver":{
+    "title": "header menu item mobile cat-farmapet-liver",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catfarmapet/liver",
+        "noFollow": false,
+        "tagTitle": "liver",
+        "text": "Hepaticos"
+      }
+    } 
+  },
+  "menu-item#category__cat--farmapet-mobile-cat-hypothyroidism":{
+    "title": "header menu item mobile cat-farmapet-hypothyroidism",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catfarmapet/hypothyroidism",
+        "noFollow": false,
+        "tagTitle": "hypothyroidism",
+        "text": "Hipotiroidismo"
+      }
+    } 
+  },
+  "menu-item#category__cat--farmapet-mobile-cat-homeopathicmedicine":{
+    "title": "header menu item mobile cat-farmapet-homeopathicmedicine",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catfarmapet/homeopathicmedicine",
+        "noFollow": false,
+        "tagTitle": "homeopathicmedicine",
+        "text": "Mediciona Homeopatica"
+      }
+    } 
+  },
+  "menu-item#category__cat--farmapet-mobile-cat-ophthalmic":{
+    "title": "header menu item mobile cat-farmapet-ophthalmic",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catfarmapet/ophthalmic",
+        "noFollow": false,
+        "tagTitle": "ophthalmic",
+        "text": "Oftalmicos"
+      }
+    }  
+  },
+  "menu-item#category__cat--farmapet-mobile-cat-optics":{
+    "title": "header menu item mobile cat-farmapet-optics",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catfarmapet/optics",
+        "noFollow": false,
+        "tagTitle": "optics",
+        "text": "Opticos"
+      }
+    } 
+  },
+  "menu-item#category__cat--farmapet-mobile-link-seemore":{
+    "title": "header container link farmapet mobile cat-seemore",
+    "children": ["link#category__cat--farmapet-mobile-seemore"],
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom"
+    }
+  },
+  "link#category__cat--farmapet-mobile-seemore": {
+    "title": "header item link mobile cat-seemore",
+    "props": {
+      "href": "/categorycat/catfarmapet/farmapet",
+      "label": "Ver todo"
+    }
+  },
+  //*************************** "menu-item#category__cat--careHygiene-mobile" *******************************//
+  "flex-layout.row#header__container--menuitem--catcareHygiene-mobile":{
+    "children":[
+      "image#header__menuitem--cat--careHygiene-mobile",
+      "menu-item#category__cat--careHygiene-mobile"
+    ],"props":{
+      "paddingTop":3,
+      "paddingBottom":3,
+      // "fullWidth":true
+      "blockClass":"menuitem--mobile"
+    }
+  }, "image#header__menuitem--cat--careHygiene-mobile":{
+    "props": {
+      "src": "assets/img/icons-menu/icon-higiene.png",
+      "maxWidth": 30,
+      "maxHeight":30,
+      "blockClass":"categories--image-mobile"
+    }
+  },
+  
   "menu-item#category__cat--careHygiene-mobile": {
+    "title": "header menu item mobile cat-careHygiene",
     "props": {
       "id": "menu-item#cat--careHygiene",
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "#/cat--careHygiene",
+        "href": "/categorycat/careHygiene",
         "noFollow": false,
-        "tagTitle": "Cuidado e higiene",
+        "tagTitle": "care and hygiene",
         "text": "Cuidado e higiene"
       }
+    },
+    "blocks": ["submenu.accordion#header__submenu--cat--careHygiene-mobile"]
+  },
+  "submenu.accordion#header__submenu--cat--careHygiene-mobile": {
+    "title": "header submenu item mobile cat-careHygiene",
+    "children":  ["menu#category__itemscat--careHygiene"]
+  },
+  "menu#category__itemscat--careHygiene": {
+    "title": "header submenu item mobile cat-careHygiene",
+    "children": [
+      "menu-item#category__cat--careHygiene-mobile-cat-hygiene",
+      "menu-item#category__cat--careHygiene-mobile-cat-diapersMaps",
+      "menu-item#category__cat--careHygiene-mobile-cat-brushes",
+      "menu-item#category__cat--careHygiene-mobile-cat-nailClipper",
+      "menu-item#category__cat--careHygiene-mobile-cat-homeCare",
+      "menu-item#category__cat--careHygiene-mobile-cat-oralCare",
+      "menu-item#category__cat--careHygiene-mobile-cat-protectors",
+      "menu-item#category__cat--careHygiene-mobile-cat-petWaste",
+      "menu-item#category__cat--careHygiene-mobile-cat-odorNeutralizers",
+      "menu-item#category__cat--careHygiene-mobile-link-seemore"
+    ],
+    "props": {
+      "blockClass": "header__submenu--cat--careHygiene-mobile",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category__cat--careHygiene-mobile-cat-hygiene": {
+    "title": "header menu item mobile cat-hygiene",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catcareHygiene/hygiene",
+        "noFollow": false,
+        "tagTitle": "hygiene",
+        "text": "Higiene"
+      }
+    }
+  },
+  "menu-item#category__cat--careHygiene-mobile-cat-diapersMaps": {
+    "title": "header menu item mobile cat-diapersMaps",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catcareHygiene/diapersMaps",
+        "noFollow": false,
+        "tagTitle": "diapersMaps",
+        "text": "Pañales y tapetes"
+      }
+    }
+  },
+  "menu-item#category__cat--careHygiene-mobile-cat-brushes": {
+    "title": "header menu item mobile cat-brushes",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catcareHygiene/brushes",
+        "noFollow": false,
+        "tagTitle": "brushes",
+        "text": "Cepillos"
+      }
+    }
+  },
+  "menu-item#category__cat--careHygiene-mobile-cat-nailClipper": {
+    "title": "header menu item mobile cat-nailClipper",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catcareHygiene/nailClipper",
+        "noFollow": false,
+        "tagTitle": "nailClipper",
+        "text": "Corta uñas"
+      }
+    }
+  },
+  "menu-item#category__cat--careHygiene-mobile-cat-homeCare": {
+    "title": "header menu item mobile cat-homeCare",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catcareHygiene/homeCare",
+        "noFollow": false,
+        "tagTitle": "homeCare",
+        "text": "Cuidado hogar"
+      }
+    }
+  },
+  "menu-item#category__cat--careHygiene-mobile-cat-oralCare": {
+    "title": "header menu item mobile cat-oralCare",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catcareHygiene/oralCare",
+        "noFollow": false,
+        "tagTitle": "oralCare",
+        "text": "Cuidado oral"
+      }
+    }
+  },
+  "menu-item#category__cat--careHygiene-mobile-cat-protectors": {
+    "title": "header menu item mobile cat-protectors",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catcareHygiene/protectors",
+        "noFollow": false,
+        "tagTitle": "protectors",
+        "text": "Protectores"
+      }
+    }
+  },
+  "menu-item#category__cat--careHygiene-mobile-cat-petWaste": {
+    "title": "header menu item mobile cat-petWaste",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catcareHygiene/petWaste",
+        "noFollow": false,
+        "tagTitle": "petWaste",
+        "text": "Residuos de mascotas"
+      }
+    }
+  },
+  "menu-item#category__cat--careHygiene-mobile-cat-odorNeutralizers": {
+    "title": "header menu item mobile cat-odorNeutralizers",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catcareHygiene/odorNeutralizers",
+        "noFollow": false,
+        "tagTitle": "odorNeutralizers",
+        "text": "Neutralizadores de olor"
+      }
+    }
+  },
+
+  "menu-item#category__cat--careHygiene-mobile-link-seemore": {
+    "title": "header container link careHygiene mobile cat-seemore",
+    "children": ["link#category__cat--careHygiene-mobile-seemore"],
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom"
+    }
+  },
+  "link#category__cat--careHygiene-mobile-seemore": {
+    "title": "header item link mobile cat-seemore",
+    "props": {
+      "href": "/categorycat/catcareHygiene/careHygiene",
+      "label": "Ver todo"
+    }
+  },
+  //*************************** "menu-item#category__cat--toys-mobile" *******************************//
+  "flex-layout.row#header__container--menuitem--cattoys-mobile":{
+    "children":[
+      "image#header__menuitem--cat--toys-mobile",
+      "menu-item#category__cat--toys-mobile"
+    ],"props":{
+      "paddingTop":3,
+      "paddingBottom":3,
+      // "fullWidth":true
+      "blockClass":"menuitem--mobile"
+    }
+  },
+  "image#header__menuitem--cat--toys-mobile":{
+    "props": {
+      "src": "assets/img/icons-menu/icon-juguetes.png",
+      "maxWidth": 30,
+      "maxHeight":30,
+      "blockClass":"categories--image-mobile"
     }
   },
   "menu-item#category__cat--toys-mobile": {
@@ -203,9 +874,104 @@
         "type": "internal",
         "href": "#/cat--toys",
         "noFollow": false,
-        "tagTitle": "Toys",
-        "text": "Toys"
+        "tagTitle": "Juguetes",
+        "text": "Juguetes"
       }
+    },
+    "blocks": ["submenu.accordion#header__submenu--cat--toys-mobile"]
+  },
+  "submenu.accordion#header__submenu--cat--toys-mobile": {
+    "title": "header submenu item mobile cat-toys",
+    "children":  ["menu#category__itemscat--toys"]
+  },
+  "menu#category__itemscat--toys": {
+    "title": "header submenu item mobile cat-toys",
+    "children": [
+      "menu-item#category__cat--toys-mobile-cat-toys",
+      "menu-item#category__cat--toys-mobile-cat-teddies",
+      "menu-item#category__cat--toys-mobile-cat-interactive",
+      "menu-item#category__cat--toys-mobile-link-seemore"
+    ],
+    "props": {
+      "blockClass": "header__submenu--cat--toys-mobile",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category__cat--toys-mobile-cat-toys": {
+    "title": "header menu item mobile cat-toys",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/cattoys/toys",
+        "noFollow": false,
+        "tagTitle": "toys",
+        "text": "Juguetes"
+      }
+    }
+  },
+  "menu-item#category__cat--toys-mobile-cat-teddies":{
+    "title": "header menu item mobile cat-teddies",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catcareHygiene/teddies",
+        "noFollow": false,
+        "tagTitle": "teddies",
+        "text": "Peluches"
+      }
+    }
+  },
+  "menu-item#category__cat--toys-mobile-cat-interactive":{
+    "title": "header menu item mobile cat-interactive",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catcareHygiene/interactive",
+        "noFollow": false,
+        "tagTitle": "interactive",
+        "text": "Interactivos"
+      }
+    }
+  },
+  "menu-item#category__cat--toys-mobile-link-seemore": {
+    "title": "header container link toys mobile cat-seemore",
+    "children": ["link#category__cat--toys-mobile-seemore"],
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom"
+    }
+  },
+  "link#category__cat--toys-mobile-seemore": {
+    "title": "header item link mobile cat-seemore",
+    "props": {
+      "href": "/categorycat/cattoys/toys",
+      "label": "Ver todo"
+    }
+  },
+  //*************************** "menu-item#category__cat--accessories-mobile" *******************************//
+  "flex-layout.row#header__container--menuitem--cataccessories-mobile":{
+    "children":[
+      "image#header__menuitem--cat--accessories-mobile",
+      "menu-item#category__cat--accessories-mobile"
+    ],"props":{
+      "paddingTop":3,
+      "paddingBottom":3,
+      "blockClass":"menuitem--mobile"
+      // "fullWidth":true
+    }
+  },
+  "image#header__menuitem--cat--accessories-mobile":{
+    "props": {
+      "src": "assets/img/icons-menu/icon-accesorios.png",
+      "maxWidth": 30,
+      "maxHeight":30,
+      "blockClass":"categories--image-mobile"
     }
   },
   "menu-item#category__cat--accessories-mobile": {
@@ -219,9 +985,162 @@
         "tagTitle": "Accesorios",
         "text": "Accesorios"
       }
+    }, "blocks": ["submenu.accordion#header__submenu--cat--accessories-mobile"]
+  },
+  "submenu.accordion#header__submenu--cat--accessories-mobile": {
+    "title": "header submenu item mobile cat-accessories",
+    "children":  ["menu#category__itemscat--accessories"]
+  },
+  "menu#category__itemscat--accessories": {
+    "title": "header submenu item mobile cat-accessories",
+    "children": [
+      "menu-item#category__cat--accessories-mobile-cat-strapsLeashes",
+      "menu-item#category__cat--accessories-mobile-cat-breastplatesHarness",
+      "menu-item#category__cat--accessories-mobile-cat-muzzles",
+      "menu-item#category__cat--accessories-mobile-cat-necklaces",
+      "menu-item#category__cat--accessories-mobile-cat-clothes",
+      "menu-item#category__cat--accessories-mobile-cat-feedersDrinkers",
+      "menu-item#category__cat--accessories-mobile-cat-bedsBlankets",
+      "menu-item#category__cat--accessories-mobile-cat-cratesBriefcases",
+      "menu-item#category__cat--accessories-mobile-link-seemore"
+    ],
+    "props": {
+      "blockClass": "header__submenu--cat--accessories-mobile",
+      "orientation": "vertical"
     }
   },
-  "menu-item#category__cat--petLovers-mobile": {
+  "menu-item#category__cat--accessories-mobile-cat-strapsLeashes": {
+    "title": "header menu item mobile cat-strapsLeashes",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/cataccessories/strapsLeashes",
+        "noFollow": false,
+        "tagTitle": "accessories",
+        "text": "Correas y traillas"
+      }
+    }
+  },
+  "menu-item#category__cat--accessories-mobile-cat-breastplatesHarness": {
+    "title": "header menu item mobile cat-breastplatesHarness",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/cataccessories/breastplatesHarness",
+        "noFollow": false,
+        "tagTitle": "breastplatesHarness",
+        "text": "Pecheras y arnes"
+      }
+    }
+  },
+  "menu-item#category__cat--accessories-mobile-cat-muzzles": {
+    "title": "header menu item mobile cat-muzzles",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/cataccessories/muzzles",
+        "noFollow": false,
+        "tagTitle": "muzzles",
+        "text": "Bozales"
+      }
+    }
+  },
+  "menu-item#category__cat--accessories-mobile-cat-necklaces": {
+    "title": "header menu item mobile cat-necklaces",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/cataccessories/necklaces",
+        "noFollow": false,
+        "tagTitle": "necklaces",
+        "text": "Collares"
+      }
+    }
+  },
+  "menu-item#category__cat--accessories-mobile-cat-clothes": {
+    "title": "header menu item mobile cat-clothes",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/cataccessories/clothes",
+        "noFollow": false,
+        "tagTitle": "clothes",
+        "text": "Ropa"
+      }
+    }
+  },
+  "menu-item#category__cat--accessories-mobile-cat-feedersDrinkers": {
+    "title": "header menu item mobile cat-feedersDrinkers",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/cataccessories/feedersDrinkers",
+        "noFollow": false,
+        "tagTitle": "feedersDrinkers",
+        "text": "Comederos y bebederos"
+      }
+    }
+  },
+  "menu-item#category__cat--accessories-mobile-cat-bedsBlankets": {
+    "title": "header menu item mobile cat-bedsBlankets",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/cataccessories/bedsBlankets",
+        "noFollow": false,
+        "tagTitle": "bedsBlankets",
+        "text": "Camas y cobijas"
+      }
+    }
+  },
+  "menu-item#category__cat--accessories-mobile-cat-cratesBriefcases": {
+    "title": "header menu item mobile cat-cratesBriefcases",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/cataccessories/cratesBriefcases",
+        "noFollow": false,
+        "tagTitle": "cratesBriefcases",
+        "text": "Guacales/Maletines"
+      }
+    }
+  },
+
+  "menu-item#category__cat--accessories-mobile-link-seemore": {
+    "title": "header container link accessories mobile cat-seemore",
+    "children": ["link#category__cat--accessories-mobile-seemore"],
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom"
+    }
+  },
+  "link#category__cat--accessories-mobile-seemore": {
+    "title": "header item link mobile cat-seemore",
+    "props": {
+      "href": "/categorycat/cataccessories/accessories",
+      "label": "Ver todo"
+    }
+  },
+  //*************************** "menu-item#category__cat--petLovers-mobile" *******************************//
+  
+  
+  "menu-item#category__cat--petLovers": {
     "props": {
       "id": "menu-item#cat--petLovers",
       "type": "custom",
@@ -235,3 +1154,4 @@
     }
   }
 }
+

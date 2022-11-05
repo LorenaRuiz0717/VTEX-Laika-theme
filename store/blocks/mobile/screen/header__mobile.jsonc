@@ -1,0 +1,23 @@
+//ok
+{
+  "header-layout.mobile": {
+    "title": "header mobile ",
+    "children": ["sticky-layout.stack-container#header__mobile"],
+    "props": {
+      "blockClass": "header__mobile"
+    }
+  },
+  "sticky-layout.stack-container#header__mobile": {
+    "title": "header mobile container",
+    "props": {
+      "position": "top",
+      "blockClass": "header__mobile--sticky-container"
+    },
+    "children": [
+      "sticky-layout#1header--mobile",
+      "sticky-layout#2header__mobile",
+      "flex-layout.row#header__container--buttons-mobile"
+    ]
+  }
+}
+

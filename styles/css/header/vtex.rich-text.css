@@ -1,19 +1,18 @@
-
 .paragraph--header__section--phone,
 .paragraph--header__section--email,
-.paragraph--header__section--text-address,
+.paragraph--header__section--text-address-desktop,
 .paragraph--header__section--text-login {
   color: var(--white);
-  font-size: 12px;
+  font-size: 14px;
 }
 
-.paragraph--header__section--qualitie{
-  font-size: 12px;
-  color:white;
+.paragraph--header__section--qualitie {
+  font-size: 14px;
+  color: white;
   margin-left: 5px;
 }
 
-.container--header_hr{
+.container--header_hr {
   background-color: white;
   height: 16px;
   align-items: center;
@@ -21,21 +20,57 @@
   margin-top: 15px;
 }
 
-.paragraph--header__section--text-address{
-  margin: 20px 0px 0px 50px;
+.container--header__menu-items_hr {
+  background-color: var(--light-grey);
+  height: 1px;
+  margin: 5px 0px;
 }
 
-/* .paragraph--header__section--text-login{
-  margin: 20px 0px 0px 0px;
-} */
+.paragraph--header__section--text-address-desktop {
+  margin: 20px 0px 0px 50px;
+  width: 130px;
+}
+@media only screen and (max-width: 1025px) {
+  .paragraph--header__section--text-address-desktop {
+    margin: 0px;
+    text-align: center;
+  }
+}
 
-.paragraph--header__section--email{
+
+.paragraph--header__section--email {
   margin-left: 20px;
 }
 
-.paragraph--header__section--text-login{
-  background-color:var(--purple-bold-strong);
+.paragraph--header__section--text-login {
+  background-color: var(--purple-bold-strong);
   border-radius: 5px;
   padding: 10px;
 }
 
+.paragraph--header__categories--links-menu-title-desktop{
+  margin: 5px;
+  color: blue;
+  font-weight: 600;
+}
+
+
+.wrapper--header__section--text-addres{
+  width: 150px;
+}
+
+.wrapper--header__menuitem--services-text{
+  /* margin: 0px 20px 0px 20px; */
+  margin: 0 auto;
+}
+
+.paragraph--header__menuitem--services-text{
+  width: 100px;
+  text-align: center;
+  color: var(--purple-strong);
+  font-weight: 600;
+}
+
+.paragraph--header__menuitem--services-text{
+  margin: 0px;
+}

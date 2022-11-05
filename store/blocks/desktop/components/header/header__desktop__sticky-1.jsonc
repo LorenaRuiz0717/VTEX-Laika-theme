@@ -1,5 +1,6 @@
 {
   "sticky-layout#1header__desktop": {
+    "title": "header sticky 1 desktop",
     "children": ["flex-layout.row#top__header--desktop"],
     "props": {
       "fullWidth": true,
@@ -9,10 +10,9 @@
   //   *************************** "header-row#top__header--desktop" *******************************//
 
   "flex-layout.row#top__header--desktop": {
-    "title": "header__desktop--row1",
+    "title": "header container sections row 1 desktop",
     "children": [
       "flex-layout.row#header__section--qualities",
-      // "header-spacer",
       "flex-layout.row#header__section--contacts"
     ],
     "props": {
@@ -20,19 +20,13 @@
     }
   },
   "flex-layout.row#header__section--qualities": {
-    "title": "header__desktop--section-qualities",
+    "title": "header container section qualities desktop",
     "children": [
       "flex-layout.row#container__section--qualitie1",
       "rich-text#header__section--qualitie1-hr",
-      // "icon#header__section--qualitie1",
-      // "rich-text#header__section--qualitie1",
       "flex-layout.row#container__section--qualitie2",
       "rich-text#header__section--qualitie2-hr",
-      // "icon#header__section--qualitie2",
-      // "rich-text#header__section--qualitie2",
       "flex-layout.row#container__section--qualitie3"
-      // "icon#header__section--qualitie3",
-      // "rich-text#header__section--qualitie3"
     ],
     "props": {
       "blockClass": "header__container--qualities",
@@ -40,6 +34,7 @@
     }
   },
   "flex-layout.row#container__section--qualitie1": {
+    "title": "header desktop section qualitie 1",
     "children": [
       "icon#header__section--qualitie1",
       "rich-text#header__section--qualitie1"
@@ -50,6 +45,7 @@
     }
   },
   "icon#header__section--qualitie1": {
+    "title": "header desktop  icon section qualitie 1",
     "props": {
       "id": "bnd-iconsecurity",
       "size": 25,
@@ -59,6 +55,7 @@
     }
   },
   "rich-text#header__section--qualitie1": {
+    "title": "header desktop  text section qualitie 1",
     "props": {
       "text": "Compras seguras online",
       "blockClass": "header__section--qualitie",
@@ -66,7 +63,8 @@
       "font": "t-heading-3"
     }
   },
-  "rich-text#header__section--qualitie1-hr":{
+  "rich-text#header__section--qualitie1-hr": {
+    "title": "header desktop  hr section qualitie 1",
     "props": {
       "text": "***",
       "blockClass": "header_hr",
@@ -74,6 +72,7 @@
     }
   },
   "flex-layout.row#container__section--qualitie2": {
+    "title": "header desktop section qualitie 2",
     "children": [
       "icon#header__section--qualitie2",
       "rich-text#header__section--qualitie2"
@@ -84,6 +83,7 @@
     }
   },
   "icon#header__section--qualitie2": {
+    "title": "header desktop  icon section qualitie 2",
     "props": {
       "id": "bnd-iconpay",
       "size": 25,
@@ -92,8 +92,8 @@
       "viewBox": "0 0 25 25"
     }
   },
-
   "rich-text#header__section--qualitie2": {
+    "title": "header desktop  text section qualitie 2",
     "props": {
       "text": "Pago contra entrega",
       "blockClass": "header__section--qualitie",
@@ -102,13 +102,15 @@
     }
   },
   "rich-text#header__section--qualitie2-hr": {
+    "title": "header desktop  hr section qualitie 2",
     "props": {
       "text": "***",
       "blockClass": "header_hr",
-      "width":"1%"
+      "width": "1%"
     }
   },
   "flex-layout.row#container__section--qualitie3": {
+    "title": "header desktop section qualitie 3",
     "children": [
       "icon#header__section--qualitie3",
       "rich-text#header__section--qualitie3"
@@ -119,15 +121,17 @@
     }
   },
   "icon#header__section--qualitie3": {
+    "title": "header desktop  icon section qualitie 2",
     "props": {
       "id": "icon-truck",
       "size": 25,
       "blockClass": "icon-qualities",
-      "width":"15%",
+      "width": "15%",
       "viewBox": "0 0 25 25"
     }
   },
   "rich-text#header__section--qualitie3": {
+    "title": "header desktop  text section qualitie 2",
     "props": {
       "text": "Entregas el mismo dia",
       "blockClass": "header__section--qualitie",
@@ -135,8 +139,8 @@
       "font": "t-heading-3"
     }
   },
-
   "flex-layout.row#header__section--contacts": {
+    "title": "header container section contacts social media desktop",
     "children": [
       "flex-layout.row#header__section--contact",
       "flex-layout.row#header__section--socialmedia"
@@ -144,14 +148,14 @@
     "props": {
       "blockClass": "header__container--contact",
       "horizontalAlign": "center",
-      "width":"50%"
-      
+      "width": "50%"
     }
   },
-  "flex-layout.row#header__section--contact":{
-    "children":[
+  "flex-layout.row#header__section--contact": {
+    "title": "header container sections contact desktop",
+    "children": [
       "rich-text#header__section--phone",
-        "rich-text#header__section--qualitie3-hr",
+      "rich-text#header__section--qualitie3-hr",
       "rich-text#header__section--email"
     ],
     "props": {
@@ -160,21 +164,24 @@
     }
   },
   "rich-text#header__section--phone": {
+    "title": "header desktop  text section phone",
     "props": {
       "text": "Llamanos 3009108496",
       "blockClass": "header__section--phone",
-      "width": "40%",
+      "width": "50%",
       "font": "t-heading-3"
     }
   },
-  "rich-text#header__section--qualitie3-hr":{
+  "rich-text#header__section--qualitie3-hr": {
+    "title": "header desktop  hr section qualitie 3",
     "props": {
       "text": "***",
       "blockClass": "header_hr",
-       "width":"1%"
+      "width": "1%"
     }
   },
   "rich-text#header__section--email": {
+    "title": "header desktop  text section email",
     "props": {
       "text": "Escribenos", //link a correo, lenguaje tipo markdown?
       "blockClass": "header__section--email",
@@ -184,6 +191,7 @@
   },
 
   "flex-layout.row#header__section--socialmedia": {
+    "title": "header desktop section socialmedia",
     "children": [
       "icon#header__section--socialmedia-youtube",
       "icon#header__section--socialmedia-facebook",
@@ -195,30 +203,33 @@
     }
   },
   "icon#header__section--socialmedia-youtube": {
+    "title": "header desktop  icon section socialmedia youtube",
     "props": {
       "id": "icon-youtube",
       "size": 30,
       "blockClass": "header__socialmedia-icon",
       "viewBox": "0 0 25 25",
-      "width":"30%"
+      "width": "30%"
     }
   },
   "icon#header__section--socialmedia-facebook": {
+    "title": "header desktop  icon section socialmedia facebook",
     "props": {
       "id": "icon-facebook",
       "size": 30,
       "blockClass": "header__socialmedia-icon",
       "viewBox": "0 0 25 25",
-      "width":"30%"
+      "width": "30%"
     }
   },
   "icon#header__section--socialmedia-instagram": {
+    "title": "header desktop  icon section socialmedia instagram",
     "props": {
       "id": "icon-instagram",
       "size": 30,
       "blockClass": "header__socialmedia-icon",
       "viewBox": "0 0 25 25",
-      "width":"30%"
+      "width": "30%"
     }
   }
 }

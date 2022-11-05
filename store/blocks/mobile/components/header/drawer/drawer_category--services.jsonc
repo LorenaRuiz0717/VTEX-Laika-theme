@@ -1,12 +1,33 @@
 {
-      //*************************** "category__services" *******************************//
+  //*************************** "category__services" *******************************//
+  "flex-layout.row#header__container--menuitem--services-mobile": {
+    "children": [
+      "image#header__menuitem--services-mobile",
+      "menu-item#category__services-mobile"
+    ],
+    "props": {
+      "border": "bottom",
+      "paddingTop": 3,
+      "paddingBottom": 3,
+      "borderColor": "gray",
+      "blockClass": "header__menuitem--drawer"
+    }
+  },
+  "image#header__menuitem--services-mobile": {
+    "props": {
+      "src": "assets/img/icons-menu/icon-servicios.jpg",
+      "maxWidth": 30,
+      "maxHeight": 30,
+      "blockClass": "categories--image-mobile"
+    }
+  },
   "menu-item#category__services-mobile": {
     "props": {
       "id": "menu-item#services",
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "#/categoryservices",
+        "href": "/categoryservices",
         "noFollow": false,
         "tagTitle": "Services",
         "text": "Servicios"

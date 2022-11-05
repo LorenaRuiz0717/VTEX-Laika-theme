@@ -1,16 +1,55 @@
-  //*************************** "category__promotions" *******************************//
 {
+//*************************** "category__promotions" *******************************//
+  "flex-layout.row#header__container--menuitem--promotions-mobile": {
+    "title": "header container menu item promotions mobile",
+    "children": [
+      "image#header__menuitem--promotions-mobile",
+      "menu-item#category__promotions-mobile"
+    ],
+    "props": {
+      "border": "bottom",
+      "paddingTop": 3,
+      "paddingBottom": 3,
+      "borderColor": "gray",
+      "blockClass": "header__menuitem--drawer",
+      "maxWidth":300
+    }
+  },
+  "image#header__menuitem--promotions-mobile": {
+    "title": "header image menuitem promotions mobile",
+    "props": {
+      "src": "assets/img/icons-menu/icon-promociones.jpg",
+      "maxWidth": 30,
+      "maxHeight": 30,
+      "blockClass": "categories--image-mobile"  
+    }
+  },
   "menu-item#category__promotions-mobile": {
+    "title": "header menu item mobile promotions",
     "props": {
       "id": "menu-item#promotions",
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "#/categorypromotions",
+        // "href": "/categorypromotions",
+        // "noFollow": false,
+        "tagTitle": "Promociones",
+        "text": "Promociones"
+      }
+    },
+    "blocks": ["submenu.accordion#department__promotions-mobile"]
+  },
+  "submenu.accordion#department__promotions-mobile": {
+    "title": "header sub menu mobile cat",
+    "props":{
+      "blockClass": "submenu__department--cat-mobile",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorypromotions",
         "noFollow": false,
         "tagTitle": "Promociones",
         "text": "Promociones"
       }
     }
   }
-}
+  }

@@ -1,0 +1,29 @@
+{
+    "flex-layout.col#header__section--address": {
+    "children": ["modal-trigger#header__section--address"],
+    "props": {
+      "width": "20%",
+      "paddingLeft": 20,
+      "paddingRight": 20
+    }
+  },
+  "modal-trigger#header__section--address": {
+    "children": ["rich-text#header__add--address"]
+  },
+  "rich-text#header__add--address": {
+    "props": {
+      "text": "Agregar direccion",
+      "blockClass": "header__section--text-address-desktop",
+      "font": "t-heading-3"
+    }
+  },
+  "modal-layout#header__section--add-address": {
+    "children": ["rich-text#modal-content"]
+  },
+  "rich-text#modal-content": {
+    "props": {
+      "text": "Agrega una direccion ",
+      "font": "t-heading-3"
+    }
+  }
+}

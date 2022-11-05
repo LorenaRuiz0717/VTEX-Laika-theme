@@ -1,0 +1,123 @@
+{
+  "menu-item#category__services": {
+    "title": "header container menu title services",
+    "props": {
+      "id": "deparment__-services",
+      "type": "custom",
+      "blockClass": "menu__department",
+      "maxWidth": "20",
+      "itemProps": {
+        "type": "internal",
+        "href": "#/category-services",
+        "noFollow": false,
+        "tagTitle": "Perros",
+        "text": "Servicios"
+      }
+    },
+    "blocks": ["submenu#department__services"]
+  },
+  "submenu#department__services": {
+    "title": "header sub menu services",
+    "children": ["flex-layout.col#header__section--contaniner-services"],
+    "props": {
+      "blockClass": "submenu__department--desktop"
+    }
+  },
+  "flex-layout.col#header__section--contaniner-services": {
+    "title": "header contaniner deparment services",
+    "children": ["menu#header__deparment--services-desktop"],
+    "props": {
+      "blockClass": "header__section--contaniner-deparment"
+    }
+  },
+  "menu#header__deparment--services-desktop": {
+    "title": "header menu deparment services",
+    "children": [
+      "flex-layout.col#header__container--menuitem--services",
+      "flex-layout.col#header__menuitem--services-link"
+    ],
+    "props": {
+      "blockClass": "header__deparment--services-desktop"
+    }
+  },
+  "flex-layout.col#header__container--menuitem--services": {
+    "title": "header container menu item services",
+    "children": ["flex-layout.col#header__container--services-img"],
+    "props": {
+      "paddingTop": 2,
+      "paddingBottom": 2,
+      "blockClass": "header__container-link-desktop",
+      "width": "100%",
+      "border": "bottom",
+      "borderColor": "gray"
+    }
+  },
+  "flex-layout.col#header__container--services-img": {
+    "title": "header container image menu services",
+    "children": [
+      "image#header__menuitem--services",
+      "rich-text#header__menuitem--services-text",
+      "flex-layout.row#header__container--services-schedule"
+    ],
+    "props": {
+      "blockClass": "header__container--services-img"
+    }
+  },
+  "image#header__menuitem--services": {
+    "title": "header img menu item services",
+    "props": {
+      "src": "assets/img/icons-menu/img-services.png",
+      "maxHeight": 140,
+      "blockClass": "header__menuitem--services-image"
+    }
+  },
+  "rich-text#header__menuitem--services-text": {
+    "title": "header text category services",
+    "props": {
+      "text": "Veterinario en casa",
+      "blockClass": "header__menuitem--services-text"
+    }
+  },
+  "flex-layout.row#header__container--services-schedule":{
+    "children":[
+      "link#header__menuitem--services-link-schedule",
+      "icon#header__container--services-schedule-arrow"
+  ],
+    "props": {
+      "blockClass": "header__container--services-schedule"
+    }
+  },
+  "link#header__menuitem--services-link-schedule": {
+    "title": "header link category services schedule",
+    "props": {
+      "href": "/categoryservices/schedule",
+      "label": "Agendar",
+      "blockClass":"header__menuitem--services-text-schedule"
+    }
+  },
+  "icon#header__container--services-schedule-arrow":{
+    "title": "header desktop  icon services schedule arrow",
+    "props": {
+      "id": "nav-arrow--right",
+      "size": 25,
+      "blockClass": "icon__services--arrow",
+      "width": "10%",
+      "viewBox": "0 0 16 16"
+    }
+  },
+  "flex-layout.col#header__menuitem--services-link": {
+    "title": "header container link category services ",
+    "children": ["link#header__menuitem--services-link"],
+    "props": {
+      "blockClass": "header__categories--container-link-services-desktop"
+    }
+  },
+  "link#header__menuitem--services-link": {
+    "title": "header link category services ",
+    "props": {
+      "href": "/categoryservices",
+      "label": "Ver todos los servicios",
+      "blockClass": "header__categories--links-menuitem-services-desktop"
+    }
+  }
+}

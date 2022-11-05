@@ -1,53 +1,42 @@
-.menuContainer--header__menu--sticky3{
-    align-items: start;
-    justify-content: space-between;
-    /* position: absolute;
-    width: 101%;
-    padding-left:100px;
-    padding-right: 100px; */
-    /* margin-left: -8px; */
+.menuContainer--header__menu--sticky3 {
+  align-items: start;
+  justify-content: space-between;
 }
 
-.menuItem--menu__item{
-    background-color: white;
-    justify-content: flex-start;
+.menuItem--menu__item {
+  background-color: white;
+  justify-content: flex-start;
 }
 
-/* "header__menu--mobile" */
-.menuContainerNav--header__menu--mobile{
-    width: 100%;
-    margin-left: 30px;
+.menuContainerNav--header__menu--mobile {
+  width: 100%;
+  margin-left: 30px;
 }
 
-.styledLinkContent--menu__department{
-    justify-content: flex-start;
-    margin-left:10px;
-    color: var(--purple-strong);
-    font-weight: 600;
+.styledLinkContent--menu__department {
+  justify-content: flex-start;
+  margin: 0px 20px 0px 20px;
+  color: var(--purple-strong);
+  font-weight: 600;
 }
 
-.styledLinkContainer--menu__department{
-    /* background-color: blue; */
-    margin-left: 0px;
-    margin-right: 0px;
+.styledLinkContainer--menu__department {
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
-.styledLinkContent--department__dog-desktop{
-    color: var(--purple-strong);
+/* .styledLinkContent--department__dog-desktop {
+  color: var(--purple-strong);
+} */
+
+.submenuWrapper--submenu__department--desktop {
+  padding: 5px 10px;
+  margin-left: -46px;
+  /* box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important; */
+  z-index: 1;
+  box-shadow: 7px 8px 18px 0px #d8d8d8; 
 }
 
-.submenuWrapper--submenu__department--dog-desktop{
-    padding: 5px 10px;
-    /* background-color: red; */
-    margin-left: -30px;
+.menuContainer--header__deparment--services-desktop{
+ flex-direction: column;
 }
-/* .menuItem--department__dog-desktop--isClosed{ */
-    /* width: 80px; */
-    /* background-color: royalblue; */
-/* } */
-
-/* .menuItem--department__dog-desktop--isOpen{ */
-    /* width: 200px; */
-    /* background-color: gold; */
-    /* position:absolute; */
-/* } */

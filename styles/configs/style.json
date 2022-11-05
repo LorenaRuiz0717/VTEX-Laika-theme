@@ -86,7 +86,7 @@
       "disabled": "#f2f4f5",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
-      "danger": "#ff4c4c",
+      "danger": "#F9CFD9",
       "danger--faded": "#ffe6e6",
       "warning": "#ffb100",
       "warning--faded": "#fff6e0",
@@ -129,7 +129,7 @@
       "muted-5": "#f2f4f5"
     },
     "text": {
-      "action-primary": "#0F3E99",
+      "action-primary": "#271938",
       "action-secondary": "#eef3f7",
       "link": "#0F3E99",
       "emphasis": "#f71963",
@@ -150,7 +150,7 @@
       "link": "#0c389f"
     },
     "hover-text": {
-      "action-primary": "#072c75",
+      "action-primary": "#271938",
       "action-secondary": "#dbe9fd",
       "link": "#0c389f",
       "emphasis": "#dd1659",
@@ -324,35 +324,35 @@
     ],
     "styles": {
       "heading-1": {
-        "fontFamily": "causten, helvetica, roboto,",
+        "fontFamily": "livvicmedium, Causten,Causten Semi",
         "fontWeight": "700",
         "fontSize": "3rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-2": {
-        "fontFamily": "causten, helvetica, roboto,",
+        "fontFamily": "livvicmedium, Causten,Causten Semi",
         "fontWeight": "700",
         "fontSize": "2.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-3": {
-        "fontFamily": "causten, helvetica, roboto,",
+        "fontFamily": "livvicmedium, Causten,Causten Semi",
         "fontWeight": "700",
         "fontSize": "1.75rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-4": {
-        "fontFamily": "causten, helvetica, roboto,",
+        "fontFamily": "livvicmedium, Causten,Causten Semi",
         "fontWeight": "normal",
         "fontSize": "1.5rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-5": {
-        "fontFamily": "causten, helvetica, roboto,",
+        "fontFamily": "livvicmedium, Causten,Causten Semi",
         "fontWeight": "500",
         "fontSize": "1.313rem",
         "textTransform": "initial",
@@ -360,7 +360,7 @@
         "line-height": "1.2"
       },
       "heading-6": {
-        "fontFamily": "causten, helvetica, roboto,",
+        "fontFamily": "livvicmedium, Causten,Causten Semi",
         "fontWeight": "500",
         "fontSize": "1.063rem",
         "textTransform": "initial",
@@ -368,7 +368,7 @@
         "line-height": 1.2
       },
       "body": {
-        "fontFamily": "causten, helvetica, roboto,",
+        "fontFamily": "livvicmedium, Causten,Causten Semi",
         "fontWeight": "normal",
         "fontSize": "1rem",
         "textTransform": "initial",
@@ -376,35 +376,35 @@
         "line-height": 1.5
       },
       "small": {
-        "fontFamily": "causten, helvetica, roboto,",
+        "fontFamily": "livvicmedium, Causten,Causten Semi",
         "fontWeight": "normal",
         "fontSize": "0.875rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "mini": {
-        "fontFamily": "causten, helvetica, roboto,",
+        "fontFamily": "livvicmedium, Causten,Causten Semi",
         "fontWeight": "normal",
         "fontSize": "0.75rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "action": {
-        "fontFamily": "causten, helvetica, roboto,",
+        "fontFamily": "livvicmedium, Causten,Causten Semi",
         "fontWeight": "500",
         "fontSize": "1rem",
         "textTransform": "uppercase",
         "letterSpacing": "0"
       },
       "action--small": {
-        "fontFamily": "causten, helvetica, roboto,",
+        "fontFamily": "livvicmedium, Causten,Causten Semi",
         "fontWeight": "500",
         "fontSize": "0.875rem",
         "textTransform": "uppercase",
         "letterSpacing": "0"
       },
       "action--large": {
-        "fontFamily": "causten, helvetica, roboto,",
+        "fontFamily": "livvicmedium, Causten,Causten Semi",
         "fontWeight": "500",
         "fontSize": "1.25rem",
         "textTransform": "uppercase",

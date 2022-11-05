@@ -1,61 +1,65 @@
 {
+  //ok
   //*************************** "header-row#1header.mobile" *******************************//
   "sticky-layout#1header--mobile": {
+    "title": "header mobile sticky1 mobile",
     "children": ["flex-layout.row#header__container--sticky1"],
     "props": {
-      "blockClass": "header__layout"
+      "blockClass": "header__mobile--sticky1"
     }
   },
   "flex-layout.row#header__container--sticky1": {
+    "title": "header mobile container sticky1 mobile",
     "children": [
       "flex-layout.col#header__section--drawer",
-      // "drawer#header__menu--mobile",
       "flex-layout.col#header__section--address-mobile",
-      // "modal-trigger#header__section--address",
       "flex-layout.col#header__section--logo-mobile",
-      // "logo#header__section--logo",
       "flex-layout.col#header__section--login",
-      // "login",
       "flex-layout.col#header__section--cart"
-      // "minicart.v2"
-    ]
+    ],
+    "props": {
+      "blockClass": "header__container--sticky1-mobile"
+      }
   },
-  "flex-layout.col#header__section--drawer":{
+  "flex-layout.col#header__section--drawer": {
+    "title": "header section  drawer mobile",
     "children": ["drawer#header__menu--mobile"],
-    "props":{
-      "blockClass": "header__section--drawer",
-      "width":"10%"
+    "props": {
+      "blockClass": "header__section--drawer"
+      // "width": "10%"
     }
   },
-      "flex-layout.col#header__section--address-mobile":{
-         "children": ["modal-trigger#header__section--address"],
-          "props":{
-          "blockClass": "header__section--address",
-          "width":"30%"
-        }
-      },
-    
-      "flex-layout.col#header__section--logo-mobile":{
-        "children": ["logo#header__section--logo"],
-        "props":{
-        "blockClass": "header__section--address",
-        "width":"20%"
-      }
+  "flex-layout.col#header__section--address-mobile": {
+    "title": "header section address mobile",
+    "children": ["modal-trigger#header__section--address"],
+    "props": {
+      "blockClass": "header__section--address"
+      // "width": "30%"
+    }
+  },
 
-      },
-      "flex-layout.col#header__section--login":{
-        "children": ["login"],
-        "props":{
-        "blockClass": "header__section--address",
-        "width":"30%"
-      }
-      },
-      "flex-layout.col#header__section--cart":{
-        "children": ["minicart.v2"],
-        "props":{
-        "blockClass": "header__section--address",
-        "width":"10%"
-      }
-      }
-
+  "flex-layout.col#header__section--logo-mobile": {
+    "title": "header section logo mobile",
+    "children": ["logo#header__section--logo"],
+    "props": {
+      "blockClass": "header__section--logo"
+      // "width": "20%"
+    }
+  },
+  "flex-layout.col#header__section--login": {
+    "title": "header section login mobile",
+    "children": ["login"],
+    "props": {
+      "blockClass": "header__section--login"
+      // "width": "30%"
+    }
+  },
+  "flex-layout.col#header__section--cart": {
+    "title": "header section cart mobile",
+    "children": ["minicart.v2"],
+    "props": {
+      "blockClass": "header__section--cart"
+      // "width": "10%"    
+    }
+  }
 }

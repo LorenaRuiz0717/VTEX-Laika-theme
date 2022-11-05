@@ -1,0 +1,30 @@
+{
+  // "flex-layout.col#header__tablet": {
+  //   "title": "header mobile ",
+  //   "children": ["sticky-layout.stack-container#header__tablet"]
+  // },
+  // "sticky-layout.stack-container#header__tablet": {
+  //   "props": {
+  //     "position": "top"
+  //   },
+  //   "children": [
+  //     "sticky-layout#1header--mobile",
+  //     "sticky-layout#2header__mobile"
+  //     // "flex-layout.row#3header.mobile"//
+  //   ]
+  // },
+  // "header-layout.mobile": {
+  //   "title": "header mobile ",
+  //   "children": ["sticky-layout.stack-container#header__mobile"]
+  // },
+  // "sticky-layout.stack-container#header__mobile": {
+  //   "props": {
+  //     "position": "top"
+  //   },
+  //   "children": [
+  //     "sticky-layout#1header--mobile",
+  //     "sticky-layout#2header__mobile",
+  //     "flex-layout.row#3header.mobile"
+  //   ]
+  // }
+}
