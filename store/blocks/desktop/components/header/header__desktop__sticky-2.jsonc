@@ -1,23 +1,19 @@
 {
   "sticky-layout#2header__desktop": {
+    "title": "header sticky 2 desktop",
     "children": ["flex-layout.row#middle__header--desktop"],
     "props": {
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass": "container__sticky2"
     }
   },
-
   //*************************** "header-row#middle__header--desktop" *******************************//
-
   "flex-layout.row#middle__header--desktop": {
     "title": "header desktop row2",
     "children": [
       "flex-layout.col#header__section--logo",
-      // "logo#header__section--logo",
       "flex-layout.col#header__section--search",
-      // "search-bar#header__section--search",
       "flex-layout.col#header__section--address",
-      //  "modal-trigger#header__section--address",
-      // "login#header__section--login"
       "modal-trigger#header__section--login", //desplegable
       "minicart.v2"
     ],
@@ -40,15 +36,16 @@
       "blockClass": "header__logo--img"
     }
   },
-
   "flex-layout.col#header__section--search": {
+    "title": "header container sections search",
     "children": ["search-bar#header__section--search"],
     "props": {
-      // "blockClass": "header__container--logo",
+      "blockClass": "header__container--search",
       "width": "50%"
     }
   },
   "search-bar#header__section--search": {
+    "title": "header sections search",
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
       "openAutocompleteOnFocus": true,
@@ -61,14 +58,19 @@
     "blocks": ["product-summary"]
   },
   "modal-trigger#header__section--login": {
+    "title": "header sections modal-login",
     "children": [
       // "flex-layout.col#header__section--login",
       "rich-text#header__section--login",
       // "icon#header__login--arrow",
       "modal-layout#header__section--login"
-    ]
+    ],
+    "props": {
+      "blockClass": "header__modal--login"
+    }
   },
   "rich-text#header__section--login": {
+    "title": "header desktop  text section login",
     "props": {
       "text": "Crear cuenta",
       "blockClass": "header__section--text-login",
@@ -76,19 +78,27 @@
     }
   },
   "icon#header__login--arrow": {
+    "title": "header desktop  icon section login",
     "props": {
       "id": "icon-arrow",
       "size": 30,
-      // "blockClass": "header__socialmedia-icon",
+      "blockClass": "header__icon--login",
       "viewBox": "0 0 25 25"
-      // "width": "30%"
     }
   },
   "modal-layout#header__section--login": {
-    "children": ["login-content"]
+    "title": "header sections modal-login",  
+    "children": ["login-content"],
+    "props": {
+      "text": "Login",
+      "blockClass": "header__section--text-login",
+      "font": "t-heading-3"
+    }
   },
   "login-content#header__section--login": {
+    "title": "header sections login",  
     "props": {
+      "blockClass": "header__section--login",
       "emailAndPasswordTitle": "LOG-IN",
       "accessCodeTitle": "Acess Code LOG-IN",
       "emailPlaceholder": "e-mail",

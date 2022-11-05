@@ -10,133 +10,17 @@
     "title": "header menu items mobile",
     "children": [
       "flex-layout.row#header__container--menuitem--dog-mobile",
-      // "image#header__menuitem--dog-mobile",
-      // "menu-item#department__dog-mobile",
       "flex-layout.row#header__container--menuitem--cat-mobile",
-      // "image#header__menuitem--cat-mobile",
-      // "menu-item#department__cat-mobile",
       "flex-layout.row#header__container--menuitem--services-mobile",
-      // "image#header__menuitem--services-mobile",
-      // "menu-item#category__services-mobile",
       "flex-layout.row#header__container--menuitem--promotions-mobile",
-      // "image#header__menuitem--promotions-mobile",
-      // "menu-item#category__promotions-mobile",
       "flex-layout.row#header__container--menuitem--blog-mobile"
-      // "image#header__menuitem--blog-mobile",
-      // "menu-item#category__blog-mobile"
     ],
     "props": {
       "orientation": "vertical",
       "type": "line",
       "blockClass":"header__menu--mobile"
     }
-  },
-  "flex-layout.row#header__container--menuitem--dog-mobile":{
-    "children":[
-      "image#header__menuitem--dog-mobile",
-      "menu-item#department__dog-mobile"
-    ],"props":{
-      "border":"bottom",
-      "paddingTop":3,
-      "paddingBottom":3,
-      "borderColor":"gray",
-      "blockClass":"header__menuitem--drawer"
-    }
-  },
-  "image#header__menuitem--dog-mobile": {
-    "props": {
-      "src": "assets/img/icons-menu/icon-dog.avif",
-      "maxWidth": 30,
-      "maxHeight":30,
-      "blockClass":"categories--image-mobile"
-      // "width":"25%"
-    }
-  },  
-  "flex-layout.row#header__container--menuitem--cat-mobile":{
-    "children":[
-      "image#header__menuitem--cat-mobile",
-      "menu-item#department__cat-mobile"
-    ],"props":{
-      "border":"bottom",
-      "paddingTop":3,
-      "paddingBottom":3,
-      "borderColor":"gray",
-      "blockClass":"header__menuitem--drawer",
-      "maxWidth":300
-    }
-  },
-  "image#header__menuitem--cat-mobile": {
-    "props": {
-      "src": "assets/img/icons-menu/icon-cat.avif",
-      "maxWidth": 30,
-      "maxHeight":30,
-      "blockClass":"categories--image-mobile"
-      // "width":"25%"
-    }
-  },
-  "flex-layout.row#header__container--menuitem--services-mobile":{
-    "children":[
-      "image#header__menuitem--services-mobile",
-      "menu-item#category__services-mobile"
-    ],"props":{
-      "border":"bottom",
-      "paddingTop":3,
-      "paddingBottom":3,
-      "borderColor":"gray",
-      "blockClass":"header__menuitem--drawer"
-    }
-  },
-  "image#header__menuitem--services-mobile": {
-    "props": {
-      "src": "assets/img/icons-menu/icon-servicios.jpg",
-      "maxWidth": 30,
-      "maxHeight":30,
-      "blockClass":"categories--image-mobile"
-      // "width":"25%"
-    }
-  }, 
-  "flex-layout.row#header__container--menuitem--promotions-mobile":{
-    "children":[
-      "image#header__menuitem--promotions-mobile",
-      "menu-item#category__promotions-mobile"
-    ],"props":{
-      "border":"bottom",
-      "paddingTop":3,
-      "paddingBottom":3,
-      "borderColor":"gray",
-      "blockClass":"header__menuitem--drawer"
-    }
-  },
-  "image#header__menuitem--promotions-mobile": {
-    "props": {
-      "src": "assets/img/icons-menu/icon-promociones.jpg",
-      "maxWidth": 30,
-      "maxHeight":30,
-      "blockClass":"categories--image-mobile"
-      // "width":"25%"
-    }
-  },
-  "flex-layout.row#header__container--menuitem--blog-mobile":{
-    "children":[
-      "image#header__menuitem--blog-mobile",
-      "menu-item#category__blog-mobile"
-    ],"props":{
-      "border":"bottom",
-      "paddingTop":3,
-      "paddingBottom":3,
-      "borderColor":"gray",
-      "blockClass":"header__menuitem--drawer" 
-    }
-  },
-   "image#header__menuitem--blog-mobile": {
-    "props": {
-      "src": "assets/img/icons-menu/icon-blog.jpg",
-      "maxWidth": 30,
-      "maxHeight":30,
-      "blockClass":"categories--image-mobile"
-      // "width":"25%"
-    }
-  }
+  } 
 }
 
  

@@ -67,35 +67,13 @@
   "flex-layout.row#header__container--title-dogfood": {
     "title": "header container menu title dog-food",
     "children": [
-      // "flex-layout.col#header__container--img-dogfood", 
       "image#header__menuitem--dog--food",
-      // "flex-layout.col#header__container--link-dogfood"
       "link#category__dog--food"
     ],
     "props": {
       "blockClass": "header__container-menuitem-title-desktop"
     }
   },
-  // "flex-layout.col#header__container--img-dogfood":{
-  //   "children":[
-  //     "image#header__menuitem--dog--food"
-  //   ]  , "props": {
-  //     // "paddingTop": 2,
-  //     // "paddingBottom": 2,
-  //     // "blockClass": "header__container-menuitem-desktop",
-  //     "width": "20%"
-  //   }
-  // },
-  // "flex-layout.col#header__container--link-dogfood":{
-  //   "children":[
-  //     "link#category__dog--food"
-  //   ] , "props": {
-  //     // "paddingTop": 2,
-  //     // "paddingBottom": 2,
-  //     // "blockClass": "header__container-menuitem-desktop",
-  //     "width": "80%"
-  //   }
-  // },
   "image#header__menuitem--dog--food": {
     "title": "header img menu item dog food",
     "props": {
@@ -578,13 +556,10 @@
       "flex-layout.row#header__container--menuitem--dogaccessories"
     ],
     "props": {
-      // "paddingTop": 2,
-      // "paddingBottom": 2,
       "blockClass": "header__container-menuitem-desktop",
       "width": "100%"
     }
   },
-
   "rich-text#category__dog--food-seemore-title": {
     "title": "category__dog--food-seemore-title",
     "props": {

@@ -1,16 +1,40 @@
 {
-    "menu-item#category__blog-mobile": {
-      "props": {
-        "id": "menu-item#blog",
-        "type": "custom",
-        "blockClass": "menu__department",
-        "itemProps": {
-          "type": "internal",
-          "href": "#/categoryblog",
-          "noFollow": false,
-          "tagTitle": "blog",
-          "text": "Blog"
-        }
+  "flex-layout.row#header__container--menuitem--blog-mobile": {
+    "title": "header container menu item blog mobile",
+    "children": [
+      "image#header__menuitem--blog-mobile",
+      "menu-item#category__blog-mobile"
+    ],
+    "props": {
+      "border": "bottom",
+      "paddingTop": 3,
+      "paddingBottom": 3,
+      "borderColor": "gray",
+      "blockClass": "header__menuitem--drawer"
+    }
+  },
+  "image#header__menuitem--blog-mobile": {
+    "title": "header image menuitem blog mobile",
+    "props": {
+      "src": "assets/img/icons-menu/icon-blog.jpg",
+      "maxWidth": 30,
+      "maxHeight": 30,
+      "blockClass": "categories--image-mobile"
+    }
+  },
+  "menu-item#category__blog-mobile": {
+    "title": "header menuitem blog mobile",
+    "props": {
+      "id": "menu-item#blog",
+      "type": "custom",
+      // "blockClass": "menu__department",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categoryblog",
+        "noFollow": false,
+        "tagTitle": "blog",
+        "text": "Blog"
       }
     }
   }
+}

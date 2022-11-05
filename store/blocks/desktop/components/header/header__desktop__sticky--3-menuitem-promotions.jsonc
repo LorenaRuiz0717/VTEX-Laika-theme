@@ -1,0 +1,17 @@
+{
+  "menu-item#category__promotions": {
+    "title": "header menu item mobile promotions",
+    "props": {
+      "blockClass": "menu__department",
+      "id": "menu-item#promotions",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorypromotions",
+        "noFollow": false,
+        "tagTitle": "Promociones",
+        "text": "Promociones"
+      }
+    }
+  }
+}

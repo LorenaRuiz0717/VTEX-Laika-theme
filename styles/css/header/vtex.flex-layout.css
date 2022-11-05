@@ -150,6 +150,7 @@
 .flexRowContent--menuitem--mobile{
   display: flex;
   width: 350px;
+  align-items: start;
 }
 /* 
 .flexRowContent--header__menuitem--drawer{

@@ -26,8 +26,8 @@
       "image#header__menuitem--cat",
       "menu-item#department__cat",
       "menu-item#category__services",
-      "menu-item#category__promotions-mobile",
-      "menu-item#category__blog-mobile",
+      "menu-item#category__promotions",
+      "menu-item#category__blog",
       "header-spacer",
       "flex-layout.row#header__container--buttons"
     ],

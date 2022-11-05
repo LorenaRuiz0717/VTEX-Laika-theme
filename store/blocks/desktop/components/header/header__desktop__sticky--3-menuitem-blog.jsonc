@@ -1,0 +1,17 @@
+{
+  "menu-item#category__blog": {
+    "title": "header menu item mobile blog",
+    "props": {
+      "blockClass": "menu__department",
+      "id": "menu-item#blog",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categoryblog",
+        "noFollow": false,
+        "tagTitle": "blog",
+        "text": "Blog"
+      }
+    }
+  }
+}
