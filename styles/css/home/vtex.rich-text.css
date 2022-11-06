@@ -2,3 +2,9 @@
 .container--home__categories {
   color: var(--white);
 }
+
+.paragraph--home__section--categorie-text{
+  margin: 0px;
+  text-align: center;
+  /* background-color: purple; */
+}

@@ -7,20 +7,32 @@
       "preload": true,
       "images": [
         {
-          "image": "assets/img/slider1-3.avif",
+          "image": "assets/img/slider-main-home/slider1.avif",
           "description": "Slide 1"
         },
         {
-          "image": "assets/img/slider2.avif",
+          "image": "assets/img/slider-main-home/slider2.avif",
           "description": "Slide 2"
         },
         {
-          "image": "assets/img/slider1-3.avif",
+          "image": "assets/img/slider-main-home/slider3.avif",
           "description": "Slide 3"
         },
         {
-          "image": "assets/img/slider4.avif",
+          "image": "assets/img/slider-main-home/slider4.avif",
           "description": "Slide 4"
+        },
+        {
+          "image": "assets/img/slider-main-home/slider5.avif",
+          "description": "Slide 5"
+        },
+        {
+          "image": "assets/img/slider-main-home/slider6.avif",
+          "description": "Slide 6"
+        },
+        {
+          "image": "assets/img/slider-main-home/slider7.avif",
+          "description": "Slide 7"
         }
       ]
     }

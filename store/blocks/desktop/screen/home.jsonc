@@ -13,7 +13,10 @@
       "tab-layout#home",
       // "slider-layout#home"
       "responsive-layout.desktop"      
-    ]
+    ],
+    "props":{
+      "blockClass":"store__home"
+    }
   },
   
   "responsive-layout.desktop": {
