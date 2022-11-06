@@ -76,19 +76,19 @@
       "maxHeight": 35,
       "blockClass": "header__button--item"
     }
-  },
-  "menu-item#category__blog": {
-    "props": {
-      "id": "menu-item#blog",
-      "type": "custom",
-      "blockClass": "menu__department",
-      "itemProps": {
-        "type": "internal",
-        "href": "#/categoryblog",
-        "noFollow": false,
-        "tagTitle": "Blog",
-        "text": "Blog"
-      }
-    }
   }
+  // "menu-item#category__blog": {
+  //   "props": {
+  //     "id": "menu-item#blog",
+  //     "type": "custom",
+  //     "blockClass": "menu__department",
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "#/categoryblog",
+  //       "noFollow": false,
+  //       "tagTitle": "Blog",
+  //       "text": "Blog"
+  //     }
+  //   }
+  // }
 }

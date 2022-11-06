@@ -82,7 +82,7 @@
       "base--inverted": "#03044e",
       "action-primary": "#0F3E99",
       "action-secondary": "#eef3f7",
-      "emphasis": "#f71963",
+      "emphasis": "#603E85",
       "disabled": "#f2f4f5",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -353,7 +353,7 @@
       },
       "heading-5": {
         "fontFamily": "livvicmedium, Causten,Causten Semi",
-        "fontWeight": "500",
+        "fontWeight": "800",
         "fontSize": "1.313rem",
         "textTransform": "initial",
         "letterSpacing": "0",
@@ -377,7 +377,7 @@
       },
       "small": {
         "fontFamily": "livvicmedium, Causten,Causten Semi",
-        "fontWeight": "normal",
+        "fontWeight": "800",
         "fontSize": "0.875rem",
         "textTransform": "initial",
         "letterSpacing": "0"
