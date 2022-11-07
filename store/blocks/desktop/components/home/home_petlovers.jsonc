@@ -1,0 +1,22 @@
+{
+    "flex-layout.row#home__section--petlovers": {
+        "title": "home section petlovers",
+        "children": [
+            "image#home__section--petlovers-image"
+        ],
+        "props": {
+          "blockClass": "home__qualities--contaniner",
+          "border": "bottom",
+          "borderColor": "gray"
+        }
+      },
+      "image#home__section--petlovers-image": {
+        "title": "home section petlovers image",
+        "props": {
+          "src": "assets/img/layer-petlovers.avif",
+          "blockClass":"home__section--petlovers-image"
+        //   "maxWidth": 84
+        //   "maxHeight": "85%"
+        }
+      }
+}
