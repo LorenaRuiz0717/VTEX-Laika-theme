@@ -9,7 +9,7 @@
 }
 
 .flexRow--home__qualities--contaniner{
-  margin:50px 100px;
+  margin:20px 100px;
 }
 
 .flexCol--home__qualities--items{
@@ -47,4 +47,26 @@
   /* background-color: blue; */
   /* justify-items: center; */
   align-items: center;
+}
+
+/* .flexColChild--home__section--qualities{
+    padding: 50px 140px;
+} */
+
+.flexRow--home__qualitie--contaniner{
+  /* background-color: red; */
+  padding: 20px 140px;
+  margin: 20px;
+}
+
+.flexColChild--home__qualities--items{
+  height: auto !important;
+}
+
+.flexRowContent--home__qualitie--contaniner{
+  gap:30px
+}
+
+.flexCol--home__qualities--items{
+  gap: 10px;
 }

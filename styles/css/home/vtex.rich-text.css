@@ -3,8 +3,17 @@
   color: var(--white);
 }
 
-.paragraph--home__section--categorie-text{
+.paragraph--home__text--title-section{
   margin: 0px;
   text-align: center;
   /* background-color: purple; */
+}
+
+.paragraph--home__qualities--items-title{
+  margin: 0px;
+  font-weight: bold;
+}
+
+.paragraph--home__qualities--items-paragraph{
+  margin: 0px;
 }
