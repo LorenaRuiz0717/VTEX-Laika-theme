@@ -27,7 +27,6 @@
     "props": {
       "id": "menu-item#blog",
       "type": "custom",
-      // "blockClass": "menu__department",
       "itemProps": {
         "type": "internal",
         "href": "/categoryblog",

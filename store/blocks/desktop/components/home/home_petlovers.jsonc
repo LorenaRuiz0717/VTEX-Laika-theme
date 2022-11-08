@@ -15,8 +15,6 @@
         "props": {
           "src": "assets/img/layer-petlovers.avif",
           "blockClass":"home__section--petlovers-image"
-        //   "maxWidth": 84
-        //   "maxHeight": "85%"
         }
       }
 }

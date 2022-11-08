@@ -19,8 +19,6 @@
   "menu#header__menu--desktop": {
     "title": "Header menu sticky 3",
     "children": [
-      // "flex-layout.row#header__menuitem--dog-desktop",
-      // "header-spacer",
       "image#header__menuitem--dog",
       "menu-item#department__dog",
       "image#header__menuitem--cat",
@@ -77,18 +75,4 @@
       "blockClass": "header__button--item"
     }
   }
-  // "menu-item#category__blog": {
-  //   "props": {
-  //     "id": "menu-item#blog",
-  //     "type": "custom",
-  //     "blockClass": "menu__department",
-  //     "itemProps": {
-  //       "type": "internal",
-  //       "href": "#/categoryblog",
-  //       "noFollow": false,
-  //       "tagTitle": "Blog",
-  //       "text": "Blog"
-  //     }
-  //   }
-  // }
 }

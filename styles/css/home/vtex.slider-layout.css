@@ -18,11 +18,6 @@
     color:var(--purple-strong);
 }
 
-.sliderArrows--carousel{
-    background-color: green;
-}
-
-
 .paginationDotsContainer--home_slider {
     position: absolute !important;
     bottom: -28px;
@@ -57,7 +52,7 @@
   .sliderArrows--carousel{
     position: relative;
     left: -70px;
-    top:-54px
+    top:-30px
   }
 
 /* .slide--carousel--hidden{

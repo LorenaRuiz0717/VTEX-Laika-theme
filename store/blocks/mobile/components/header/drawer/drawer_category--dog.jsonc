@@ -29,7 +29,6 @@
     "props": {
       "id": "deparment__dog",
       "type": "custom",
-      // "blockClass": "department__dog-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorydog",
@@ -73,7 +72,6 @@
     "props": {
       "paddingTop": 3,
       "paddingBottom": 3,
-      // "fullWidth":true,
       "blockClass": "menuitem--mobile"
     }
   },
@@ -182,7 +180,6 @@
     "props": {
       "paddingTop": 3,
       "paddingBottom": 3,
-      // "fullWidth":true,
       "blockClass": "menuitem--mobile"
     }
   },
@@ -276,7 +273,6 @@
     "props": {
       "paddingTop": 3,
       "paddingBottom": 3,
-      // "fullWidth":true
       "blockClass": "menuitem--mobile"
     }
   },
@@ -288,7 +284,6 @@
       "blockClass": "categories--image-mobile"
     }
   },
-
   "menu-item#category__dog--halloween-mobile": {
     "title": "header menu item mobile dog-halloween",
     "props": {
@@ -357,7 +352,6 @@
     "props": {
       "paddingTop": 3,
       "paddingBottom": 3,
-      // "fullWidth":true
       "blockClass": "menuitem--mobile"
     }
   },
@@ -648,7 +642,6 @@
     "props": {
       "paddingTop": 3,
       "paddingBottom": 3,
-      // "fullWidth":true
       "blockClass": "menuitem--mobile"
     }
   },
@@ -660,7 +653,6 @@
       "blockClass": "categories--image-mobile"
     }
   },
-
   "menu-item#category__dog--careHygiene-mobile": {
     "title": "header menu item mobile dog-careHygiene",
     "props": {
@@ -850,7 +842,6 @@
     "props": {
       "paddingTop": 3,
       "paddingBottom": 3,
-      // "fullWidth":true
       "blockClass": "menuitem--mobile"
     }
   },
@@ -960,7 +951,6 @@
       "paddingTop": 3,
       "paddingBottom": 3,
       "blockClass": "menuitem--mobile"
-      // "fullWidth":true
     }
   },
   "image#header__menuitem--dog--accessories-mobile": {
@@ -1136,7 +1126,6 @@
     }
   },
   //*************************** "menu-item#category__dog--petLovers-mobile" *******************************//
-
   "menu-item#category__dog--petLovers": {
     "props": {
       "id": "menu-item#dog--petLovers",

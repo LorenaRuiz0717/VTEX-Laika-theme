@@ -70,7 +70,6 @@
     ],"props":{
       "paddingTop":3,
       "paddingBottom":3,
-      // "fullWidth":true,
       "blockClass":"menuitem--mobile"
     }
   },
@@ -193,7 +192,6 @@
     ],"props":{
       "paddingTop":3,
       "paddingBottom":3,
-      // "fullWidth":true,
       "blockClass":"menuitem--mobile"
     }
   },"image#header__menuitem--cat--snacks-mobile":{
@@ -285,7 +283,6 @@
     ],"props":{
       "paddingTop":3,
       "paddingBottom":3,
-      // "fullWidth":true
       "blockClass":"menuitem--mobile"
     }
   },"image#header__menuitem--cat--halloween-mobile":{
@@ -364,7 +361,6 @@
     ],"props":{
       "paddingTop":3,
       "paddingBottom":3,
-      // "fullWidth":true
       "blockClass":"menuitem--mobile"
     }
   },
@@ -654,7 +650,6 @@
     ],"props":{
       "paddingTop":3,
       "paddingBottom":3,
-      // "fullWidth":true
       "blockClass":"menuitem--mobile"
     }
   }, "image#header__menuitem--cat--careHygiene-mobile":{
@@ -830,7 +825,6 @@
       }
     }
   },
-
   "menu-item#category__cat--careHygiene-mobile-link-seemore": {
     "title": "header container link careHygiene mobile cat-seemore",
     "children": ["link#category__cat--careHygiene-mobile-seemore"],
@@ -854,7 +848,6 @@
     ],"props":{
       "paddingTop":3,
       "paddingBottom":3,
-      // "fullWidth":true
       "blockClass":"menuitem--mobile"
     }
   },
@@ -963,7 +956,6 @@
       "paddingTop":3,
       "paddingBottom":3,
       "blockClass":"menuitem--mobile"
-      // "fullWidth":true
     }
   },
   "image#header__menuitem--cat--accessories-mobile":{
@@ -1121,7 +1113,6 @@
       }
     }
   },
-
   "menu-item#category__cat--accessories-mobile-link-seemore": {
     "title": "header container link accessories mobile cat-seemore",
     "children": ["link#category__cat--accessories-mobile-seemore"],
@@ -1137,9 +1128,7 @@
       "label": "Ver todo"
     }
   },
-  //*************************** "menu-item#category__cat--petLovers-mobile" *******************************//
-  
-  
+  //*************************** "menu-item#category__cat--petLovers-mobile" *******************************//  
   "menu-item#category__cat--petLovers": {
     "props": {
       "id": "menu-item#cat--petLovers",

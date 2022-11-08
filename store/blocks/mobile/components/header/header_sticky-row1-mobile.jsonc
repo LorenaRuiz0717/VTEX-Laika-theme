@@ -1,5 +1,4 @@
 {
-  //ok
   //*************************** "header-row#1header.mobile" *******************************//
   "sticky-layout#1header--mobile": {
     "title": "header mobile sticky1 mobile",
@@ -26,7 +25,6 @@
     "children": ["drawer#header__menu--mobile"],
     "props": {
       "blockClass": "header__section--drawer"
-      // "width": "10%"
     }
   },
   "flex-layout.col#header__section--address-mobile": {
@@ -34,7 +32,6 @@
     "children": ["modal-trigger#header__section--address"],
     "props": {
       "blockClass": "header__section--address"
-      // "width": "30%"
     }
   },
 
@@ -43,7 +40,6 @@
     "children": ["logo#header__section--logo"],
     "props": {
       "blockClass": "header__section--logo"
-      // "width": "20%"
     }
   },
   "flex-layout.col#header__section--login": {
@@ -51,15 +47,13 @@
     "children": ["login"],
     "props": {
       "blockClass": "header__section--login"
-      // "width": "30%"
     }
   },
   "flex-layout.col#header__section--cart": {
     "title": "header section cart mobile",
     "children": ["minicart.v2"],
     "props": {
-      "blockClass": "header__section--cart"
-      // "width": "10%"    
+      "blockClass": "header__section--cart"    
     }
   }
 }
