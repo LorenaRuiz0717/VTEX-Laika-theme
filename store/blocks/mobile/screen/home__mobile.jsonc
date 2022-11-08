@@ -1,0 +1,16 @@
+{
+  "responsive-layout.mobile": {
+    "title": "container home mobile",
+    "children": [
+    //   "list-context.image-list#home_slider--list",
+      "flex-layout.row#home__section--container--categories"
+    //   "flex-layout.row#home__section--contaniner-qualities",
+    //   "flex-layout.row#home__section--petlovers",
+    //   "flex-layout.row#home__section--contaniner-gridbrands",
+    //   "tab-layout#home"
+    ],
+    "props": {
+      "blockClass": "store__home-mobile"
+    }
+  }
+}
