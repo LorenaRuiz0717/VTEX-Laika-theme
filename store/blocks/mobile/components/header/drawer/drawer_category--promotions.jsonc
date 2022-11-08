@@ -31,8 +31,6 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        // "href": "/categorypromotions",
-        // "noFollow": false,
         "tagTitle": "Promociones",
         "text": "Promociones"
       }

@@ -15,7 +15,7 @@
     "props": {
       "text": "Categorias",
       "font": "t-heading-5",
-      "blockClass":"title__home--text-categories"
+      "blockClass":"home__text--title-section"
     }
   },
   "slider-layout#text-test": {

@@ -183,7 +183,7 @@
   "rich-text#header__section--email": {
     "title": "header desktop  text section email",
     "props": {
-      "text": "Escribenos", //link a correo, lenguaje tipo markdown?
+      "text": "Escribenos",
       "blockClass": "header__section--email",
       "width": "48%",
       "font": "t-heading-3"

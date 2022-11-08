@@ -1,115 +1,149 @@
 {
   //***************************"flex-layout.row#home__section--qualities" *******************************//
   "flex-layout.row#home__section--contaniner-qualities": {
+    "title": "header section container qualities",
     "children": ["flex-layout.col#home__section--qualities"],
     "props": {
-      "blockClass": "home__qualities--contaniner"
+      "blockClass": "home__qualities--contaniner",
+      "border":"bottom",
+      "borderColor":"gray" 
     }
   },
   "flex-layout.col#home__section--qualities": {
+    "title": "home section qualities",
     "children": [
       "rich-text#home__qualities--title",
       "flex-layout.row#home__qualities--contaniner"
-    ]
+    ],
+    "props": {
+      "blockClass": "home__section--qualities"
+    }
   },
   "rich-text#home__qualities--title": {
+    "title": "home title section qualities",
     "props": {
-      "text": "Encuentra todo para tus peludos en un solo lugar"
-      // "font": "t-heading-1"
+      "text": "Encuentra todo para tus peludos en un solo lugar",
+      "font": "t-heading-6",
+      "blockClass":"home__text--title-section"
     }
   },
   "flex-layout.row#home__qualities--contaniner": {
+    "title": "home section qualities container",
     "children": [
       "flex-layout.col#qualitie--one",
       "flex-layout.col#qualitie--two",
       "flex-layout.col#qualitie--three"
-    ]
-    // "props": {
-    //   "blockClass": "home__qualities--contaniner"
-    // }
+    ],
+    "props": {
+      "blockClass": "home__qualitie--contaniner"
+    }
   },
   "flex-layout.col#qualitie--one": {
+    "title": "home section qualitie one",
     "children": [
-      "image#home_qualities--one",
-      "rich-text#home_qualities--one-title",
-      "rich-text#home_qualities--one-paragraph"
+      "image#home_qualitie--one",
+      "rich-text#home_qualitie--one-title",
+      "rich-text#home_qualitie--one-paragraph"
     ],
     "props": {
       "blockClass": "home__qualities--items"
     }
   },
-  "image#home_qualities--one": {
+  "image#home_qualitie--one": {
+    "title": "home image qualitie one",
     "props": {
       "src": "assets/img/qualitie_delivery.avif",
-      "width": 62
+      "width": 62,
+      "blockClass": "home__qualities--items-image"
     }
   },
-  "rich-text#home_qualities--one-title": {
+  "rich-text#home_qualitie--one-title": {
+    "title": "home title qualitie one",
     "props": {
-      "text": "Entregas el mismo dia"
-      // "font": "t-heading-1"
+      "text": "Entregas el mismo dia",
+      "font": "t-heading-6",
+      "blockClass": "home__qualities--items-title"
     }
   },
-  "rich-text#home_qualities--one-paragraph": {
+  "rich-text#home_qualitie--one-paragraph": {
+    "title": "home title qualitie one paragraph",
     "props": {
-      "text": "Entregamos todo lo que necesitas, cuando lo necesitas"
-      // "font": "t-heading-1"
+      "text": "Entregamos todo lo que necesitas, cuando lo necesitas",
+      "blockClass": "home__qualities--items-paragraph",
+      "font": "t-small",
+      "textAlignment":"CENTER"
     }
   },
   "flex-layout.col#qualitie--two": {
+    "title": "home section qualitie two",
     "children": [
-      "image#home_qualities--two",
-      "rich-text#home_qualities--two-title",
-      "rich-text#home_qualities--two-paragraph"
+      "image#home_qualitie--two",
+      "rich-text#home_qualitie--two-title",
+      "rich-text#home_qualitie--two-paragraph"
     ],
     "props": {
       "blockClass": "home__qualities--items"
     }
   },
-  "image#home_qualities--two": {
+  "image#home_qualitie--two": {
+    "title": "home image qualitie two",
     "props": {
       "src": "assets/img/qualitie_secure_payment.avif",
-      "width": 62
+      "width": 62,
+      "blockClass": "home__qualities--items-image"
     }
   },
-  "rich-text#home_qualities--two-title": {
+  "rich-text#home_qualitie--two-title": {
+    "title": "home title qualitie two",
     "props": {
-      "text": "Pago online o contra entrega"
-      // "font": "t-heading-1"
+      "text": "Pago online o contra entrega",
+      "blockClass": "home__qualities--items-title",
+      "font": "t-heading-6"
     }
   },
-  "rich-text#home_qualities--two-paragraph": {
+  "rich-text#home_qualitie--two-paragraph": {
+    "title": "home title qualitie two paragraph",
     "props": {
-      "text": "Escoge tu método de pago. ¡No te preocupes! contamos con pasarelas de pagos certificadas y seguras"
-      // "font": "t-heading-1"
+      "text": "Escoge tu método de pago. ¡No te preocupes! contamos con pasarelas de pagos certificadas y seguras",
+      "blockClass": "home__qualities--items-paragraph",
+      "font": "t-small",
+      "textAlignment":"CENTER"
     }
   },
   "flex-layout.col#qualitie--three": {
+    "title": "home section qualitie three",
     "children": [
-      "image#home_qualities--three",
-      "rich-text#home_qualities--three-title",
-      "rich-text#home_qualities--three-paragraph"
+      "image#home_qualitie--three",
+      "rich-text#home_qualitie--three-title",
+      "rich-text#home_qualitie--three-paragraph"
     ],
     "props": {
       "blockClass": "home__qualities--items"
     }
   },
-  "image#home_qualities--three": {
+  "image#home_qualitie--three": {
+    "title": "home image qualitie three",
     "props": {
       "src": "assets/img/qualitie_all_for_pets.avif",
-      "width": 62
+      "width": 62,
+      "blockClass": "home__qualities--items-image"
     }
   },
-  "rich-text#home_qualities--three-title": {
+  "rich-text#home_qualitie--three-title": {
+    "title": "home title qualitie three",
     "props": {
-      "text": "Todo lo que necesitas"
-      // "font": "t-heading-1"
+      "text": "Todo lo que necesitas",
+      "blockClass": "home__qualities--items-title",
+      "font": "t-heading-6"
     }
   },
-  "rich-text#home_qualities--three-paragraph": {
+  "rich-text#home_qualitie--three-paragraph": {
+    "title": "home title qualitie three paragraph",
     "props": {
-      "text": "Escoge tu método de pago. ¡No te preocupes! contamos con pasarelas de pagos certificadas y seguras"
-      // "font": "t-heading-1"
+      "text": "Escoge tu método de pago. ¡No te preocupes! contamos con pasarelas de pagos certificadas y seguras",
+      "blockClass": "home__qualities--items-paragraph",
+      "font": "t-small",
+      "textAlignment":"CENTER"
     }
   }
 }

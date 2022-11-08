@@ -23,7 +23,6 @@
       "flex-layout.row#header__button--item-cat-mobile"
     ],
     "props": {
-      // "width":"100%"
       "blockClass": "header__button--deparment",
       "horizontalAlign": "center"
     }
@@ -32,7 +31,6 @@
     "title": "header button deparment dog mobile",
     "children": ["link#header__menuitem--dog", "image#header__section--dog-mobile"],
     "props": {
-      // "width": "30%",
       "blockClass": "header__button--item-mobile",
       "horizontalAlign": "center"
     }
@@ -43,13 +41,7 @@
       "href": "/categorydog/dogfood/",
       "label": "Perro",
       "blockClass": "header__categories--links-menu-title-desktop"
-      // "displayMode":"button",
-      // "buttonProps": {
-      //   "variant": "primary",
-      //   "size": "regular"
-      // }
     }
-    // "width": "80%"
   },
   "rich-text#header__menuitem--dog": {
     "title": "header text menu category dog mobile",
@@ -71,7 +63,6 @@
     "title": "header button deparment cat mobile",
     "children": ["link#header__menuitem--cat", "image#header__section--cat-mobile"],
     "props": {
-      // "width":"20%"
       "blockClass": "header__button--item-mobile"
     }
   },
@@ -81,7 +72,6 @@
       "href": "/categorycat/catfood/",
       "label": "Gato",
       "blockClass": "header__categories--links-menu-title-desktop"
-      // "width": "80%"
     }
   },
   "rich-text#header__menuitem--cat": {

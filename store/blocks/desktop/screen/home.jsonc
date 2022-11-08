@@ -1,68 +1,17 @@
 {
   "store.home": { 
     "blocks": [
-      // "responsive-layout.phone",
-      // "responsive-layout.tablet",
-      "search-result-layout.customQuery#home",
       "list-context.image-list#home_slider--list",
-      // "rich-text#home__categories",
       "flex-layout.row#home__section--container--categories",
-      // "rich-text#home__qualities--title",
       "flex-layout.row#home__section--contaniner-qualities",
+      "flex-layout.row#home__section--petlovers",
       "flex-layout.row#home__section--contaniner-gridbrands",
-      "tab-layout#home",
-      // "slider-layout#home"
-      "responsive-layout.desktop"      
+      "tab-layout#home"
     ],
     "props":{
       "blockClass":"store__home"
     }
-  },
-  
-  "responsive-layout.desktop": {
-    "children": [
-      "rich-text#desktop"
-    ]
-  },
-
-  // "responsive-layout.tablet": {
-  //   "children": [
-  //     "flex-layout.row#header__tablet",
-  //     "rich-text#tablet"
-  //   ]
-  // },
-  // "flex-layout.row#header__tablet":{
-  //   "children": [
-  //     "flex-layout.col#header__tablet"
-  //   ]
-  // },
-  // "responsive-layout.phone": {
-  //   "children": [
-  //     "flex-layout.row#header__phone",
-  //     "rich-text#phone"]
-  // },
-  // "flex-layout.row#header__phone":{
-  //   "children": [
-  //     "flex-layout.col#header__mobile"
-  //   ]
-  // },
-  "rich-text#desktop": {
-    "props": {
-      "text": "# This will only show up on desktop.",
-      "blockClass": "title"
-    }
-  },
-  "rich-text#tablet": {
-    "props": {
-      "text": "# This will only show up on tablet.",
-      "blockClass": "title"
-    }
   }
-  // "rich-text#phone": {
-  //   "props": {
-  //     "text": "# This will only show up on phone.",
-  //     "blockClass": "title"
-  //   }
   }
 
 

@@ -14,7 +14,7 @@
       "flex-layout.col#header__section--logo",
       "flex-layout.col#header__section--search",
       "flex-layout.col#header__section--address",
-      "modal-trigger#header__section--login", //desplegable
+      "modal-trigger#header__section--login",
       "minicart.v2"
     ],
     "props": {
@@ -60,9 +60,7 @@
   "modal-trigger#header__section--login": {
     "title": "header sections modal-login",
     "children": [
-      // "flex-layout.col#header__section--login",
       "rich-text#header__section--login",
-      // "icon#header__login--arrow",
       "modal-layout#header__section--login"
     ],
     "props": {
