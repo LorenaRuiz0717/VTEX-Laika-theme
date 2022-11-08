@@ -16,20 +16,6 @@
   align-items: center;
 }
 
-.flexRow--home__section--contaniner-gridbrands{
-  margin:50px 116px;
-  padding: 16px;
-}
-
-.flexRowContent--home__section--contaniner-gridbrands{
-  flex-direction: column;
-}
-
-.flexCol--gridbrands-Column {
-  border: 1px solid rgba(204, 204, 204, 0.445);
-}
-
-
 .paginationDotsContainer--home_slider {
   position: absolute !important;
   /* bottom: -28px; */
@@ -73,4 +59,36 @@
 
 .flexRowhome__section--petlovers{
   margin-bottom:40px;
+}
+
+.flexRow--home__section--contaniner-gridbrands{
+  margin:50px 116px;
+  padding: 16px;
+}
+
+/* .flexRowContent--home__section--contaniner-gridbrands{
+  flex-direction: column;
+} */
+
+.flexCol--gridbrands-Column {
+  border: 1px solid rgba(204, 204, 204, 0.445);
+  /* width: 256px!important; */
+}
+
+.flexColChild--gridbrands-Column{
+  background-color: purple;
+  width: 256px !important;
+}
+ 
+.flexRow--home__section--contaniner-all-gridbrands{
+  display: flex !important;
+  flex-wrap: wrap !important;
+  /* width: 80%; */
+  background-color: blue;
+}
+
+.flexRowContent--home__section--contaniner-all-gridbrands{
+  display: flex !important;
+  flex-wrap: wrap !important;
+  margin-top: 20px;
 }

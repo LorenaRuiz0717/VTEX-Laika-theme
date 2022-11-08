@@ -2,11 +2,44 @@
   "flex-layout.row#home__section--contaniner-gridbrands": {
     "title": "home__section--contaniner-gridbrands",
     "children": [
-      "flex-layout.row#contaniner-gridbrands-row-top",
-      "flex-layout.row#contaniner-gridbrands-row-bottom"
+      "flex-layout.col#home__section--grid-brands-container-col"
+      // "flex-layout.row#home__section--grid-brands-container-title",
+      // "flex-layout.row#home__section--grid-brands-container-grid"
     ],
     "props": {
       "blockClass": "home__section--contaniner-gridbrands"
+      // "fullWidth": true
+    }
+  },
+  "flex-layout.col#home__section--grid-brands-container-col":{
+    "children": [  "flex-layout.row#home__section--grid-brands-container-title",
+    "flex-layout.row#home__section--grid-brands-container-grid"]
+
+  },
+  "flex-layout.row#home__section--grid-brands-container-title": {
+    "children": ["flex-layout.row#home__section--grid-brands-title"],
+    "props": {
+      "blockClass":"home__section--contaniner-gridbrands-title"
+      // "maxHeight":"10%"
+    }
+  },
+  "flex-layout.row#home__section--grid-brands-container-grid": {
+    "children": [
+      "flex-layout.row#contaniner-gridbrands-row-top"
+      // "flex-layout.row#contaniner-gridbrands-row-bottom"
+    ]
+    // "props": {
+    //   "fullWidth": true
+    // }
+  },
+  "flex-layout.row#home__section--grid-brands-title": {
+    "children": ["rich-text#home__section--grid-brands-title"]
+  },
+  "rich-text#home__section--grid-brands-title": {
+    "props": {
+      "text": "¡Más de 100 marcas disponibles!",
+      "font": "t-heading-5",
+      "blockClass": "home__text--title-section"
     }
   },
   "flex-layout.row#contaniner-gridbrands-row-top": {
@@ -15,31 +48,37 @@
       "flex-layout.col#contaniner-gridbrands-top-firtsColumn",
       "flex-layout.col#contaniner-gridbrands-top-secondColumn",
       "flex-layout.col#contaniner-gridbrands-top-thirdColumn",
-      "flex-layout.col#contaniner-gridbrands-top-fourthColumn"
-    ],
-    "props": {
-      "width": "100%"
-    }
-  },
-  "flex-layout.row#contaniner-gridbrands-row-bottom": {
-    "title": "contaniner-gridbrands-row-top",
-    "children": [
+      "flex-layout.col#contaniner-gridbrands-top-fourthColumn",
       "flex-layout.col#contaniner-gridbrands-bottom-firtsColumn",
       "flex-layout.col#contaniner-gridbrands-bottom-secondColumn",
       "flex-layout.col#contaniner-gridbrands-bottom-thirdColumn",
       "flex-layout.col#contaniner-gridbrands-bottom-fourthColumn"
     ],
     "props": {
-      "width": "100%"
+      "blockClass":"home__section--contaniner-all-gridbrands",
+      "horizontalAlign": "center"
     }
   },
+  // "flex-layout.row#contaniner-gridbrands-row-bottom": {
+  //   "title": "contaniner-gridbrands-row-top",
+  //   "children": [
+  //     "flex-layout.col#contaniner-gridbrands-bottom-firtsColumn",
+  //     "flex-layout.col#contaniner-gridbrands-bottom-secondColumn",
+  //     "flex-layout.col#contaniner-gridbrands-bottom-thirdColumn",
+  //     "flex-layout.col#contaniner-gridbrands-bottom-fourthColumn"
+  //   ],
+  //   "props": {
+  //     "width": "100%"
+  //   }
+  // },
   "flex-layout.col#contaniner-gridbrands-top-firtsColumn": {
     "title": "container__gridbrands-top-firtsColumn",
     "children": ["image#gridbrands-firtsColumn--top"],
     "props": {
       "blockClass": "gridbrands-Column",
       "border": "all",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+        "width":"30%"
     }
   },
   "image#gridbrands-firtsColumn--top": {
@@ -57,7 +96,8 @@
     "props": {
       "blockClass": "gridbrands-Column",
       "border": "all",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+        "width":"30%"
     }
   },
   "image#gridbrands-secondColumn--top": {
@@ -75,7 +115,8 @@
     "props": {
       "blockClass": "gridbrands-Column",
       "border": "all",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+        "width":"30%"
     }
   },
   "image#gridbrands-thirdColumn--top": {
@@ -93,7 +134,8 @@
     "props": {
       "blockClass": "gridbrands-Column",
       "border": "all",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "width":"30%"
     }
   },
   "image#gridbrands-fourthColumn--top": {
@@ -111,7 +153,8 @@
     "props": {
       "blockClass": "gridbrands-Column",
       "border": "all",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "width":"30%"
     }
   },
   "image#gridbrands-firtsColumn--bottom": {
@@ -129,7 +172,8 @@
     "props": {
       "blockClass": "gridbrands-Column",
       "border": "all",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "width":"30%"
     }
   },
   "image#gridbrands-secondColumn--botton": {
@@ -147,7 +191,8 @@
     "props": {
       "blockClass": "gridbrands-Column",
       "border": "all",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "width":"30%"
     }
   },
   "image#gridbrands-thirdColumn--botton": {
@@ -165,7 +210,8 @@
     "props": {
       "blockClass": "gridbrands-Column",
       "border": "all",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "width":"30%"
     }
   },
   "image#gridbrands-fourthColumn--botton": {

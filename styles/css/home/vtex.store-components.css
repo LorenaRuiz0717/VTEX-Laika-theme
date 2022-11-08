@@ -8,7 +8,8 @@
 }
 
 .imageElement--grid-brand-img {
-  padding: 20px 15px
+  /* padding: 20px 15px */
+  padding: 0 25%;
 }
 
 .imageElement--home__section--petlovers-image{
