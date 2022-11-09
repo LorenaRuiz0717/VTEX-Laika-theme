@@ -30,6 +30,10 @@
   align-items: center;
 }
 
+.flexColChild--home__section--qualities{
+  margin-top: 20px;
+}
+
 .flexRow--home__qualitie--contaniner{
   padding: 20px 140px;
   margin: 20px;
@@ -40,11 +44,23 @@
 }
 
 .flexRowContent--home__qualitie--contaniner{
-  gap:30px
+  gap: 30px;
 }
 
 .flexCol--home__qualities--items{
   gap: 10px;
+}
+
+.flexRow--home__qualities--contaniner-mobile{
+  margin:20px 100px;
+}
+
+.flexCol--home__qualitie--contaniner-mobile{
+  row-gap: 30px;
+}
+
+.flexColChild--home__section--qualities-mobile{
+  margin-bottom: 20px;
 }
 
 /***************************Home-section-petlovers*******************************/
