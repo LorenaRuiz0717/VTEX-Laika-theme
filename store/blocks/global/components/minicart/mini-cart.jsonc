@@ -1,0 +1,71 @@
+{
+  "icon#cart-icon": {
+    "props": {
+      "id": "bnd-iconshop",
+      "size": 20,
+      "blockclass": "iconcart",
+      "viewBox": "0 0 25 25"
+    }
+  },
+  "minicart.v2": {
+    "props": {
+      "MinicartIcon": "icon#cart-icon",
+      "itemCountMode": "total",
+      "customPixelEventName": "pageViem",
+      "blockClass": "minicart"
+    },
+    "children": ["minicart-base-content"]
+  },
+  "minicart-base-content": {
+    "blocks": ["minicart-empty-state"],
+    "children": ["minicart-product-list", "flex-layout.row#minicart__footer"],
+    "props": {
+      "blockClass": "minicart-content"
+    }
+  },
+  "minicart-empty-state": {
+    "children": ["flex-layout.row#minicart__empty"],
+    "props": {
+      "blockClass": "minicart-empty"
+    }
+  },
+  "flex-layout.row#minicart__empty": {
+    "children": ["flex-layout.col#minicart__empty"]
+  },
+  "flex-layout.col#minicart__empty": {
+    "children": [
+      "image#mini-cart",
+      "rich-text#minicart__empty--text",
+      "link#add__mini-cart"
+    ],
+    "props": {
+      "blockClass": "display-minicart"
+    }
+  },
+  "image#mini-cart": {
+    "title": "image header gridbrand-firtsColumn",
+    "props": {
+      "src": "assets/img/mini-cart/mini-cart.jpg",
+      "maxHeight": 56,
+      "blockClass": "mini-cart-img"
+    }
+  },
+  "rich-text#minicart__empty--text": {
+    "props": {
+      "text": "Aún no tienes productos en tu carrito",
+      "blockclass": "text-minicart"
+    }
+  },
+  "link#add__mini-cart":{
+    "title": "link add product mini-cart",
+    "props": {
+      "href": "/categorycat/catfood/",
+      "label": "Comenzar a comprar",
+      "blockClass": "minicart__button"
+      // "width": "80%"
+    }
+  },
+  "flex-layout.row#minicart__footer": {
+    "children": ["minicart-summary", "minicart-checkout-button"]
+  }
+}
