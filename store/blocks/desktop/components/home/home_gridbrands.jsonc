@@ -1,179 +1,184 @@
 {
   "flex-layout.row#home__section--contaniner-gridbrands": {
-    "title": "home__section--contaniner-gridbrands",
+    "title": "home section contaniner gridbrands",
     "children": [
-      "flex-layout.row#contaniner-gridbrands-row-top",
-      "flex-layout.row#contaniner-gridbrands-row-bottom"
+      "flex-layout.col#home__section--grid-brands-container-col"
     ],
     "props": {
       "blockClass": "home__section--contaniner-gridbrands"
     }
   },
-  "flex-layout.row#contaniner-gridbrands-row-top": {
-    "title": "contaniner-gridbrands-row-top",
+  "flex-layout.col#home__section--grid-brands-container-col": {
+    "title": "home section gridbrands",
     "children": [
-      "flex-layout.col#contaniner-gridbrands-top-firtsColumn",
-      "flex-layout.col#contaniner-gridbrands-top-secondColumn",
-      "flex-layout.col#contaniner-gridbrands-top-thirdColumn",
-      "flex-layout.col#contaniner-gridbrands-top-fourthColumn"
+      "flex-layout.row#home__section--grid-brands-container-title",
+      "flex-layout.row#home__section--grid-brands-container-grid"
     ],
     "props": {
-      "width": "100%"
+      "blockClass": "home__section--gridbrands"
     }
   },
-  "flex-layout.row#contaniner-gridbrands-row-bottom": {
-    "title": "contaniner-gridbrands-row-top",
+  "flex-layout.row#home__section--grid-brands-container-title": {
+    "title": "home section gridbrands container title",
     "children": [
-      "flex-layout.col#contaniner-gridbrands-bottom-firtsColumn",
-      "flex-layout.col#contaniner-gridbrands-bottom-secondColumn",
-      "flex-layout.col#contaniner-gridbrands-bottom-thirdColumn",
-      "flex-layout.col#contaniner-gridbrands-bottom-fourthColumn"
+      "rich-text#home__section--grid-brands-title"
     ],
     "props": {
-      "width": "100%"
+      "blockClass": "home__section--contaniner-gridbrands-title"
     }
   },
-  "flex-layout.col#contaniner-gridbrands-top-firtsColumn": {
-    "title": "container__gridbrands-top-firtsColumn",
-    "children": ["image#gridbrands-firtsColumn--top"],
+  "flex-layout.row#home__section--grid-brands-container-grid": {
+    "title": "home section gridbrands container grid",
+    "children": [
+      "flex-layout.row#contaniner-gridbrands"
+    ],
+    "props": {
+      "blockClass": "home__section--contaniner-gridbrands-grid"
+    }
+  },
+  "rich-text#home__section--grid-brands-title": {
+    "title": "home section gridbrands text title",
+    "props": {
+      "text": "¡Más de 100 marcas disponibles!",
+      "font": "t-heading-5",
+      "blockClass": "home__text--title-section"
+    }
+  },
+  "flex-layout.row#contaniner-gridbrands": {
+    "title": "contaniner gridbrands",
+    "children": [
+      "flex-layout.col#contaniner-gridbrands-firtsColumn",
+      "flex-layout.col#contaniner-gridbrands-secondColumn",
+      "flex-layout.col#contaniner-gridbrands-thirdColumn",
+      "flex-layout.col#contaniner-gridbrands-fourthColumn",
+      "flex-layout.col#contaniner-gridbrands-fiveColumn",
+      "flex-layout.col#contaniner-gridbrands-sixColumn",
+      "flex-layout.col#contaniner-gridbrands-sevenColumn",
+      "flex-layout.col#contaniner-gridbrands-eightColumn"
+    ],
+    "props": {
+      "blockClass": "home__section--contaniner-all-gridbrands",
+      "horizontalAlign": "center",
+      "colSizing":"auto"
+    }
+  },
+  "flex-layout.col#contaniner-gridbrands-firtsColumn": {
+    "title": "container__gridbrands-firtsColumn",
+    "children": ["image#gridbrands-firtsColumn"],
     "props": {
       "blockClass": "gridbrands-Column",
-      "border": "all",
       "horizontalAlign": "center"
     }
   },
-  "image#gridbrands-firtsColumn--top": {
-    "title": "image gridbrand-top-firtsColumn",
+  "image#gridbrands-firtsColumn": {
+    "title": "image gridbrand firtsColumn",
     "props": {
       "src": "assets/img/brands-products/proplan.avif",
-      "maxWidth": 112,
-      "maxHeight": 112,
       "blockClass": "grid-brand-img"
     }
   },
-  "flex-layout.col#contaniner-gridbrands-top-secondColumn": {
-    "title": "container__gridbrands-secondColumn",
-    "children": ["image#gridbrands-secondColumn--top"],
+  "flex-layout.col#contaniner-gridbrands-secondColumn": {
+    "title": "container gridbrands secondColumn",
+    "children": ["image#gridbrands-secondColumn"],
     "props": {
       "blockClass": "gridbrands-Column",
-      "border": "all",
       "horizontalAlign": "center"
     }
-  },
-  "image#gridbrands-secondColumn--top": {
+  },  
+  "image#gridbrands-secondColumn": {
     "title": "image gridbrand-secondColumn",
     "props": {
       "src": "assets/img/brands-products/besties.avif",
-      "maxWidth": 112,
-      "maxHeight": 112,
       "blockClass": "grid-brand-img"
     }
   },
-  "flex-layout.col#contaniner-gridbrands-top-thirdColumn": {
-    "title": "container__gridbrands-thirdColumn",
-    "children": ["image#gridbrands-thirdColumn--top"],
+  "flex-layout.col#contaniner-gridbrands-thirdColumn": {
+    "title": "container gridbrands thirdColumn",
+    "children": ["image#gridbrands-thirdColumn"],
     "props": {
       "blockClass": "gridbrands-Column",
-      "border": "all",
       "horizontalAlign": "center"
     }
   },
-  "image#gridbrands-thirdColumn--top": {
+  "image#gridbrands-thirdColumn": {
     "title": "image gridbrand-thirdColumn",
     "props": {
       "src": "assets/img/brands-products/hills.avif",
-      "maxWidth": 112,
-      "maxHeight": 112,
       "blockClass": "grid-brand-img"
     }
   },
-  "flex-layout.col#contaniner-gridbrands-top-fourthColumn": {
-    "title": "container__gridbrands-fourthColumn",
-    "children": ["image#gridbrands-fourthColumn--top"],
+  "flex-layout.col#contaniner-gridbrands-fourthColumn": {
+    "title": "container gridbrands fourthColumn",
+    "children": ["image#gridbrands-fourthColumn"],
     "props": {
       "blockClass": "gridbrands-Column",
-      "border": "all",
       "horizontalAlign": "center"
     }
   },
-  "image#gridbrands-fourthColumn--top": {
+  "image#gridbrands-fourthColumn": {
     "title": "image gridbrand-fourthColumn",
     "props": {
       "src": "assets/img/brands-products/max.avif",
-      "maxWidth": 112,
-      "maxHeight": 112,
       "blockClass": "grid-brand-img"
     }
   },
-  "flex-layout.col#contaniner-gridbrands-bottom-firtsColumn": {
-    "title": "container__gridbrands-firtsColumn",
-    "children": ["image#gridbrands-firtsColumn--bottom"],
+  "flex-layout.col#contaniner-gridbrands-fiveColumn": {
+    "title": "container gridbrands fiveColumn",
+    "children": ["image#gridbrands-fiveColumn"],
     "props": {
       "blockClass": "gridbrands-Column",
-      "border": "all",
       "horizontalAlign": "center"
     }
   },
-  "image#gridbrands-firtsColumn--bottom": {
-    "title": "image gridbrand-firtsColumn",
+  "image#gridbrands-fiveColumn": {
+    "title": "image gridbrand-fiveColumn",
     "props": {
       "src": "assets/img/brands-products/proplan.avif",
-      "maxWidth": 112,
-      "maxHeight": 112,
       "blockClass": "grid-brand-img"
     }
   },
-  "flex-layout.col#contaniner-gridbrands-bottom-secondColumn": {
-    "title": "container__gridbrands-secondColumn",
-    "children": ["image#gridbrands-secondColumn--botton"],
+  "flex-layout.col#contaniner-gridbrands-sixColumn": {
+    "title": "container gridbrands sixColumn",
+    "children": ["image#gridbrands-sixColumn"],
     "props": {
       "blockClass": "gridbrands-Column",
-      "border": "all",
       "horizontalAlign": "center"
     }
   },
-  "image#gridbrands-secondColumn--botton": {
-    "title": "image gridbrand-secondColumn",
+  "image#gridbrands-sixColumn": {
+    "title": "image gridbrand sixColumn",
     "props": {
       "src": "assets/img/brands-products/salvaje.avif",
-      "maxWidth": 112,
-      "maxHeight": 112,
       "blockClass": "grid-brand-img"
     }
   },
-  "flex-layout.col#contaniner-gridbrands-bottom-thirdColumn": {
-    "title": "container__gridbrands-thirdColumn",
-    "children": ["image#gridbrands-thirdColumn--botton"],
+  "flex-layout.col#contaniner-gridbrands-sevenColumn": {
+    "title": "container gridbrands sevenColumn",
+    "children": ["image#gridbrands-sevenColumn"],
     "props": {
       "blockClass": "gridbrands-Column",
-      "border": "all",
       "horizontalAlign": "center"
     }
   },
-  "image#gridbrands-thirdColumn--botton": {
-    "title": "image gridbrand-thirdColumn",
+  "image#gridbrands-sevenColumn": {
+    "title": "image gridbrand sevenColumn",
     "props": {
       "src": "assets/img/brands-products/equilibrio.avif",
-      "maxWidth": 112,
-      "maxHeight": 112,
       "blockClass": "grid-brand-img"
     }
   },
-  "flex-layout.col#contaniner-gridbrands-bottom-fourthColumn": {
-    "title": "container__gridbrands-fourthColumn",
-    "children": ["image#gridbrands-fourthColumn--botton"],
+  "flex-layout.col#contaniner-gridbrands-eightColumn": {
+    "title": "container gridbrands eightColumn",
+    "children": ["image#gridbrands-eightColumn"],
     "props": {
       "blockClass": "gridbrands-Column",
-      "border": "all",
       "horizontalAlign": "center"
     }
   },
-  "image#gridbrands-fourthColumn--botton": {
-    "title": "image gridbrand-fourthColumn",
+  "image#gridbrands-eightColumn": {
+    "title": "image gridbrand eightColumn",
     "props": {
       "src": "assets/img/brands-products/vitality.avif",
-      "maxWidth": 112,
-      "maxHeight": 112,
       "blockClass": "grid-brand-img"
     }
   }
