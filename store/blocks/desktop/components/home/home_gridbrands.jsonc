@@ -11,15 +11,16 @@
       // "fullWidth": true
     }
   },
-  "flex-layout.col#home__section--grid-brands-container-col":{
-    "children": [  "flex-layout.row#home__section--grid-brands-container-title",
-    "flex-layout.row#home__section--grid-brands-container-grid"]
-
+  "flex-layout.col#home__section--grid-brands-container-col": {
+    "children": [
+      "flex-layout.row#home__section--grid-brands-container-title",
+      "flex-layout.row#home__section--grid-brands-container-grid"
+    ]
   },
   "flex-layout.row#home__section--grid-brands-container-title": {
     "children": ["flex-layout.row#home__section--grid-brands-title"],
     "props": {
-      "blockClass":"home__section--contaniner-gridbrands-title"
+      "blockClass": "home__section--contaniner-gridbrands-title"
       // "maxHeight":"10%"
     }
   },
@@ -55,7 +56,8 @@
       "flex-layout.col#contaniner-gridbrands-bottom-fourthColumn"
     ],
     "props": {
-      "blockClass":"home__section--contaniner-all-gridbrands",
+      "blockClass": "home__section--contaniner-all-gridbrands",
+      // "preventVerticalStretch": true,
       "horizontalAlign": "center"
     }
   },
@@ -77,8 +79,8 @@
     "props": {
       "blockClass": "gridbrands-Column",
       "border": "all",
-      "horizontalAlign": "center",
-        "width":"30%"
+      "width": "25%",
+      "horizontalAlign": "center"
     }
   },
   "image#gridbrands-firtsColumn--top": {
@@ -96,8 +98,8 @@
     "props": {
       "blockClass": "gridbrands-Column",
       "border": "all",
-      "horizontalAlign": "center",
-        "width":"30%"
+      "width": "25%",
+      "horizontalAlign": "center"
     }
   },
   "image#gridbrands-secondColumn--top": {
@@ -115,8 +117,8 @@
     "props": {
       "blockClass": "gridbrands-Column",
       "border": "all",
-      "horizontalAlign": "center",
-        "width":"30%"
+      "width": "25%",
+      "horizontalAlign": "center"
     }
   },
   "image#gridbrands-thirdColumn--top": {
@@ -134,8 +136,8 @@
     "props": {
       "blockClass": "gridbrands-Column",
       "border": "all",
-      "horizontalAlign": "center",
-      "width":"30%"
+      "width": "25%",
+      "horizontalAlign": "center"
     }
   },
   "image#gridbrands-fourthColumn--top": {
@@ -153,8 +155,8 @@
     "props": {
       "blockClass": "gridbrands-Column",
       "border": "all",
-      "horizontalAlign": "center",
-      "width":"30%"
+      "width": "25%",
+      "horizontalAlign": "center"
     }
   },
   "image#gridbrands-firtsColumn--bottom": {
@@ -172,8 +174,8 @@
     "props": {
       "blockClass": "gridbrands-Column",
       "border": "all",
-      "horizontalAlign": "center",
-      "width":"30%"
+      "width": "25%",
+      "horizontalAlign": "center"
     }
   },
   "image#gridbrands-secondColumn--botton": {
@@ -191,8 +193,8 @@
     "props": {
       "blockClass": "gridbrands-Column",
       "border": "all",
-      "horizontalAlign": "center",
-      "width":"30%"
+      "width": "25%",
+      "horizontalAlign": "center"
     }
   },
   "image#gridbrands-thirdColumn--botton": {
@@ -210,8 +212,8 @@
     "props": {
       "blockClass": "gridbrands-Column",
       "border": "all",
-      "horizontalAlign": "center",
-      "width":"30%"
+      "width": "25%",
+      "horizontalAlign": "center"
     }
   },
   "image#gridbrands-fourthColumn--botton": {
