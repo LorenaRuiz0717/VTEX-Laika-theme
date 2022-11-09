@@ -41,7 +41,7 @@
     "children": [
       "flex-layout.col#categories--one",
       "flex-layout.col#categorie--two",
-      "flex-layout.col#categories--three",
+      // "flex-layout.col#categories--three",
       "flex-layout.col#categories--four",
       "flex-layout.col#categories--five",
       "flex-layout.col#categories--six",
@@ -72,7 +72,7 @@
   "rich-text#categories--one-text": {
     "title": "home slider title categorie one",
     "props": {
-      "text": "Alimentos",
+      "text": "Alimento",
       "textAlignment": "center",
       "textPosition": "center",
       "blockClass": "home__section--categorie-text",
