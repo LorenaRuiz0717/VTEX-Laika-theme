@@ -22,7 +22,8 @@
 }
 
 /***************************Home-section-qualities*******************************/
-.flexRow--home__qualities--contaniner{
+.flexRow--home__qualities--contaniner,
+.flexRow--home__section--petlovers{
   margin:20px 100px;
 }
 
