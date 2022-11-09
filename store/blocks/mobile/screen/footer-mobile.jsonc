@@ -5,7 +5,7 @@
   "flex-layout.row#footer__mobile": {
     "children": [
       "logo#footer__section--logo",
-      "rich-text#footer__desktop"
+      "rich-text#footer__mobile"
     ],   "props": {
       "blockClass": "container__footer"
     }

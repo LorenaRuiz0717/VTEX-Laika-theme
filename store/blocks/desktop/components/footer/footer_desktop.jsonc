@@ -1,9 +1,5 @@
 {
-  "footer-layout.desktop": {
-    "children": ["flex-layout.row#footer__desktop"]
-  },
-
-  "flex-layout.row#footer__desktop": {
+   "flex-layout.row#footer__desktop": {
     "children": [
       "logo#footer__section--logo-desktop",
       "rich-text#footer__desktop"

@@ -1,14 +1,17 @@
 .imageElement--categories--image {
   border-radius: 50%;
-  margin: 0px 21px 8px;
+  /* margin: 0px 21px 8px; */
 }
 
 .imageElement--home__categories--image {
   border-radius: 50%;
 }
 
-.imageElement--grid-brand-img {
-  padding: 20px 15px
+.imageElement--home__section--petlovers-image{
+  margin-bottom: 28px;
 }
 
+.imageElement--home__section--petlovers-image-mobile{
+  padding: 20px;
+}
 

@@ -1,0 +1,20 @@
+{
+  "flex-layout.row#home__section--petlovers": {
+        "title": "home section petlovers",
+        "children": [
+            "image#home__section--petlovers-image"
+        ],
+        "props": {
+          "blockClass": "home__section--petlovers",
+          "border": "bottom",
+          "borderColor": "gray"
+        }
+      },
+      "image#home__section--petlovers-image": {
+        "title": "home section petlovers image",
+        "props": {
+          "src": "assets/img/pet-lovers/pet-lovers-desktop.avif",
+          "blockClass":"home__section--petlovers-image"
+        }
+      }
+}
