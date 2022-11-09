@@ -10,9 +10,12 @@
 
 .menuContainerNav--header__menu--mobile {
   width: 100%;
-  margin-left: 30px;
+  /* margin-left: 30px; */
 }
 
+.menuContainer--header__menu--mobile{
+  width: 97%;
+}
 .styledLinkContent--menu__department {
   justify-content: flex-start;
   margin: 0px 20px 0px 20px;
@@ -31,7 +34,7 @@
 
 .submenuWrapper--submenu__department--desktop {
   padding: 5px 10px;
-  margin-left: -46px;
+  /* margin-left: -46px; */
   /* box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important; */
   z-index: 1;
   box-shadow: 7px 8px 18px 0px #d8d8d8; 
@@ -40,3 +43,37 @@
 .menuContainer--header__deparment--services-desktop{
  flex-direction: column;
 }
+
+/* .menuItemInnerDiv:first-child{ */
+  /* overflow:visible; */
+  /* background-color: blue; */
+  /* height: 30px; */
+  /* position: relative; */
+/* } */
+
+/* 
+.menuItemInnerDiv--category__dog--food-mobile{
+.styledLinkContent--category__dog--food-mobile{
+  position: relative;
+}
+.styledLinkContent--category__dog--food-mobile::before{
+.menuItemInnerDiv--category__dog--food-mobile::before{
+  content:url('assets/img/icons-menu/icon-food.png');
+  display:block;
+    width: 20px;
+    height:75px;
+    position:absolute;
+    left: 10px;
+    top: 10px;
+}
+ */
+
+ .styledLinkContainer--container__menuitem--mobile{
+  margin: -40px 0px 0px 38px;
+  justify-content: flex-end;
+ }
+
+ .styledLinkContent--container__menuitem--mobile{
+  background-color: red;
+  padding: 10px 10px 2px 10px;
+ }
