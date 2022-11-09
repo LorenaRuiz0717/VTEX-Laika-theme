@@ -8,6 +8,12 @@
   border-color: var(--light-grey);
 }
 
+  @media (max-width: 767px){
+.flexRow--home__categories{
+  margin: 20px;
+}
+}
+
 .flexRow--home__qualities--contaniner{
   margin:20px 100px;
 }

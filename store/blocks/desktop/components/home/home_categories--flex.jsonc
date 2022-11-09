@@ -23,8 +23,8 @@
       "showPaginationDots": "never",
       "itemsPerPage": {
         "desktop": 6,
-        "tablet": 3,
-        "phone": 1
+        "tablet": 4,
+        "phone": 3
       },
       "infinite": false,
       "showNavigationArrows": "desktopOnly",
