@@ -1,35 +1,45 @@
 {
-  //*************************** "category__services" *******************************//
+  //*************************** "deparment__services" *******************************//
   "flex-layout.row#header__container--menuitem--services-mobile": {
+    "title": "header container menu item services mobile",
     "children": [
-      "image#header__menuitem--services-mobile",
-      "menu-item#category__services-mobile"
+      "flex-layout.col#header__menuitem-image-services-mobile",
+      "menu-item#department__services-mobile"
     ],
     "props": {
       "border": "bottom",
-      "paddingTop": 3,
-      "paddingBottom": 3,
       "borderColor": "gray",
-      "blockClass": "header__menuitem--drawer"
+      "blockClass": "header__menuitem--drawer-servicies"
+    }
+  },
+  "flex-layout.col#header__menuitem-image-services-mobile": {
+    "title": "header image menu item services mobile",
+    "children": ["image#header__menuitem--services-mobile"],
+    "props": {
+      "blockClass": "header__menuitem--container_image",
+      "width": "5%"
     }
   },
   "image#header__menuitem--services-mobile": {
+    "title": "header image menuitem services mobile",
     "props": {
       "src": "assets/img/icons-menu/icon-servicios.jpg",
-      "maxWidth": 30,
-      "maxHeight": 30,
-      "blockClass": "categories--image-mobile"
+      "maxWidth": 28,
+      "maxHeight": 28,
+      "blockClass": "categories--image-mobile-deparment"
     }
   },
-  "menu-item#category__services-mobile": {
+  "menu-item#department__services-mobile": {
+    "title": "header menu deparment services mobile",
     "props": {
-      "id": "menu-item#services",
+      "id": "deparment__services",
       "type": "custom",
+      "blockClass": "container__menuitem--mobile-link",
       "itemProps": {
         "type": "internal",
         "href": "/categoryservices",
         "noFollow": false,
-        "tagTitle": "Services",
+        "tagTitle": "Category services",
         "text": "Servicios"
       }
     }
