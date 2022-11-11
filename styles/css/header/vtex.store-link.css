@@ -67,5 +67,6 @@ text-decoration: none;
 
 /*************************** "Menu drawer" *******************************/
 .link--header__menu-drawer--link-categories{
-  margin-left: 26px;
+  margin-left: 33px;
+  text-decoration: none;
 }

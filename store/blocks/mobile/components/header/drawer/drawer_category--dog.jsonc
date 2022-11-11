@@ -139,7 +139,7 @@
     "props": {
       "id": "deparment__dog",
       "type": "custom",
-      "blockClass": "category__dog--food-mobile",
+      "blockClass": "subcategory-dog-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorydog/dogfood/purinedogs",
@@ -185,7 +185,7 @@
     "props": {
       "id": "deparment__dog",
       "type": "custom",
-      "blockClass": "subcategory-dog-mobile"
+      "blockClass": "subcategory-dog-mobile-see-more"
     }
   },
   "link#category__dog--food-mobile-seemore": {
@@ -708,7 +708,8 @@
     "props": {
       "id": "deparment__dog",
       "type": "custom",
-      "blockClass": "subcategory-dog-mobile"
+      "blockClass": "subcategory-dog-mobile-see-more"
+
     }
   },
   "link#category__dog--farmapet-mobile-seemore": {
@@ -932,7 +933,7 @@
     "props": {
       "id": "deparment__dog",
       "type": "custom",
-      "blockClass": "subcategory-dog-mobile"
+      "blockClass": "subcategory-dog-mobile-see-more"
     }
   },
   "link#category__dog--careHygiene-mobile-seemore": {
@@ -1059,7 +1060,7 @@
     "props": {
       "id": "deparment__dog",
       "type": "custom",
-      "blockClass": "subcategory-dog-mobile"
+      "blockClass": "subcategory-dog-mobile-see-more"
     }
   },
   "link#category__dog--toys-mobile-seemore": {
@@ -1145,7 +1146,7 @@
     "props": {
       "id": "deparment__dog",
       "type": "custom",
-      "blockClass": "category__dog--mobile",
+      "blockClass": "subcategory-dog-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorydog/dogaccessories/strapsLeashes",
@@ -1160,7 +1161,7 @@
     "props": {
       "id": "deparment__dog",
       "type": "custom",
-      "blockClass": "category__dog--mobile",
+      "blockClass": "subcategory-dog-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorydog/dogaccessories/breastplatesHarness",
@@ -1175,7 +1176,7 @@
     "props": {
       "id": "deparment__dog",
       "type": "custom",
-      "blockClass": "category__dog--mobile",
+      "blockClass": "subcategory-dog-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorydog/dogaccessories/muzzles",
@@ -1190,7 +1191,7 @@
     "props": {
       "id": "deparment__dog",
       "type": "custom",
-      "blockClass": "category__dog--mobile",
+      "blockClass": "subcategory-dog-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorydog/dogaccessories/necklaces",
@@ -1205,7 +1206,7 @@
     "props": {
       "id": "deparment__dog",
       "type": "custom",
-      "blockClass": "category__dog--mobile",
+      "blockClass": "subcategory-dog-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorydog/dogaccessories/clothes",
@@ -1220,7 +1221,7 @@
     "props": {
       "id": "deparment__dog",
       "type": "custom",
-      "blockClass": "category__dog--mobile",
+      "blockClass": "subcategory-dog-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorydog/dogaccessories/feedersDrinkers",
@@ -1235,7 +1236,7 @@
     "props": {
       "id": "deparment__dog",
       "type": "custom",
-      "blockClass": "category__dog--mobile",
+      "blockClass": "subcategory-dog-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorydog/dogaccessories/bedsBlankets",
@@ -1250,7 +1251,7 @@
     "props": {
       "id": "deparment__dog",
       "type": "custom",
-      "blockClass": "category__dog--mobile",
+      "blockClass": "subcategory-dog-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorydog/dogaccessories/cratesBriefcases",
@@ -1267,7 +1268,7 @@
     "props": {
       "id": "deparment__dog",
       "type": "custom",
-      "blockClass": "subcategory-dog-mobile"
+      "blockClass": "subcategory-dog-mobile-see-more"
     }
   },
   "link#category__dog--accessories-mobile-seemore": {

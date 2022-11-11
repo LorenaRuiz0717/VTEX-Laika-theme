@@ -31,10 +31,9 @@
   width: 100%;
 }
 
-.menuContainer--header__menu--mobile {
-  width: 97%;
+.submenuAccordion--submenu__department--dog-mobile{
+  background-color:#f8f8f8;
 }
-
 .styledLinkContainer--container__menuitem--mobile {
   margin: -40px 0px 0px 38px;
   justify-content: flex-end;
@@ -86,16 +85,14 @@
   color: gray;
 }
 
-.styledLinkContent--subcategory-dog-mobile{
-  padding: 10px;
-}
-
+.styledLinkContent--subcategory-dog-mobile,
 .styledLinkContent--subcategory-cat-mobile{
-  padding: 10px;
+  padding: 8px;
 }
 
-.styledLinkContent--category__cat--sandbox-mobile{
-  padding: 10px;
+.styledLinkContent--subcategory-dog-mobile-see-more,
+.styledLinkContent--subcategory-cat-mobile-see-more{
+  display: none;
 }
 
 .accordionIcon--isOpen::after {
@@ -103,7 +100,7 @@
 }
 
 .accordionIcon--isOpen {
-  color: black;
+  color: gray;
 }
 
 .accordionIcon--isClosed::after {
