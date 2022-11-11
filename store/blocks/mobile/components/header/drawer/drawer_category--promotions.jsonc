@@ -1,18 +1,23 @@
 {
-//*************************** "category__promotions" *******************************//
+  //*************************** "deparment__promotions" *******************************//
   "flex-layout.row#header__container--menuitem--promotions-mobile": {
     "title": "header container menu item promotions mobile",
     "children": [
-      "image#header__menuitem--promotions-mobile",
-      "menu-item#category__promotions-mobile"
+      "flex-layout.col#header__menuitem-image-promotions-mobile",
+      "menu-item#department__promotions-mobile"
     ],
     "props": {
       "border": "bottom",
-      "paddingTop": 3,
-      "paddingBottom": 3,
       "borderColor": "gray",
-      "blockClass": "header__menuitem--drawer",
-      "maxWidth":300
+      "blockClass": "header__menuitem--drawer-promotions"
+    }
+  },
+  "flex-layout.col#header__menuitem-image-promotions-mobile": {
+    "title": "header image menu item promotions mobile",
+    "children": ["image#header__menuitem--promotions-mobile"],
+    "props": {
+      "blockClass": "header__menuitem--container_image",
+      "width": "5%"
     }
   },
   "image#header__menuitem--promotions-mobile": {
@@ -21,33 +26,22 @@
       "src": "assets/img/icons-menu/icon-promociones.jpg",
       "maxWidth": 30,
       "maxHeight": 30,
-      "blockClass": "categories--image-mobile"  
+      "blockClass": "categories--image-mobile-deparment"
     }
   },
-  "menu-item#category__promotions-mobile": {
-    "title": "header menu item mobile promotions",
+  "menu-item#department__promotions-mobile": {
+    "title": "header menu deparment promotions mobile",
     "props": {
-      "id": "menu-item#promotions",
+      "id": "deparment__promotions",
       "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "tagTitle": "Promociones",
-        "text": "Promociones"
-      }
-    },
-    "blocks": ["submenu.accordion#department__promotions-mobile"]
-  },
-  "submenu.accordion#department__promotions-mobile": {
-    "title": "header sub menu mobile cat",
-    "props":{
-      "blockClass": "submenu__department--cat-mobile",
+      "blockClass": "container__menuitem--mobile-link",
       "itemProps": {
         "type": "internal",
         "href": "/categorypromotions",
         "noFollow": false,
-        "tagTitle": "Promociones",
+        "tagTitle": "Category promotions",
         "text": "Promociones"
       }
     }
   }
-  }
+}

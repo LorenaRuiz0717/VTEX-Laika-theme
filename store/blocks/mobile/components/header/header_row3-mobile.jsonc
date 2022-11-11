@@ -1,4 +1,5 @@
-{//ok
+{
+  //*************************** "header-row#3header.mobile" *******************************//
   "flex-layout.row#header__container--buttons-mobile": {
     "title": "header container section buttons mobile",
     "children": ["flex-layout.col#header__buttons"],
@@ -29,7 +30,10 @@
   },
   "flex-layout.row#header__button--item-dog-mobile": {
     "title": "header button deparment dog mobile",
-    "children": ["link#header__menuitem--dog", "image#header__section--dog-mobile"],
+    "children": [
+      "link#header__menuitem--dog",
+      "image#header__section--dog-mobile"
+    ],
     "props": {
       "blockClass": "header__button--item-mobile",
       "horizontalAlign": "center"
@@ -61,7 +65,10 @@
   },
   "flex-layout.row#header__button--item-cat-mobile": {
     "title": "header button deparment cat mobile",
-    "children": ["link#header__menuitem--cat", "image#header__section--cat-mobile"],
+    "children": [
+      "link#header__menuitem--cat",
+      "image#header__section--cat-mobile"
+    ],
     "props": {
       "blockClass": "header__button--item-mobile"
     }

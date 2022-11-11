@@ -1,17 +1,23 @@
 {
-  //*************************** "department__cat" *******************************//
-  "flex-layout.row#header__container--menuitem--cat-mobile":{
+  //*************************** "deparment__cat" *******************************//
+  "flex-layout.row#header__container--menuitem--cat-mobile": {
     "title": "header container menu item cat mobile",
-    "children":[
-      "image#header__menuitem--cat-mobile",
+    "children": [
+      "flex-layout.col#header__menuitem-image-cat-mobile",
       "menu-item#department__cat-mobile"
-    ],"props":{
-      "border":"bottom",
-      "paddingTop":3,
-      "paddingBottom":3,
-      "borderColor":"gray",
-      "blockClass":"header__menuitem--drawer",
-      "maxWidth":300
+    ],
+    "props": {
+      "border": "bottom",
+      "borderColor": "gray",
+      "blockClass": "header__menuitem--drawer-cat"
+    }
+  },
+  "flex-layout.col#header__menuitem-image-cat-mobile": {
+    "title": "header image menu item cat mobile",
+    "children": ["image#header__menuitem--cat-mobile"],
+    "props": {
+      "blockClass": "header__menuitem--container_image",
+      "width": "5%"
     }
   },
   "image#header__menuitem--cat-mobile": {
@@ -19,15 +25,16 @@
     "props": {
       "src": "assets/img/icons-menu/icon-cat.avif",
       "maxWidth": 30,
-      "maxHeight":30,
-      "blockClass":"categories--image-mobile"
+      "maxHeight": 30,
+      "blockClass": "categories--image-mobile-deparment"
     }
   },
   "menu-item#department__cat-mobile": {
-    "title": "header menu item mobile cat",
+    "title": "header menu deparment cat mobile",
     "props": {
-      "id": "menu-item#cat",
+      "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "container__menuitem--mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat",
@@ -41,7 +48,7 @@
   "submenu.accordion#department__cat-mobile": {
     "title": "header sub menu mobile cat",
     "children": ["menu#category__cat-mobile"],
-    "props":{
+    "props": {
       "blockClass": "submenu__department--cat-mobile"
     }
   },
@@ -49,44 +56,55 @@
   "menu#category__cat-mobile": {
     "title": "header menu items mobile cat",
     "children": [
-      "flex-layout.row#header__container--menuitem--catfood-mobile", 
-      "flex-layout.row#header__container--menuitem--catsnacks-mobile", 
-      "flex-layout.row#header__container--menuitem--cathalloween-mobile", 
-      "flex-layout.row#header__container--menuitem--catfarmapet-mobile", 
-      "flex-layout.row#header__container--menuitem--catcareHygiene-mobile", 
-      "flex-layout.row#header__container--menuitem--cattoys-mobile", 
-      "flex-layout.row#header__container--menuitem--cataccessories-mobile"
+      "flex-layout.col#header__container--menuitem--catfood-mobile",
+      "flex-layout.col#header__container--menuitem--catsandbox-mobile-mobile",
+      "flex-layout.col#header__container--menuitem--catsnacks-mobile",
+      "flex-layout.col#header__container--menuitem--cathalloween-mobile",
+      "flex-layout.col#header__container--menuitem--catfarmapet-mobile",
+      "flex-layout.col#header__container--menuitem--catcareHygiene-mobile",
+      "flex-layout.col#header__container--menuitem--cattoys-mobile",
+      "flex-layout.col#header__container--menuitem--cataccessories-mobile"
     ],
     "props": {
       "orientation": "vertical",
-      "blockClass":"container__menuitem--mobile"
+      "blockClass": "container__menuitem--mobile"
     }
   },
-   //*************************** "menu-item#category__cat--food-mobile" *******************************//
-   "flex-layout.row#header__container--menuitem--catfood-mobile":{
-    "children":[
-      "image#header__menuitem--cat--food-mobile",
+  //*************************** "menu-item#category__cat--food-mobile" *******************************//
+  "flex-layout.col#header__container--menuitem--catfood-mobile": {
+    "title": "header container menu item catfood mobile",
+    "children": [
+      "flex-layout.row#header__menuitem--cat--food-mobile",
       "menu-item#category__cat--food-mobile"
-    ],"props":{
-      "paddingTop":3,
-      "paddingBottom":3,
-      "blockClass":"menuitem--mobile"
+    ],
+    "props": {
+      "paddingTop": 3,
+      "paddingBottom": 3,
+      "blockClass": "menuitem--mobile"
     }
   },
-  "image#header__menuitem--cat--food-mobile":{
+  "flex-layout.row#header__menuitem--cat--food-mobile": {
+    "title": "header container image menu item catfood mobile",
+    "children": ["image#header__menuitem--cat--food-mobile"],
+    "props": {
+      "blockClass": "header__menuitem--container_image"
+    }
+  },
+  "image#header__menuitem--cat--food-mobile": {
+    "title": "header image menu item catfood mobile",
     "props": {
       "src": "assets/img/icons-menu/icon-food.png",
       "maxWidth": 30,
-      "maxHeight":30,
-      "blockClass":"categories--image-mobile"
+      "maxHeight": 30,
+      "blockClass": "categories--image-mobile-categories"
     }
   },
-   //*************************** "menu-item#category__cat--food-mobile" *******************************//
   "menu-item#category__cat--food-mobile": {
     "title": "header menu item mobile cat-food",
     "props": {
-      "id": "menu-item#food--cat",
+      "id": "menu-item#cat--food",
       "type": "custom",
+      "blockClass": "category__cat--mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catfood",
@@ -94,12 +112,17 @@
         "tagTitle": "Food",
         "text": "Alimento"
       }
-    },"blocks": ["submenu.accordion#header__submenu--cat-food-mobile"]
+    },
+    "blocks": ["submenu.accordion#header__submenu--cat-food-mobile"]
   },
   "submenu.accordion#header__submenu--cat-food-mobile": {
-    "children": ["menu#category__itemscat"]
-  },  
-  "menu#category__itemscat":{
+    "title": "header sub menu mobile cat",
+    "children": ["menu#category__itemscat--food"],
+    "props": {
+      "blockClass": "submenu--category-cat-mobile"
+    }
+  },
+  "menu#category__itemscat--food": {
     "title": "header submenu item mobile cat-food",
     "children": [
       "menu-item#category__cat--food-mobile-purinecats",
@@ -109,14 +132,15 @@
     ],
     "props": {
       "blockClass": "header__submenu--cat-food-mobile",
-        "orientation": "vertical"
-      }
+      "orientation": "vertical"
+    }
   },
   "menu-item#category__cat--food-mobile-purinecats": {
     "title": "header menu item mobile cat-purinecats",
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "category__cat--food-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catfood/purinecats",
@@ -131,6 +155,7 @@
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catfood/wetfood",
@@ -145,6 +170,7 @@
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catfood/barfdiet",
@@ -159,47 +185,142 @@
     "children": ["link#category__cat--food-mobile-seemore"],
     "props": {
       "id": "deparment__cat",
-      "type": "custom"
+      "type": "custom",
+      "blockClass": "subcategory-cat-mobile-see-more"
     }
   },
   "link#category__cat--food-mobile-seemore": {
     "title": "header item link mobile cat-seemore",
     "props": {
       "href": "/categorycat/catfood",
-      "label": "Ver mas"
+      "label": "Ver todo",
+      "blockClass": "header__menu-drawer--link-categories"
     }
   },
-  //*************************** "menu-item#category__cat--sands-mobile" *******************************//
-
-  "menu-item#category__cat--sands-mobile": {
+   //*************************** "menu-item#category__cat--sandbox-mobile" *******************************//
+  "flex-layout.col#header__container--menuitem--catsandbox-mobile-mobile": {
+    "title": "header container menu item cat-sandbox-mobile",
+    "children": [
+      "flex-layout.row#header__menuitem--cat--sanbox-mobile",
+      "menu-item#category__cat--sanbox-mobile"
+    ],
     "props": {
-      "id": "menu-item#cat--sands",
+      "paddingTop": 2,
+      "paddingBottom": 2,
+      "blockClass": "menuitem--mobile"
+    }
+  },
+  "flex-layout.row#header__menuitem--cat--sanbox-mobile": {
+    "title": "header container image menu item sanbox mobile",
+    "children": [
+      "image#header__menuitem--cat--sandbox-mobile"],
+    "props": {
+      "blockClass": "header__menuitem--container_image"
+    }
+  },
+  "image#header__menuitem--cat--sandbox-mobile": {
+    "title": "header img menu item cat sandbox mobile",
+    "props": {
+      "src": "assets/img/icons-menu/icon-areneras.png",
+      "maxWidth": 30,
+      "maxHeight": 30,
+      "blockClass": "categories--image-mobile-categories"
+    }
+  },
+  "menu-item#category__cat--sanbox-mobile": {
+    "title": "header menu item mobile cat-sandbox",
+    "props": {
+      "id": "menu-item#cat--sandbox",
       "type": "custom",
+      "blockClass": "category__cat--mobile",
       "itemProps": {
         "type": "internal",
-        "href": "#/cat--sands",
+        "href": "/categorycat/catfood",
         "noFollow": false,
-        "tagTitle": "Areneros",
-        "text": "Areneros"
+        "tagTitle": "sandbox",
+        "text": "Areneras"
+      }
+    },
+    "blocks": ["submenu.accordion#header__submenu--cat-sandbox-mobile"]
+  },
+  "submenu.accordion#header__submenu--cat-sandbox-mobile": {
+    "title": "header sub menu mobile cat",
+    "children": ["menu#category__itemscat--sandbox"],
+    "props": {
+      "blockClass": "submenu--category-cat-mobile"
+    }
+  },
+  "menu#category__itemscat--sandbox": {
+    "title": "header submenu item mobile cat-sandbox",
+    "children": [
+      "menu-item#category__cat--food-mobile-sandbox",
+      "menu-item#category__cat--food-mobile-link-seemore"
+    ],
+    "props": {
+      "blockClass": "header__submenu--cat-food-mobile",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category__cat--food-mobile-sandbox": {
+    "title": "header menu item mobile cat-sand",
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "blockClass": "category__cat--sandbox-mobile",
+      "itemProps": {
+        "type": "internal",
+        "href": "/categorycat/catsandbox/sand",
+        "noFollow": false,
+        "tagTitle": "purine cats",
+        "text": "Arenas"
       }
     }
   },
-  //*************************** "menu-item#category__cat--snacks-mobile" *******************************//
-  "flex-layout.row#header__container--menuitem--catsnacks-mobile":{
-    "children":[
-      "image#header__menuitem--cat--snacks-mobile",
-      "menu-item#category__cat--snacks-mobile"
-    ],"props":{
-      "paddingTop":3,
-      "paddingBottom":3,
-      "blockClass":"menuitem--mobile"
+  "menu-item#category__cat--sandbox-mobile-link-seemore": {
+    "title": "header container link mobile cat-seemore",
+    "children": ["link#category__cat--sandbox-mobile-seemore"],
+    "props": {
+      "id": "deparment__cat",
+      "type": "custom",
+      "blockClass": "subcategory-cat-mobile-see-more"
     }
-  },"image#header__menuitem--cat--snacks-mobile":{
+  },
+  "link#category__cat--sandbox-mobile-seemore": {
+    "title": "header item link mobile cat-seemore",
+    "props": {
+      "href": "/categorycat/catsandbox",
+      "label": "Ver todo",
+      "blockClass": "header__menu-drawer--link-categories"
+    }
+  },
+ 
+  //*************************** "menu-item#category__cat--snacks-mobile" *******************************//
+  "flex-layout.col#header__container--menuitem--catsnacks-mobile": {
+    "title": "header container menu item catsnacks mobile",
+    "children": [
+      "flex-layout.row#header__menuitem--cat--snacks-mobile",
+      "menu-item#category__cat--snacks-mobile"
+    ],
+    "props": {
+      "paddingTop": 3,
+      "paddingBottom": 3,
+      "blockClass": "menuitem--mobile"
+    }
+  },
+  "flex-layout.row#header__menuitem--cat--snacks-mobile": {
+    "title": "header container image menu item catsnacks mobile",
+    "children": ["image#header__menuitem--cat--snacks-mobile"],
+    "props": {
+      "blockClass": "header__menuitem--container_image"
+    }
+  },
+  "image#header__menuitem--cat--snacks-mobile": {
+    "title": "header image menu item catsnacks mobile",
     "props": {
       "src": "assets/img/icons-menu/icon-snacks.png",
       "maxWidth": 30,
-      "maxHeight":30,
-      "blockClass":"categories--image-mobile"
+      "maxHeight": 30,
+      "blockClass": "categories--image-mobile-categories"
     }
   },
   "menu-item#category__cat--snacks-mobile": {
@@ -207,21 +328,25 @@
     "props": {
       "id": "menu-item#cat--snacks",
       "type": "custom",
+      "blockClass": "category__cat--mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catsnacks",
         "noFollow": false,
         "tagTitle": "Snacks",
-        "text": "Snacks"
+        "text": "Snaks"
       }
     },
     "blocks": ["submenu.accordion#header__submenu--cat--snacks-mobile"]
   },
   "submenu.accordion#header__submenu--cat--snacks-mobile": {
     "title": "header submenu item mobile cat-snacks",
-    "children":  ["menu#category__itemscat--snacks"]
+    "children": ["menu#category__itemscat--snacks"],
+    "props": {
+      "blockClass": "submenu--category-cat-mobile"
+    }
   },
-  "menu#category__itemscat--snacks":{
+  "menu#category__itemscat--snacks": {
     "title": "header submenu item mobile cat-snacks",
     "children": [
       "menu-item#category__cat--food-mobile-cat--brownies",
@@ -229,7 +354,7 @@
       "menu-item#category__cat--food-mobile-cat--cookies"
     ],
     "props": {
-      "blockClass":"header__submenu--cat--snacks-mobile",
+      "blockClass": "header__submenu--cat--snacks-mobile",
       "orientation": "vertical"
     }
   },
@@ -238,6 +363,7 @@
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catsnacks/brownies",
@@ -252,6 +378,7 @@
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catsnacks/bonesmeat",
@@ -266,6 +393,7 @@
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catsnacks/cookies",
@@ -276,29 +404,40 @@
     }
   },
   //*************************** "menu-item#category__cat--halloween-mobile" *******************************//
-  "flex-layout.row#header__container--menuitem--cathalloween-mobile":{
-    "children":[
-      "image#header__menuitem--cat--halloween-mobile",
+  "flex-layout.col#header__container--menuitem--cathalloween-mobile": {
+    "title": "header container menu item cathalloween mobile",
+    "children": [
+      "flex-layout.row#header__menuitem--cat--halloween-mobile",
       "menu-item#category__cat--halloween-mobile"
-    ],"props":{
-      "paddingTop":3,
-      "paddingBottom":3,
-      "blockClass":"menuitem--mobile"
+    ],
+    "props": {
+      "paddingTop": 3,
+      "paddingBottom": 3,
+      "blockClass": "menuitem--mobile"
     }
-  },"image#header__menuitem--cat--halloween-mobile":{
+  },
+  "flex-layout.row#header__menuitem--cat--halloween-mobile": {
+    "title": "header container image menu item cathalloween mobile",
+    "children": ["image#header__menuitem--cat--halloween-mobile"],
+    "props": {
+      "blockClass": "header__menuitem--container_image"
+    }
+  },
+  "image#header__menuitem--cat--halloween-mobile": {
+    "title": "header image menu item halloween mobile",
     "props": {
       "src": "assets/img/icons-menu/icon-hallowen.png",
       "maxWidth": 30,
-      "maxHeight":30,
-      "blockClass":"categories--image-mobile"
+      "maxHeight": 30,
+      "blockClass": "categories--image-mobile-categories"
     }
   },
- 
   "menu-item#category__cat--halloween-mobile": {
     "title": "header menu item mobile cat-halloween",
     "props": {
       "id": "menu-item#cat--halloween",
       "type": "custom",
+      "blockClass": "category__cat--mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/halloween",
@@ -311,7 +450,10 @@
   },
   "submenu.accordion#header__submenu--cat--halloween-mobile": {
     "title": "header submenu item mobile cat-halloween",
-    "children":  ["menu#category__itemscat--halloween"]
+    "children": ["menu#category__itemscat--halloween"],
+    "props": {
+      "blockClass": "submenu--category-cat-mobile"
+    }
   },
   "menu#category__itemscat--halloween": {
     "title": "header submenu item mobile cat-halloween",
@@ -329,6 +471,7 @@
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/cathalloween/halloween",
@@ -343,33 +486,45 @@
     "children": ["link#category__cat--halloween-mobile-seemore"],
     "props": {
       "id": "deparment__cat",
-      "type": "custom"
+      "type": "custom",
+      "blockClass": "subcategory-cat-mobile-see-more"
     }
   },
   "link#category__cat--halloween-mobile-seemore": {
     "title": "header item link mobile cat-seemore",
     "props": {
       "href": "/categorycat/cathalloween/halloween",
-      "label": "Ver todo"
+      "label": "Ver todo",
+      "blockClass": "header__menu-drawer--link-categories"
     }
   },
   //*************************** "menu-item#category__cat--farmapet-mobile" *******************************//
-  "flex-layout.row#header__container--menuitem--catfarmapet-mobile":{
-    "children":[
-      "image#header__menuitem--cat--farmapet-mobile",
+  "flex-layout.col#header__container--menuitem--catfarmapet-mobile": {
+    "title": "header container menu item catfarmapet mobile",
+    "children": [
+      "flex-layout.row#header__menuitem--cat--farmapet-mobile",
       "menu-item#category__cat--farmapet-mobile"
-    ],"props":{
-      "paddingTop":3,
-      "paddingBottom":3,
-      "blockClass":"menuitem--mobile"
+    ],
+    "props": {
+      "paddingTop": 3,
+      "paddingBottom": 3,
+      "blockClass": "menuitem--mobile"
     }
   },
-  "image#header__menuitem--cat--farmapet-mobile":{
+  "flex-layout.row#header__menuitem--cat--farmapet-mobile": {
+    "title": "header container image menu item catfarmapet mobile",
+    "children": ["image#header__menuitem--cat--farmapet-mobile"],
+    "props": {
+      "blockClass": "header__menuitem--container_image"
+    }
+  },
+  "image#header__menuitem--cat--farmapet-mobile": {
+    "title": "header image menu item catfarmapet mobile",
     "props": {
       "src": "assets/img/icons-menu/icon-farmapet.png",
       "maxWidth": 30,
-      "maxHeight":30,
-      "blockClass":"categories--image-mobile"
+      "maxHeight": 30,
+      "blockClass": "categories--image-mobile-categories"
     }
   },
   "menu-item#category__cat--farmapet-mobile": {
@@ -377,7 +532,7 @@
     "props": {
       "id": "menu-item#cat--farmapet",
       "type": "custom",
-      "blockClass":"category_mobile",
+      "blockClass": "category__cat--mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catfarmapet",
@@ -390,7 +545,10 @@
   },
   "submenu.accordion#header__submenu--cat--farmapet-mobile": {
     "title": "header submenu item mobile cat-farmapet",
-    "children":  ["menu#category__itemscat--farmapet"]
+    "children": ["menu#category__itemscat--farmapet"],
+    "props": {
+      "blockClass": "submenu--category-cat-mobile"
+    }
   },
   "menu#category__itemscat--farmapet": {
     "title": "header submenu item mobile cat-farmapet",
@@ -417,11 +575,12 @@
       "blockClass": "header__submenu--cat-food-mobile"
     }
   },
-  "menu-item#category__cat--farmapet-mobile-cat-antiparasitic":{
+  "menu-item#category__cat--farmapet-mobile-cat-antiparasitic": {
     "title": "header menu item mobile cat-farmapet-antiparasitic",
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catfarmapet/antiparasitic",
@@ -431,11 +590,12 @@
       }
     }
   },
-  "menu-item#category__cat--farmapet-mobile-cat-supplements":{
+  "menu-item#category__cat--farmapet-mobile-cat-supplements": {
     "title": "header menu item mobile cat-farmapet-supplements",
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catfarmapet/supplements",
@@ -443,13 +603,14 @@
         "tagTitle": "supplements",
         "text": "Suplementos"
       }
-    }    
+    }
   },
-  "menu-item#category__cat--farmapet-mobile-cat-analgesics":{
+  "menu-item#category__cat--farmapet-mobile-cat-analgesics": {
     "title": "header menu item mobile cat-farmapet-analgesics",
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catfarmapet/analgesics",
@@ -457,13 +618,14 @@
         "tagTitle": "analgesics",
         "text": "Analgesicos"
       }
-    }     
+    }
   },
-  "menu-item#category__cat--farmapet-mobile-cat-antibacterial":{
+  "menu-item#category__cat--farmapet-mobile-cat-antibacterial": {
     "title": "header menu item mobile cat-farmapet-antibacterial",
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catfarmapet/antibacterial",
@@ -471,13 +633,14 @@
         "tagTitle": "antibacterial",
         "text": "Antibacterianos"
       }
-    } 
+    }
   },
-  "menu-item#category__cat--farmapet-mobile-cat-antibiotics":{
+  "menu-item#category__cat--farmapet-mobile-cat-antibiotics": {
     "title": "header menu item mobile cat-farmapet-antibiotics",
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catfarmapet/antibiotics",
@@ -485,13 +648,14 @@
         "tagTitle": "antibiotics",
         "text": "Antibioticos"
       }
-    } 
+    }
   },
-  "menu-item#category__cat--farmapet-mobile-cat-anti-inflammatories":{
+  "menu-item#category__cat--farmapet-mobile-cat-anti-inflammatories": {
     "title": "header menu item mobile cat-farmapet-anti-inflammatories",
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catfarmapet/anti-inflammatories",
@@ -499,13 +663,14 @@
         "tagTitle": "anti-inflammatories",
         "text": "Anti Inflamatorios"
       }
-    } 
+    }
   },
-  "menu-item#category__cat--farmapet-mobile-cat-joints":{
+  "menu-item#category__cat--farmapet-mobile-cat-joints": {
     "title": "header menu item mobile cat-farmapet-joints",
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catfarmapet/joints",
@@ -513,13 +678,14 @@
         "tagTitle": "joints",
         "text": "Articulaciones"
       }
-    } 
+    }
   },
-  "menu-item#category__cat--farmapet-mobile-cat-elizabethannecklace":{
+  "menu-item#category__cat--farmapet-mobile-cat-elizabethannecklace": {
     "title": "header menu item mobile cat-farmapet-elizabethannecklace",
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catfarmapet/elizabethannecklace",
@@ -527,13 +693,14 @@
         "tagTitle": "elizabethannecklace",
         "text": "Collares isabelinos"
       }
-    } 
+    }
   },
-  "menu-item#category__cat--farmapet-mobile-cat-dermatological":{
+  "menu-item#category__cat--farmapet-mobile-cat-dermatological": {
     "title": "header menu item mobile cat-farmapet-dermatological",
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catfarmapet/dermatological",
@@ -541,13 +708,14 @@
         "tagTitle": "dermatological",
         "text": "Dermatologicos"
       }
-    } 
+    }
   },
-  "menu-item#category__cat--farmapet-mobile-cat-digestive":{
+  "menu-item#category__cat--farmapet-mobile-cat-digestive": {
     "title": "header menu item mobile cat-farmapet-digestive",
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catfarmapet/digestive",
@@ -555,13 +723,14 @@
         "tagTitle": "digestive",
         "text": "Digestivos"
       }
-    } 
+    }
   },
-  "menu-item#category__cat--farmapet-mobile-cat-liver":{
+  "menu-item#category__cat--farmapet-mobile-cat-liver": {
     "title": "header menu item mobile cat-farmapet-liver",
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catfarmapet/liver",
@@ -569,13 +738,14 @@
         "tagTitle": "liver",
         "text": "Hepaticos"
       }
-    } 
+    }
   },
-  "menu-item#category__cat--farmapet-mobile-cat-hypothyroidism":{
+  "menu-item#category__cat--farmapet-mobile-cat-hypothyroidism": {
     "title": "header menu item mobile cat-farmapet-hypothyroidism",
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catfarmapet/hypothyroidism",
@@ -583,13 +753,14 @@
         "tagTitle": "hypothyroidism",
         "text": "Hipotiroidismo"
       }
-    } 
+    }
   },
-  "menu-item#category__cat--farmapet-mobile-cat-homeopathicmedicine":{
+  "menu-item#category__cat--farmapet-mobile-cat-homeopathicmedicine": {
     "title": "header menu item mobile cat-farmapet-homeopathicmedicine",
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catfarmapet/homeopathicmedicine",
@@ -597,13 +768,14 @@
         "tagTitle": "homeopathicmedicine",
         "text": "Mediciona Homeopatica"
       }
-    } 
+    }
   },
-  "menu-item#category__cat--farmapet-mobile-cat-ophthalmic":{
+  "menu-item#category__cat--farmapet-mobile-cat-ophthalmic": {
     "title": "header menu item mobile cat-farmapet-ophthalmic",
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catfarmapet/ophthalmic",
@@ -611,13 +783,14 @@
         "tagTitle": "ophthalmic",
         "text": "Oftalmicos"
       }
-    }  
+    }
   },
-  "menu-item#category__cat--farmapet-mobile-cat-optics":{
+  "menu-item#category__cat--farmapet-mobile-cat-optics": {
     "title": "header menu item mobile cat-farmapet-optics",
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catfarmapet/optics",
@@ -625,47 +798,60 @@
         "tagTitle": "optics",
         "text": "Opticos"
       }
-    } 
+    }
   },
-  "menu-item#category__cat--farmapet-mobile-link-seemore":{
+  "menu-item#category__cat--farmapet-mobile-link-seemore": {
     "title": "header container link farmapet mobile cat-seemore",
     "children": ["link#category__cat--farmapet-mobile-seemore"],
     "props": {
       "id": "deparment__cat",
-      "type": "custom"
+      "type": "custom",
+      "blockClass": "subcategory-cat-mobile-see-more"
     }
   },
   "link#category__cat--farmapet-mobile-seemore": {
     "title": "header item link mobile cat-seemore",
     "props": {
       "href": "/categorycat/catfarmapet/farmapet",
-      "label": "Ver todo"
+      "label": "Ver todo",
+      "blockClass": "header__menu-drawer--link-categories"
     }
   },
   //*************************** "menu-item#category__cat--careHygiene-mobile" *******************************//
-  "flex-layout.row#header__container--menuitem--catcareHygiene-mobile":{
-    "children":[
-      "image#header__menuitem--cat--careHygiene-mobile",
+  "flex-layout.col#header__container--menuitem--catcareHygiene-mobile": {
+    "title": "header container menu item catcareHygiene mobile",
+    "children": [
+      "flex-layout.row#header__menuitem--catcareHygiene--mobile",
       "menu-item#category__cat--careHygiene-mobile"
-    ],"props":{
-      "paddingTop":3,
-      "paddingBottom":3,
-      "blockClass":"menuitem--mobile"
+    ],
+    "props": {
+      "paddingTop": 3,
+      "paddingBottom": 3,
+      "blockClass": "menuitem--mobile"
     }
-  }, "image#header__menuitem--cat--careHygiene-mobile":{
+  },
+  "flex-layout.row#header__menuitem--catcareHygiene--mobile": {
+    "title": "header container image menu item catcareHygiene mobile",
+    "children": ["image#header__menuitem--cat--careHygiene-mobile"],
+    "props": {
+      "blockClass": "header__menuitem--container_image"
+    }
+  },
+  "image#header__menuitem--cat--careHygiene-mobile": {
+    "title": "header image menu item careHygiene mobile",
     "props": {
       "src": "assets/img/icons-menu/icon-higiene.png",
       "maxWidth": 30,
-      "maxHeight":30,
-      "blockClass":"categories--image-mobile"
+      "maxHeight": 30,
+      "blockClass": "categories--image-mobile-categories"
     }
   },
-  
   "menu-item#category__cat--careHygiene-mobile": {
     "title": "header menu item mobile cat-careHygiene",
     "props": {
       "id": "menu-item#cat--careHygiene",
       "type": "custom",
+      "blockClass": "category__cat--mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/careHygiene",
@@ -678,7 +864,10 @@
   },
   "submenu.accordion#header__submenu--cat--careHygiene-mobile": {
     "title": "header submenu item mobile cat-careHygiene",
-    "children":  ["menu#category__itemscat--careHygiene"]
+    "children": ["menu#category__itemscat--careHygiene"],
+    "props": {
+      "blockClass": "submenu--category-cat-mobile"
+    }
   },
   "menu#category__itemscat--careHygiene": {
     "title": "header submenu item mobile cat-careHygiene",
@@ -704,6 +893,7 @@
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catcareHygiene/hygiene",
@@ -718,6 +908,7 @@
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catcareHygiene/diapersMaps",
@@ -732,6 +923,7 @@
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catcareHygiene/brushes",
@@ -746,6 +938,7 @@
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catcareHygiene/nailClipper",
@@ -760,6 +953,7 @@
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catcareHygiene/homeCare",
@@ -774,6 +968,7 @@
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catcareHygiene/oralCare",
@@ -788,6 +983,7 @@
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catcareHygiene/protectors",
@@ -802,6 +998,7 @@
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catcareHygiene/petWaste",
@@ -816,6 +1013,7 @@
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catcareHygiene/odorNeutralizers",
@@ -825,44 +1023,59 @@
       }
     }
   },
+
   "menu-item#category__cat--careHygiene-mobile-link-seemore": {
     "title": "header container link careHygiene mobile cat-seemore",
     "children": ["link#category__cat--careHygiene-mobile-seemore"],
     "props": {
       "id": "deparment__cat",
-      "type": "custom"
+      "type": "custom",
+      "blockClass": "subcategory-cat-mobile-see-more"
     }
   },
   "link#category__cat--careHygiene-mobile-seemore": {
     "title": "header item link mobile cat-seemore",
     "props": {
       "href": "/categorycat/catcareHygiene/careHygiene",
-      "label": "Ver todo"
+      "label": "Ver todo",
+      "blockClass": "header__menu-drawer--link-categories"
     }
   },
   //*************************** "menu-item#category__cat--toys-mobile" *******************************//
-  "flex-layout.row#header__container--menuitem--cattoys-mobile":{
-    "children":[
-      "image#header__menuitem--cat--toys-mobile",
+  "flex-layout.col#header__container--menuitem--cattoys-mobile": {
+    "title": "header container menu item cattoys mobile",
+    "children": [
+      "flex-layout.row#header__menuitem--cat--toys-mobile",
       "menu-item#category__cat--toys-mobile"
-    ],"props":{
-      "paddingTop":3,
-      "paddingBottom":3,
-      "blockClass":"menuitem--mobile"
+    ],
+    "props": {
+      "paddingTop": 3,
+      "paddingBottom": 3,
+      "blockClass": "menuitem--mobile"
     }
   },
-  "image#header__menuitem--cat--toys-mobile":{
+  "flex-layout.row#header__menuitem--cat--toys-mobile": {
+    "title": "header container image menu item cattoys mobile",
+    "children": ["image#header__menuitem--cat--toys-mobile"],
+    "props": {
+      "blockClass": "header__menuitem--container_image"
+    }
+  },
+  "image#header__menuitem--cat--toys-mobile": {
+    "title": "header image menu item cattoys mobile",
     "props": {
       "src": "assets/img/icons-menu/icon-juguetes.png",
       "maxWidth": 30,
-      "maxHeight":30,
-      "blockClass":"categories--image-mobile"
+      "maxHeight": 30,
+      "blockClass": "categories--image-mobile-categories"
     }
   },
   "menu-item#category__cat--toys-mobile": {
+    "title": "header menu item mobile cat-toys",
     "props": {
       "id": "menu-item#cat--toys",
       "type": "custom",
+      "blockClass": "category__cat--mobile",
       "itemProps": {
         "type": "internal",
         "href": "#/cat--toys",
@@ -875,7 +1088,10 @@
   },
   "submenu.accordion#header__submenu--cat--toys-mobile": {
     "title": "header submenu item mobile cat-toys",
-    "children":  ["menu#category__itemscat--toys"]
+    "children": ["menu#category__itemscat--toys"],
+    "props": {
+      "blockClass": "submenu--category-cat-mobile"
+    }
   },
   "menu#category__itemscat--toys": {
     "title": "header submenu item mobile cat-toys",
@@ -895,6 +1111,7 @@
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/cattoys/toys",
@@ -904,11 +1121,12 @@
       }
     }
   },
-  "menu-item#category__cat--toys-mobile-cat-teddies":{
+  "menu-item#category__cat--toys-mobile-cat-teddies": {
     "title": "header menu item mobile cat-teddies",
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catcareHygiene/teddies",
@@ -918,11 +1136,12 @@
       }
     }
   },
-  "menu-item#category__cat--toys-mobile-cat-interactive":{
+  "menu-item#category__cat--toys-mobile-cat-interactive": {
     "title": "header menu item mobile cat-interactive",
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "subcategory-cat-mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/catcareHygiene/interactive",
@@ -937,39 +1156,53 @@
     "children": ["link#category__cat--toys-mobile-seemore"],
     "props": {
       "id": "deparment__cat",
-      "type": "custom"
+      "type": "custom",
+      "blockClass": "subcategory-cat-mobile"
     }
   },
   "link#category__cat--toys-mobile-seemore": {
     "title": "header item link mobile cat-seemore",
     "props": {
       "href": "/categorycat/cattoys/toys",
-      "label": "Ver todo"
+      "label": "Ver todo",
+      "blockClass": "header__menu-drawer--link-categories"
     }
   },
   //*************************** "menu-item#category__cat--accessories-mobile" *******************************//
-  "flex-layout.row#header__container--menuitem--cataccessories-mobile":{
-    "children":[
-      "image#header__menuitem--cat--accessories-mobile",
+  "flex-layout.col#header__container--menuitem--cataccessories-mobile": {
+    "title": "header container menu item cataccessories mobile",
+    "children": [
+      "flex-layout.row#header__menuitem--cat--accessories-mobile",
       "menu-item#category__cat--accessories-mobile"
-    ],"props":{
-      "paddingTop":3,
-      "paddingBottom":3,
-      "blockClass":"menuitem--mobile"
+    ],
+    "props": {
+      "paddingTop": 3,
+      "paddingBottom": 3,
+      "blockClass": "menuitem--mobile"
     }
   },
-  "image#header__menuitem--cat--accessories-mobile":{
+  "flex-layout.row#header__menuitem--cat--accessories-mobile": {
+    "title": "header container image menu item cataccessories mobile",
+    "children": ["image#header__menuitem--cat--accessories-mobile"],
+    "props": {
+      "blockClass": "header__menuitem--container_image"
+    }
+  },
+  "image#header__menuitem--cat--accessories-mobile": {
+    "title": "header image menu item cataccessories mobile",
     "props": {
       "src": "assets/img/icons-menu/icon-accesorios.png",
       "maxWidth": 30,
-      "maxHeight":30,
-      "blockClass":"categories--image-mobile"
+      "maxHeight": 30,
+      "blockClass": "categories--image-mobile-categories"
     }
   },
   "menu-item#category__cat--accessories-mobile": {
+    "title": "header menu item mobile cat-accessories",
     "props": {
       "id": "menu-item#cat--accessories",
       "type": "custom",
+      "blockClass": "category__cat--mobile",
       "itemProps": {
         "type": "internal",
         "href": "#/cat--accessories",
@@ -977,11 +1210,15 @@
         "tagTitle": "Accesorios",
         "text": "Accesorios"
       }
-    }, "blocks": ["submenu.accordion#header__submenu--cat--accessories-mobile"]
+    },
+    "blocks": ["submenu.accordion#header__submenu--cat--accessories-mobile"]
   },
   "submenu.accordion#header__submenu--cat--accessories-mobile": {
     "title": "header submenu item mobile cat-accessories",
-    "children":  ["menu#category__itemscat--accessories"]
+    "children": ["menu#category__itemscat--accessories"],
+    "props": {
+      "blockClass": "submenu--category-cat-mobile"
+    }
   },
   "menu#category__itemscat--accessories": {
     "title": "header submenu item mobile cat-accessories",
@@ -1006,6 +1243,7 @@
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "category__cat--mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/cataccessories/strapsLeashes",
@@ -1020,6 +1258,7 @@
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "category__cat--mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/cataccessories/breastplatesHarness",
@@ -1034,6 +1273,7 @@
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "category__cat--mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/cataccessories/muzzles",
@@ -1048,6 +1288,7 @@
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "category__cat--mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/cataccessories/necklaces",
@@ -1062,6 +1303,7 @@
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "category__cat--mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/cataccessories/clothes",
@@ -1076,6 +1318,7 @@
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "category__cat--mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/cataccessories/feedersDrinkers",
@@ -1090,6 +1333,7 @@
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "category__cat--mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/cataccessories/bedsBlankets",
@@ -1104,6 +1348,7 @@
     "props": {
       "id": "deparment__cat",
       "type": "custom",
+      "blockClass": "category__cat--mobile",
       "itemProps": {
         "type": "internal",
         "href": "/categorycat/cataccessories/cratesBriefcases",
@@ -1113,22 +1358,25 @@
       }
     }
   },
+
   "menu-item#category__cat--accessories-mobile-link-seemore": {
     "title": "header container link accessories mobile cat-seemore",
     "children": ["link#category__cat--accessories-mobile-seemore"],
     "props": {
       "id": "deparment__cat",
-      "type": "custom"
+      "type": "custom",
+      "blockClass": "subcategory-cat-mobile"
     }
   },
   "link#category__cat--accessories-mobile-seemore": {
     "title": "header item link mobile cat-seemore",
     "props": {
       "href": "/categorycat/cataccessories/accessories",
-      "label": "Ver todo"
+      "label": "Ver todo",
+      "blockClass": "header__menu-drawer--link-categories"
     }
   },
-  //*************************** "menu-item#category__cat--petLovers-mobile" *******************************//  
+  //*************************** "menu-item#category__cat--petLovers-mobile" *******************************//
   "menu-item#category__cat--petLovers": {
     "props": {
       "id": "menu-item#cat--petLovers",
@@ -1143,4 +1391,3 @@
     }
   }
 }
-
