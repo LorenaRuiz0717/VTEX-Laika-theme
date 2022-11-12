@@ -131,12 +131,6 @@
   margin-top: 8px;
 }
 
-.flexRowContent--header__menuitem--drawer-servicies,
-.flexRowContent--header__menuitem--drawer-promotions,
-.flexRowContent--header__menuitem--drawer-blog{
-  display:flex;
-}
-
 .flexRow--header__menuitem--container_image{
   width: 36px !important;
   flex-direction: row;
@@ -148,12 +142,9 @@
   padding: 0.75rem 1.25rem;
 }
 
-
-.flexRowContent--header__menuitem--drawer-servicies:first-child{
-
-  width: 10%;
+.flexRowContent--header__menuitem--drawer-services:first-child{
+  display: flex;
 } 
-
 /*************************** "header FlexRow3" *******************************/
 
 .flexRowContent--header__button--item-mobile {

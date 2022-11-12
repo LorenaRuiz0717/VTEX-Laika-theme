@@ -34,12 +34,20 @@
   width: 100%;
 }
 
+/* .submenuAccordion--submenu__department--dog-mobile{
+  background-color:#f8f8f8;
+} */
+
 .styledLinkContainer--container__menuitem--mobile {
   margin: -40px 0px 0px 38px;
   justify-content: flex-end;
 }
 
-
+.styledLinkContainer--container__menuitem--mobile-link {
+  margin: -40px 0px 0px 38px;
+  justify-content: flex-end;
+  padding: 10px 30px;
+}
 
 .styledLinkContent--container__menuitem--mobile {
   padding: 10px 30px;
