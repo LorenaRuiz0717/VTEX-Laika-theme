@@ -1,14 +1,6 @@
 //*************************** "header-layout.desktop" *******************************//
 {
-  "header-layout.desktop": {
-    "title": "header desktop",
-    "children": ["sticky-layout.stack-container#header__desktop"],
-    "props": {
-      "position": "top",
-      "blockClass": "header__desktop--sticky"
-    }
-  },
-  "sticky-layout.stack-container#header__desktop": {
+    "sticky-layout.stack-container#header__desktop": {
     "title": "header desktop container sticky",
     "props": {
       "position": "top",

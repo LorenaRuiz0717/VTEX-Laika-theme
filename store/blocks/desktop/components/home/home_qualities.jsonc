@@ -23,7 +23,7 @@
     "title": "home title section qualities",
     "props": {
       "text": "Encuentra todo para tus peludos en un solo lugar",
-      "font": "t-heading-6",
+      "font": "t-heading-5",
       "blockClass":"home__text--title-section"
     }
   },

@@ -7,11 +7,11 @@
   border-radius: 50%;
 }
 
-.imageElement--grid-brand-img {
-  padding: 20px 15px
-}
-
 .imageElement--home__section--petlovers-image{
   margin-bottom: 28px;
+}
+
+.imageElement--home__section--petlovers-image-mobile{
+  padding: 20px;
 }
 

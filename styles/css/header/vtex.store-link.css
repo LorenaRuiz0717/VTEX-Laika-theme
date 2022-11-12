@@ -1,5 +1,6 @@
+/*************************** "Menu desktop" *******************************/
+
 .label--header__categories--links-menu-title-desktop {
-  /* margin-left: 10px; */
   font-weight: 700;
   font-size: 14px;
 }
@@ -8,8 +9,6 @@
   text-decoration: none;
   color: var(--black);
   margin-left: -20px;
-  /* font-weight: 800; */
-  /* font-size: 16px; */
 }
 
 .link--categories__links--menu-desktop {
@@ -42,26 +41,42 @@
   font-weight: 600;
 }
 
-.label--header__categories--links-menu-title-desktop{
+.label--header__categories--links-menu-title-desktop {
   justify-content: flex-start;
   margin: 0px 20px 0px 20px;
   color: black;
   font-weight: 600;
 }
 
-.label--header__categories--links-menuitem-services-desktop{
+.label--header__categories--links-menuitem-services-desktop {
   color: var(--purple-strong);
   font-weight: 600;
   text-decoration: none;
   font-size: 15px;
 }
 
-.link--header__categories--links-menuitem-services-desktop{
-text-decoration: none;
+.link--header__categories--links-menuitem-services-desktop {
+  text-decoration: none;
 }
 
-.link--header__menuitem--services-text-schedule{
+.link--header__menuitem--services-text-schedule {
   color: var(--purple-strong);
   font-weight: 600;
   text-decoration: none;
+}
+
+.link--minicart__button {
+  background: #653f90;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 12px;
+  width: 80%;
+  text-decoration: none;
+}
+
+/*************************** "Menu drawer" *******************************/
+.link--header__menu-drawer--link-categories{
+  padding-left: 32px;
+  text-decoration: none;
+  color:blue
 }

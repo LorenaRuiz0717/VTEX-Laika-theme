@@ -79,7 +79,9 @@
     ],
     "props": {
       "blockClass": "header__container--qualitie",
-      "width": "25%"
+      "width": "25%",
+      "preserveLayoutOnMobile":true,
+      "preventVerticalStretch":true
     }
   },
   "icon#header__section--qualitie2": {

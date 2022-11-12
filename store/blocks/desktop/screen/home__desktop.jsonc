@@ -1,6 +1,6 @@
 {
-  "store.home": { 
-    "blocks": [
+  "responsive-layout.desktop": {
+    "children": [
       "list-context.image-list#home_slider--list",
       "flex-layout.row#home__section--container--categories",
       "flex-layout.row#home__section--contaniner-qualities",
@@ -8,11 +8,8 @@
       "flex-layout.row#home__section--contaniner-gridbrands",
       "tab-layout#home"
     ],
-    "props":{
-      "blockClass":"store__home"
+    "props": {
+      "blockClass": "store__home-desktop"
     }
   }
-  }
-
-
-
+}
