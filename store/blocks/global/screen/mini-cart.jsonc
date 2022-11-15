@@ -1,0 +1,29 @@
+{
+  "icon#cart-icon": {
+    "title": "header icon cart",
+    "props": {
+      "id": "bnd-iconshop",
+      "size": 20,
+      "blockclass": "header__iconcart",
+      "viewBox": "0 0 25 25"
+    }
+  },
+  "minicart.v2": {
+    "title": "component mini-cart",
+    "props": {
+      "MinicartIcon": "icon#cart-icon",
+      "itemCountMode": "total",
+      "customPixelEventName": "pageViem",
+      "blockClass": "minicart"
+    },
+    "children": ["minicart-base-content"]
+  },
+  "minicart-base-content": {
+    "title": "mini-cart content",
+    "blocks": ["minicart-empty-state"],
+    "children": ["minicart-product-list", "flex-layout.row#minicart__footer"],
+    "props": {
+      "blockClass": "minicart-content"
+    }
+  }
+}

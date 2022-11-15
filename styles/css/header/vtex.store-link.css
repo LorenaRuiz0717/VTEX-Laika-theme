@@ -65,15 +65,6 @@
   text-decoration: none;
 }
 
-.link--minicart__button {
-  background: #653f90;
-  color: white;
-  padding: 12px 25px;
-  border-radius: 12px;
-  width: 80%;
-  text-decoration: none;
-}
-
 /*************************** "Menu drawer" *******************************/
 .link--header__menu-drawer--link-categories{
   padding-left: 32px;

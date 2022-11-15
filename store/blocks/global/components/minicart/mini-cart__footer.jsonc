@@ -1,0 +1,17 @@
+{
+      "flex-layout.row#minicart__footer": {
+        "title": "mini-cart container mini cart-summary and mini cart checkout button",
+        "children": [
+          "minicart-summary",
+          "minicart-checkout-button"
+      ],
+      "props": {
+        "blockClass": "container__minicart-footer"
+      }
+    },
+    "minicart-checkout-button":{
+      "props":{
+        "blockClass": "minicart__footer--checkout-button"
+    }
+  }
+}
