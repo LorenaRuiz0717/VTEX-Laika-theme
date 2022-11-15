@@ -1,5 +1,22 @@
 {
   "footer-layout.desktop": {
-    "children": ["flex-layout.row#footer__desktop"]
+    "title": "footer desktop",
+    "children": ["flex-layout.row#footer__desktop"],
+    "props": {
+      "blockClass": "footer__desktop"
+    }
+  },
+  "flex-layout.row#footer__desktop": {
+    "title": "footer container desktop",
+    "children": [
+      "flex-layout.col#footer__container-logo-social-media-mobile",
+      "flex-layout.col#footer__container_about-us",
+      "flex-layout.col#footer__container_links-interest",
+      "flex-layout.col#footer__container_information",
+      "flex-layout.col#footer__container_newsletter"
+    ],
+    "props": {
+      "blockClass": "footer__container--desktop"
+    }
   }
 }

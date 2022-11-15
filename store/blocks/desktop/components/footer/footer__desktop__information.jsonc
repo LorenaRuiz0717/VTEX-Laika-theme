@@ -1,0 +1,85 @@
+{
+  "flex-layout.col#footer__container_information": {
+    "children": ["menu#footer__container_information"]
+  },
+  "menu#footer__container_information": {
+    "title": "footer container about as",
+    "children": ["menu-item#footer__container_information"],
+    "props": {
+      "blockClass": "footer__container_about-us"
+    }
+  },
+  "menu-item#footer__container_information": {
+    "title": "header menu item cat",
+    "children": ["flex-layout.col#footer__container_section-information"],
+    "props": {
+      "id": "about-us",
+      "type": "custom",
+      "blockClass": "footer__menu-item--desktop",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "abous-us",
+        "text": "Informacion"
+      }
+    }
+  },
+  "flex-layout.col#footer__container_section-information": {
+    "title": "footer container section about us",
+    "children": [
+      "rich-text#footer__section--information-phone",
+      "rich-text#footer__section--information-email",
+      "rich-text#footer__section--information-city"
+    ],
+    "props": {
+      "blockClass": "footer__container_section-about-us"
+    }
+  },
+  "rich-text#footer__section--information-phone": {
+    "props": {
+      "text": "Teléfono: 3009108496"
+    }
+  },
+  "rich-text#footer__section--information-email": {
+    "props": {
+      "text": "servicioclientes@laika.com.co"
+    }
+  },
+  "rich-text#footer__section--information-city": {
+    "props": {
+      "text": "Armenia, Colombia"
+    }
+  },
+  "flex-layout.col#footer__container_newsletter": {
+    "children": ["menu#footer__container_newsletter"]
+  },
+  "menu#footer__container_newsletter": {
+    "title": "footer container newsletter",
+    "children": [
+      "menu-item#footer__container_newsletter",
+      "rich-text#footer__section--receive-news"
+    ],
+    "props": {
+      "blockClass": "footer__container_newsletter"
+    }
+  },
+  "rich-text#footer__section--receive-news": {
+    "props": {
+      "text": "Recibe noticias y promociones al instante."
+    }
+  },
+  "menu-item#footer__container_newsletter": {
+    "title": "header menu item cat",
+    "props": {
+      "id": "newsletter",
+      "type": "custom",
+      "blockClass": "footer__menu-item--desktop",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "newsletter",
+        "text": "Suscribete"
+      }
+    }
+  }
+}

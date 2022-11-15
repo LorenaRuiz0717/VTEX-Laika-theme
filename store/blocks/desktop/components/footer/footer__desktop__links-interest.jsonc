@@ -1,0 +1,68 @@
+{
+  "flex-layout.col#footer__container_links-interest": {
+    "children": [
+      "menu#footer__container_links-interest"
+      // "rich-text#footer__text--container-social-media-mobile"
+    ]
+  },
+  "menu#footer__container_links-interest": {
+    "title": "footer container links-interest",
+    "children": ["menu-item#footer__container_links-interest"],
+    "props": {
+      "blockClass": "footer__container_about-us"
+    }
+  },
+  "menu-item#footer__container_links-interest": {
+    "title": "header menu item cat",
+    "children": ["flex-layout.col#footer__container_section-links-interest"],
+    "props": {
+      "id": "about-us",
+      "type": "custom",
+      "blockClass": "footer__menu-item--desktop",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "abous-us",
+        "text": "Links de Interes"
+      }
+    }
+  },
+  "flex-layout.col#footer__container_section-links-interest": {
+    "title": "footer container section about us",
+    "children": [
+      "link#footer__section-frequent-questions",
+      "link#footer__section-privacy-policy",
+      "link#footer__section-delivery-policies"
+    ],
+    "props": {
+      "blockClass": "footer__container_section-about-us"
+    }
+  },
+  "link#footer__section-frequent-questions": {
+    "title": "footer section about us, about laika",
+    "props": {
+      "href": "/about-us",
+      "label": "Preguntas frecuentes",
+      "blockClass": "footer__section-about-us",
+      "width": "80%"
+    }
+  },
+  "link#footer__section-privacy-policy": {
+    "title": "footer section about us services",
+    "props": {
+      "href": "/servicies",
+      "label": "Politicas de privacidad",
+      "blockClass": "footer__section-about-us",
+      "width": "80%"
+    }
+  },
+  "link#footer__section-delivery-policies": {
+    "title": "footer section about us work with us",
+    "props": {
+      "href": "/work-with-us",
+      "label": "Politicas de entrega",
+      "blockClass": "footer__section-about-us",
+      "width": "80%"
+    }
+  }
+}
