@@ -1,66 +1,114 @@
 {
-    "flex-layout.row#footer__container-info-contact-mobile":{
-        "children": [
-            "link#container-info-super-intendencia-mobile",
-            "rich-text#footer__container-info-nit-mobile",
-            "rich-text#footer__container-info-dir-judicial-mobile",
-            "link#container-info-phone-mobile",
-            "rich-text#footer__container-text-email-mobile",
-            "link#container-info-email-mobile"
-          ],
-          "props": {
-            "blockClass": "footer__container-info-contact-mobile"
-          }
-    } ,
-    "link#container-info-super-intendencia-mobile": {
-        "title": "footer section about us, about laika",
-        "props": {
-          "href": "https://www.sic.gov.co",
-          "label": "https://www.sic.gov.co"
-        //   "blockClass": "footer__section-about-us",
-        //   "width": "80%"
-        }
-      },
-    "rich-text#footer__container-info-nit-mobile": {
-        "title": "footer text social media",
-        "props": {
-          "text": "/ Proyecto E S.A.S. / NIT: 901.110.407 -4 ",
-          "blockClass":"footer__text--container-social-media-mobile",
-          "font":"t-small"
-        }
-      },
-      "rich-text#footer__container-info-dir-judicial-mobile": {
-        "title": "footer text social media",
-        "props": {
-          "text": "/ Dirección de notificación judicial: Cra 68G No. 74B - 56, Bogotá DC",
-          "blockClass":"footer__text--container-social-media-mobile",
-          "font":"t-small"
-        }
-      },
-      "link#container-info-phone-mobile": {
-        "title": "footer section about us, about laika",
-        "props": {
-          "href": "https://www.sic.gov.co",
-          "label": "Teléfono: 300 9108496 "
-        //   "blockClass": "footer__section-about-us",
-        //   "width": "80%"
-        }
-      },
-      "rich-text#footer__container-text-email-mobile": {
-        "title": "footer text social media",
-        "props": {
-          "text": "/ Correo electrónico para notificación judicial:",
-          "blockClass":"footer__text--container-social-media-mobile",
-          "font":"t-small"
-        }
-      },
-      "link#container-info-email-mobile": {
-        "title": "footer section about us, about laika",
-        "props": {
-          "href": "mailto:contabilidad@laika.com.co",
-          "label": "mailto:contabilidad@laika.com.co"
-        //   "blockClass": "footer__section-about-us",
-        //   "width": "80%"
-        }
-      }
+  "flex-layout.row#footer__container-info-contact-mobile": {
+    "children": [
+      "flex-layout.col#footer__container-info-1-mobile",
+      "flex-layout.col#footer__container-info-2-mobile",
+      "flex-layout.col#footer__container-info-3-mobile",
+      "flex-layout.col#footer__container-info-4-mobile",
+      "flex-layout.col#footer__container-info-5-mobile",
+      "flex-layout.col#footer__container-info-6-mobile"
+    ],
+    "props": {
+      "blockClass": "footer__container-info-contact-mobile",
+      "colSizing":"auto",
+      "width": "100%"
+    }
+  },
+  "flex-layout.col#footer__container-info-1-mobile": {
+    "children": [
+      "link#container-info-super-intendencia-mobile"
+    ],
+    "props": {
+      "blockClass": "footer__info--mobile"
+    }
+  },
+  "flex-layout.col#footer__container-info-2-mobile": {
+    "children": [
+      "rich-text#footer__container-info-nit-mobile"
+    ],
+    "props": {
+      "blockClass": "footer__info--mobile"
+    }
+  },
+  "flex-layout.col#footer__container-info-3-mobile": {
+    "children": [
+        "rich-text#footer__container-info-dir-judicial-mobile"
+    ],
+    "props": {
+      "blockClass": "footer__info--mobile"
+    }
+  },
+  "flex-layout.col#footer__container-info-4-mobile": {
+    "children": [
+      "rich-text#footer__container-text-email-mobile"
+
+    ],
+    "props": {
+      "blockClass": "footer__info--mobile"
+    }
+  },
+  "flex-layout.col#footer__container-info-5-mobile": {
+    "children": [
+      "link#container-info-email-mobile"
+    ],
+    "props": {
+      "blockClass": "footer__info--mobile"
+    }
+  },
+  "flex-layout.col#footer__container-info-6-mobile": {
+    "children": [
+      "rich-text#container-info-phone-mobile"
+    ],
+    "props": {
+      "blockClass": "footer__info--mobile"
+    }
+  },
+  "link#container-info-super-intendencia-mobile": {
+    "title": "footer section about us, about laika",
+    "props": {
+      "href": "https://www.sic.gov.co",
+      "label": "https://www.sic.gov.co",
+      "blockClass": "footer__text-info"
+    }
+  },
+  "rich-text#footer__container-info-nit-mobile": {
+    "title": "footer text social media",
+    "props": {
+      "text": "/ Proyecto E S.A.S. / NIT: 901.110.407 -4 ",
+      "blockClass": "footer__text-info",
+      "font": "t-small"
+    }
+  },
+  "rich-text#footer__container-info-dir-judicial-mobile": {
+    "title": "footer text social media",
+    "props": {
+      "text": "/ Dirección de notificación judicial: Cra 68G No. 74B - 56, Bogotá DC",
+      "blockClass": "footer__text-info",
+      "font": "t-small"
+    }
+  },
+  "rich-text#container-info-phone-mobile": {
+    "title": "footer section about us, about laika",
+    "props": {
+      "text": "Teléfono: 300 9108496 ",
+      "blockClass": "footer__text-info",
+      "font": "t-small"
+    }
+  },
+  "rich-text#footer__container-text-email-mobile": {
+    "title": "footer text social media",
+    "props": {
+      "text": "/ Correo electrónico para notificación judicial:",
+      "blockClass": "footer__text-info",
+      "font": "t-small"
+    }
+  },
+  "link#container-info-email-mobile": {
+    "title": "footer section about us, about laika",
+    "props": {
+      "href": "mailto:contabilidad@laika.com.co",
+      "label": "contabilidad@laika.com.co",
+      "blockClass": "footer__text-info"
+    }
+  }
 }

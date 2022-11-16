@@ -8,29 +8,38 @@
   },
   "flex-layout.row#footer__container--mobile": {
     "title": "footer container mobile",
-    "children": [
-      "flex-layout.col#footer__col-container--mobile"
-    ],
+    "children": ["flex-layout.col#footer__col-container--mobile"],
     "props": {
       "blockClass": "footer__container--mobile",
-      "width":"100%"
+      "width": "100%"
     }
   },
-    "flex-layout.col#footer__col-container--mobile": {
+  "flex-layout.col#footer__col-container--mobile": {
     "title": "footer container col mobile",
     "children": [
       "flex-layout.row#footer__container-logo-mobile",
       "flex-layout.row#footer__container-title-mobile",
       "flex-layout.row#footer__container-social-media-mobile",
       "flex-layout.row#footer__container-disclosure-mobile",
+      "flex-layout.row#footer__container-information"
+    ],
+    "props": {
+      "blockClass": "footer__container-mobile",
+      "horizontalAlign": "center",
+      "width": "100%"
+    }
+  },
+  "flex-layout.row#footer__container-information": {
+    "title": "footer container information",
+    "children": [
       "flex-layout.row#footer__container-pay-methods-mobile",
       "flex-layout.row#footer__container-info-contact-mobile",
       "flex-layout.row#footer__container-copyrightt-mobile"
     ],
     "props": {
-      "blockClass": "footer__container-mobile",
-      "horizontalAlign":"center",
-      "width":"100%"
+      "blockClass": "footer__container-information",
+      "horizontalAlign": "center",
+      "width": "100%"
     }
-  }  
+  }
 }

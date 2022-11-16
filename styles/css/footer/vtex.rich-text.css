@@ -28,10 +28,26 @@
 .paragraph--footer__security-certificate-mobile {
   font-size: 11px;
   margin: 0;
-  max-width: 66%;
+  max-width: 60%;
+  color:#A7B0BB;
 }
 
 .paragraph--footer__secure-pay-mobile {
   font-weight: bold;
   font-size: 14px;
+}
+
+.paragraph--footer__text-info{
+  margin: 0;
+}
+
+.paragraph--footer__text-info{
+  color:#28272B;
+  font-size: 10px;
+  font-weight: 100;
+}
+
+.container--footer__text--container-copyrightt-mobile{
+  justify-content: center;
+  color: var(--purple-strong);
 }

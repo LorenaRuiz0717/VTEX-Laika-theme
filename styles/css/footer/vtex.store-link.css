@@ -1,0 +1,9 @@
+.label--footer__text-info{
+    color:var(--purple-strong);
+    font-size: 10px;
+    line-height: 2;
+}
+
+.link--footer__text-info{
+    text-decoration: none;
+}
