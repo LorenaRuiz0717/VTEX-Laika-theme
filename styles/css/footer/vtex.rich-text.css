@@ -1,0 +1,37 @@
+.wrapper--footer__text--container-social-media-mobile {
+  color: var(--purple-strong);
+}
+
+.paragraph--footer__text--container-social-media-mobile {
+  margin: 0px;
+}
+
+.wrapper--footer__disclosure-title-section {
+  width: 100%;
+  color: var(--purple-strong);
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper--footer__disclosure-title-section::after {
+  content: ">";
+}
+
+.container--footer__text--container-social-media-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraph--footer__security-certificate-mobile {
+  font-size: 11px;
+  margin: 0;
+  max-width: 66%;
+}
+
+.paragraph--footer__secure-pay-mobile {
+  font-weight: bold;
+  font-size: 14px;
+}

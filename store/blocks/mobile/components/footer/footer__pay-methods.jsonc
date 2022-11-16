@@ -1,0 +1,140 @@
+{
+  "flex-layout.row#footer__container-pay-methods-mobile": {
+    "children": [
+      "flex-layout.col#footer__container-col-pay-methods-mobile",
+      "flex-layout.col#footer__container-col-icon-protection-mobile"
+    ],
+    "props": {
+      "blockClass": "footer__container--pay-methods-mobile"
+    }
+  },
+  "flex-layout.col#footer__container-col-pay-methods-mobile": {
+    "children": [
+      "flex-layout.row#footer__container-secure-pay-mobile",
+      "flex-layout.row#footer__container-security-certificate-mobile",
+      "flex-layout.row#footer__container-img-pay-methods-mobile"
+    ]
+  },
+  "flex-layout.row#footer__container-secure-pay-mobile": {
+    "children": ["rich-text#footer__text-secure-pay-mobile"]
+  },
+  "rich-text#footer__text-secure-pay-mobile": {
+    "props": {
+      "text": "Pago 100% seguro",
+      "blockClass":"footer__secure-pay-mobile"
+    }
+  },
+  "flex-layout.row#footer__container-security-certificate-mobile": {
+    "children": ["rich-text#footer__security-certificate-mobile"]
+  },
+  "rich-text#footer__security-certificate-mobile": {
+    "props": {
+      "text": "Este certificado garantiza la seguridad de todas tus conexiones mediante cifrado.",
+      "blockClass":"footer__security-certificate-mobile"    
+    }
+  },
+  "flex-layout.row#footer__container-img-pay-methods-mobile": {
+    "title": "footer container images pay methods",
+    "children": [
+      "image#footer__img-pay-methods-1",
+      "image#footer__img-pay-methods-2",
+      "image#footer__img-pay-methods-3",
+      "image#footer__img-pay-methods-4",
+      "image#footer__img-pay-methods-5",
+      "image#footer__img-pay-methods-6",
+      "image#footer__img-pay-methods-7",
+      "image#footer__img-pay-methods-8"
+    ],
+    "props": {
+      "blockClass": "footer__container--img-pay-methods"
+    }
+  },
+  "image#footer__img-pay-methods-1": {
+    "title": "footer img pay methods",
+    "props": {
+      "src": "assets/img/pay-methods/mercado_pago.avif",
+      "maxHeight": 30,
+      "blockClass": "footer__img_pay-methods"
+    }
+  },
+  "image#footer__img-pay-methods-2": {
+    "title": "footer img pay methods",
+    "props": {
+      "src": "assets/img/pay-methods/epayco.avif",
+      "maxHeight": 30,
+      "blockClass": "footer__img_pay-methods"
+    }
+  },
+  "image#footer__img-pay-methods-3": {
+    "title": "footer img pay methods",
+    "props": {
+      "src": "assets/img/pay-methods/pse.avif",
+      "maxHeight": 30,
+      "blockClass": "footer__img_pay-methods"
+    }
+  },
+  "image#footer__img-pay-methods-4": {
+    "title": "footer img pay methods",
+    "props": {
+      "src": "assets/img/pay-methods/visa.avif",
+      "maxHeight": 30,
+      "blockClass": "footer__img_pay-methods"
+    }
+  },
+  "image#footer__img-pay-methods-5": {
+    "title": "footer img pay methods",
+    "props": {
+      "src": "assets/img/pay-methods/master.avif",
+      "maxHeight": 30,
+      "blockClass": "footer__img_pay-methods"
+    }
+  },
+  "image#footer__img-pay-methods-6": {
+    "title": "footer img pay methods",
+    "props": {
+      "src": "assets/img/pay-methods/american.avif",
+      "maxHeight": 30,
+      "blockClass": "footer__img_pay-methods"
+    }
+  },
+  "image#footer__img-pay-methods-7": {
+    "title": "footer img pay methods",
+    "props": {
+      "src": "assets/img/pay-methods/diners.avif",
+      "maxHeight": 30,
+      "blockClass": "footer__img_pay-methods"
+    }
+  },
+  "image#footer__img-pay-methods-8": {
+    "title": "footer img pay methods",
+    "props": {
+      "src": "assets/img/pay-methods/kushki.png",
+      "maxHeight": 30,
+      "blockClass": "footer__img_pay-methods"
+    }
+  },
+  "flex-layout.col#footer__container-col-icon-protection-mobile": {
+    "children": [
+      "icon#footer__section---media-youtube",
+      "rich-text#footer__text--security-mobile"
+    ],
+    "props": {  
+      "blockClass": "footer__container-col-icon-protection-mobile"
+  }
+},
+  "icon#footer__section---media-youtube": {
+    "title": "footer desktop  icon section social-media youtube",
+    "props": {
+      "id": "icon-security",
+      "size": 20,
+      "blockClass": "footer__social-media-icon",
+      "viewBox": "0 0 25 25"
+    }
+  },
+  "rich-text#footer__text--security-mobile": {
+    "props": {
+      "text": "Protección segura 24/7",
+      "blockClass": "footer__text--security-mobile"
+    }
+  }
+}

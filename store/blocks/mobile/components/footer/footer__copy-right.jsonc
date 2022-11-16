@@ -1,0 +1,21 @@
+{
+    "flex-layout.row#footer__container-copyrightt-mobile":{
+        "children": [
+            "rich-text#footer__container-copyrightt-mobile"
+          ],
+          "props": {
+            "blockClass": "footer__container-copyrightt-mobile"
+       
+          }
+
+    },
+    "rich-text#footer__container-copyrightt-mobile": {
+        "title": "footer text social media",
+        "props": {
+          "text": "Copyright © 2021 LAIKA - Derechos reservados",
+          "blockClass":"footer__text--container-social-media-mobile",
+          "font":"t-small"
+        }
+      }
+    
+}

@@ -1,0 +1,308 @@
+{
+    "flex-layout.row#footer__container-disclosure-mobile": {
+        "title": "footer container disclosure mobile",
+        "children": [ "flex-layout.col#footer__container-disclosure-mobile"],
+        "props": {
+          "blockClass": "footer__container-disclosure-mobile"
+        }
+      },
+      "flex-layout.col#footer__container-disclosure-mobile": {
+        "title": "footer container col disclosure mobile",
+        "children": ["disclosure-layout-group#footer__container-menu-mobile"],
+        "props": {
+          "blockClass": "footer__container-disclosure-mobile"
+        }
+      },
+      "disclosure-layout-group#footer__container-menu-mobile": {
+        "title": "footer disclosure items mobile",
+        "children": [
+          "disclosure-layout#footer__disclousure_about-us",
+          "disclosure-layout#footer__disclousure_links-interest",
+          "disclosure-layout#footer__disclousure_information"
+        ],
+        "props": {
+          "blockClass": "footer__disclosure-group--mobile"
+        }
+      },
+       //***********************************footer__disclousure_about-us**************************//
+      "disclosure-layout#footer__disclousure_about-us": {
+        "children": [
+          "disclosure-trigger#footer__disclousure_about-us",
+          "disclosure-content#footer__disclousure_about-us"
+        ]
+      },
+      "disclosure-trigger#footer__disclousure_about-us": {
+        "children": ["rich-text#footer__disclousure_about-us--title"]
+      },
+      "rich-text#footer__disclousure_about-us--title": {
+        "props": {
+          "text": "Acerca de Laika",
+          "blockClass": "footer__disclosure-title-section",
+          "font":"t-small"
+        }
+      },
+      "disclosure-content#footer__disclousure_about-us": {
+        "children": [
+          "menu-item#footer__disclousure_about-us--about-laika",
+          "menu-item#footer__disclousure_about-us--services",
+          "menu-item#footer__disclousure_about-us--work-with-us",
+          "menu-item#footer__disclousure_about-us--blog",
+          "menu-item#footer__disclousure_about-us--terms-and-conditions"
+        ],
+        "props": {
+          "orientation": "vertical"
+        }
+      },
+      "menu-item#footer__disclousure_about-us--about-laika": {
+        "title": "footer disclousure menu item about us about laika",
+        "props": {
+          "blockClass": "footer__disclousure_menu-item",
+          "id": "menu-item#footer__about-us",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": false,
+            "tagTitle": "about-laika",
+            "text": "Sobre Laika"
+          }
+        }
+      },
+      "menu-item#footer__disclousure_about-us--services": {
+        "title": "footer disclousure menu item about us about laika",
+        "props": {
+          "blockClass": "footer__disclousure_menu-item",
+          "id": "menu-item#footer__about-us",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": false,
+            "tagTitle": "about-laika",
+            "text": "Servicios"
+          }
+        }
+      },
+      "menu-item#footer__disclousure_about-us--work-with-us": {
+        "title": "footer disclousure menu item work with us",
+        "props": {
+          "blockClass": "footer__disclousure_menu-item",
+          "id": "menu-item#footer__about-us",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/work-with-us",
+            "noFollow": false,
+            "tagTitle": "work-with-us",
+            "text": "Trabaja con nosotros"
+          }
+        }
+      },
+      "menu-item#footer__disclousure_about-us--blog": {
+        "title": "footer disclousure menu item about us blog ",
+        "props": {
+          "blockClass": "footer__disclousure_menu-item",
+          "id": "menu-item#footer__about-us",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/blog",
+            "noFollow": false,
+            "tagTitle": "blog",
+            "text": "Blog"
+          }
+        }
+      },
+      "menu-item#footer__disclousure_about-us--terms-and-conditions": {
+        "title": "footer disclousure menu item about us terms and conditions",
+        "props": {
+          "blockClass": "footer__disclousure_menu-item",
+          "id": "menu-item#footer__about-us",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/terms-and-conditions",
+            "noFollow": false,
+            "tagTitle": "terms-and-conditions",
+            "text": "Terminos y condiciones"
+          }
+        }
+      },
+      //***********************************footer__disclousure_links-interest**************************//
+     
+      "disclosure-layout#footer__disclousure_links-interest": {
+        "children": [
+          "disclosure-trigger#footer__disclousure_links-interest",
+          "disclosure-content#footer__disclousure_links-interest"
+        ]
+      },
+      "disclosure-trigger#footer__disclousure_links-interest": {
+        "children": ["rich-text#footer__disclousure_links-interest--title"]
+      },
+      "rich-text#footer__disclousure_links-interest--title": {
+        "props": {
+          "text": "Links de interes",
+          "blockClass": "footer__disclosure-title-section",
+          "font":"t-small"
+        }
+      },
+      "disclosure-content#footer__disclousure_links-interest": {
+        "children": [
+          "menu-item#footer__disclousure_links-interest--frequent-questions",
+          "menu-item#footer__disclousure_links-interest--how-to-buy",
+          "menu-item#footer__disclousure_links-interest--privacy-policy",
+          "menu-item#footer__disclousure_links-interest--contact-us",
+          "menu-item#footer__disclousure_links-interest--delivery-policies"
+        ],
+        "props": {
+          "orientation": "vertical"
+        }
+      },
+      "menu-item#footer__disclousure_links-interest--frequent-questions": {
+        "title": "footer disclousure menu item links interest frequent questions",
+        "props": {
+          "blockClass": "footer__disclousure_menu-item",
+          "id": "menu-item#footer__links-interest",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/frequent-questions",
+            "noFollow": false,
+            "tagTitle": "frequent-questions",
+            "text": "Preguntas frecuentes"
+          }
+        }
+      },
+      "menu-item#footer__disclousure_links-interest--how-to-buy": {
+        "title": "footer disclousure menu item links interest how to buy",
+        "props": {
+          "blockClass": "footer__disclousure_menu-item",
+          "id": "menu-item#footer__links-interest",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/how-to-buy",
+            "noFollow": false,
+            "tagTitle": "how-to-buy",
+            "text": "Como comprar en Laika?"
+          }
+        }
+      },
+      "menu-item#footer__disclousure_links-interest--privacy-policy": {
+        "title": "footer disclousure menu item privacy policy",
+        "props": {
+          "blockClass": "footer__disclousure_menu-item",
+          "id": "menu-item#footer__links-interest",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/privacy-policy",
+            "noFollow": false,
+            "tagTitle": "privacy-policy",
+            "text": "Politica de privacidad"
+          }
+        }
+      },
+      "menu-item#footer__disclousure_links-interest--contact-us": {
+        "title": "footer disclousure menu item about us contact us ",
+        "props": {
+          "blockClass": "footer__disclousure_menu-item",
+          "id": "menu-item#footer__links-interest",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/contact-us",
+            "noFollow": false,
+            "tagTitle": "contact-us",
+            "text": "Contáctanos"
+          }
+        }
+      },
+      "menu-item#footer__disclousure_links-interest--delivery-policies": {
+        "title": "footer disclousure menu item about us delivery policies",
+        "props": {
+          "blockClass": "footer__disclousure_menu-item",
+          "id": "menu-item#footer__links-interest",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/delivery-policies",
+            "noFollow": false,
+            "tagTitle": "delivery-policies",
+            "text": "Politicas de entrega"
+          }
+        }
+      },
+      //***********************************footer__disclousure_information**************************//
+      "disclosure-layout#footer__disclousure_information": {
+        "children": [
+          "disclosure-trigger#footer__disclousure_information",
+          "disclosure-content#footer__disclousure_information"
+        ]
+      },
+      "disclosure-trigger#footer__disclousure_information": {
+        "children": ["rich-text#footer__disclousure_information--title"]
+      },
+      "rich-text#footer__disclousure_information--title": {
+        "props": {
+          "text": "Informacion",
+          "blockClass": "footer__disclosure-title-section",
+          "font":"t-small"
+        }
+      },
+      "disclosure-content#footer__disclousure_information": {
+        "children": [
+          "menu-item#footer__disclousure_information--phone",
+          "menu-item#footer__disclousure_information--email",
+          "menu-item#footer__disclousure_information--city"
+        ],
+        "props": {
+          "orientation": "vertical"
+        }
+      },
+      "menu-item#footer__disclousure_information--phone": {
+        "title": "footer disclousure menu item information--phone",
+        "props": {
+          "blockClass": "footer__disclousure_menu-item",
+          "id": "menu-item#footer__links-interest",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/phone",
+            "noFollow": false,
+            "tagTitle": "phone",
+            "text": "Teléfono: 3009108496"
+          }
+        }
+      },
+      "menu-item#footer__disclousure_information--email": {
+        "title": "footer disclousure menu item information--email",
+        "props": {
+          "blockClass": "footer__disclousure_menu-item",
+          "id": "menu-item#footer__information",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/email",
+            "noFollow": false,
+            "tagTitle": "email",
+            "text": "servicioclientes@laika.com.co"
+          }
+        }
+      },
+      "menu-item#footer__disclousure_information--city": {
+        "title": "footer disclousure menu item information--city",
+        "props": {
+          "blockClass": "footer__disclousure_menu-item",
+          "id": "menu-item#footer__information",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/city",
+            "noFollow": false,
+            "tagTitle": "email",
+            "text": "Bogotá-Colombia"
+          }
+        }
+      }
+}

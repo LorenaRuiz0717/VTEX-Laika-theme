@@ -1,0 +1,6 @@
+.logoContainer--footer__logo-mobile{
+    display: flex;
+    justify-content: center;
+    max-height: 178px!important;
+    max-width: 138px!important;
+}

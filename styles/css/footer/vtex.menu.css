@@ -1,0 +1,7 @@
+.styledLinkContainer--footer__disclousure_menu-item{
+    padding: 1rem 0;
+}
+
+.styledLinkContent--footer__disclousure_menu-item{
+    color: var(--purple-strong);
+}
