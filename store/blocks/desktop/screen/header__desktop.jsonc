@@ -1,10 +1,28 @@
 {
-    "header-layout.desktop": {
-        "title": "header desktop",
-        "children": ["sticky-layout.stack-container#header__desktop"],
-        "props": {
-          "position": "top",
-          "blockClass": "header__desktop--sticky"
-        }
-      }
+  "header-layout.desktop": {
+    "title": "header desktop",
+    "children": [
+      "flex-layout.row#container__sticky--header-desktop",
+      "flex-layout.row#container__sticky--header-responsive"
+    ],
+    "props": {
+      "position": "top",
+      "blockClass": "header__desktop"
+    }
+  },
+  "flex-layout.row#container__sticky--header-desktop": {
+    "title": "header desktop",
+    "children": ["flex-layout.col#container__col--sticky--header-desktop"],
+    "props": {
+      "blockClass": "header__desktop--container-sticky-tablet",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#container__col--sticky--header-desktop": {
+    "title": "header desktop",
+    "children": ["sticky-layout.stack-container#header__desktop"],
+    "props": {
+      "blockClass": "header__desktop--container-sticky"
+    }
+  }
 }

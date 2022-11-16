@@ -11,6 +11,16 @@
   margin-left: -20px;
 }
 
+.link--header__categories--links-menu-title-dog-desktop {
+  text-decoration: none;
+  color: white
+}
+
+.link--header__categories--links-menu-title-cat-desktop {
+  text-decoration: none;
+  color: black
+}
+
 .link--categories__links--menu-desktop {
   text-decoration: none;
   color: var(--gray);

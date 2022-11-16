@@ -1,0 +1,57 @@
+{
+    "modal-trigger#header__section--login": {
+        "title": "header sections modal-login",
+        "children": [
+          "flex-layout.row#header__section-login-icon",
+          "rich-text#header__section--login",
+          "modal-layout#header__section--login"
+        ],
+        "props": {
+          "blockClass": "header__modal--login"
+        }
+      },
+      "flex-layout.row#header__section-login-icon":{
+        "children": ["icon#header__user-login"],
+        "props": {
+          "blockClass": "header__modal--login-container-icon"
+        }
+      },
+      "icon#header__user-login": {
+        "title": "header icon section login",
+        "props": {
+          "id": "icon-user",
+          "size": 30,
+          "blockClass": "header__section-login-icon",
+          "viewBox": "0 0 25 25"
+        }
+      },
+      "rich-text#header__section--login": {
+        "title": "header desktop  text section login",
+        "props": {
+          "text": "Crear cuenta",
+          "blockClass": "header__section--text-login-desktop",
+          "font": "t-heading-3"
+        }
+      },
+      "modal-layout#header__section--login": {
+        "title": "header sections modal-login",  
+        "children": ["login-content"],
+        "props": {
+          "text": "Login",
+          "blockClass": "header__section--text-login",
+          "font": "t-heading-3"
+        }
+      },
+      "login-content#header__section--login": {
+        "title": "header sections login",  
+        "props": {
+          "blockClass": "header__section--login",
+          "emailAndPasswordTitle": "LOG-IN",
+          "accessCodeTitle": "Acess Code LOG-IN",
+          "emailPlaceholder": "e-mail",
+          "passwordPlaceholder": "password",
+          "showPasswordVerificationIntoTooltip": true,
+          "showIconProfile": true
+        }
+      }
+}

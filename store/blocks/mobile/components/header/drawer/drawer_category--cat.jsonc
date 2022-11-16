@@ -23,7 +23,7 @@
   "image#header__menuitem--cat-mobile": {
     "title": "header image menuitem cat mobile",
     "props": {
-      "src": "assets/img/icons-menu/icon-cat.avif",
+      "src": "assets/img/icons-menu/icon-cat-update.avif",
       "maxWidth": 30,
       "maxHeight": 30,
       "blockClass": "categories--image-mobile-deparment"

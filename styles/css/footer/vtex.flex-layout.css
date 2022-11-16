@@ -1,6 +1,5 @@
 .flexRow--footer__container--desktop {
-  /* background-color: var(--white); */
-  background-color: red;
+  background-color: var(--white);
 }
 
 .flexColChild--footer__container-disclosure-mobile{

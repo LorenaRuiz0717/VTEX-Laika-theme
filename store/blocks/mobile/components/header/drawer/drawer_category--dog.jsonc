@@ -23,7 +23,7 @@
   "image#header__menuitem--dog-mobile": {
     "title": "header image menuitem dog mobile",
     "props": {
-      "src": "assets/img/icons-menu/icon-dog.avif",
+      "src": "assets/img/icons-menu/icon-dog-update.avif",
       "maxWidth": 30,
       "maxHeight": 30,
       "blockClass": "categories--image-mobile-deparment"

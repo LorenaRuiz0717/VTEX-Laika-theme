@@ -1,9 +1,28 @@
 .paragraph--header__section--phone,
 .paragraph--header__section--email,
 .paragraph--header__section--text-address-desktop,
-.paragraph--header__section--text-login {
+.paragraph--header__section--text-login-desktop,
+.paragraph--header__section--text-login{
   color: var(--white);
   font-size: 14px;
+}
+
+.paragraph--header__section--text-login-desktop{
+  display: none;
+  margin: 0px;
+}
+@media only screen and (min-width: 586px) {
+.paragraph--header__section--text-login-desktop{
+  display: block
+}
+/* .wrapper--header__section--text-login-desktop{
+  display:none
+} */
+.wrapper--header__section--text-login-desktop{
+  padding: 8px 15px;
+  border-radius: 5px;
+  background-color: var(--purple-bold-strong);
+}
 }
 
 .paragraph--header__section--qualitie {
@@ -27,7 +46,6 @@
 }
 
 .paragraph--header__section--text-address-desktop {
-  margin: 20px 0px 0px 50px;
   width: 130px;
 }
 @media only screen and (max-width: 1025px) {
@@ -60,7 +78,6 @@
 }
 
 .wrapper--header__menuitem--services-text{
-  /* margin: 0px 20px 0px 20px; */
   margin: 0 auto;
 }
 

@@ -1,11 +1,11 @@
-/* .container--header__layout{
-    background-color: var(--purple-strong);
-} */
-
-.container--header__mobile--sticky1{
+.container--header__mobile--sticky1,
+.container--header__mobile--sticky2{
     background-color: var(--purple-strong) 
 }
 
 .container--header__sticky3--header{
     z-index: 1;
+}
+.wrapper--container__sticky2{
+    margin-top: -1px;
 }

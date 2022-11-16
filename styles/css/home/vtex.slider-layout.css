@@ -28,9 +28,9 @@
   width: fit-content;
 }
 /*************************** "home slider categories" *******************************/
-.sliderTrack--home__slider--categories {
+/* .sliderTrack--home__slider--categories {
   width: 1265px !important;
-}
+} */
 
 .slideChildrenContainer--home__slider--categories {
   padding: 24px 16px;
@@ -39,7 +39,7 @@
 
 .sliderLayoutContainer--home__slider--categories {
   align-items: flex-start;
-  width: 106%;
+  /* width: 106%; */
   height: 232px;
 }
 
