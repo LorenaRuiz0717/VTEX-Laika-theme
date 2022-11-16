@@ -15,11 +15,9 @@
 .paragraph--header__section--text-login-desktop{
   display: block
 }
-/* .wrapper--header__section--text-login-desktop{
-  display:none
-} */
+
 .wrapper--header__section--text-login-desktop{
-  padding: 8px 15px;
+  padding: 8px;
   border-radius: 5px;
   background-color: var(--purple-bold-strong);
 }
