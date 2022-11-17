@@ -1,0 +1,87 @@
+{
+  "flex-layout.col#footer__container_about-us": {
+    "children": [
+      "menu#footer__container_about-us"
+    ]
+  },
+  "menu#footer__container_about-us": {
+    "title": "footer container about as",
+    "children": ["menu-item#footer__container_about-us"],
+    "props": {
+      "blockClass": "footer__container_about-us"
+    }
+  },
+  "menu-item#footer__container_about-us": {
+    "title": "header menu item cat",
+    "children": ["flex-layout.col#footer__container_section-about-us"],
+    "props": {
+      "id": "about-us",
+      "type": "custom",
+      "blockClass": "footer__menu-item--desktop",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "abous-us",
+        "text": "Acerca de Laika"
+      }
+    }
+  },
+  "flex-layout.col#footer__container_section-about-us": {
+    "title": "footer container section about us",
+    "children": [
+      "link#footer__section-about-us",
+      "link#footer__section-services",
+      "link#footer__section-work-with-us",
+      "link#footer__section-blog",
+      "link#footer__section-terms-and-conditions"
+    ],
+    "props": {
+      "blockClass": "footer__container_section-about-us"
+    }
+  },
+  "link#footer__section-about-us": {
+    "title": "footer section about us, about laika",
+    "props": {
+      "href": "/about-us",
+      "label": "Acerca de Laika",
+      "blockClass": "footer__section-about-us",
+      "width": "80%"
+    }
+  },
+  "link#footer__section-services": {
+    "title": "footer section about us services",
+    "props": {
+      "href": "/servicies",
+      "label": "Servicios",
+      "blockClass": "footer__section-about-us",
+      "width": "80%"
+    }
+  },
+  "link#footer__section-work-with-us": {
+    "title": "footer section about us work with us",
+    "props": {
+      "href": "/work-with-us",
+      "label": "Trabaja con nosotros",
+      "blockClass": "footer__section-about-us",
+      "width": "80%"
+    }
+  },
+  "link#footer__section-blog": {
+    "title": "footer section about us blog",
+    "props": {
+      "href": "/blog",
+      "label": "Blog",
+      "blockClass": "footer__section-about-us",
+      "width": "80%"
+    }
+  },
+  "link#footer__section-terms-and-conditions": {
+    "title": "footer section about us terms-and-conditions",
+    "props": {
+      "href": "/terms-and-conditions",
+      "label": "Terminos y condiciones",
+      "blockClass": "footer__section-about-us",
+      "width": "80%"
+    }
+  }
+}

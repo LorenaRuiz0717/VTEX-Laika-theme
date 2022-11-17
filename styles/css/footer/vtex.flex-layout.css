@@ -1,3 +1,9 @@
-.flexRow--container__footer {
-  background-color: var(--purple-strong);
+.flexRow--footer__container--desktop {
+  /* background-color: var(--white); */
+  background-color: red;
+}
+
+.flexColChild--footer__container-disclosure-mobile{
+  display: flex;
+  flex-direction: column;
 }
