@@ -4,6 +4,21 @@
     line-height: 2;
 }
 
+@media (min-width: 1200px){
+    .label--footer__text-info{
+      font-size: 16px;
+    }
+    }
+
 .link--footer__text-info{
+    text-decoration: none;
+}
+
+.label--footer__section-about-us{
+    font-size: 14px;
+    color: var(--purple-strong);
+}
+
+.link--footer__section-about-us{
     text-decoration: none;
 }

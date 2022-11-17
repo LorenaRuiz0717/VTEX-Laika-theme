@@ -21,6 +21,8 @@
       "flex-layout.row#footer__container-title-mobile",
       "flex-layout.row#footer__container-social-media-mobile",
       "flex-layout.row#footer__container-disclosure-mobile",
+      "flex-layout.row#footer__container--section-subscripcion",
+      "flex-layout.row#footer__container-pay-methods-mobile",
       "flex-layout.row#footer__container-information"
     ],
     "props": {
@@ -32,7 +34,6 @@
   "flex-layout.row#footer__container-information": {
     "title": "footer container information",
     "children": [
-      "flex-layout.row#footer__container-pay-methods-mobile",
       "flex-layout.row#footer__container-info-contact-mobile",
       "flex-layout.row#footer__container-copyrightt-mobile"
     ],

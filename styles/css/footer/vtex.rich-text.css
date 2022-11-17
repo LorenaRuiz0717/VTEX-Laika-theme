@@ -46,8 +46,38 @@
   font-size: 10px;
   font-weight: 100;
 }
+@media (min-width: 1200px){
+.paragraph--footer__text-info{
+  font-size: 16px;
+}
+.container--footer__text--container-copyrightt-mobile{
+  font-size: 13px;
+}
+}
 
 .container--footer__text--container-copyrightt-mobile{
   justify-content: center;
   color: var(--purple-strong);
+  background-color: #f0f1f3;
+}
+
+.container--footer__container--title-subscripcion{
+  font-size: 21px;
+  color: var(--purple-strong);
+  margin: 0;
+}
+.container--footer__container--description-subscripcion{
+  color: var(--purple-strong);
+  font-weight: 100;
+}
+
+.paragraph--footer__container--title-subscripcion{
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.flexCol--footer__container_section-about-us :global(.vtex-rich-text-0-x-paragraph){
+font-size: 14px;
 }

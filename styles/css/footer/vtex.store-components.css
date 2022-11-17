@@ -4,3 +4,43 @@
     max-height: 178px!important;
     max-width: 138px!important;
 }
+
+.form--footer_section-subscripcion-newsletter{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.buttonContainer--footer_section-subscripcion-newsletter{
+    position: absolute;
+    right: 1em;
+    margin-top: -48px;
+}
+
+.inputGroup--footer_section-subscripcion-newsletter{
+    padding-top:2em;
+}
+
+:global(.vtex-store-newsletter-1-x-formSubmitContainer){
+    position: absolute;
+    right: 0.8em;
+    margin-top: -34px;
+}
+
+@media (min-width: 1665px) {
+    :global(.vtex-store-newsletter-1-x-formSubmitContainer){
+        right: 32px;
+    }
+    }
+
+    @media (min-width:1729px) {
+        :global(.vtex-store-newsletter-1-x-formSubmitContainer){
+            right: 8.8em;
+        }
+        }
+@media (min-width: 1923px) {
+:global(.vtex-store-newsletter-1-x-formSubmitContainer){
+    right: 8.8em;
+    margin-top: -34px;
+}
+}

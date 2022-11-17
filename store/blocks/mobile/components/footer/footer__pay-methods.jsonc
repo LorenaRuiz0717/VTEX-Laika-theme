@@ -1,5 +1,6 @@
 {
   "flex-layout.row#footer__container-pay-methods-mobile": {
+    "title": "footer container pay-methods",
     "children": [
       "flex-layout.col#footer__container-col-pay-methods-mobile",
       "flex-layout.col#footer__container-col-icon-protection-mobile"
@@ -9,25 +10,33 @@
     }
   },
   "flex-layout.col#footer__container-col-pay-methods-mobile": {
+    "title": "footer container col pay-methods",
     "children": [
       "flex-layout.row#footer__container-secure-pay-mobile",
       "flex-layout.row#footer__container-security-certificate-mobile",
       "flex-layout.row#footer__container-img-pay-methods-mobile"
-    ]
+    ],    "props": {
+      "blockClass": "footer__container--pay-methods-mobile",
+      "width": "auto"
+    }
   },
   "flex-layout.row#footer__container-secure-pay-mobile": {
+    "title": "footer container secure-pay",
     "children": ["rich-text#footer__text-secure-pay-mobile"]
   },
   "rich-text#footer__text-secure-pay-mobile": {
+    "title": "footer text secure-pay",
     "props": {
       "text": "Pago 100% seguro",
       "blockClass":"footer__secure-pay-mobile"
     }
   },
   "flex-layout.row#footer__container-security-certificate-mobile": {
+    "title": "footer container security-certificate",
     "children": ["rich-text#footer__security-certificate-mobile"]
   },
   "rich-text#footer__security-certificate-mobile": {
+    "title": "footer text security-certificate",
     "props": {
       "text": "Este certificado garantiza la seguridad de todas tus conexiones mediante cifrado.",
       "blockClass":"footer__security-certificate-mobile"    
@@ -114,16 +123,18 @@
     }
   },
   "flex-layout.col#footer__container-col-icon-protection-mobile": {
+    "title": "footer container icon-protection",
     "children": [
-      "icon#footer__section---media-youtube",
+      "icon#footer__section--icon-protection-mobile",
       "rich-text#footer__text--security-mobile"
     ],
     "props": {  
-      "blockClass": "footer__container-col-icon-protection-mobile"
+      "blockClass": "footer__container-col-icon-protection-mobile",
+      "width":"auto%"
   }
 },
-  "icon#footer__section---media-youtube": {
-    "title": "footer desktop  icon section social-media youtube",
+  "icon#footer__section--icon-protection-mobile": {
+    "title": "footer icon security",
     "props": {
       "id": "icon-security",
       "size": 20,
@@ -132,6 +143,7 @@
     }
   },
   "rich-text#footer__text--security-mobile": {
+    "title": "footer text security",
     "props": {
       "text": "Protección segura 24/7",
       "blockClass": "footer__text--security-mobile"

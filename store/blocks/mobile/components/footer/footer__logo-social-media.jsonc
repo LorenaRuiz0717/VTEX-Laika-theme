@@ -18,6 +18,7 @@
         }
       },
       "flex-layout.row#footer__container-title-mobile":{
+        "title": "footer container title",
         "children": [
             "rich-text#footer__text--container-social-media-mobile"
           ],
