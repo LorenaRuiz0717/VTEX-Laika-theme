@@ -12,13 +12,30 @@
       "search-not-found-layout"
     ]
   },
+  "flex-layout.row#home__section--contaniner-product-shelf":{
+"children":[
+  "list-context.product-list#global__slider--image--products--search-result"
+]
+  },
+  "list-context.product-list#global__slider--image--products--search-result": {
+    "title": "Lista productos home con imagen",
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+        "slider-layout#global__product--slider--image"
+    ],
+    "props": {
+        "blockClass": "global__list--products--two"
+    }
+},
   "product-summary.shelf": {
     "children": [
       "product-summary-image",
       "product-summary-name",
       "product-summary-price",
       "product-selling-price",
-      "product-summary-sku-selector",
+      // "product-summary-sku-selector",
       "add-to-cart-button",
       "modal-trigger#global__quick-view"
     ],
@@ -48,7 +65,7 @@
   },
   "rich-text#global__quick-viem": {
     "props": {
-      "text": "vista rapidad",
+      "text": "vista rapida",
       "blockClass": "quick-viem-trigger-text"
     }
   },
@@ -86,34 +103,18 @@
     ],"props":{
       "blockClass":"container__quick-viem-modal-info"
     }
-  }
+  },
+  "slider-layout#global__product--slider--image": {
+    "props": {
+        "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 4,
+            "phone":1
+        },
+        "infinite": true,
+        "showPaginationDots": "never",
+        "blockClass": "slider__global--products--image",
+        "fullWidth": true
+    }
 }
-
-// "store.search": {
-//   "blocks": ["search-result-layout"],
-//   "props": {
-//     "context": {
-//       "skuFilter": "ALL",
-//       "simulationBehavior": "default"
-//     }
-//   }
-// },
-// "store.search#deparment": {
-//   "blocks": ["search-result-layout"]
-// },
-// "store.search#category": {
-//   "blocks": ["search-result-layout"]
-// },
-// "store.search#subcategory": {
-//   "blocks": ["search-result-layout"]
-// },
-// "store.search#brand": {
-//   "blocks": ["search-result-layout"]
-// },
-// "search-result-layout": {
-//   "blocks": [
-//     "search-result-layout.desktop",
-//     "search-result-layout.mobile",
-//     "search-not-found-layout"
-//   ]
-// },
+}

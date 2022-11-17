@@ -1,21 +1,14 @@
 .quantitySelectorButton--mini-cart__product-list--quantity-mobile {
   background-color: #603e85;
   margin: 5px;
-  height: 16px;
-  width: 16px;
+  max-height: 8px;
+  max-width: 8px;
   border-radius: 4px;
   color: var(--white);
 }
-
-/* .quantitySelectorButton--mini-cart__product-list--quantity-mobile svg{
-overflow: visible !important;
-} */
-
-
 .quantitySelectorWrapper--mini-cart__product-list--quantity-mobile {
   background-color: #f0ecf4;
   border-radius: 6px;
-  /* width: min(84px, 100%); */
   width: 110px;
   font-size: 14px;
 }
@@ -23,6 +16,7 @@ overflow: visible !important;
 :global(.vtex-product-list-0-x-inputContainer) {
   padding: 0;
   width: 36px;
+  border: none;
 }
 
 .quantitySelectorContainer--mini-cart__product-list--quantity-mobile {

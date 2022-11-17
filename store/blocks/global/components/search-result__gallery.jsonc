@@ -4,15 +4,13 @@
           "layouts": [
             {
               "name": "general-grid",
-              "component": "GeneralGrid",
               "itemsPerRow": {
                 "desktop": 4,
                 "tablet": 3,
                 "phone": 2
               }
             }
-          ],
-          "GeneralGrid": "product-summary.shelf"
+          ]
         }
       }
       // "gallery-layout-switcher": {

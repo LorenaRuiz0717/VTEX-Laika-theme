@@ -15,3 +15,14 @@
   padding: 2%;
 }
 
+.portalWrapper--header__search-bar :global(.vtex-search-2-x-biggy-autocomplete){
+  width: 90%;
+  margin-left: 6.8em;
+}
+
+@media  (min-width:800px){
+.portalWrapper--header__search-bar :global(.vtex-search-2-x-biggy-autocomplete){
+  width: 80%;
+  margin-left: 6.8em;
+}
+}
