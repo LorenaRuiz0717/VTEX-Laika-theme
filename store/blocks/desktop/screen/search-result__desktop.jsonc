@@ -1,9 +1,23 @@
 {
+ 
   "search-result-layout.desktop#search--desktop": {
     "children": [
-      //   "flex-layout.row#deparment__breadcrumb",
+      "flex-layout.row#search-result__container-banner",
+      "flex-layout.row#deparment__breadcrumb",
       "flex-layout.row#deparment__results"
     ]
+  },
+  "flex-layout.row#search-result__container-banner": {
+    "children":[
+      "image#search-result__container-banner"
+    ]
+  },
+  "image#search-result__container-banner": {
+    "title": "image header gridbrand-secondColumn",
+    "props": {
+      "src": "assets/img/banner-search-result/banner_buscador.webp",
+      "blockClass": "search-result__banner--img"
+    }
   },
   "flex-layout.row#deparment__breadcrumb": {
     "children": ["flex-layout.col#deparment__breadcrumb"]
@@ -19,6 +33,8 @@
     ]
   },
   "search-content": {
-    "blocks": ["gallery", "not-found"]
+    "blocks": [
+      "gallery",
+       "not-found"]
   }
 }
