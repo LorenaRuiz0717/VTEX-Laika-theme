@@ -1,16 +1,23 @@
 {
   "flex-layout.col#footer__container_information": {
-    "children": ["menu#footer__container_information"]
+    "title": "footer container information",
+    "children": [
+      "menu#footer__container_information"
+  ],
+  "props": {
+    "blockClass": "footer__container_information"
+  }
+
   },
   "menu#footer__container_information": {
-    "title": "footer container about as",
+    "title": "footer menu information",
     "children": ["menu-item#footer__container_information"],
     "props": {
       "blockClass": "footer__container_about-us"
     }
   },
   "menu-item#footer__container_information": {
-    "title": "header menu item cat",
+    "title": "footer menu item information",
     "children": ["flex-layout.col#footer__container_section-information"],
     "props": {
       "id": "about-us",
@@ -25,7 +32,7 @@
     }
   },
   "flex-layout.col#footer__container_section-information": {
-    "title": "footer container section about us",
+    "title": "footer container section information",
     "children": [
       "rich-text#footer__section--information-phone",
       "rich-text#footer__section--information-email",
@@ -36,40 +43,52 @@
     }
   },
   "rich-text#footer__section--information-phone": {
+    "title": "footer text phone information",
     "props": {
-      "text": "Teléfono: 3009108496"
+      "text": "Teléfono: 3009108496",
+      "blockClass": "footer__text-phone-information"
     }
   },
   "rich-text#footer__section--information-email": {
+    "title": "footer text email information",
     "props": {
-      "text": "servicioclientes@laika.com.co"
+      "text": "servicioclientes@laika.com.co",
+      "blockClass": "footer__text-email-information"
     }
   },
   "rich-text#footer__section--information-city": {
+    "title": "footer text city information",
     "props": {
-      "text": "Armenia, Colombia"
+      "text": "Armenia, Colombia",
+      "blockClass": "footer__text-city-information"
     }
   },
   "flex-layout.col#footer__container_newsletter": {
-    "children": ["menu#footer__container_newsletter"]
-  },
-  "menu#footer__container_newsletter": {
     "title": "footer container newsletter",
     "children": [
-      "menu-item#footer__container_newsletter",
-      "rich-text#footer__section--receive-news"
+      "flex-layout.row#footer__container--section-subscripcion"
+    ], "props": {
+      "blockClass": "footer__container-newsletter"
+    }
+  },
+  "menu#footer__container_newsletter": {
+    "title": "footer menu newsletter",
+    "children": [
+      "menu-item#footer__container_newsletter"
     ],
     "props": {
       "blockClass": "footer__container_newsletter"
     }
   },
   "rich-text#footer__section--receive-news": {
+    "title": "footer text receive news",
     "props": {
-      "text": "Recibe noticias y promociones al instante."
+      "text": "Recibe noticias y promociones al instante.",
+      "blockClass": "footer__text-receive-news"
     }
   },
   "menu-item#footer__container_newsletter": {
-    "title": "header menu item cat",
+    "title": "ooter menu newsletter",
     "props": {
       "id": "newsletter",
       "type": "custom",

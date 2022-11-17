@@ -1,0 +1,8 @@
+.trigger{
+    background-color: transparent;
+    border: none;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    padding:0.75rem 1.25rem;
+    border-radius:0.25rem
+}
+

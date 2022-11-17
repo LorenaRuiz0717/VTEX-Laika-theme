@@ -1,0 +1,68 @@
+{
+  "flex-layout.row#footer__container--section-subscripcion": {
+    "title": "footer container section subscripcion",
+    "children": ["flex-layout.col#footer_section-subscripcion"],
+    "props": {
+      "blockClass": "footer__container--section-subscripcion",
+      "width": "100%"
+    }
+  },
+  "flex-layout.col#footer_section-subscripcion": {
+    "title": "footer section subscripcion",
+    "children": [
+      "rich-text#footer__container--title-subscripcion",
+      "rich-text#footer__container--description-subscripcion",
+      "newsletter-form"
+    ],
+    "props": {
+      "blockClass": "footer_section-subscripcion",
+      "horizontalAlign": "left"
+    }
+  },
+  "rich-text#footer__container--title-subscripcion": {
+    "title": "footer title section subscripcion",
+    "props": {
+      "blockClass": "footer__container--title-subscripcion",
+      "text": "Suscribete ",
+      "font": "t-heading-6"
+    }
+  },
+  "rich-text#footer__container--description-subscripcion": {
+    "title": "footer description section subscripcion",
+    "props": {
+      "blockClass": "footer__container--description-subscripcion",
+      "text": "Recibe noticias y promociones al instante ",
+      "font": "t-small"
+    }
+  },
+  "newsletter-form": {
+    "title": "footer container newsletter",
+    "children": [
+      "newsletter-input-email",
+      "newsletter-submit",
+      "newsletter-checkbox-confirmation"
+    ]
+},
+  "newsletter-input-email":{
+    "title": "footer container input-email",
+"props":{
+    "placeholderText":"Correo electroníco",
+    "errorMessage":"Correo electroníco no valido",
+    "blockClass":"footer__newsletter--input-email" 
+}
+  },
+  "newsletter-submit":{
+    "title": "footer container newsletter-submit",
+"props":{
+    "submitButtonLabel":">",
+    "blockClass":"footer__newsletter-submit"    
+}
+  },
+  "newsletter-checkbox-confirmation":{
+    "title": "footer container checkbox-confirmation",
+    "props":{
+    "checkboxLabel":"He leido y acepto las politicas de privacidad",
+    "blockClass":"footer__newsletter--checkbox-confirmation"
+    }
+  }
+}

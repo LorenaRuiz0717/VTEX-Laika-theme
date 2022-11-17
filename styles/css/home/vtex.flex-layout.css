@@ -78,9 +78,7 @@
 }
 
 /***************************Home-section-gridbrands*******************************/
-/* .flexRowContent--home__section--contaniner-gridbrands{
-  width: 90%;
-} */
+
 .flexRow--home__section--contaniner-gridbrands{
   margin: 0 100px;
 }
