@@ -1,0 +1,36 @@
+{
+    "flex-layout.row#home__section--contaniner-product-shelf":{
+        "title": "home section contaniner productshelf",
+        "children":[
+          "list-context.product-list#global__slider--image--products--search-result"
+        ], "props":{
+          "blockClass":"home__section--contaniner-product-shelf"
+          }
+        },
+          "list-context.product-list#global__slider--image--products--search-result": {
+            "title": "Lista productos home con imagen",
+            "blocks": [
+              "product-summary.shelf"
+            ],
+            "children": [
+                "slider-layout#global__product--slider--image"
+            ],
+            "props": {
+                "blockClass": "global__list--products"
+            }
+        },
+        "slider-layout#global__product--slider--image": {
+          "title": "home slider product",
+          "props": {
+            "itemsPerPage": {
+              "desktop": 3,
+              "tablet": 4,
+              "phone": 1
+            },
+            "infinite": true,
+            "showPaginationDots": "never",
+            "blockClass": "slider__global--products--image",
+            "fullWidth": true
+          }
+        }
+}
