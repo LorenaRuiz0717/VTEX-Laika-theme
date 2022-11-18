@@ -3,7 +3,7 @@
       "blocks": ["search-result-layout"],
       "props": {
           "context": {
-              "skusFilter": "FIRST_AVAILABLE",
+              "skusFilter": "ALL",
               "simulationBehavior": "default"
           }
        }
@@ -12,7 +12,7 @@
       "blocks": ["search-result-layout"],
       "props": {
           "context": {
-              "skusFilter": "FIRST_AVAILABLE",
+              "skusFilter": "ALL",
               "simulationBehavior": "default"
           }
        }
@@ -21,7 +21,7 @@
       "blocks": ["search-result-layout"],
       "props": {
           "context": {
-              "skusFilter": "FIRST_AVAILABLE",
+              "skusFilter": "ALL",
               "simulationBehavior": "default"
           }
        }
@@ -30,7 +30,7 @@
       "blocks": ["search-result-layout"],
       "props": {
           "context": {
-              "skusFilter": "FIRST_AVAILABLE",
+              "skusFilter": "ALL",
               "simulationBehavior": "default"
           }
        }
@@ -39,7 +39,7 @@
       "blocks": ["search-result-layout"],
       "props": {
           "context": {
-              "skusFilter": "FIRST_AVAILABLE",
+              "skusFilter": "ALL",
               "simulationBehavior": "default"
           }
        }
@@ -49,13 +49,31 @@
     "props": {
       "querySchema": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "default"
       }
     },
     "blocks": [
-      "search-result-layout.mobile#search--mobile",
+      // "search-result-layout.mobile#search--mobile",
       "search-result-layout.desktop#search--desktop",
       "search-not-found-layout"
     ]
-  }
+  },
+  "flex-layout.row#search-result--filter": {
+    "children": ["filter-navigator.v3"],
+    "props": {
+      "blockClass": "filterCol"
+    }
+  },
+  "filter-navigator.v3": {
+        // "blocks": ["sidebar-close-button"],
+        "props": {
+            // "truncateFilters": true,
+            "showClearByFilter": true,
+            // "fullWidthOnMobile": true,
+            // "appliedFiltersOverview": "show",
+            "totalProductsOnMobile": "show"
+            // "updateOnFilterSelectionOnMobile": true
+            // "priceRangeLayout": "inputAndSlider"
+        }
+}
 }

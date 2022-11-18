@@ -2,9 +2,16 @@
   "search-result-layout.mobile#search--mobile": {
     "children": [
       "flex-layout.row#search-result__container-banner",
+      // "flex-layout.row#filter",
       "flex-layout.row#deparment__breadcrumb-mobile",
       "flex-layout.row#deparment__results-mobile"
-    ]
+    ],
+    "props": {
+      "preventRouteChange": true,
+      "thresholdForFacetSearch": 10,
+      "showProductsCount": true,
+      "showFacetQuantity": true
+    }
   },
   "flex-layout.row#deparment__results-mobile": {
     "children": ["search-content#home__results--search"]
@@ -12,9 +19,6 @@
   "search-content#home__results--search": {
     "blocks": ["gallery", "not-found"]
   },
-  // "gallery": {
-  //   "blocks": ["product-summary.shelf"]
-  // },
 
   "flex-layout.row#deparment__breadcrumb-mobile": {
     "children": ["flex-layout.col#deparment__breadcrumb-mobile"]
