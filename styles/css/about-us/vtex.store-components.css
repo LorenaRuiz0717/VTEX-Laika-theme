@@ -1,0 +1,5 @@
+@media(min-width:1000px){
+    .imageElement--about-us__image{
+      max-width: 350px;
+    }
+    }

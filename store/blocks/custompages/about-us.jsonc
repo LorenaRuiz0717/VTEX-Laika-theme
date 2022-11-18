@@ -1,0 +1,66 @@
+{
+    "store.custom#about-us": {
+        "title": "store about-us",
+      "blocks": [
+        "flex-layout.row#about-us__container-section-about-us"
+      ],
+      "props":{
+        "blockClass":"about-us"
+      }
+    },
+    "flex-layout.row#about-us__container-section-about-us": {
+        "title": "container section about-us",
+        "children": [
+        "flex-layout.col#about-us__container--section-about-us"
+      ],
+      "props":{
+        "blockClass":"about-us__container-section"
+      }
+    },
+    "flex-layout.col#about-us__container--section-about-us": {
+      "title": "container col section about-us",
+      "children": [
+        "image#about-us",
+        "flex-layout.col#about-us__container--text-section-about-us"
+      ],
+          "props": {
+        "preventVerticalStretch": true,
+        "blockClass":"about-us__container--col-section"
+      }
+    },
+    "image#about-us": {
+        "title": "image section about-us",
+        "props": {
+          "src": "assets/img/img-custom-page/about_us.avif",
+          "blockClass":"about-us__image"
+        }
+      },
+    "flex-layout.col#about-us__container--text-section-about-us": {
+        "title": "container text section about-us",
+      "children": [
+        "rich-text#about-us__section--text-title",
+        "rich-text#about-us__section--text-paragraph"
+      ],
+          "props": {
+        "preventVerticalStretch": true,
+        "blockClass":"about-us__container--text"
+      }
+    },
+    "rich-text#about-us__section--text-title": {
+        "title": "about-us text title",
+      "props": {
+        "text":
+        "Laika Universo Peludo",
+        "blockClass":"about-us__section--text-title",
+        "font": "t-heading-5"
+      }
+    },
+    "rich-text#about-us__section--text-paragraph": {
+        "title": "about-us text paragraph",
+      "props": {
+        "text":
+        "Laika es la tienda online más completa para mascotas creada por pet lovers para pet lovers! Somos la tienda en línea de mascotas con mayor variedad de productos y servicios a domicilio en Colombia, contamos con más de 4.000 productos (alimentos, dietas naturales, snacks, medicinas, higiene y accesorios) y más de 17 servicios como (medicina veterinaria prepagada, veterinario a domicilio, vacunación, baños, funeraria, entrenador, gaticuidadores, información de colegios, fundaciones, entre otros. Para Laika, la salud y bienestar de tu mascota es lo más importante. Nos esforzamos día a día por dar la mejor experiencia y servicio a los pet lovers y para que a tus peluditos no les falte nada para su cuidado y salud. Es por esto que también contamos con una línea veterinaria gratuita en donde cualquier persona puede llamar para resolver dudas al 3009108496.Llegamos a todo Bogotá, Chía y Medellín y próximamente estaremos en Cali. Tenemos entregas el mismo día en 3 rutas diferentes para que elijas la que más te funciona, si pides antes de las 5pm te llega el mismo día. También tenemos envíos nacionales con tiempos de entrega de 3 días hábiles. Contamos con todos los métodos de pago : efectivo, datafono, pagos online y lo más importante con muy buenos precios.¡Laika es para todos! En nuestra tienda encontrarás productos desde la gama económica a la súper premium. Todo un universo de soluciones para tu mascota.Desde Laika apoyamos y colaboramos orgánicamente y de forma activa con las casas de rescate y adopción de animales, es por esto que donamos un porcentaje de nuestras ventas mensualmente a estas causas. Para nosotros es primordial la integridad y bienestar de las mascotas.",
+        "blockClass":"about-us__section--text-paragraph"
+      }
+    }
+   }

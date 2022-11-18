@@ -28,7 +28,7 @@
       "flex-layout.row#search-result-container-title",
       "flex-layout.row#search-result--filter",
       "flex-layout.row#search-result__breadcrumb",
-      "flex-layout.row#orderByAndSwitcher",
+      "flex-layout.row#search-result__container-item-order",
       "flex-layout.row#search-result__container"
     ],
     "props": {
@@ -92,12 +92,13 @@
       "blockClass": "search-result__button--item-deparment"
     }
   },
-  "flex-layout.row#orderByAndSwitcher": {
+  "flex-layout.row#search-result__container-item-order": {
+    "title": "search-result container item order",
     "children": ["order-by.v2"],
     "props": {
       "horizontalAlign": "right",
       "preventHorizontalStretch": true,
-      "blockClass": "orderByAndSwitcher",
+      "blockClass": "search-result__container-item-order",
       "colGap": 3
     }
   },

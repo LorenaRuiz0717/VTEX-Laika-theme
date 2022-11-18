@@ -1,6 +1,6 @@
 .flexRow--footer__container--desktop {
   background-color: var(--white);
-  padding:0 80px;
+  padding:3rem;
 }
 
 .flexColChild--footer__container-disclosure-mobile {
@@ -11,6 +11,10 @@
 .flexRow--footer__container-logo-socialMedia-mobile {
   background-color: var(--white);
 }
+.flexCol--footer__container-mobile{
+  margin-top: 3rem;
+}
+
 .flexCol--footer__container--mobile {
   align-items: center;
 }

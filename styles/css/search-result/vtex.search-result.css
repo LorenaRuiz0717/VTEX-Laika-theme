@@ -4,13 +4,10 @@
   gap: 5%;
   margin-top: 4%;
 }
-.filter__container--brand,
-.filter__container--selectedFilters,
-.filter__container--category-2,
-.filter__container--priceRange {
+
+:global(.vtex-search-result-3-x-filter__container){
   border: none;
 }
-
 :global(.vtex-search-result-3-x-filterAvailable) {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
   border-radius: 0.25rem;
@@ -51,3 +48,20 @@
   :global(.vtex-search-result-3-x-orderByOptionsContainer){
     margin-top: 55px;
   }
+
+  .filter__container--clearAllFilters{
+    border: none;
+  }
+  
+ .filter__container--clearAllFilters :global(.vtex-button){
+    background-color: transparent;
+    border: none;
+    color: var(--purple-strong);
+    font-weight: 900;
+  }
+
+    /* 
+  .filter__container--clearAllFilters::after{
+    content:url(/assets/img/membership_logo.webp);
+    content: "trash";
+  }  */
