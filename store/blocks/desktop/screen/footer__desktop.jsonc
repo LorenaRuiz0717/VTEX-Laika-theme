@@ -1,12 +1,18 @@
 {
   "footer-layout.desktop": {
     "title": "footer desktop",
-    "children": ["flex-layout.row#footer__desktop"],
+    "children": [
+      "flex-layout.row#footer__desktop--columns",
+      "flex-layout.row#footer__desktop--secure-pay",
+      "flex-layout.row#footer__container-info-contact-mobile",
+      "flex-layout.row#footer__container-copyrightt-mobile"
+       
+    ],
     "props": {
       "blockClass": "footer__desktop"
     }
   },
-  "flex-layout.row#footer__desktop": {
+  "flex-layout.row#footer__desktop--columns": {
     "title": "footer container desktop",
     "children": [
       "flex-layout.col#footer__container-logo-social-media-mobile",
@@ -17,6 +23,53 @@
     ],
     "props": {
       "blockClass": "footer__container--desktop"
+    }
+  },
+  "flex-layout.row#footer__desktop--secure-pay":{
+    "children": [
+      "flex-layout.col#footer__container-col-pay-methods-mobile",
+      "flex-layout.col#footer__container-col-icon-protection-mobile",
+      "flex-layout.col#footer__container-col-img-apps-desktop"
+    ],
+    "props": {
+      "blockClass": "footer__container--pay-methods-mobile"
+    }
+  },
+  "flex-layout.col#footer__container-col-img-apps-desktop":{
+    "children": [
+      "image#footer-img-app-1",
+      "image#footer-img-app-2",
+      "image#footer-img-app-3"
+    ],
+    "props": {
+      "blockClass": "footer__container-col-img-apps-desktop"
+    }
+  },
+  "image#footer-img-app-1": {
+    "title": "image header gridbrand-thirdColumn",
+    "props": {
+      "src": "assets/img/img-apps/app.avif",
+      "maxWidth": 131,
+      "maxHeight": 41,
+      "blockClass": "grid-brand-img"
+    }
+  },
+  "image#footer-img-app-2": {
+    "title": "image header gridbrand-thirdColumn",
+    "props": {
+      "src": "assets/img/img-apps/googlep.avif",
+      "maxWidth": 131,
+      "maxHeight": 41,
+      "blockClass": "grid-brand-img"
+    }
+  },
+  "image#footer-img-app-3": {
+    "title": "image header gridbrand-thirdColumn",
+    "props": {
+      "src": "assets/img/img-apps/huawei.avif",
+      "maxWidth": 131,
+      "maxHeight": 41,
+      "blockClass": "grid-brand-img"
     }
   }
 }

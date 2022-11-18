@@ -6,8 +6,7 @@
       "flex-layout.row#home__section--contaniner-qualities",
       "flex-layout.row#home__section--petlovers",
       "flex-layout.row#home__section--contaniner-gridbrands",
-      "tab-layout#home",
-      "search-result-layout.customQuery#home"
+      "flex-layout.row#home__section--contaniner-product-shelf"
     ],
     "props": {
       "blockClass": "store__home-desktop"

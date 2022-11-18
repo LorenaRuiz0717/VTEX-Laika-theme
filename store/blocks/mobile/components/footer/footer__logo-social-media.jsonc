@@ -1,0 +1,81 @@
+{
+    "flex-layout.row#footer__container-logo-mobile": {
+        "title": "footer container logo mobile",
+        "children": [
+          "logo#footer__section--logo-mobile"
+        ],
+        "props": {
+          "blockClass": "footer__container--logo-mobile",
+          "horizontalAlign":"center",
+          "width":"100%"
+        }
+      },
+      "logo#footer__section--logo-mobile": {
+        "title": "logo",
+        "props": {
+          "url": "assets/img/footer/logolaika-footer.png",
+          "blockClass":"footer__logo-mobile"
+        }
+      },
+      "flex-layout.row#footer__container-title-mobile":{
+        "title": "footer container title",
+        "children": [
+            "rich-text#footer__text--container-social-media-mobile"
+          ],
+          "props": {
+            "blockClass": "footer__container--title-mobile",
+            "horizontalAlign":"center",
+            "width":"100%"
+          }
+      },
+      "rich-text#footer__text--container-social-media-mobile": {
+        "title": "footer text social media",
+        "props": {
+          "text": "Siguenos en:",
+          "blockClass":"footer__text--container-social-media-mobile",
+          "font":"t-small"
+        }
+      },
+      "flex-layout.row#footer__container-social-media-mobile": {
+        "title": "footer container section social-media mobile",
+        "children": [
+          "icon#footer__section--social-media-youtube-mobile",
+          "icon#footer__section--social-media-instagram-mobile",
+          "icon#footer__section--social-media-facebook-mobile"
+    
+        ],
+        "props": {
+          "blockClass": "footer__section--social-media"
+        }
+      },
+      "icon#footer__section--social-media-youtube-mobile": {
+        "title": "footer mobile  icon section social-media youtube",
+        "props": {
+          "id": "icon-youtube-footer",
+          "size": 48,
+          "blockClass": "footer__social-media-icon",
+          "viewBox": "0 0 25 25",
+          "width": "30%"
+        }
+      },
+      "icon#footer__section--social-media-instagram-mobile": {
+        "title": "footer mobile  icon section social-media instagram",
+        "props": {
+          "id": "icon-instagram-footer",
+          "size": 48,
+          "blockClass": "footer__social-media-icon",
+          "viewBox": "0 0 25 25",
+          "width": "30%"
+        }
+      },
+      "icon#footer__section--social-media-facebook-mobile": {
+        "title": "footer mobile  icon section social-media facebook",
+        "props": {
+          "id": "icon-facebook-footer",
+          "size": 48,
+          "blockClass": "footer__social-media-icon",
+          "viewBox": "0 0 25 25",
+          "width": "30%"
+        }
+      }
+}

@@ -4,21 +4,25 @@
       "logo#footer__section--logo-desktop",
       "rich-text#footer__text--container-social-media-desktop",
       "flex-layout.row#footer__container-social-media-desktop"
-      // "social-networks#logo-social-media-mobile",
-      // "accepted-payment-methods"
-    ]
+    ],
+    "props": {
+      "blockClass": "footer__container-logo-social-media-mobile"
+    }
   },
   "logo#footer__section--logo-desktop": {
-    "title": "logo",
+    "title": "logo-footer",
     "props": {
       "url": "assets/img/footer/logolaika-footer.png",
       "width": 139,
-      "height": 178
+      "height": 178,
+      "blockClass":"footer__logo--footer"
     }
   },
   "rich-text#footer__text--container-social-media-desktop": {
+    "title": "footer text -social-media",
     "props": {
-      "text": "Siguenos en:"
+      "text": "Siguenos en:",
+      "blockClass":"footer__text--container-social-media"
     }
   },
   "flex-layout.row#footer__container-social-media-desktop": {
@@ -37,7 +41,7 @@
     "title": "footer desktop  icon section social-media youtube",
     "props": {
       "id": "icon-youtube-footer",
-      "size": 30,
+      "size": 60,
       "blockClass": "footer__social-media-icon",
       "viewBox": "0 0 25 25",
       "width": "30%"
@@ -47,7 +51,7 @@
     "title": "footer desktop  icon section social-media facebook",
     "props": {
       "id": "icon-facebook-footer",
-      "size": 30,
+      "size": 60,
       "blockClass": "footer__social-media-icon",
       "viewBox": "0 0 25 25",
       "width": "30%"
@@ -57,7 +61,7 @@
     "title": "footer desktop  icon section social-media instagram",
     "props": {
       "id": "icon-instagram-footer",
-      "size": 30,
+      "size": 60,
       "blockClass": "footer__social-media-icon",
       "viewBox": "0 0 25 25",
       "width": "30%"

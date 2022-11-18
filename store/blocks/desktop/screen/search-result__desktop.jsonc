@@ -1,24 +1,118 @@
 {
   "search-result-layout.desktop#search--desktop": {
+    "title": "search result layout container page",
     "children": [
-      //   "flex-layout.row#deparment__breadcrumb",
-      "flex-layout.row#deparment__results"
-    ]
+      "flex-layout.row#search-result__container-banner",
+      "flex-layout.row#search-result-container-col-result"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "defaultGalleryLayout": "grid",
+      "thresholdForFacetSearch": 10,
+      "showProductsCount": true,
+      "showFacetQuantity": true,
+      "blockClass": "search-result__container-page"
+    }
   },
-  "flex-layout.row#deparment__breadcrumb": {
-    "children": ["flex-layout.col#deparment__breadcrumb"]
+  "flex-layout.row#search-result-container-col-result": {
+    "title": "search result layout container result",
+    "children": ["flex-layout.col#search-result-container-result"],
+    "props": {
+      "blockClass": "search-result-container-col-result"
+    }
   },
-  "flex-layout.col#deparment__breadcrumb": {
-    "children": ["breadcrumb.search"]
-  },
-  "flex-layout.row#deparment__results": {
-    "title": "Deparment results",
+  "flex-layout.col#search-result-container-result": {
+    "title": "search result layout col result",
     "children": [
-      // "gallery-layout-switcher",
-      "search-content"
-    ]
+      "flex-layout.row#search-result-container-title",
+      "flex-layout.row#search-result--filter",
+      "flex-layout.row#search-result__breadcrumb",
+      "flex-layout.row#orderByAndSwitcher",
+      "flex-layout.row#search-result__container"
+    ],
+    "props": {
+      "blockClass": "search-result-col-result"
+    }
+  },
+  "flex-layout.row#search-result__container-banner": {
+    "title": "search result layout container banner",
+    "children": ["image#search-result__container-banner"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "search-result__container--banner-img"
+    }
+  },
+  "image#search-result__container-banner": {
+    "title": "image header gridbrand-secondColumn",
+    "props": {
+      "src": "assets/img/banner-search-result/banner_buscador.webp",
+      "blockClass": "search-result__banner--img"
+    }
+  },
+  "flex-layout.row#search-result-container-title": {
+    "title": "search result container title and buttons categories",
+    "children": [
+      "rich-text#search-result-title--text",
+      "flex-layout.row#search-result__button--item-deparment"
+    ],
+    "props": {
+      "blockClass": "search-result__container--title"
+    }
+  },
+  "rich-text#search-result-title--text": {
+    "title": "search result title text",
+    "props": {
+      "text": "Estas comprando para:",
+      "blockClass": "search-result-title--text",
+      "font": "t-heading-5"
+    }
+  },
+  "flex-layout.row#search-result__button--item-deparment": {
+    "title": "header button deparment",
+    "children": [
+      "flex-layout.row#header__button--item-dog-mobile",
+      "flex-layout.row#header__button--item-cat-mobile"
+    ],
+    "props": {
+      "blockClass": "search-result__button--item-deparment"
+    }
+  },
+  "flex-layout.row#search-result__breadcrumb": {
+    "title": "search result breadcrumb",
+    "children": ["flex-layout.col#search-result__breadcrumb"],
+    "props": {
+      "blockClass": "search-result__button--item-deparment"
+    }
+  },
+  "flex-layout.col#search-result__breadcrumb": {
+    "title": "search result col breadcrumb",
+    "children": ["breadcrumb.search"],
+    "props": {
+      "blockClass": "search-result__button--item-deparment"
+    }
+  },
+  "flex-layout.row#orderByAndSwitcher": {
+    "children": ["order-by.v2"],
+    "props": {
+      "horizontalAlign": "right",
+      "preventHorizontalStretch": true,
+      "blockClass": "orderByAndSwitcher",
+      "colGap": 3
+    }
+  },
+  "flex-layout.row#search-result__container": {
+    "title": "serch content results",
+    "children": ["search-content"],
+    "props": {
+      "blockClass": "search-result__button--item-deparment"
+    }
   },
   "search-content": {
-    "blocks": ["gallery", "not-found"]
+    "title": "serch content gallery",
+    "blocks": ["gallery", "not-found"],
+    "props": {
+      "blockClass": "serch content gallery"
+    }
   }
 }

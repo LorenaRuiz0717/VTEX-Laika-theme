@@ -7,8 +7,7 @@
       "flex-layout.row#home__section--contaniner-qualities-mobile",
       "flex-layout.row#home__section--petlovers-mobile",
       "flex-layout.row#home__section--contaniner-gridbrands",
-      "tab-layout#home",
-      "search-result-layout.customQuery#home"
+      "flex-layout.row#home__section--contaniner-product-shelf"
     ],
     "props": {
       "blockClass": "store__home-mobile"

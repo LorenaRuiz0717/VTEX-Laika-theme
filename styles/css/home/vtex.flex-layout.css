@@ -78,9 +78,7 @@
 }
 
 /***************************Home-section-gridbrands*******************************/
-/* .flexRowContent--home__section--contaniner-gridbrands{
-  width: 90%;
-} */
+
 .flexRow--home__section--contaniner-gridbrands{
   margin: 0 100px;
 }
@@ -113,4 +111,8 @@
   .flexRow--home__section--contaniner-gridbrands {
    margin: 0px;
   }
+  }
+
+ .flexCol--gridbrands-Column :global(.vtex-flex-layout-0-x-flexColChild){
+    padding: 15%
   }

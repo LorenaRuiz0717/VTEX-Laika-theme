@@ -1,9 +1,168 @@
 .flexRow--footer__container--desktop {
-  /* background-color: var(--white); */
-  background-color: red;
+  background-color: var(--white);
+  padding:0 80px;
 }
 
-.flexColChild--footer__container-disclosure-mobile{
+.flexColChild--footer__container-disclosure-mobile {
   display: flex;
   flex-direction: column;
+}
+
+.flexRow--footer__container-logo-socialMedia-mobile {
+  background-color: var(--white);
+}
+.flexCol--footer__container--mobile {
+  align-items: center;
+}
+
+.flexRowContent--footer__section--social-media {
+  display: flex;
+  width: 10em;
+}
+
+.flexColChild--footer__container--mobile {
+  height: 2em;
+}
+
+.flexColChild--footer__container-disclosure-mobile:first-child {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.flexRowContent--footer__container--mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexColChild--footer__container-mobile {
+  width: 100%;
+}
+
+.flexRow--footer__section--social-media {
+  display: flex;
+  justify-content:center;
+}
+
+@media (min-width: 1200px) {
+.flexRow--footer__section--social-media {
+  display: flex;
+  justify-content: flex-start;
+}
+}
+
+.flexRowContent--footer__container--img-pay-methods {
+  display: flex;
+}
+
+.flexRowContent--footer__container--pay-methods-mobile {
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f1f3;
+  padding: 0.6em;
+}
+
+@media (min-width: 580px) {
+  .flexRowContent--footer__container--pay-methods-mobile {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .flexRowContent--footer__container--pay-methods-mobile {
+    padding:0 80px;
+  }
+}
+
+.flexCol--footer__container-col-icon-protection-mobile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.6em;
+  justify-content: center;
+}
+
+.flexRowContent--footer__container-info-contact-mobile {
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  background-color: #f0f1f3;
+}
+
+@media (min-width: 1200px){
+  .flexRowContent--footer__container-info-contact-mobile{
+    padding: 0 80px;
+  }
+}
+
+.flexRowContent--footer__container-info-contact-mobile:first-child {
+  width: 100%;
+}
+
+.flexRowContent--footer__container-information {
+  background-color: #f0f1f3;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.flexRow--footer__container--img-pay-methods {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-layout-0-x-flexCol--footer__container--pay-methods-mobile {
+  width: 50%;
+}
+
+.flexCol--footer_section-subscripcion {
+  margin-top: 3rem;
+}
+
+@media (min-width: 638px) {
+  .flexRowContent--footer__container--section-subscripcion {
+    display: none;
+  }
+}
+
+@media (min-width:1200px) {
+  .flexRowContent--footer__container--section-subscripcion {
+    display: block;
+    margin-top: -2.5em;
+  }
+}
+
+.flexCol--footer__container_section-about-us
+  :global(.vtex-rich-text-0-x-paragraph) {
+  margin: 0;
+  color: var(--purple-strong);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.flexCol--footer__container_section-about-us :global(.vtex-rich-text-0-x-link) {
+  color: var(--purple-strong);
+  text-decoration: none;
+}
+
+.flexCol--footer__container_section-about-us{
+  height: 90%;
+}
+
+.flexRowContent--footer__container--desktop :global(.vtex-rich-text-0-x-paragraph){
+  margin:0
+}
+
+.flexCol--footer__container-col-img-apps-desktop{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%!important;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
 }
