@@ -1,0 +1,85 @@
+{
+    "flex-layout.row#product__page--container-product": {
+        "title": "product page container product",
+      "props": {
+        "colGap": 7,
+        "rowGap": 7,
+        "marginTop": 4,
+        "marginBottom": 7,
+        "paddingTop": 7,
+        "paddingBottom": 7,
+        "blockClass":"product__page--container-product"
+      },
+      "children": [
+        "flex-layout.col#product__page--container-image-product",
+        "flex-layout.col#product__page--container-info-product"
+    ]
+    },
+    "flex-layout.col#product__page--container-image-product": {
+        "title": "product page container image product",
+      "props": {
+        // "width": "60%",
+        "rowGap": 0,
+        "blockClass":"product__page--container-image-product"
+      },
+      "children": ["product-images#product__page--image-product"]
+    },
+    "product-images#product__page--image-product": {
+        "title": "product page image product",
+      "props": {
+        "displayThumbnailsArrows": true,
+        "blockClass":"product__page--image-product"
+      }
+    },
+    "flex-layout.col#product__page--container-info-product": {
+        "title": "product page container info product",  
+      "props": {
+        "preventVerticalStretch": true,
+        "rowGap": 0,
+        "blockClass":"product__page--container-info-product"
+      },
+      "children": [
+        "vtex.store-components:product-name",
+        "product-rating-summary",
+        "product-price#product-details",
+        // "product-separator",
+        "product-quantity",
+        "product-identifier.product",
+        "sku-selector",
+        "flex-layout.row#buy-button",
+        "availability-subscriber"
+        // "flex-layout.row#product__page-container-info-product"
+        // "shipping-simulator",
+        // "share#default"
+      ]
+    },
+    "product-price#product-details": {
+      "title": "product page product details",  
+      "props": {
+        "showInstallments": true,
+        "showSavings": true,
+        "blockClass":"product__page--product-details"
+      }
+    },
+    "flex-layout.row#buy-button": {
+      "title": "product page container buy button",  
+      "props": {
+        "marginTop": 4,
+        "marginBottom": 7,
+        "blockClass":"product__page--container-buy-button"
+      },
+      "children": ["buy-button"]
+    },
+  
+    "share#default": {
+      "title": "product page share default",  
+      "props": {
+        "social": {
+          "Facebook": true,
+          "WhatsApp": true,
+          "Twitter": false,
+          "Pinterest": true
+        }
+      }
+    }
+  }
