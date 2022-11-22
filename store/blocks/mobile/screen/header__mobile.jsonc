@@ -1,9 +1,25 @@
 {
   "header-layout.mobile": {
     "title": "header mobile ",
+    "children": ["flex-layout.row#container__sticky--header-responsive"],
+    "props": {
+      "position": "top",
+      "blockClass": "header__mobile"
+    }
+  },
+  "flex-layout.row#container__sticky--header-responsive": {
+    "title": "header mobile",
+    "children": ["flex-layout.col#container__col--sticky--header-mobile"],
+    "props": {
+      "blockClass": "header__mobile--container-sticky",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#container__col--sticky--header-mobile": {
+    "title": "header mobile",
     "children": ["sticky-layout.stack-container#header__mobile"],
     "props": {
-      "blockClass": "header__mobile"
+      "blockClass": "header__mobile-col-container-sticky"
     }
   },
   "sticky-layout.stack-container#header__mobile": {
@@ -19,4 +35,3 @@
     ]
   }
 }
-

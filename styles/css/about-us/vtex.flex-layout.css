@@ -1,0 +1,27 @@
+.flexRowContent--about-us__container-section {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+  border: 1px solid #dee2e6;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 84%;
+}
+
+.flexColChild--about-us__container--col-section {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-left:3rem;
+  padding-right:3rem;
+  align-items: center;
+}
+
+@media(min-width:1000px){
+.flexCol--about-us__container--col-section{
+    display: flex;
+    flex-direction: row;
+}
+}

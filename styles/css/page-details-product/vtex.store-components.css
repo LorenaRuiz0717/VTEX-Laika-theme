@@ -1,0 +1,15 @@
+.productImage--product__page--image-product {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+}
+
+
+.productNameContainer{
+  font-size: 20px;
+}
+
+.price_sellingPrice--product__page--product-details{
+  color: rgb(39, 25, 56);
+  font-size: 30px;
+}

@@ -1,0 +1,10 @@
+.container--search-result-title--text{
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 1224px) {
+.container--search-result-title--text{
+    justify-content: start;
+}
+}

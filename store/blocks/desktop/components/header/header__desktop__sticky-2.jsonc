@@ -50,59 +50,10 @@
     "props": {
       "openAutocompleteOnFocus": true,
       "blockClass": "header__search-bar",
-      "maxWidth": 900,
       "placeholder":"¿Que necesitas para tu mascota?"
     }
   },
   "autocomplete-result-list.v2": {
     "blocks": ["product-summary"]
-  },
-  "modal-trigger#header__section--login": {
-    "title": "header sections modal-login",
-    "children": [
-      "rich-text#header__section--login",
-      "modal-layout#header__section--login"
-    ],
-    "props": {
-      "blockClass": "header__modal--login"
-    }
-  },
-  "rich-text#header__section--login": {
-    "title": "header desktop  text section login",
-    "props": {
-      "text": "Crear cuenta",
-      "blockClass": "header__section--text-login",
-      "font": "t-heading-3"
-    }
-  },
-  "icon#header__login--arrow": {
-    "title": "header desktop  icon section login",
-    "props": {
-      "id": "icon-arrow",
-      "size": 30,
-      "blockClass": "header__icon--login",
-      "viewBox": "0 0 25 25"
-    }
-  },
-  "modal-layout#header__section--login": {
-    "title": "header sections modal-login",  
-    "children": ["login-content"],
-    "props": {
-      "text": "Login",
-      "blockClass": "header__section--text-login",
-      "font": "t-heading-3"
-    }
-  },
-  "login-content#header__section--login": {
-    "title": "header sections login",  
-    "props": {
-      "blockClass": "header__section--login",
-      "emailAndPasswordTitle": "LOG-IN",
-      "accessCodeTitle": "Acess Code LOG-IN",
-      "emailPlaceholder": "e-mail",
-      "passwordPlaceholder": "password",
-      "showPasswordVerificationIntoTooltip": true,
-      "showIconProfile": true
-    }
   }
 }

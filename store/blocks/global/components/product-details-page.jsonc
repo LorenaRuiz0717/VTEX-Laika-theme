@@ -1,0 +1,78 @@
+{
+    "flex-layout.row#product__page--container-product": {
+      "title": "product page container product",
+      "props": {
+        "blockClass":"product__page--container-product"
+      },
+      "children": [
+        "flex-layout.col#product__page--container-image-product",
+        "flex-layout.col#product__page--container-info-product-buy-quantity"
+    ]
+    },
+    "flex-layout.col#product__page--container-image-product": {
+        "title": "product page container image product",
+      "props": {
+        "width": "52%",
+        "blockClass":"product__page--container-image-product"
+      },
+      "children": ["product-images#product__page--image-product"]
+    },
+    "product-images#product__page--image-product": {
+        "title": "product page image product",
+      "props": {
+        "displayThumbnailsArrows": true,
+        "blockClass":"product__page--image-product"
+      }
+    },
+    "flex-layout.col#product__page--container-info-product-buy-quantity":{
+      "title": "product container section info and  quantity",
+      "children": [
+        "flex-layout.row#product__page--container-info-row-product-buy-quantity"
+    ],
+    "props":{
+      "blockClass":"product__page--container-info-product-buy-quantity"
+    }
+    },
+    "flex-layout.row#product__page--container-info-row-product-buy-quantity":{
+      "title": "product container section info and  quantity row",
+      "children": [
+        "flex-layout.col#product__page--container-info-product",
+        "flex-layout.col#product__page-container-button-buy-quantity"
+    ],"props": {
+      "blockClass":"product__page--container-info-product-quantity"
+    }
+    },
+    "flex-layout.col#product__page--container-info-product": {
+        "title": "product page container info product",  
+      "props": {
+        "preventVerticalStretch": true,
+        "rowGap": 0,
+        "blockClass":"product__page--container-info-product"
+      },
+      "children": [
+        "vtex.store-components:product-name",
+        "product-rating-summary",
+        "product-price#product-details",
+        "sku-selector",
+        "availability-subscriber"
+      ]
+    },
+    "product-price#product-details": {
+      "title": "product page product details",  
+      "props": {
+        "showInstallments": true,
+        "showSavings": true,
+        "blockClass":"product__page--product-details"
+      }
+    },
+    "flex-layout.col#product__page-container-button-buy-quantity":{
+      "title": "product page button buy quantity", 
+      "children":[
+        "product-quantity",
+        "buy-button"
+      ],
+      "props":{
+        "blockClass":"product__page-container-button-buy-quantity"
+      }
+    }
+    }

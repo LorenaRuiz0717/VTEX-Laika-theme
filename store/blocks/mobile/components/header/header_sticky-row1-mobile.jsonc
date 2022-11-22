@@ -44,11 +44,13 @@
   },
   "flex-layout.col#header__section--login": {
     "title": "header section login mobile",
-    "children": ["login"],
+    "children": [
+      "modal-trigger#header__section--login"],
     "props": {
       "blockClass": "header__section--login"
     }
   },
+
   "flex-layout.col#header__section--cart": {
     "title": "header section cart mobile",
     "children": ["minicart.v2"],

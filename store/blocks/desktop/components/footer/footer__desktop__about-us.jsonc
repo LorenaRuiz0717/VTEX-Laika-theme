@@ -1,18 +1,22 @@
 {
   "flex-layout.col#footer__container_about-us": {
+    "title": "footer container about as",
     "children": [
       "menu#footer__container_about-us"
-    ]
+    ],
+    "props": {
+      "blockClass": "footer__container_col-about-us"
+    }
   },
   "menu#footer__container_about-us": {
-    "title": "footer container about as",
+    "title": "footer menu about as",
     "children": ["menu-item#footer__container_about-us"],
     "props": {
       "blockClass": "footer__container_about-us"
     }
   },
   "menu-item#footer__container_about-us": {
-    "title": "header menu item cat",
+    "title": "footer menu about us",
     "children": ["flex-layout.col#footer__container_section-about-us"],
     "props": {
       "id": "about-us",
@@ -40,7 +44,7 @@
     }
   },
   "link#footer__section-about-us": {
-    "title": "footer section about us, about laika",
+    "title": "footer section about us link about laika",
     "props": {
       "href": "/about-us",
       "label": "Acerca de Laika",
@@ -49,7 +53,7 @@
     }
   },
   "link#footer__section-services": {
-    "title": "footer section about us services",
+    "title": "footer section about us link services",
     "props": {
       "href": "/servicies",
       "label": "Servicios",
@@ -58,7 +62,7 @@
     }
   },
   "link#footer__section-work-with-us": {
-    "title": "footer section about us work with us",
+    "title": "footer section about us link work with us",
     "props": {
       "href": "/work-with-us",
       "label": "Trabaja con nosotros",
@@ -67,7 +71,7 @@
     }
   },
   "link#footer__section-blog": {
-    "title": "footer section about us blog",
+    "title": "footer section about us link blog",
     "props": {
       "href": "/blog",
       "label": "Blog",
@@ -76,7 +80,7 @@
     }
   },
   "link#footer__section-terms-and-conditions": {
-    "title": "footer section about us terms-and-conditions",
+    "title": "footer section about us link terms-and-conditions",
     "props": {
       "href": "/terms-and-conditions",
       "label": "Terminos y condiciones",

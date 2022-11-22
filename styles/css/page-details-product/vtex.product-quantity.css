@@ -1,0 +1,31 @@
+
+@media (max-width: 767px){
+    
+
+.quantitySelectorTitle{
+    display: none;
+}
+
+.quantitySelectorStepper{
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 5;
+    border-radius: 10px;
+    width: 95%;
+}
+}
+
+@media (min-width:767px){
+    .quantitySelectorStepper{
+        position: relative;
+        width: 5%;
+    }
+    
+}
+
+.quantitySelectorTitle{
+    color:var(--black);
+}

@@ -1,0 +1,12 @@
+{
+    "store.product": {
+        "title": "store page product",
+      "children": [
+        "flex-layout.row#product__page-breadcrumb",
+        "flex-layout.row#product__page--container-product",
+        "shelf.relatedProducts"
+      ],"props":{
+        "blockClass":"store__product"
+      }
+    }
+}
