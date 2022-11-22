@@ -1,12 +1,14 @@
 {
-    "store.product": {
-        "title": "store page product",
-      "children": [
-        "flex-layout.row#product__page-breadcrumb",
-        "flex-layout.row#product__page--container-product",
-        "shelf.relatedProducts"
-      ],"props":{
-        "blockClass":"store__product"
-      }
+  "store.product": {
+    "title": "store page product",
+    "children": [
+      "flex-layout.row#product__page-breadcrumb",
+      "flex-layout.row#product__page--container-product",
+      "flex-layout.row#product__page--tabs"
+      // "shelf.relatedProducts"
+    ],
+    "props": {
+      "blockClass": "store__product"
     }
+  }
 }
