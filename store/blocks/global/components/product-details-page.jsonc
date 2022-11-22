@@ -1,25 +1,18 @@
 {
     "flex-layout.row#product__page--container-product": {
-        "title": "product page container product",
+      "title": "product page container product",
       "props": {
-        "colGap": 7,
-        "rowGap": 7,
-        "marginTop": 4,
-        "marginBottom": 7,
-        "paddingTop": 7,
-        "paddingBottom": 7,
         "blockClass":"product__page--container-product"
       },
       "children": [
         "flex-layout.col#product__page--container-image-product",
-        "flex-layout.col#product__page--container-info-product"
+        "flex-layout.col#product__page--container-info-product-buy-quantity"
     ]
     },
     "flex-layout.col#product__page--container-image-product": {
         "title": "product page container image product",
       "props": {
-        // "width": "60%",
-        "rowGap": 0,
+        "width": "52%",
         "blockClass":"product__page--container-image-product"
       },
       "children": ["product-images#product__page--image-product"]
@@ -30,6 +23,24 @@
         "displayThumbnailsArrows": true,
         "blockClass":"product__page--image-product"
       }
+    },
+    "flex-layout.col#product__page--container-info-product-buy-quantity":{
+      "title": "product container section info and  quantity",
+      "children": [
+        "flex-layout.row#product__page--container-info-row-product-buy-quantity"
+    ],
+    "props":{
+      "blockClass":"product__page--container-info-product-buy-quantity"
+    }
+    },
+    "flex-layout.row#product__page--container-info-row-product-buy-quantity":{
+      "title": "product container section info and  quantity row",
+      "children": [
+        "flex-layout.col#product__page--container-info-product",
+        "flex-layout.col#product__page-container-button-buy-quantity"
+    ],"props": {
+      "blockClass":"product__page--container-info-product-quantity"
+    }
     },
     "flex-layout.col#product__page--container-info-product": {
         "title": "product page container info product",  
@@ -42,15 +53,8 @@
         "vtex.store-components:product-name",
         "product-rating-summary",
         "product-price#product-details",
-        // "product-separator",
-        "product-quantity",
-        "product-identifier.product",
         "sku-selector",
-        "flex-layout.row#buy-button",
         "availability-subscriber"
-        // "flex-layout.row#product__page-container-info-product"
-        // "shipping-simulator",
-        // "share#default"
       ]
     },
     "product-price#product-details": {
@@ -61,25 +65,14 @@
         "blockClass":"product__page--product-details"
       }
     },
-    "flex-layout.row#buy-button": {
-      "title": "product page container buy button",  
-      "props": {
-        "marginTop": 4,
-        "marginBottom": 7,
-        "blockClass":"product__page--container-buy-button"
-      },
-      "children": ["buy-button"]
-    },
-  
-    "share#default": {
-      "title": "product page share default",  
-      "props": {
-        "social": {
-          "Facebook": true,
-          "WhatsApp": true,
-          "Twitter": false,
-          "Pinterest": true
-        }
+    "flex-layout.col#product__page-container-button-buy-quantity":{
+      "title": "product page button buy quantity", 
+      "children":[
+        "product-quantity",
+        "buy-button"
+      ],
+      "props":{
+        "blockClass":"product__page-container-button-buy-quantity"
       }
     }
-  }
+    }
