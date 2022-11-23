@@ -1,5 +1,8 @@
 .quantitySelectorButton--mini-cart__product-list--quantity-mobile {
   background-color: #603e85;
+  display: grid;
+  justify-content: space-around;
+  align-content: center;
   margin: 5px;
   max-height: 8px;
   max-width: 8px;
