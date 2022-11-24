@@ -54,7 +54,8 @@
         "product-rating-summary",
         "product-price#product-details",
         "sku-selector",
-        "availability-subscriber"
+        "availability-subscriber",
+        "add-to-cart-info"
       ]
     },
     "product-price#product-details": {
