@@ -2,6 +2,7 @@
   "responsive-layout.desktop": {
     "children": [
       "list-context.image-list#home_slider--list",
+      "list-context.bullet-group",
       "flex-layout.row#home__section--container--categories",
       "flex-layout.row#home__section--contaniner-qualities",
       "flex-layout.row#home__section--petlovers",
