@@ -1,0 +1,14 @@
+/*************************** "home slider bullet desktop" *******************************/
+.bullet__item--link{
+    text-decoration: none;
+      }
+    
+    .bullet__item--title{
+      color:var(--purple-strong);
+      text-align: center;
+    }
+    
+    .bullet__item--image{
+    width: 100px;
+    min-width: 100px;
+    }
