@@ -1,7 +1,8 @@
 {
     "flex-layout.row#product__page--tabs": {
         "title": "product container page tabs",
-        "children": ["tab-layout#product__tabs"],
+        "children": [
+          "tab-layout#product__tabs"],
         "props":{
           "blockClass":"product__page--container-tabs-description-product"
         }
@@ -9,11 +10,19 @@
       "tab-layout#product__tabs": {
         "title": "product page container tabs",
         "children": [
+          "rich-text#product-page__text-description-title",
           "tab-list#product__page--tabs-list",
           "tab-content#product__tabs-content"
         ],
         "props":{
           "blockClass":"product__page--tabs-description-product"
+        }
+      },
+      "rich-text#product-page__text-description-title":{
+        "title": "product container page tabs title",
+        "props":{
+          "text":"Información de producto",
+          "blockClass":"product-page__text-description-title"
         }
       },
       "tab-list#product__page--tabs-list": {

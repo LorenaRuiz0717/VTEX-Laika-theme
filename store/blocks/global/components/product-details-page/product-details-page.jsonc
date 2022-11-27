@@ -27,7 +27,8 @@
     "flex-layout.col#product__page--container-info-product-buy-quantity":{
       "title": "product container section info and  quantity",
       "children": [
-        "flex-layout.row#product__page--container-info-row-product-buy-quantity"
+        "flex-layout.row#product__page--container-info-row-product-buy-quantity",
+        "flex-layout.row#product__page--tabs"
     ],
     "props":{
       "blockClass":"product__page--container-info-product-buy-quantity"

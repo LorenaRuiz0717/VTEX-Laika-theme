@@ -3,8 +3,7 @@
     "title": "store page product",
     "children": [
       "flex-layout.row#product__page-breadcrumb",
-      "flex-layout.row#product__page--container-product",
-      "flex-layout.row#product__page--tabs"
+      "flex-layout.row#product__page--container-product"
       // "shelf.relatedProducts"
     ],
     "props": {
