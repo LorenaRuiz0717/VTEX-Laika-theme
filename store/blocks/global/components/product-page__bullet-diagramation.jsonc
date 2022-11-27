@@ -1,0 +1,99 @@
+{
+  "flex-layout.row#product__section--bullet-group":{
+    "children":[
+      "list-context.bullet-group"
+    ],
+    "props":{
+    "blockClass":"product__section--bullet-group"
+    }
+  },
+    "list-context.bullet-group": {
+        "title": "Context list bullets",
+        "children": [
+          "slider-layout#bullet-group"
+        ],      
+        "props": {
+          "bullets": [
+            {
+              "image": "assets/img/brands-products/hills.avif",
+              "titleBullet": "Hills",
+              "link": {
+                "url": "/"
+              }
+            },
+            {
+              "image":"assets/img/brands-products/furry.avif",
+              "titleBullet": "Furry",
+              "link": {
+                "url": "/"
+              }
+            },
+            {
+              "image": "assets/img/brands-products/besties.avif",
+              "titleBullet": "Besties",
+              "link": {
+                "url": "/"
+              }
+            },
+            {
+              "image":"assets/img/brands-products/equilibrio.avif",
+              "titleBullet": "Equilibrio",
+              "link": {
+                "url": "/"
+              }
+            },
+            {
+              "image": "assets/img/brands-products/guamor.avif",
+              "titleBullet": "Guamor",
+              "link": {
+                "url": "/"
+              }
+            },
+            {
+              "image":"assets/img/brands-products/max.avif",
+              "titleBullet": "Max",
+              "link": {
+                "url": "/"
+              }
+            },
+            {
+              "image":"assets/img/brands-products/proplan.avif",
+              "titleBullet": "Proplan",
+              "link": {
+                "url": "/"
+              }
+            },
+            {
+              "image": "assets/img/brands-products/salvaje.avif",
+              "titleBullet": "Salvaje",
+              "link": {
+                "url": "/"
+              }
+            },
+            {
+              "image":"assets/img/brands-products/vitality.avif",
+              "titleBullet": "Vitality",
+              "link": {
+                "url": "/"
+              }
+            }
+          ]
+        }
+      },
+      "slider-layout#bullet-group":{
+        "props":{
+          "itemsPerPage":{
+            "desktop":5,
+            "tablet":5,
+            "mobile":5
+          },
+          "showPaginationDots":"never",
+          "showNavigationArrows":"never",
+          "infinite":true,
+          "autoplay": {
+            "timeout": 3000,
+            "stopOnHover": true
+          }
+        }
+      }
+}

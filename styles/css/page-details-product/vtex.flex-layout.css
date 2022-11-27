@@ -37,10 +37,6 @@
   .flexColChild--product__page--container-info-product {
     width: 500px;
   }
-  .flexRow--product__page--container-info-product-quantity {
-    margin-left: 2rem;
-    width: 500px;
-  }
 }
 
 @media (min-width: 767px) {
@@ -130,4 +126,9 @@
   .flexRow--product__page--container-info-product-quantity {
     margin-left: 0 !important;
   }
+}
+
+/***************************Home-section-bullet*******************************/
+.flexRow--home__section--bullet-group{
+  margin-top: 2em;
 }

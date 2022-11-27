@@ -230,7 +230,6 @@ width: 320px;
   display: flex;
   margin: 0 auto;
   padding: 5px;
-  gap: 8px;
   justify-content: center;
   width: 320px;
 }

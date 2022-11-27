@@ -1,0 +1,9 @@
+{
+    "whatsapp-button":{
+        "props":{
+          "logo": "https://itgloberspartnercl.vtexassets.com/assets/vtex.file-manager-graphql/images/0e604d25-1284-431d-9aa1-6a2498952461___953a8c3e23cfd7540f2741454b1f61ea.png?width=309&height=204&aspect=true",
+          "phone":"+573009108496",
+          "message":"Bienvenido a Laika, ¿Que estas buscando para tu mascota?"
+        }
+      }
+}

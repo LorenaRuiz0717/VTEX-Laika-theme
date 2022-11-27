@@ -4,9 +4,10 @@
       "children": [
         "flex-layout.row#product__page-breadcrumb",
         "flex-layout.row#product__page--container-product",
-        "shelf.relatedProducts"
+        "shelf.relatedProducts",
+        "flex-layout.row#product__section--bullet-group"
       ],"props":{
         "blockClass":"store__product"
       }
     }
-}
+  }

@@ -1,0 +1,124 @@
+{
+    "flex-layout.row#product__page--tabs": {
+        "title": "product container page tabs",
+        "children": [
+          "tab-layout#product__tabs"],
+        "props":{
+          "blockClass":"product__page--container-tabs-description-product"
+        }
+      },
+      "tab-layout#product__tabs": {
+        "title": "product page container tabs",
+        "children": [
+          "rich-text#product-page__text-description-title",
+          "tab-list#product__page--tabs-list",
+          "tab-content#product__tabs-content"
+        ],
+        "props":{
+          "blockClass":"product__page--tabs-description-product"
+        }
+      },
+      "rich-text#product-page__text-description-title":{
+        "title": "product container page tabs title",
+        "props":{
+          "text":"Información de producto",
+          "blockClass":"product-page__text-description-title"
+        }
+      },
+      "tab-list#product__page--tabs-list": {
+        "title": "product page tabs list",
+        "children": [
+          "tab-list.item#tabs__list--benefist",
+          "tab-list.item#tabs__list--characteristic",
+          "tab-list.item#tabs__list--description"
+        ]
+      },
+      "tab-list.item#tabs__list--benefist": {
+        "title": "product page tabs list benefist",
+        "props": {
+          "tabId": "benefist",
+          "label": "Beneficios",
+          "defaultActiveTab": true,
+          "blockClass":"product__tabs_list--benefist"
+        }
+      },
+      "tab-list.item#tabs__list--characteristic": {
+        "title": "product page tabs list characteristic",
+        "props": {
+          "tabId": "characteristic",
+          "label": "Caracteristicas",
+          "defaultActiveTab": false,
+          "blockClass":"product__tabs_list--characteristic"
+        }
+      },
+      "tab-list.item#tabs__list--description": {
+        "title": "product page tabs list description",
+        "props": {
+          "tabId": "description",
+          "label": "Descripcion",
+          "defaultActiveTab": false,
+          "blockClass":"product__tabs_list--description"
+        }
+      },
+      "tab-content#product__tabs-content": {
+        "title": "product page tabs content",
+        "children": [
+          "tab-content.item#tabs__content--benefist",
+          "tab-content.item#tabs__content--characteristic",
+          "tab-content.item#tabs__content--description"
+        ],
+        "props":{
+          "blockClass":"product__tabs_content"
+        }
+      },
+      "tab-content.item#tabs__content--benefist": {
+        "title": "product page tabs content benefist",
+        "children": ["rich-text#product-page__text-description-product-benefist"],
+        "props": {
+          "tabId": "benefist",
+          "blockClass":"product__tabs_content-benefist"
+        }
+      },
+      "rich-text#product-page__text-description-product-benefist": {
+        "title": "product page tabs content text benefist",
+        "props": {
+          "text": "Ofrece una fórmula diseñada para la óptima nutrición y salud de tu perro. Sabor a pollo, carne, menta y mantequilla de mani, sin carnaza, ayuda a mantener dientes y encias sanas y son de facil digestion. Suministrar como premio o golosina.",
+          "blockClass":"product-page__text-description-product-benefist"
+        }
+      },
+      "tab-content.item#tabs__content--characteristic": {
+        "title": "product page tabs content characteristic",
+        "children": [
+          "rich-text#product-page__text-description-product-characteristic"
+        ],
+        "props": {
+          "tabId": "characteristic",
+          "blockClass":"tabs__content--characteristic"
+        }
+      },
+        "rich-text#product-page__text-description-product-characteristic": {
+          "title": "product page tabs content text characteristic",
+          "props": {
+            "text": "Almidón de batata, Glicerina, Aceite de Palma, Sacharomyces cerevisiae, Carbonato de Calcio, Pirofosfato de sodio, Sorbato de potasio, Color Natural Blanco (Dióxido de Titanio), Color Natural Rojo (Betanina), Color Natural Verde (Clorofila), Color Natural Café (Caramelo), Sabor artificial a leche, Sabor artificial a humo, Sabor artificial a menta, Sabor artificial a pollo, Sabor artificial a mantequilla de maní y agua.",
+            "blockClass":"product-page__text-description-product-characteristic"
+          }
+      },
+      "tab-content.item#tabs__content--description": {
+        "title": "product page tabs content description",
+        "children": [
+          "rich-text#product-page__text-description-product-description"
+        ],
+        "props": {
+          "tabId": "description",
+          "blockClass":"tabs__content--description"
+        }
+      },
+      "rich-text#product-page__text-description-product-description": {
+        "title": "product page tabs content text description",
+        "props": {
+          "text": "BESTIES huesos masticables es un suplemento alimenticio para suministrar a perros adultos de todas las razas, Mantenga suficiente agua fresca disponible para su mascota.",
+          "blockClass":"product-page__text-description-product-description"
+        }
+      }
+    
+}

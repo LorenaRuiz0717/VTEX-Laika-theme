@@ -1,0 +1,14 @@
+.container--product__page--tabs-description-product :global(.vtex-button__label){
+    padding: 1em;
+    color:var(--purple-strong);
+    font-size: 12px;
+}
+
+.container--product__page--tabs-description-product :global(.vtex-button){
+    background-color: white;
+}
+
+.container--product__page--tabs-description-product :global(.vtex-tab-layout-0-x-listContainer){
+    justify-content: left;
+    border-bottom: 1px solid var(--light-grey);
+}
