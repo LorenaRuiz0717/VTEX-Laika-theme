@@ -2,6 +2,10 @@
   margin-top: 2em;
 }
 
+:global(.vtex-store-newsletter-1-x-newsletterForm){
+  position: relative;
+}
+
 :global(.vtex-input__error) {
   position: absolute;
 }
@@ -11,12 +15,6 @@
   font-weight: bolder;
   width: 29px;
   min-height: 28px !important;
-}
-
-@media (min-width: 1200px) {
-  .formSubmitContainer--footer__newsletter-submit :global(.vtex-button) {
-    margin-right: 80px;
-  }
 }
 
 .formSubmitContainer--footer__newsletter-submit :global(.vtex-button__label) {
