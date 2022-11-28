@@ -23,24 +23,7 @@
 
 :global(.vtex-store-newsletter-1-x-formSubmitContainer){
     position: absolute;
-    right: 0.8em;
-    margin-top: -34px;
+    right: 0.6em;
+    margin-top: -35px;
 }
 
-@media (min-width: 1665px) {
-    :global(.vtex-store-newsletter-1-x-formSubmitContainer){
-        right: 32px;
-    }
-    }
-
-    @media (min-width:1729px) {
-        :global(.vtex-store-newsletter-1-x-formSubmitContainer){
-            right: 8.8em;
-        }
-        }
-@media (min-width: 1923px) {
-:global(.vtex-store-newsletter-1-x-formSubmitContainer){
-    right: 8.8em;
-    margin-top: -34px;
-}
-}
