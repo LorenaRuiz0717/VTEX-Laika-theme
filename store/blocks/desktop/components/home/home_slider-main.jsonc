@@ -40,6 +40,7 @@
   "slider-layout#home_slider--list": {
     "title": "Slider con Lista",
     "props": {
+      "showNavigationArrows":"desktopOnly",
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 1,

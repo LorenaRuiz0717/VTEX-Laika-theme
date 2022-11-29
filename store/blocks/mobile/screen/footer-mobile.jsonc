@@ -31,17 +31,5 @@
       "horizontalAlign": "center",
       "width": "100%"
     }
-  },
-  "flex-layout.row#footer__container-information": {
-    "title": "footer container information",
-    "children": [
-      "flex-layout.row#footer__container-info-contact-mobile",
-      "flex-layout.row#footer__container-copyrightt-mobile"
-    ],
-    "props": {
-      "blockClass": "footer__container-information",
-      "horizontalAlign": "center",
-      "width": "100%"
-    }
   }
 }

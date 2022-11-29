@@ -1,3 +1,37 @@
-:global(.vtex-search-result-3-x-searchResultContainer){
-    padding: 0;
+.searchBarInnerContainer--header__search-bar
+  :global(.vtex-search-result-3-x-searchResultContainer) {
+  padding: 0;
+}
+
+.searchBarInnerContainer--header__search-bar
+  :global(.vtex-input-prefix__group) {
+  flex-direction: row-reverse;
+  border-radius: 0.5rem;
+}
+
+.searchBarInnerContainer--header__search-bar :global(.vtex-input__suffix) {
+  border-radius: 0;
+  padding-right: 0;
+}
+
+.searchBarInnerContainer--header__search-bar :global(.vtex-store-components-3-x-searchBarIcon--header__search-bar--search) {
+  color: var(--purple-strong);
+}
+
+.searchBarInnerContainer--header__search--bar-mobile :global(.vtex-input-prefix__group) {
+  flex-direction: row-reverse;
+  border-radius: 0.5rem;
+}
+
+.searchBarInnerContainer--header__search--bar-mobile :global(.vtex-input__suffix) {
+  border-radius: 0;
+  padding-right: 0;
+}
+
+.searchBarInnerContainer--header__search--bar-mobile :global(.vtex-store-components-3-x-searchBarIcon--header__search--bar-mobile--search) {
+  color: var(--purple-strong);
+}
+
+.searchBarInnerContainer--header__search--bar-mobile :global(.vtex-styleguide-9-x-input){
+    border-radius: 0;
 }

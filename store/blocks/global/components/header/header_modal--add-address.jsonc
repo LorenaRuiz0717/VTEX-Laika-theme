@@ -1,6 +1,8 @@
 {
-    "flex-layout.col#header__section--address": {
-    "children": ["modal-trigger#header__section--address"],
+  "flex-layout.col#header__section--address": {
+    "children": [
+      "modal-trigger#header__section--address"
+    ],
     "props": {
       "width": "20%",
       "paddingLeft": 20,
@@ -8,7 +10,10 @@
     }
   },
   "modal-trigger#header__section--address": {
-    "children": ["rich-text#header__add--address"]
+    "children": [
+      "rich-text#header__add--address",
+      "modal-layout#header__section--add-address"
+    ]
   },
   "rich-text#header__add--address": {
     "props": {

@@ -13,3 +13,13 @@
   color: rgb(39, 25, 56);
   font-size: 30px;
 }
+
+:global(.vtex-store-components-3-x-skuSelectorItemTextValue){
+  color:white;
+  font-size: 10px;
+  padding: 1em;
+}
+
+:global(.vtex-store-components-3-x-skuSelectorInternalBox){
+  background-color: var(--purple-strong);
+}

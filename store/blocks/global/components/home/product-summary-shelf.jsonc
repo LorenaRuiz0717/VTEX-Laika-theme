@@ -7,7 +7,7 @@
       "product-summary-price",
       "product-rating-inline",
       "add-to-list-btn",
-      // "product-summary-sku-selector",
+      "product-summary-sku-selector",
       "add-to-cart-button",
       "modal-trigger#global__quick-view"
     ],
@@ -42,8 +42,9 @@
   "rich-text#global__quick-viem": {
     "title": "modal text for open quick viem product",
     "props": {
-      "text": "vista rapida",
-      "blockClass": "quick-viem-trigger-text"
+      "text": "Mas detalles del producto",
+      "blockClass": "quick-viem-trigger-text",
+      "font":"t-mini"
     }
   },
   "modal-layout#global__quick-viem-modal": {

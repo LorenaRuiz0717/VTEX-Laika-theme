@@ -232,6 +232,7 @@ width: 320px;
   padding: 5px;
   justify-content: center;
   width: 320px;
+  gap:0.8em
 }
 .flexColChild--header__container-link-desktop {
   text-align: center;

@@ -9,6 +9,7 @@
         }
       },
       "flex-layout.row#container__pdf-reader":{
+        "title": "container pdf-reader",
         "children":[
           "pdf-reader"
         ],"props":{
@@ -16,6 +17,7 @@
         }
       },
       "pdf-reader":{
+        "title": "file pdf-reader",
         "props":{
             "pdfUrl":"assets/documents/pdfFile.pdf",
             "width":500,
