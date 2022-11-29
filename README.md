@@ -1,7 +1,6 @@
 # Store theme Laika
 
-Este un desarrollo en tecnologia Vtex, con el reto de replicar los diferentes componentes en los diferentes tamaños de dispositivos de la plataforma 
-Ecommerce [Laika]( https://laika.com.co/), productos para mascotas. :paw_prints:
+Este es un desarrollo en tecnologia Vtex, con el reto de replicar los diferentes componentes en las diferentes vistas y tamaños de dispositivos de la plataforma Ecommerce [Laika]( https://laika.com.co/), productos para mascotas. :paw_prints:
 
 ### Home theme Laika
 ![image](https://user-images.githubusercontent.com/75150307/204445133-9f9733e2-d3ec-4588-a83f-5de5294c1a89.png)
