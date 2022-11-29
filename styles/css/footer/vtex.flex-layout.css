@@ -158,7 +158,8 @@
 }
 
 .flexRowContent--footer__container--desktop :global(.vtex-rich-text-0-x-paragraph){
-  margin:0
+  margin:0;
+  color: var(--purple-strong);
 }
 
 .flexCol--footer__container-col-img-apps-desktop{
@@ -169,4 +170,9 @@
   align-items: center;
   justify-content: center;
   gap: 2px;
+}
+
+.flexRow--footer__container-department-search{
+  margin: auto;
+  width: 80%;
 }

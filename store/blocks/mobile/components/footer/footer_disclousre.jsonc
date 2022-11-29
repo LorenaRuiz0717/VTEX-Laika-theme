@@ -234,7 +234,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
-            "href": "/delivery-policies",
+            "href": "/pdf-reader",
             "noFollow": false,
             "tagTitle": "delivery-policies",
             "text": "Politicas de entrega"

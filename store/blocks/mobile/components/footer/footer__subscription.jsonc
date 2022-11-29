@@ -46,7 +46,7 @@
   "newsletter-input-email":{
     "title": "footer container input-email",
 "props":{
-    "placeholderText":"Correo electroníco",
+    "placeholderText":" Correo electroníco",
     "errorMessage":"Correo electroníco no valido",
     "blockClass":"footer__newsletter--input-email" 
 }

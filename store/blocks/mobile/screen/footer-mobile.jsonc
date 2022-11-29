@@ -20,6 +20,7 @@
       "flex-layout.row#footer__container-logo-mobile",
       "flex-layout.row#footer__container-title-mobile",
       "flex-layout.row#footer__container-social-media-mobile",
+      "flex-layout.row#footer__container-department-search",
       "flex-layout.row#footer__container-disclosure-mobile",
       "flex-layout.row#footer__container--section-subscripcion",
       "flex-layout.row#footer__container-pay-methods-mobile",
@@ -27,18 +28,6 @@
     ],
     "props": {
       "blockClass": "footer__container-mobile",
-      "horizontalAlign": "center",
-      "width": "100%"
-    }
-  },
-  "flex-layout.row#footer__container-information": {
-    "title": "footer container information",
-    "children": [
-      "flex-layout.row#footer__container-info-contact-mobile",
-      "flex-layout.row#footer__container-copyrightt-mobile"
-    ],
-    "props": {
-      "blockClass": "footer__container-information",
       "horizontalAlign": "center",
       "width": "100%"
     }

@@ -1,0 +1,9 @@
+{
+    "flex-layout.row#footer__container-department-search":{
+    "children":[
+        "department-search"
+    ],"props":{
+        "blockClass":"footer__container-department-search"
+    }
+    }
+}

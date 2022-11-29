@@ -15,7 +15,8 @@
       "url": "assets/img/footer/logolaika-footer.png",
       "width": 139,
       "height": 178,
-      "blockClass":"footer__logo--footer"
+      "blockClass":"footer__logo--footer",
+      "href":"/"
     }
   },
   "rich-text#footer__text--container-social-media-desktop": {

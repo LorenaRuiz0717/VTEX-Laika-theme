@@ -1,6 +1,3 @@
-/* .element--product-summary :global(.vtex-product-summary-2-x-imageStackContainer){
-    max-width: 190px;
-} */
 :global(.vtex-product-summary-2-x-imageNormal){
     width: 90px;
     height: 116px;

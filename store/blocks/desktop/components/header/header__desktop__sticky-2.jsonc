@@ -33,7 +33,8 @@
     "props": {
       "url": "assets/img/logo_laikaMascotas.svg",
       "width": 50,
-      "blockClass": "header__logo--img"
+      "blockClass": "header__logo--img",
+      "href":"/"
     }
   },
   "flex-layout.col#header__section--search": {

@@ -1,5 +1,6 @@
 {
     "store.account": {
+      "title": "Login", 
         "blocks": ["my-account"],
         "parent": {
           "challenge": "challenge.profile"
@@ -7,10 +8,12 @@
       },
     
       "store.login": {
+        "title": "Container login", 
         "blocks": ["login-content#default"]
       },
     
       "login-content#default": {
+        "title": "Content login", 
         "props": {
           "isInitialScreenOptionOnly": false,
           "defaultOption": 1,

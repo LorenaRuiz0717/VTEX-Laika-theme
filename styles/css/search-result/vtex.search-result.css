@@ -5,7 +5,7 @@
   margin-top: 4%;
 }
 
-:global(.vtex-search-result-3-x-filter__container){
+:global(.vtex-search-result-3-x-filter__container) {
   border: none;
 }
 :global(.vtex-search-result-3-x-filterAvailable) {
@@ -29,39 +29,33 @@
   margin: 8% 4%;
 }
 
-.filter__container--selectedFilters{
-    display: none;
+.filter__container--selectedFilters {
+  display: none;
 }
 
 :global(.vtex-search-result-3-x-filterTitleSpan)::before {
   content: url(/assets/img/icons-menu/icon-food.png);
-  /* content:"lore" */
-  }
-  
-  :global(.vtex-search-result-3-x-orderByOptionItem),
-  :global(.vtex-search-result-3-x-filterPopupTitle){
-    color: black;
-    font-weight: bold;
-    font-size: 1rem;
-  }
+}
 
-  :global(.vtex-search-result-3-x-orderByOptionsContainer){
-    margin-top: 55px;
-  }
+:global(.vtex-search-result-3-x-orderByOptionItem),
+:global(.vtex-search-result-3-x-filterPopupTitle) {
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+}
 
-  .filter__container--clearAllFilters{
-    border: none;
-  }
-  
- .filter__container--clearAllFilters :global(.vtex-button){
-    background-color: transparent;
-    border: none;
-    color: var(--purple-strong);
-    font-weight: 900;
-  }
+:global(.vtex-search-result-3-x-orderByOptionsContainer) {
+  margin-top: 55px;
+}
 
-    /* 
-  .filter__container--clearAllFilters::after{
-    content:url(/assets/img/membership_logo.webp);
-    content: "trash";
-  }  */
+.filter__container--clearAllFilters {
+  border: none;
+}
+
+.filter__container--clearAllFilters :global(.vtex-button) {
+  background-color: transparent;
+  border: none;
+  color: var(--purple-strong);
+  font-weight: 900;
+}
+

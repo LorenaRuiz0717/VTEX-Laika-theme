@@ -68,6 +68,9 @@
       "search-not-found-layout"
     ]
   },
+  "search-not-found-layout":{
+    "children": ["not-found"]
+  },
   "flex-layout.row#search-result--filter": {
     "title": "search result layout container",
     "children": ["filter-navigator.v3"],
