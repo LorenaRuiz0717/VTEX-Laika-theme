@@ -2,5 +2,9 @@
     {
         "store.custom#about-us":{
             "path": "/about-us"
+        },
+
+        "store.custom#pdf-reader":{
+            "path": "/pdf-reader"
         }
     }

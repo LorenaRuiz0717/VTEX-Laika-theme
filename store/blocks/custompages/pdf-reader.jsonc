@@ -1,0 +1,18 @@
+{
+    "store.custom#pdf-reader": {
+        "title": "store pdf-reader",
+        "blocks": [
+            "pdf-reader"
+        ],
+        "props":{
+          "blockClass":"pdf-reader"
+        }
+      },
+      "pdf-reader":{
+        "props":{
+            "pdfUrl":"assets/documents/pdfFile.pdf",
+            "width":500,
+            "height":800
+        }
+      }
+}
