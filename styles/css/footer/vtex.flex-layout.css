@@ -170,3 +170,8 @@
   justify-content: center;
   gap: 2px;
 }
+
+.flexRow--footer__container-department-search{
+  margin: auto;
+  width: 80%;
+}

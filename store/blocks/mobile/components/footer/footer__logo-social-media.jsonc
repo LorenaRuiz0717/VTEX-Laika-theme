@@ -14,7 +14,8 @@
         "title": "logo",
         "props": {
           "url": "assets/img/footer/logolaika-footer.png",
-          "blockClass":"footer__logo-mobile"
+          "blockClass":"footer__logo-mobile",
+          "href":"/"
         }
       },
       "flex-layout.row#footer__container-title-mobile":{
