@@ -1,0 +1,25 @@
+{
+    "store.custom#pdf-reader": {
+        "title": "store pdf-reader",
+        "blocks": [
+          "flex-layout.row#container__pdf-reader"
+        ],
+        "props":{
+          "blockClass":"store__pdf-reader"
+        }
+      },
+      "flex-layout.row#container__pdf-reader":{
+        "children":[
+          "pdf-reader"
+        ],"props":{
+          "blockClass":"container__pdf-reader"
+        }
+      },
+      "pdf-reader":{
+        "props":{
+            "pdfUrl":"assets/documents/pdfFile.pdf",
+            "width":500,
+            "height":800
+        }
+      }
+}

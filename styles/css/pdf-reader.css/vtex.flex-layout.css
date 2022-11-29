@@ -1,0 +1,10 @@
+
+ .flexRowContent--container__pdf-reader{
+display: none;
+ }
+
+@media (min-width:520px) {
+    .flexRowContent--container__pdf-reader{
+display: block;  
+}
+}
