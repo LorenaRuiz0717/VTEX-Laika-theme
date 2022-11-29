@@ -2,10 +2,17 @@
     "store.custom#pdf-reader": {
         "title": "store pdf-reader",
         "blocks": [
-            "pdf-reader"
+          "flex-layout.row#container__pdf-reader"
         ],
         "props":{
-          "blockClass":"pdf-reader"
+          "blockClass":"store__pdf-reader"
+        }
+      },
+      "flex-layout.row#container__pdf-reader":{
+        "children":[
+          "pdf-reader"
+        ],"props":{
+          "blockClass":"container__pdf-reader"
         }
       },
       "pdf-reader":{

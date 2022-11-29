@@ -62,7 +62,7 @@
   "link#footer__section-delivery-policies": {
     "title": "footer link delivery policies",
     "props": {
-      "href": "/work-with-us",
+      "href": "/pdf-reader",
       "label": "Politicas de entrega",
       "blockClass": "footer__section-about-us",
       "width": "80%"
