@@ -25,4 +25,5 @@
   :global(.vtex-checkbox__label) {
   font-size: 11px;
   font-style: italic;
+  color:var(--purple-strong)
 }

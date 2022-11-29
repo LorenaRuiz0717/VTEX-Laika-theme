@@ -54,10 +54,6 @@
   gap: 10px;
 }
 
-/* .flexRow--home__qualities--contaniner-mobile{
-  margin:20px 100px;
-} */
-
 @media only screen and (max-width: 1025px){
   .flexRow--home__categories {
    margin: 0px;
@@ -115,4 +111,8 @@
 
  .flexCol--gridbrands-Column :global(.vtex-flex-layout-0-x-flexColChild){
     padding: 15%
+  }
+
+  .flexRowContent--container__quick-viem-modal{
+    padding: 1em;
   }

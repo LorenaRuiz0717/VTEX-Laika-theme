@@ -8,10 +8,28 @@
       "props": {
         "blockClass": "container__minicart-footer"
       }
+    }, "minicart-summary": {
+      "blocks": [
+        "checkout-summary.compact"
+      ]
     },
     "minicart-checkout-button":{
       "props":{
         "blockClass": "minicart__footer--checkout-button"
     }
+  },
+    "checkout-summary.compact": {
+      "children":[
+        "summary-totalizers"
+      ],
+      "props": {
+        "totalizersToShow": ["Items"]
+      }
+    },
+    "summary-totalizers": {
+      "props": {
+        "showTotal": true,
+        "showDeliveryTotal": true
+      }
+    }
   }
-}

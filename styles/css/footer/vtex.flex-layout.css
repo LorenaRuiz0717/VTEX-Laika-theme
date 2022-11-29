@@ -158,7 +158,8 @@
 }
 
 .flexRowContent--footer__container--desktop :global(.vtex-rich-text-0-x-paragraph){
-  margin:0
+  margin:0;
+  color: var(--purple-strong);
 }
 
 .flexCol--footer__container-col-img-apps-desktop{

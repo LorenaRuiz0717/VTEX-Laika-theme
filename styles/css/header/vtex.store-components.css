@@ -28,3 +28,7 @@
   padding-left: 20px;
   margin-left: 46px;
 }
+
+:global(.vtex-styleguide-9-x-input){
+  padding-left: 0;
+}
