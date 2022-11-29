@@ -20,7 +20,7 @@
       "flex-layout.row#footer__container-logo-mobile",
       "flex-layout.row#footer__container-title-mobile",
       "flex-layout.row#footer__container-social-media-mobile",
-      "department-search",
+      "flex-layout.row#footer__container-department-search",
       "flex-layout.row#footer__container-disclosure-mobile",
       "flex-layout.row#footer__container--section-subscripcion",
       "flex-layout.row#footer__container-pay-methods-mobile",

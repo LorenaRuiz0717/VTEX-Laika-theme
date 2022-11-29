@@ -3,6 +3,7 @@
     justify-content: center;
     max-height: 178px!important;
     max-width: 138px!important;
+    margin: auto;
 }
 
 .form--footer_section-subscripcion-newsletter{
