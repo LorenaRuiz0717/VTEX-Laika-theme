@@ -6,5 +6,9 @@
 
         "store.custom#pdf-reader":{
             "path": "/pdf-reader"
+        },
+
+        "store.custom#quick-order":{
+            "path": "/quick-order"
         }
     }
