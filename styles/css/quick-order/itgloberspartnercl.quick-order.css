@@ -1,0 +1,24 @@
+.title__quick-order{
+    align-items: flex-start;
+    padding: 0.6em 1em;
+}
+
+.container__quick-order{
+    box-shadow: 7px 8px 18px 0px #d8d8d8;
+    background-color: #dee2e6;
+}
+
+.form__quick-order{
+    align-items: center;
+    padding: 0.6em;
+}
+
+.container__form_input--quick-order{
+    margin: auto;
+    margin-top: 2em;
+    display: flex;
+}
+
+.container__form_button--quick-order{
+    background-color: var(--purple-strong);
+}

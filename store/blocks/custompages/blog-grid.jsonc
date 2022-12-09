@@ -1,0 +1,181 @@
+{
+  "store.custom#custom-grid": {
+    "title": "store blog-grid",
+    "blocks": ["flex-layout.row#container__blog"],
+    "props": {
+      "blockClass": "store__blog-grid"
+    }
+  },
+  "flex-layout.row#container__blog": {
+    "title": "container__blog-grid",
+    "children": ["flex-layout.col#container__blog-grid"],
+    "props": {
+      "marginTop": 4,
+      "blockClass": "container__blog-section"
+    }
+  },
+  "flex-layout.col#container__blog-grid": {
+    "title": "container col blog-grid",
+    "children": ["image#blog__logo-image", "custom-grid"],
+    "props": {
+      "blockClass": "container__blog-grid",
+      "horizontalAlign": "center"
+    }
+  },
+  "image#blog__logo-image": {
+    "title": "blog image title",
+    "props": {
+      "src": "assets/img/blog-grid/logoBlog.webp",
+      "blockClass": "blog__logo-img",
+      "maxWidth": 300
+    }
+  },
+  "custom-grid": {
+    "title": "container sections grid",
+    "children": [
+      "flex-layout.row#blog-custom-1",
+      "flex-layout.row#blog-custom-2",
+      "flex-layout.row#blog-custom-3",
+      "flex-layout.row#blog-custom-4",
+      "flex-layout.row#blog-custom-5"
+    ]
+  },
+  "flex-layout.row#blog-custom-1": {
+    "title": "container section grid 1",
+    "children": ["image#blog__item--image-grid1"],
+    "props": {
+      "blockClass": "container__item-blog"
+    }
+  },
+  "image#blog__item--image-grid1": {
+    "title": "blog image grid 1",
+    "props": {
+      "src": "assets/img/blog-grid/grid1.webp",
+      "maxHeight": 500,
+      "blockClass": "blog__img_grid",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "flex-layout.row#blog-custom-2": {
+    "title": "container section grid 2",
+    "children": [
+      "image#blog__item--image-grid2",
+      "rich-text#blog__item--text2"
+    ],
+    "props": {
+      "blockClass": "container__item-blog"
+    }
+  },
+  "image#blog__item--image-grid2": {
+    "title": "blog image grid 2",
+    "props": {
+      "src": "assets/img/blog-grid/grid-2.webp",
+      "maxHeight": 300,
+      "blockClass": "blog__img_grid",
+      "link": {
+        "url": "https://blog.laika.com.co/por-que-ronronea-gato/",
+        "attributeNofollow": false
+      }
+    }
+  },
+  "rich-text#blog__item--text2": {
+    "title": "blog text grid 2",
+    "props": {
+      "text": "[Conoce las razones del por qué ronronea un gato](https://blog.laika.com.co/por-que-ronronea-gato/)",
+      "blockClass": "blog__text_grid",
+      "font": "t-small"
+    }
+  },
+  "flex-layout.row#blog-custom-3": {
+    "title": "container section grid 3",
+    "children": [
+      "image#blog__item--image-grid3",
+      "rich-text#blog__item--text3"
+    ],
+    "props": {
+      "blockClass": "container__item-blog"
+    }
+  },
+  "image#blog__item--image-grid3": {
+    "title": "blog image grid 3",
+    "props": {
+      "src": "assets/img/blog-grid/grid-3.jpg",
+      "maxHeight": 300,
+      "blockClass": "blog__img_grid",
+      "link": {
+        "url": "https://blog.laika.com.co/como-educar-a-tu-perro/",
+        "attributeNofollow": false
+      }
+    }
+  },
+  "rich-text#blog__item--text3": {
+    "title": "blog text grid 3",
+    "props": {
+      "text": "[¿Cómo educar a tu perro?](https://blog.laika.com.co/como-educar-a-tu-perro/)",
+      "blockClass": "blog__text_grid",
+      "font": "t-small"
+    }
+  },
+  "flex-layout.row#blog-custom-4": {
+    "title": "container section grid 4",
+    "children": [
+      "image#blog__item--image-grid4",
+      "rich-text#blog__item--text4"
+    ],
+    "props": {
+      "blockClass": "container__item-blog"
+    }
+  },
+  "image#blog__item--image-grid4": {
+    "title": "blog image grid 4",
+    "props": {
+      "src": "assets/img/blog-grid/grid-4.jpg",
+      "maxHeight": 300,
+      "blockClass": "blog__img_grid",
+      "link": {
+        "url": "https://blog.laika.com.co/a-los-cuantos-dias-abren-los-ojos-los-perros/",
+        "attributeNofollow": false
+      }
+    }
+  },
+  "rich-text#blog__item--text4": {
+    "title": "blog text grid 4",
+    "props": {
+      "text": "[¿A los cuántos días abren los ojos los perros?](https://blog.laika.com.co/a-los-cuantos-dias-abren-los-ojos-los-perros/)",
+      "blockClass": "blog__text_grid",
+      "font": "t-small"
+    }
+  },
+  "flex-layout.row#blog-custom-5": {
+    "title": "container section grid 5",
+    "children": [
+      "image#blog__item--image-grid5",
+      "rich-text#blog__item--text5"
+    ],
+    "props": {
+      "blockClass": "container__item-blog"
+    }
+  },
+  "image#blog__item--image-grid5": {
+    "title": "blog image grid 5",
+    "props": {
+      "src": "assets/img/blog-grid/grid-5.webp",
+      "maxHeight": 300,
+      "blockClass": "blog__img_grid",
+      "link": {
+        "url": "https://blog.laika.com.co/a-que-edad-se-puede-esterilizar-una-gata/",
+        "attributeNofollow": false
+      }
+    }
+  },
+  "rich-text#blog__item--text5": {
+    "title": "blog text grid 5",
+    "props": {
+      "text": "[¿A qué edad se puede esterilizar una gata?](https://blog.laika.com.co/a-que-edad-se-puede-esterilizar-una-gata/)",
+      "blockClass": "blog__text_grid",
+      "font": "t-small"
+    }
+  }
+}
