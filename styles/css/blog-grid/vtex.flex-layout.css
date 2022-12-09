@@ -1,0 +1,13 @@
+.flexRowContent--container__item-blog{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: auto;
+}
+
+
+.flexRowContent--container__item-blog :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: 100% !important;
+    padding: 0.6em;
+}

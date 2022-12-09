@@ -1,0 +1,27 @@
+{
+    "store.custom#quick-order": {
+        "title": "store quick-order",
+        "blocks": [
+          "flex-layout.row#container__quick-order"
+        ],
+        "props":{
+          "blockClass":"store__qick-order"
+        }
+      },
+      "flex-layout.row#container__quick-order":{
+        "children":[      
+            "image#quick-order",
+            "quick-order"
+        ],
+        "props":{
+          "blockClass":"container__quick-order"
+        }
+      },
+      "image#quick-order": {
+        "title": "image section quick-order",
+        "props": {
+          "src": "assets/img/quick-order.jpg",
+          "blockClass":"about-us__image"
+        }
+      }
+}

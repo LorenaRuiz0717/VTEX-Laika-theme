@@ -1,0 +1,19 @@
+.container--blog__text_grid{
+    background-color: var(--purple-strong);
+    align-items: center;
+    justify-content: center;
+    margin-top: -3rem;
+    width: 80% !important;
+    border-radius:5px;
+}
+
+.paragraph--blog__text_grid{
+    text-align: center;
+    padding: 0.6em;
+
+}
+
+.link--blog__text_grid{
+    color:var(--white);
+    text-decoration: none;
+}
