@@ -2,12 +2,30 @@
 
 Este es un desarrollo en tecnologia Vtex, con el reto de replicar los diferentes componentes en las diferentes vistas y tamaños de dispositivos de la plataforma Ecommerce [Laika]( https://laika.com.co/), productos para mascotas. :paw_prints:
 
-### Home theme Laika
-![image](https://user-images.githubusercontent.com/75150307/204445133-9f9733e2-d3ec-4588-a83f-5de5294c1a89.png)
-### Footer theme Laika
-![image](https://user-images.githubusercontent.com/75150307/204445231-fb017d74-e871-4f7a-b0f7-76f8f8e063b5.png)
-### Vista Mobile Home theme Laika
-![image](https://user-images.githubusercontent.com/75150307/204445592-449d26f9-9267-49c4-b72d-6575d1d202b6.png)
+### Home theme Laika Desktop
+![image](./assets/img/read_me/home_desktop.png)
+### Home theme Laika Mobile
+![image](./assets/img/read_me/home_mobile.png)
+### Menu theme Laika Desktop
+![image](./assets/img/read_me/nav_menu-desktop.png)
+### Menu theme Laika Mobile
+![image](./assets/img/read_me/nav_menu-mobile.png)
+### Page list product theme Laika Desktop
+![image](./assets/img/read_me/pld_desktop.png)
+### Page list product theme Laika Mobile
+![image](./assets/img/read_me/pld_mobile.png)
+### Page details product theme Laika Desktop
+![image](./assets/img/read_me/pdp_desktop.png)
+### Page details product theme Laika Mobile
+![image](./assets/img/read_me/pdp_mobile.png)
+### Cart theme Laika Mobile
+![image](./assets/img/read_me/cart.png)
+### Custom page about us theme Laika Desktop & Mobile
+![image](./assets/img/read_me/custom_page.png)
+### Custom page blog (grid-template) theme Laika Desktop & Mobile
+![image](./assets/img/read_me/custom_grid.png)
+
+
 
 ## Configuración
 
@@ -92,9 +110,11 @@ El comando vtex browse abrira una ventana del navegador con su tienda vinculada.
 41. "vtex.product-price": "1.x"  
 42. "vtex.store-link": "0.x"
 43. "vtex.store-newsletter": "1.x"
+44. "vtex.checkout-summary": "0.x"
 
 ## Dependencias Peer store component  
 1. "vtex.wish-list": "1.x"  
+2. "vtex.reviews-and-ratings": "3.x"
 
 ## Custom Apps  
 1. "itgloberspartnercl.whatsapp-button": "0.x"
@@ -102,6 +122,8 @@ El comando vtex browse abrira una ventana del navegador con su tienda vinculada.
 3. "itgloberspartnercl.add-to-cart-info": "0.x"
 4. "itgloberspartnercl.custom-deparment-search": "0.x"
 5. "itgloberspartnercl.pdf-reader": "0.x"
+6. "itgloberspartnercl.quick-order": "0.x"
+7. "itgloberspartnercl.special-diagramation": "0.x"
 
 ## Contributors  
 1.	Lorena Ruiz
